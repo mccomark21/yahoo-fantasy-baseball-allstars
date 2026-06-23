@@ -1,0 +1,10 @@
+# Two fixed Yahoo Fantasy Baseball leagues owned by the app owner.
+# These IDs are hardcoded — there is no user entry in the app.
+league_ids:
+  - "12239"
+  - "14078"
+
+# Default sort applied when fetching/ranking free-agent (rostered) players.
+# AR = actual rank by season stats; matches the Yahoo "Actual Rank" sort.
+free_agent_sort: AR
+free_agent_sort_type: season

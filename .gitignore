@@ -1,0 +1,27 @@
+# --- Secrets (NEVER commit) ---
+.env
+# yfpy / Yahoo OAuth token artifacts written at runtime
+private.json
+token.json
+oauth2.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# NOTE: data/ is intentionally NOT ignored — committed JSON is the data store.

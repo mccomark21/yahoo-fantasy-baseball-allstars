@@ -1,0 +1,89 @@
+/* =========================================================================
+   The Stadium Palette — design tokens for the Night Game Broadcast system.
+   Dark by default, lit from within. Four color roles, enforced by the
+   Full-Field Rule (crimson = intent, amber = records, neutrals = atmosphere,
+   near-white = content). See DESIGN.md.
+   ========================================================================= */
+
+:root {
+  /* ---- Neutrals: the depth ramp (lightness steps, not shadows) ---------- */
+  --field: oklch(0.145 0.006 255); /* Night Field — stadium floor, the bg   */
+  --field-deep: oklch(0.105 0.006 255); /* vignette edge, below the floor   */
+  --press-box: oklch(0.198 0.011 255); /* surface — nav, containers         */
+  --high-surface: oklch(0.262 0.014 255); /* cards, tiles — floats above    */
+  --hairline: oklch(0.4 0.014 255 / 0.5); /* 1px borders, full perimeter    */
+  --hairline-strong: oklch(0.5 0.016 255 / 0.7);
+
+  /* ---- Content ----------------------------------------------------------- */
+  --ink: oklch(0.972 0.008 90); /* Floodlight — body + headings, ≥7:1       */
+  --muted: oklch(0.745 0.012 255); /* Scorecard — labels, meta, ≥4.5:1      */
+  --muted-dim: oklch(0.6 0.012 255); /* tertiary — timestamps                */
+
+  /* ---- Primary: Sport Crimson (intent) ---------------------------------- */
+  --crimson: oklch(0.585 0.213 25);
+  --crimson-bright: oklch(0.64 0.205 27); /* glow / active edge             */
+  --crimson-ink: oklch(0.985 0.01 25); /* text on crimson                   */
+  --crimson-wash: oklch(0.585 0.213 25 / 0.14); /* surface tint, not stripe */
+
+  /* ---- Secondary: Stadium Amber (records / best) ------------------------ */
+  --amber: oklch(0.82 0.145 78);
+  --amber-deep: oklch(0.7 0.135 70);
+  --amber-glow: oklch(0.82 0.145 78 / 0.45);
+
+  /* ---- Field turf (drawn, not photographed) ----------------------------- */
+  --turf: oklch(0.32 0.055 150);
+  --turf-dark: oklch(0.24 0.045 150);
+  --turf-line: oklch(0.9 0.02 120 / 0.55);
+  --dirt: oklch(0.46 0.06 60);
+  --dirt-dark: oklch(0.38 0.055 55);
+
+  /* ---- Typography ------------------------------------------------------- */
+  --font-display: "Saira Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Hanken Grotesk", system-ui, -apple-system, sans-serif;
+  --font-mono: "Spline Sans Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --fs-display: clamp(2.25rem, 1.4rem + 4.2vw, 4.25rem);
+  --fs-headline: clamp(1.25rem, 1.05rem + 1vw, 1.6rem);
+  --fs-title: 1.0625rem;
+  --fs-body: 1rem;
+  --fs-sm: 0.875rem;
+  --fs-label: 0.72rem;
+  --fs-stat: 1rem;
+
+  /* ---- Spacing scale (4px base, varied for rhythm) ---------------------- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4.5rem;
+
+  /* ---- Radii ------------------------------------------------------------ */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-pill: 999px;
+
+  /* ---- Elevation (sparing; depth is mostly tonal) ----------------------- */
+  --shadow-card: 0 14px 34px -12px oklch(0 0 0 / 0.7),
+    0 4px 10px -4px oklch(0 0 0 / 0.6);
+  --shadow-pop: 0 24px 60px -16px oklch(0 0 0 / 0.78);
+  --glow-crimson: 0 0 0 1px oklch(0.64 0.205 27 / 0.55),
+    0 6px 26px -6px oklch(0.585 0.213 25 / 0.55);
+  --glow-amber: 0 0 0 1px oklch(0.82 0.145 78 / 0.5),
+    0 4px 22px -6px oklch(0.82 0.145 78 / 0.5);
+
+  /* ---- Motion ----------------------------------------------------------- */
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+
+  /* ---- Semantic z-index scale ------------------------------------------ */
+  --z-field: 1;
+  --z-card: 10;
+  --z-card-active: 20;
+  --z-sticky: 30;
+  --z-toast: 40;
+}

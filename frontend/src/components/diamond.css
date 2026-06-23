@@ -1,0 +1,643 @@
+/* =========================================================================
+   DiamondView — the Night Game Broadcast homepage.
+   ========================================================================= */
+
+.app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  max-width: 1240px;
+  margin-inline: auto;
+  padding: clamp(0.75rem, 2vw, 1.5rem) clamp(0.9rem, 3vw, 2rem);
+  padding-top: max(clamp(0.75rem, 2vw, 1.5rem), env(safe-area-inset-top));
+}
+
+/* Stadium light haze pouring from the top of the frame */
+.app::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 55vh;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(
+      ellipse 70% 80% at 22% -10%,
+      oklch(0.85 0.04 95 / 0.07),
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse 70% 80% at 78% -10%,
+      oklch(0.85 0.04 95 / 0.07),
+      transparent 60%
+    );
+}
+
+.app > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---- Top bar ---------------------------------------------------------- */
+.topbar {
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  flex-wrap: wrap;
+}
+
+.topbar__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.ball-icon {
+  filter: drop-shadow(0 0 6px oklch(0.585 0.213 25 / 0.4));
+}
+
+/* ---- Nav tabs --------------------------------------------------------- */
+.nav-tabs {
+  display: flex;
+  gap: var(--sp-1);
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-inline: calc(-1 * var(--sp-1));
+  padding-inline: var(--sp-1);
+}
+.nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-tabs__tab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3) calc(var(--sp-2) + 2px);
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  white-space: nowrap;
+  color: var(--muted);
+  border-radius: var(--r-sm);
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.nav-tabs__tab[data-active] {
+  color: var(--ink);
+}
+
+.nav-tabs__tab[data-active]::after {
+  content: "";
+  position: absolute;
+  left: var(--sp-3);
+  right: var(--sp-3);
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--crimson);
+  box-shadow: 0 0 10px -1px var(--crimson-bright);
+}
+
+.nav-tabs__tab[data-soon] {
+  color: var(--muted-dim);
+  cursor: default;
+}
+
+@media (hover: hover) {
+  .nav-tabs__tab:not([data-soon]):not([data-active]):hover {
+    color: var(--ink);
+    background: oklch(0.3 0.014 255 / 0.4);
+  }
+}
+
+.nav-tabs__soon {
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted-dim);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-pill);
+  padding: 0 5px;
+}
+
+/* ---- View header ------------------------------------------------------ */
+.viewhead {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  flex-wrap: wrap;
+  margin-top: clamp(var(--sp-3), 2.5vw, var(--sp-5));
+  margin-bottom: var(--sp-3);
+}
+
+.viewhead__title-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-3);
+}
+
+.viewhead__title {
+  font-size: var(--fs-display);
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  line-height: 0.9;
+  color: var(--ink);
+}
+
+.viewhead__season {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  color: var(--muted);
+  padding: 2px 9px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-pill);
+  white-space: nowrap;
+}
+
+.viewhead__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--sp-2);
+}
+
+.viewhead__hint {
+  font-size: var(--fs-sm);
+  color: var(--muted-dim);
+}
+
+/* ---- League toggle ---------------------------------------------------- */
+.league-toggle {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--count), 1fr);
+  padding: 4px;
+  background: var(--press-box);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-pill);
+}
+
+.league-toggle__thumb {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  width: calc((100% - 8px) / var(--count));
+  background: var(--crimson);
+  border-radius: var(--r-pill);
+  box-shadow: var(--glow-crimson);
+  transform: translateX(calc(var(--active) * 100%));
+  transition: transform 0.34s var(--ease-out-quint);
+}
+
+.league-toggle__tab {
+  position: relative;
+  z-index: 1;
+  padding: var(--sp-2) var(--sp-4);
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  white-space: nowrap;
+  color: var(--muted);
+  border-radius: var(--r-pill);
+  transition: color 0.24s ease;
+}
+
+.league-toggle__tab[data-active] {
+  color: var(--crimson-ink);
+}
+
+/* ---- Main view + stage ------------------------------------------------ */
+.view {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.stage {
+  position: relative;
+  flex: 1;
+  min-height: clamp(360px, 56vh, 760px);
+  margin-block: var(--sp-2);
+}
+
+.diamond {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 940px;
+  height: 830px; /* 714 field + 116 bench band — keep in sync with DESIGN_H */
+  transform: translate(-50%, -50%) scale(var(--scale, 1));
+  transform-origin: center;
+}
+
+/* The field box keeps the exact 940×714 footprint the % card coords assume.
+   The bench band lives below it; both scale together as one unit. */
+.diamond__field-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 940px;
+  height: 714px;
+}
+
+.diamond__field {
+  position: absolute;
+  inset: 0;
+}
+
+.field-svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 30px 50px oklch(0 0 0 / 0.6));
+}
+
+/* Stadium light blooms from the arc-light towers */
+.diamond__lights {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.diamond__light {
+  position: absolute;
+  top: -8%;
+  width: 58%;
+  height: 72%;
+  filter: blur(8px);
+}
+
+.diamond__light--l {
+  left: -6%;
+  background: radial-gradient(
+    ellipse 55% 60% at 35% 0%,
+    oklch(0.95 0.03 95 / 0.16),
+    transparent 68%
+  );
+}
+
+.diamond__light--r {
+  right: -6%;
+  background: radial-gradient(
+    ellipse 55% 60% at 65% 0%,
+    oklch(0.95 0.03 95 / 0.16),
+    transparent 68%
+  );
+}
+
+/* ---- Cards on the field ---------------------------------------------- */
+.diamond__cards {
+  position: absolute;
+  inset: 0;
+  transition: opacity 0.18s ease;
+}
+
+.diamond__cards[data-switching] {
+  opacity: 0;
+}
+
+.diamond__slot {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  transform: translate(-50%, -50%);
+  z-index: var(--z-card);
+}
+
+.diamond__slot[data-active] {
+  z-index: var(--z-card-active);
+}
+
+/* ---- Bench band — on the field, below the catcher -------------------- */
+.diamond__bench {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 714px;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-3);
+  padding-top: var(--sp-3);
+  transition: opacity 0.18s ease;
+}
+
+.diamond__bench[data-switching] {
+  opacity: 0;
+}
+
+/* Dugout divider: a single functional label flanked by hairlines —
+   not a section eyebrow. */
+.diamond__bench-label {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  width: 100%;
+  max-width: 680px;
+  font-family: var(--font-body);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.diamond__bench-label::before,
+.diamond__bench-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--hairline-strong),
+    transparent
+  );
+}
+
+.diamond__bench-row {
+  display: flex;
+  justify-content: center;
+  gap: var(--sp-3);
+}
+
+/* ---- Mobile grouped list --------------------------------------------- */
+.grouped-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-5);
+  width: 100%;
+  transition: opacity 0.18s ease;
+}
+
+.grouped-list[data-switching] {
+  opacity: 0;
+}
+
+.grouped-list__title {
+  font-family: var(--font-body);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: var(--sp-2);
+}
+
+.grouped-list__items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+/* ---- Footer ---------------------------------------------------------- */
+.view-footer {
+  position: relative;
+  z-index: 5;
+  margin-top: var(--sp-2);
+  text-align: center;
+}
+
+.view-footer__updated {
+  font-size: var(--fs-sm);
+  color: var(--muted-dim);
+}
+
+/* ---- Loading skeleton ------------------------------------------------ */
+.skel {
+  background: linear-gradient(
+    100deg,
+    oklch(0.24 0.012 255) 30%,
+    oklch(0.32 0.014 255) 50%,
+    oklch(0.24 0.012 255) 70%
+  );
+  background-size: 220% 100%;
+  border-radius: var(--r-md);
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+
+.skel--card {
+  width: 188px;
+  height: 62px;
+  border: 1px solid var(--hairline);
+}
+
+.skeleton-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  width: 100%;
+}
+
+.skel--row {
+  height: 62px;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 180% 0;
+  }
+  to {
+    background-position: -80% 0;
+  }
+}
+
+/* ---- Error / empty states ------------------------------------------- */
+.state {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--sp-3);
+  max-width: 38ch;
+  padding: var(--sp-6);
+}
+
+.state h2 {
+  font-size: var(--fs-headline);
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+.state p {
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+.state svg {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-retry {
+  margin-top: var(--sp-2);
+  padding: var(--sp-2) var(--sp-5);
+  font-weight: 600;
+  color: var(--crimson-ink);
+  background: var(--crimson);
+  border-radius: var(--r-pill);
+  box-shadow: var(--glow-crimson);
+  transition: transform 0.18s var(--ease-out-quart), filter 0.18s ease;
+}
+
+.btn-retry:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+/* ---- Entrance choreography ------------------------------------------- */
+.diamond[data-entering] .diamond__field {
+  animation: fieldIn 0.45s var(--ease-out-quart) backwards;
+}
+
+.diamond[data-entering] .diamond__light {
+  animation: bloomIn 0.6s var(--ease-out-quint) backwards;
+  animation-delay: 0.3s;
+}
+
+.diamond[data-entering] .diamond__slot {
+  animation: cardIn 0.6s var(--ease-out-quint) backwards;
+  animation-delay: calc(0.4s + var(--i) * 50ms);
+}
+
+.diamond[data-entering] .diamond__bench-label {
+  animation: bloomIn 0.5s var(--ease-out-quint) backwards;
+  animation-delay: 0.4s;
+}
+
+.diamond[data-entering] .diamond__bench-row .player-card {
+  animation: riseIn 0.5s var(--ease-out-quint) backwards;
+  animation-delay: calc(0.4s + var(--i) * 50ms);
+}
+
+@keyframes fieldIn {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes bloomIn {
+  from {
+    opacity: 0;
+    transform: translateY(-14px);
+  }
+}
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(12px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0) scale(1);
+  }
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+/* ---- Field-first overlay (roomy screens) -----------------------------
+   Stack the view header over the field so the diamond claims its vertical
+   space and reads larger. The header floats over the dark top corners; the
+   league toggle stays clickable, everything else lets clicks fall through. */
+@media (min-width: 760px) {
+  .app {
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+
+  .viewhead {
+    grid-row: 2;
+    grid-column: 1; /* same cell as .view so they stack, not sit side by side */
+    align-self: start;
+    z-index: 5;
+    align-items: flex-start;
+    margin-top: var(--sp-2);
+    margin-bottom: 0;
+    pointer-events: none;
+  }
+
+  .viewhead__title-wrap,
+  .viewhead__right {
+    pointer-events: auto;
+  }
+
+  .view {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .stage {
+    margin-block: 0;
+  }
+
+  /* Nudge off dead-center so the center-field card clears the floating header. */
+  .diamond {
+    top: calc(50% + 0.6rem);
+  }
+}
+
+/* ---- Responsive ------------------------------------------------------ */
+@media (max-width: 720px) {
+  .topbar {
+    gap: var(--sp-2);
+  }
+  .viewhead {
+    align-items: flex-start;
+  }
+  .viewhead__right {
+    align-items: flex-start;
+    width: 100%;
+  }
+  .viewhead__hint {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .stage {
+    min-height: 0;
+    margin-top: var(--sp-2);
+  }
+  .league-toggle {
+    width: 100%;
+  }
+}
+
+/* Honour reduced motion: keep the crossfade idea, drop movement + stagger.
+   (The global reduce rule zeroes durations; these resets prevent any
+   transform-based flash and ensure content is visible at rest.) */
+@media (prefers-reduced-motion: reduce) {
+  .diamond[data-entering] .diamond__slot {
+    animation: none;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+  .diamond[data-entering] .diamond__light,
+  .diamond[data-entering] .diamond__field,
+  .diamond[data-entering] .diamond__bench-label,
+  .diamond[data-entering] .diamond__bench-row .player-card {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
