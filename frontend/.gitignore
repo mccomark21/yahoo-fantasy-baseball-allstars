@@ -3,3 +3,6 @@ dist
 .shots
 *.local
 .DS_Store
+
+# TypeScript incremental build cache
+*.tsbuildinfo
