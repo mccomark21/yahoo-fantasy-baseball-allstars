@@ -23,10 +23,12 @@ Auth is read from the environment (``YAHOO_CONSUMER_KEY``,
 from __future__ import annotations
 
 import os
+import time
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Union
 
 from dotenv import load_dotenv
+from requests.exceptions import HTTPError
 from yfpy.exceptions import YahooFantasySportsDataNotFound
 from yfpy.query import YahooFantasySportsQuery
 
@@ -147,7 +149,20 @@ class YahooClient:
     access to. Internally it caches one ``YahooFantasySportsQuery`` per
     ``(league_id, game_key)`` pair, since each query object is bound to a
     single league.
+
+    Rate limiting: Yahoo returns HTTP 999 ("rate limiting") once an IP
+    exceeds its request budget — and yfpy raises that *before* its own
+    retry/backoff kicks in, so its ``retries`` knob is useless against it.
+    Cloud CI runners (shared IPs) trip this far sooner than a home IP. We
+    defend on two fronts: a minimum spacing between requests to stay under
+    the limit, and a long exponential back-off that retries when a 999 does
+    slip through. Both are tunable via env vars so CI can be gentler.
     """
+
+    # Seconds to wait between consecutive Yahoo requests (throttle).
+    MIN_REQUEST_INTERVAL = float(os.environ.get("YAHOO_MIN_REQUEST_INTERVAL", "0.6"))
+    # Back-off waits (seconds) applied on successive 999 rate-limit hits.
+    RATE_LIMIT_BACKOFF = (15.0, 30.0, 60.0, 120.0, 240.0)
 
     def __init__(self, game_code: str = GAME_CODE):
         missing = [v for v in REQUIRED_ENV_VARS if not os.environ.get(v)]
@@ -168,6 +183,7 @@ class YahooClient:
             "token_type": "bearer",
         }
         self._queries: Dict[tuple, YahooFantasySportsQuery] = {}
+        self._last_request_ts = 0.0
 
     # -- query factory ----------------------------------------------------- #
     def query(self, league_id, game_key=None) -> YahooFantasySportsQuery:
@@ -177,14 +193,46 @@ class YahooClient:
         """
         key = (str(league_id), str(game_key) if game_key is not None else None)
         if key not in self._queries:
-            self._queries[key] = YahooFantasySportsQuery(
+            q = YahooFantasySportsQuery(
                 league_id=str(league_id),
                 game_code=self.game_code,
                 game_id=int(game_key) if game_key is not None else None,
                 yahoo_access_token_json=self._token_json,
                 browser_callback=False,
             )
+            self._install_rate_limit_guard(q)
+            self._queries[key] = q
         return self._queries[key]
+
+    # -- rate-limit guard -------------------------------------------------- #
+    def _install_rate_limit_guard(self, q: YahooFantasySportsQuery) -> None:
+        """Wrap ``q.get_response`` with throttling + 999 back-off.
+
+        Every Yahoo HTTP call funnels through ``get_response``, so wrapping it
+        once covers all fetch methods. The throttle clock is shared across all
+        query objects on this client (one ``_last_request_ts``), so spacing
+        holds even as we hop between leagues/seasons.
+        """
+        original = q.get_response
+
+        def guarded(url):
+            for wait in (*self.RATE_LIMIT_BACKOFF, None):
+                # Throttle: keep a minimum gap since the previous request.
+                gap = time.monotonic() - self._last_request_ts
+                if gap < self.MIN_REQUEST_INTERVAL:
+                    time.sleep(self.MIN_REQUEST_INTERVAL - gap)
+                try:
+                    return original(url)
+                except HTTPError as exc:
+                    if "rate limiting" in str(exc).lower() and wait is not None:
+                        print(f"  Rate limited by Yahoo; backing off {wait:.0f}s...", flush=True)
+                        time.sleep(wait)
+                        continue
+                    raise
+                finally:
+                    self._last_request_ts = time.monotonic()
+
+        q.get_response = guarded
 
     # -- season discovery -------------------------------------------------- #
     def discover_league_seasons(self, league_id) -> List[dict]:
