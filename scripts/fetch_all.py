@@ -161,6 +161,28 @@ def fetch_season(client: YahooClient, entry_league_id: str, descriptor: dict) ->
     log(f"    matchups: {len(matchups)} records")
 
 
+def season_is_complete(entry_league_id: str, season) -> bool:
+    """True if a season already has substantive data on disk.
+
+    Used by ``--resume`` to skip seasons fetched in a prior run. A season
+    counts as complete only when all four raw files exist and the
+    rate/network-sensitive ones (player stats, matchups) carry real content —
+    a stalled request leaves them empty (``{}``/``0`` bytes), so size is a
+    good-enough proxy for "actually fetched".
+    """
+    d = season_dir(entry_league_id, season)
+    needed = ("stat_categories.json", "rosters.json", "player_stats.json", "matchups.json")
+    if not all((d / f).exists() for f in needed):
+        return False
+    # player_stats holds season + weekly lines; a real one is many KB.
+    if (d / "player_stats.json").stat().st_size < 1000:
+        return False
+    # matchups for a full season are tens of KB; an empty list is ~90 bytes.
+    if (d / "matchups.json").stat().st_size < 250:
+        return False
+    return True
+
+
 def _safe_roster_stats(client, team, league_id, game_key, week, scope) -> dict:
     try:
         return client.fetch_roster_stats(team["team_id"], league_id, game_key, week)
@@ -196,13 +218,16 @@ def write_leagues_index(entries: List[dict]) -> None:
 # --------------------------------------------------------------------------- #
 # Modes
 # --------------------------------------------------------------------------- #
-def run_backfill(client: YahooClient, league_ids: List[str]) -> None:
+def run_backfill(client: YahooClient, league_ids: List[str], resume: bool = False) -> None:
     index_entries = []
     for league_id in league_ids:
         log(f"\n=== Backfill league {league_id} ===")
         seasons = client.discover_league_seasons(league_id)
         log(f"Discovered {len(seasons)} seasons: {[s['season'] for s in seasons]}")
         for descriptor in seasons:
+            if resume and season_is_complete(league_id, descriptor["season"]):
+                log(f"  [{descriptor['season']}] already complete — skipping (resume)")
+                continue
             fetch_season(client, league_id, descriptor)
         name = seasons[-1]["name"] if seasons else league_id
         index_entries.append({"id": league_id, "name": name,
@@ -226,6 +251,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--mode", required=True, choices=("backfill", "refresh"))
+    parser.add_argument("--resume", action="store_true",
+                        help="Backfill only: skip seasons already complete on disk.")
     args = parser.parse_args()
 
     config = load_config()
@@ -236,7 +263,7 @@ def main() -> None:
 
     client = YahooClient()
     if args.mode == "backfill":
-        run_backfill(client, league_ids)
+        run_backfill(client, league_ids, resume=args.resume)
     else:
         run_refresh(client, league_ids)
     log("\nDone.")
