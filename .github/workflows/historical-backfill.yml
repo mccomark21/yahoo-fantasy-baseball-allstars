@@ -1,0 +1,48 @@
+name: Historical Backfill
+
+# One-time (manual) full history populate. Walks every season each league
+# existed, computes all-stars + records, and commits the generated data/.
+# When it finishes successfully it triggers the Deploy workflow (see deploy.yml).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch all historical data
+        env:
+          YAHOO_CONSUMER_KEY: ${{ secrets.YAHOO_CONSUMER_KEY }}
+          YAHOO_CONSUMER_SECRET: ${{ secrets.YAHOO_CONSUMER_SECRET }}
+          YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+        run: python scripts/fetch_all.py --mode backfill
+
+      - name: Compute all-stars and records
+        run: |
+          python scripts/compute_allstars.py
+          python scripts/compute_records.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Backfill historical data"
+            git push
+          fi

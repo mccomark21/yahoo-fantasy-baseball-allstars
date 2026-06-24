@@ -1,0 +1,49 @@
+name: Daily Refresh
+
+# Re-fetch the current season only, recompute all-stars + records, and commit
+# the updated data/. A successful run triggers the Deploy workflow (deploy.yml).
+on:
+  schedule:
+    - cron: "0 10 * * *" # 10:00 UTC ≈ 6 AM ET
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Refresh current-season data
+        env:
+          YAHOO_CONSUMER_KEY: ${{ secrets.YAHOO_CONSUMER_KEY }}
+          YAHOO_CONSUMER_SECRET: ${{ secrets.YAHOO_CONSUMER_SECRET }}
+          YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+        run: python scripts/fetch_all.py --mode refresh
+
+      - name: Compute all-stars and records
+        run: |
+          python scripts/compute_allstars.py
+          python scripts/compute_records.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Daily data refresh"
+            git push
+          fi
