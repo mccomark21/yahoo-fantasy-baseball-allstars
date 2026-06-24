@@ -1,0 +1,55 @@
+{
+  "updated_at": "2026-06-24T11:04:45Z",
+  "leagues": {
+    "12239": {
+      "highest_week_score": {
+        "fantasy_team": "1% Low Fat McChocolate Milk",
+        "score": 10,
+        "season": 2026,
+        "week": 6
+      },
+      "most_category_wins_week": {
+        "fantasy_team": "1% Low Fat McChocolate Milk",
+        "wins": 10,
+        "season": 2026,
+        "week": 6
+      },
+      "longest_win_streak": {
+        "fantasy_team": "DiZ-Hajj-O",
+        "streak": 5,
+        "season": 2026
+      },
+      "best_season_record": {
+        "fantasy_team": "Cruz Missle",
+        "wins": 8,
+        "losses": 4,
+        "season": 2026
+      }
+    },
+    "14078": {
+      "highest_week_score": {
+        "fantasy_team": "Will of the Manly",
+        "score": 17,
+        "season": 2026,
+        "week": 5
+      },
+      "most_category_wins_week": {
+        "fantasy_team": "Will of the Manly",
+        "wins": 17,
+        "season": 2026,
+        "week": 5
+      },
+      "longest_win_streak": {
+        "fantasy_team": "El Jefe",
+        "streak": 6,
+        "season": 2026
+      },
+      "best_season_record": {
+        "fantasy_team": "Gardy Goes Yardy",
+        "wins": 10,
+        "losses": 3,
+        "season": 2026
+      }
+    }
+  }
+}
