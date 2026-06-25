@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T11:04:45Z",
+  "updated_at": "2026-06-25T11:01:18Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -63,7 +63,7 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.37,
+          "value": 0.379,
           "player_name": "Samad Taylor",
           "fantasy_team": "DiZ-Hajj-O",
           "season": 2026
@@ -235,14 +235,14 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.37,
+          "value": 0.379,
           "player_name": "Samad Taylor",
           "fantasy_team": "That’s Reddickulous (2x)",
           "season": 2026
         },
         {
           "stat": "BB",
-          "value": 46,
+          "value": 48,
           "player_name": "José Soriano",
           "fantasy_team": "The Kranimals (0x)",
           "season": 2026
@@ -256,7 +256,7 @@
         },
         {
           "stat": "H",
-          "value": 105,
+          "value": 107,
           "player_name": "Otto Lopez",
           "fantasy_team": "Kirby Super Star",
           "season": 2026
@@ -291,9 +291,9 @@
         },
         {
           "stat": "OBP",
-          "value": 0.436,
-          "player_name": "Yordan Alvarez",
-          "fantasy_team": "Will of the Manly",
+          "value": 0.438,
+          "player_name": "Samad Taylor",
+          "fantasy_team": "That’s Reddickulous (2x)",
           "season": 2026
         },
         {
