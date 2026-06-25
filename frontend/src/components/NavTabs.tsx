@@ -1,15 +1,4 @@
-interface Tab {
-  id: string;
-  label: string;
-  ready: boolean;
-}
-
-const TABS: Tab[] = [
-  { id: "all-stars", label: "All-Stars", ready: true },
-  { id: "positional-races", label: "Positional Races", ready: false },
-  { id: "team-records", label: "Team Records", ready: false },
-  { id: "player-records", label: "Player Records", ready: false },
-];
+import { VIEWS } from "../views";
 
 interface Props {
   active: string;
@@ -26,10 +15,10 @@ export default function NavTabs({ active, onChange }: Props) {
 
   function onKeyDown(e: React.KeyboardEvent, index: number) {
     let next = index;
-    if (e.key === "ArrowRight") next = (index + 1) % TABS.length;
-    else if (e.key === "ArrowLeft") next = (index - 1 + TABS.length) % TABS.length;
+    if (e.key === "ArrowRight") next = (index + 1) % VIEWS.length;
+    else if (e.key === "ArrowLeft") next = (index - 1 + VIEWS.length) % VIEWS.length;
     else if (e.key === "Home") next = 0;
-    else if (e.key === "End") next = TABS.length - 1;
+    else if (e.key === "End") next = VIEWS.length - 1;
     else return;
     e.preventDefault();
     focusTab(next);
@@ -37,7 +26,7 @@ export default function NavTabs({ active, onChange }: Props) {
 
   return (
     <div className="nav-tabs" role="tablist" aria-label="Views">
-      {TABS.map((tab, i) => {
+      {VIEWS.map((tab, i) => {
         const isActive = tab.id === active;
         return (
           <button
@@ -45,12 +34,11 @@ export default function NavTabs({ active, onChange }: Props) {
             type="button"
             role="tab"
             aria-selected={isActive}
-            aria-disabled={!tab.ready || undefined}
             tabIndex={isActive ? 0 : -1}
             className="nav-tabs__tab"
             data-active={isActive || undefined}
             data-soon={!tab.ready || undefined}
-            onClick={() => tab.ready && onChange(tab.id)}
+            onClick={() => onChange(tab.id)}
             onKeyDown={(e) => onKeyDown(e, i)}
           >
             {tab.label}

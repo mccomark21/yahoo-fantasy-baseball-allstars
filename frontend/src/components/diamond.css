@@ -109,11 +109,10 @@
 
 .nav-tabs__tab[data-soon] {
   color: var(--muted-dim);
-  cursor: default;
 }
 
 @media (hover: hover) {
-  .nav-tabs__tab:not([data-soon]):not([data-active]):hover {
+  .nav-tabs__tab:not([data-active]):hover {
     color: var(--ink);
     background: oklch(0.3 0.014 255 / 0.4);
   }

@@ -1,20 +1,15 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
-import {
-  loadAllStars,
-  loadLeagues,
-  type AllStarsData,
-  type LeaguesData,
-} from "../data";
+import { loadAllStars, type AllStarsData } from "../data";
 import {
   BENCH_POSITIONS,
   FIELD_POSITIONS,
   LIST_GROUPS,
   ALL_POSITIONS,
 } from "../constants/positions";
+import { useShell } from "../context/ShellContext";
 import Field from "./Field";
 import PlayerCard from "./PlayerCard";
-import LeagueToggle from "./LeagueToggle";
-import NavTabs from "./NavTabs";
+import BallIcon from "./BallIcon";
 import "./PlayerCard.css";
 import "./diamond.css";
 
@@ -28,13 +23,16 @@ const NARROW_BREAKPOINT = 600;
 type Status = "loading" | "ready" | "error";
 
 export default function DiamondView() {
+  // The active league lives in the shell so it persists across views; this view
+  // renders `renderedLeagueId`, which lags the shell's selection by one beat so
+  // the cards can play their switch animation.
+  const { leagueId } = useShell();
+  const [renderedLeagueId, setRenderedLeagueId] = useState(leagueId);
+
   const [status, setStatus] = useState<Status>("loading");
-  const [leagues, setLeagues] = useState<LeaguesData | null>(null);
   const [allStars, setAllStars] = useState<AllStarsData | null>(null);
-  const [leagueId, setLeagueId] = useState<string>("");
   const [expandedKey, setExpandedKey] = useState<string | null>(null);
   const [switching, setSwitching] = useState(false);
-  const [navView, setNavView] = useState("all-stars");
 
   const stageRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
@@ -45,10 +43,8 @@ export default function DiamondView() {
   const load = useCallback(async () => {
     setStatus("loading");
     try {
-      const [lg, as] = await Promise.all([loadLeagues(), loadAllStars()]);
-      setLeagues(lg);
+      const as = await loadAllStars();
       setAllStars(as);
-      setLeagueId((prev) => prev || lg.leagues[0]?.id || "");
       setStatus("ready");
     } catch {
       setStatus("error");
@@ -58,6 +54,24 @@ export default function DiamondView() {
   useEffect(() => {
     load();
   }, [load]);
+
+  // Mirror the shell's league selection into the view. The first resolved id is
+  // adopted instantly; later changes play the brief switch crossfade.
+  useEffect(() => {
+    if (leagueId === renderedLeagueId) return;
+    if (!renderedLeagueId) {
+      setRenderedLeagueId(leagueId);
+      return;
+    }
+    setExpandedKey(null);
+    setSwitching(true);
+    window.clearTimeout(switchTimer.current);
+    switchTimer.current = window.setTimeout(() => {
+      setRenderedLeagueId(leagueId);
+      setSwitching(false);
+    }, 170);
+    return () => window.clearTimeout(switchTimer.current);
+  }, [leagueId, renderedLeagueId]);
 
   // Fit the fixed-size diamond into the available stage box via transform.
   useLayoutEffect(() => {
@@ -91,52 +105,28 @@ export default function DiamondView() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  const switchLeague = useCallback(
-    (id: string) => {
-      if (id === leagueId) return;
-      setExpandedKey(null);
-      setSwitching(true);
-      window.clearTimeout(switchTimer.current);
-      switchTimer.current = window.setTimeout(() => {
-        setLeagueId(id);
-        setSwitching(false);
-      }, 170);
-    },
-    [leagueId]
-  );
-
   const toggleCard = useCallback((key: string) => {
     setExpandedKey((prev) => (prev === key ? null : key));
   }, []);
 
   if (status === "error") {
     return (
-      <Shell leagues={null} leagueId="" onLeague={() => {}} navView={navView} onNav={setNavView}>
-        <div className="state state--error" role="alert">
-          <BallIcon />
-          <h2>We lost the feed</h2>
-          <p>The all-star data couldn’t be loaded. Check your connection and try again.</p>
-          <button type="button" className="btn-retry" onClick={load}>
-            Retry
-          </button>
-        </div>
-      </Shell>
+      <div className="state state--error" role="alert">
+        <BallIcon />
+        <h2>We lost the feed</h2>
+        <p>The all-star data couldn’t be loaded. Check your connection and try again.</p>
+        <button type="button" className="btn-retry" onClick={load}>
+          Retry
+        </button>
+      </div>
     );
   }
 
-  const league = allStars?.leagues[leagueId];
+  const league = allStars?.leagues[renderedLeagueId];
   const updated = allStars?.updated_at;
-  const season = allStars?.season;
 
   return (
-    <Shell
-      leagues={leagues}
-      leagueId={leagueId}
-      onLeague={switchLeague}
-      navView={navView}
-      onNav={setNavView}
-      season={season}
-    >
+    <>
       <div className="stage" ref={stageRef}>
         {status === "loading" ? (
           <Skeleton scale={scale} isNarrow={isNarrow} />
@@ -220,62 +210,11 @@ export default function DiamondView() {
           </p>
         )}
       </footer>
-    </Shell>
+    </>
   );
 }
 
 /* ----------------------------------------------------------------------- */
-
-function Shell({
-  children,
-  leagues,
-  leagueId,
-  onLeague,
-  navView,
-  onNav,
-  season,
-}: {
-  children: React.ReactNode;
-  leagues: LeaguesData | null;
-  leagueId: string;
-  onLeague: (id: string) => void;
-  navView: string;
-  onNav: (id: string) => void;
-  season?: number;
-}) {
-  return (
-    <div className="app">
-      <header className="topbar">
-        <div className="topbar__brand">
-          <BallIcon />
-          <span>League All-Stars</span>
-        </div>
-        <NavTabs active={navView} onChange={onNav} />
-      </header>
-
-      <div className="viewhead">
-        <div className="viewhead__title-wrap">
-          <h1 className="viewhead__title">All-Stars</h1>
-          {season && <span className="viewhead__season mono">{season}</span>}
-        </div>
-        <div className="viewhead__right">
-          <p className="viewhead__hint">Tap a card for season stats</p>
-          {leagues && (
-            <LeagueToggle
-              leagues={leagues.leagues}
-              activeId={leagueId}
-              onChange={onLeague}
-            />
-          )}
-        </div>
-      </div>
-
-      <main className="view" id="all-stars-panel" role="tabpanel" aria-label="All-Stars">
-        {children}
-      </main>
-    </div>
-  );
-}
 
 function Skeleton({ scale, isNarrow }: { scale: number; isNarrow: boolean }) {
   if (isNarrow) {
@@ -367,19 +306,4 @@ function formatUpdated(iso: string): string {
     day: "numeric",
     year: "numeric",
   });
-}
-
-function BallIcon() {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" className="ball-icon">
-      <circle cx="12" cy="12" r="9.5" fill="var(--field-deep)" stroke="var(--crimson)" strokeWidth="1.6" />
-      <path
-        d="M7.5 4.2c2.4 2.6 2.4 13 0 15.6M16.5 4.2c-2.4 2.6-2.4 13 0 15.6"
-        fill="none"
-        stroke="var(--crimson)"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
 }
