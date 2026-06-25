@@ -252,6 +252,7 @@ class YahooClient:
             "token_type": "bearer",
         }
         self._queries: Dict[tuple, YahooFantasySportsQuery] = {}
+        self._game_weeks_cache: Dict[str, Dict[int, tuple]] = {}
         self._last_request_ts = 0.0
 
     # -- query factory ----------------------------------------------------- #
@@ -435,6 +436,44 @@ class YahooClient:
             if player_key:
                 out[player_key] = _stats_to_dict(player)
         return out
+
+    def fetch_roster_stats_by_date(self, team_id, league_id, game_key, day) -> Dict[str, dict]:
+        """Stats for one team's roster on a single calendar date.
+
+        ``day`` is an ISO date string (``YYYY-MM-DD``). Yahoo serves per-player
+        MLB stats with ``date`` coverage (a real single-day box score) through
+        ``get_team_roster_player_info_by_date`` — the primitive a faithful
+        weekly total is summed from, since true week coverage doesn't exist.
+        Returns ``{player_key: {stat_id: value, ...}}``.
+        """
+        q = self.query(league_id, game_key)
+        players = q.get_team_roster_player_info_by_date(str(team_id), chosen_date=day)
+        out: Dict[str, dict] = {}
+        for entry in players:
+            player = getattr(entry, "player", entry)
+            player_key = decode_str(getattr(player, "player_key", "") or "")
+            if player_key:
+                out[player_key] = _stats_to_dict(player)
+        return out
+
+    def fetch_game_weeks(self, league_id, game_key) -> Dict[int, tuple]:
+        """Map each fantasy week to its ``(start, end)`` ISO dates for a season.
+
+        Yahoo's authoritative week→date ranges (week 1 is often a short opening
+        week). Cached per game_key since both leagues' current season share one
+        game. Returns ``{week: (start, end)}``.
+        """
+        gk = str(game_key)
+        if gk not in self._game_weeks_cache:
+            weeks = self.query(league_id, game_key).get_game_weeks_by_game_id(int(game_key))
+            self._game_weeks_cache[gk] = {
+                int(getattr(w, "week", 0) or 0): (
+                    decode_str(getattr(w, "start", "") or ""),
+                    decode_str(getattr(w, "end", "") or ""),
+                )
+                for w in weeks
+            }
+        return self._game_weeks_cache[gk]
 
     def fetch_league_player_stats(self, league_id, game_key, week=None) -> Dict[str, dict]:
         """Stats for every rostered player in the league (one call per team).

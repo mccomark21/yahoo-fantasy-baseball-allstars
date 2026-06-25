@@ -26,7 +26,7 @@ def test_backfill_since_skips_seasons_older_than_floor(monkeypatch, tmp_path):
     fetched = []
     monkeypatch.setattr(
         fetch_all, "fetch_season",
-        lambda client, lid, d, cur_game_key, cur_league_id: (fetched.append(d["season"]) or True))
+        lambda client, lid, d, cur_game_key, cur_league_id, **kw: (fetched.append(d["season"]) or True))
 
     fetch_all.run_backfill(FakeClient(), ["12239"], since=2021)
 

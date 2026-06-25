@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-06-24T21:28:27Z",
+  "updated_at": "2026-06-25T17:22:22Z",
   "leagues": {
     "12239": {
       "C": {
@@ -12,11 +12,11 @@
         "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.PAw8jhnr.QU4.j_T111mw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/62137.1.png",
         "fantasy_team": "1% Low Fat McChocolate Milk",
         "stats": {
-          "R": 55,
+          "R": 56,
           "HR": 22,
           "RBI": 53,
           "SB": 2,
-          "AVG": 0.283
+          "AVG": 0.286
         }
       },
       "1B": {
@@ -32,7 +32,7 @@
           "HR": 19,
           "RBI": 61,
           "SB": 7,
-          "AVG": 0.286
+          "AVG": 0.282
         }
       },
       "2B": {
@@ -44,11 +44,11 @@
         "headshot_url": "https://s.yimg.com/iu/api/res/1.2/vKAuFcOIxAGxD1XnftgjxA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11343.png",
         "fantasy_team": "All Rise & Wittness",
         "stats": {
-          "R": 57,
+          "R": 58,
           "HR": 11,
           "RBI": 47,
           "SB": 13,
-          "AVG": 0.266
+          "AVG": 0.265
         }
       },
       "3B": {
@@ -79,8 +79,8 @@
           "R": 51,
           "HR": 17,
           "RBI": 57,
-          "SB": 12,
-          "AVG": 0.286
+          "SB": 13,
+          "AVG": 0.287
         }
       },
       "LF": {
@@ -96,7 +96,7 @@
           "HR": 20,
           "RBI": 49,
           "SB": 13,
-          "AVG": 0.269
+          "AVG": 0.265
         },
         "is_leader": true
       },
@@ -113,7 +113,7 @@
           "HR": 20,
           "RBI": 49,
           "SB": 13,
-          "AVG": 0.269
+          "AVG": 0.265
         }
       },
       "RF": {
@@ -129,7 +129,7 @@
           "HR": 20,
           "RBI": 49,
           "SB": 13,
-          "AVG": 0.269
+          "AVG": 0.265
         }
       },
       "SP": {
@@ -177,7 +177,7 @@
           "HR": 20,
           "RBI": 49,
           "SB": 13,
-          "AVG": 0.269
+          "AVG": 0.265
         }
       }
     },
@@ -191,14 +191,14 @@
         "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.PAw8jhnr.QU4.j_T111mw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/62137.1.png",
         "fantasy_team": "Gardy Goes Yardy",
         "stats": {
-          "R": 55,
-          "H": 77,
+          "R": 56,
+          "H": 79,
           "HR": 22,
           "RBI": 53,
           "SB": 2,
-          "K": 75,
-          "AVG": 0.283,
-          "OBP": 0.377,
+          "K": 76,
+          "AVG": 0.286,
+          "OBP": 0.378,
           "XBH": 39
         }
       },
@@ -216,9 +216,9 @@
           "HR": 19,
           "RBI": 61,
           "SB": 7,
-          "K": 107,
-          "AVG": 0.286,
-          "OBP": 0.434,
+          "K": 108,
+          "AVG": 0.282,
+          "OBP": 0.429,
           "XBH": 35
         }
       },
@@ -231,35 +231,35 @@
         "headshot_url": "https://s.yimg.com/iu/api/res/1.2/vKAuFcOIxAGxD1XnftgjxA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11343.png",
         "fantasy_team": "WestCoastTruth (1x Champ)",
         "stats": {
-          "R": 57,
-          "H": 74,
+          "R": 58,
+          "H": 75,
           "HR": 11,
           "RBI": 47,
           "SB": 13,
-          "K": 86,
-          "AVG": 0.266,
-          "OBP": 0.374,
-          "XBH": 29
+          "K": 87,
+          "AVG": 0.265,
+          "OBP": 0.371,
+          "XBH": 30
         }
       },
       "3B": {
-        "player_name": "Colson Montgomery",
+        "player_name": "Junior Caminero",
         "position": "3B",
-        "mlb_team": "CWS",
-        "mlb_team_id": 145,
-        "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/145.svg",
-        "headshot_url": "https://s.yimg.com/iu/api/res/1.2/mmavH76ZSl0OX6KH7TQFfg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/12413.png",
-        "fantasy_team": "The Kranimals (0x)",
+        "mlb_team": "TB",
+        "mlb_team_id": 139,
+        "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/139.svg",
+        "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ke5bnQWnGRNFQtQ4j2SplQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60419.1.png",
+        "fantasy_team": "That’s Reddickulous (2x)",
         "stats": {
-          "R": 36,
-          "H": 60,
-          "HR": 20,
-          "RBI": 46,
-          "SB": 1,
-          "K": 99,
-          "AVG": 0.219,
-          "OBP": 0.312,
-          "XBH": 33
+          "R": 46,
+          "H": 81,
+          "HR": 16,
+          "RBI": 37,
+          "SB": 0,
+          "K": 60,
+          "AVG": 0.279,
+          "OBP": 0.374,
+          "XBH": 28
         }
       },
       "SS": {
@@ -272,14 +272,14 @@
         "fantasy_team": "El Jefe",
         "stats": {
           "R": 51,
-          "H": 82,
+          "H": 83,
           "HR": 17,
           "RBI": 57,
-          "SB": 12,
+          "SB": 13,
           "K": 66,
-          "AVG": 0.286,
-          "OBP": 0.366,
-          "XBH": 34
+          "AVG": 0.287,
+          "OBP": 0.37,
+          "XBH": 35
         }
       },
       "LF": {
@@ -296,9 +296,9 @@
           "HR": 20,
           "RBI": 49,
           "SB": 13,
-          "K": 110,
-          "AVG": 0.269,
-          "OBP": 0.395,
+          "K": 113,
+          "AVG": 0.265,
+          "OBP": 0.39,
           "XBH": 39
         },
         "is_leader": true
@@ -317,9 +317,9 @@
           "HR": 20,
           "RBI": 49,
           "SB": 13,
-          "K": 110,
-          "AVG": 0.269,
-          "OBP": 0.395,
+          "K": 113,
+          "AVG": 0.265,
+          "OBP": 0.39,
           "XBH": 39
         }
       },
@@ -337,9 +337,9 @@
           "HR": 20,
           "RBI": 49,
           "SB": 13,
-          "K": 110,
-          "AVG": 0.269,
-          "OBP": 0.395,
+          "K": 113,
+          "AVG": 0.265,
+          "OBP": 0.39,
           "XBH": 39
         }
       },
@@ -397,9 +397,9 @@
           "HR": 20,
           "RBI": 49,
           "SB": 13,
-          "K": 110,
-          "AVG": 0.269,
-          "OBP": 0.395,
+          "K": 113,
+          "AVG": 0.265,
+          "OBP": 0.39,
           "XBH": 39
         }
       }

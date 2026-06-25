@@ -28,9 +28,9 @@ from __future__ import annotations
 
 import argparse
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, Iterable, List, Optional
 
 import yaml
 
@@ -110,6 +110,95 @@ MIN_COVERAGE = 0.75
 
 
 # --------------------------------------------------------------------------- #
+# Weekly counting stats
+# --------------------------------------------------------------------------- #
+#
+# Yahoo serves no true per-week per-player stats for MLB — only ``season``
+# (cumulative) and ``date`` (single day) coverage; the roster-by-week endpoint
+# silently collapses to a single date. So a faithful week is the *sum of its
+# days*, and only for COUNTING stats. Rate stats (ratios) can't be summed, and
+# their components (earned runs, walks/hits allowed) aren't tracked, so weekly
+# covers counting categories only; rate stats stay season-totals-only.
+#
+# These are the global Yahoo MLB stat_ids for ratio/rate stats. stat_ids are
+# global (id 3 is always AVG, 26 always ERA, ... — identical across leagues),
+# so excluding by id is stable even as leagues enable different categories.
+RATE_STAT_IDS = frozenset({
+    "3",   # AVG
+    "4",   # OBP
+    "5",   # SLG
+    "6",   # OPS
+    "26",  # ERA
+    "27",  # WHIP
+    "37",  # K/BB
+    "57",  # K/9
+    "58",  # BB/9
+    "60",  # H/AB (a composite pair, not a summable total)
+})
+
+
+def counting_stat_ids(stat_categories: dict) -> List[str]:
+    """The league's scoring stats that are summable counting totals.
+
+    Drops rate stats (see ``RATE_STAT_IDS``) from the league's scored
+    categories, preserving order. These are the only stats a faithful weekly
+    value can be reconstructed for.
+    """
+    return [sid for sid in stat_categories.get("scoring_stat_ids", [])
+            if sid not in RATE_STAT_IDS]
+
+
+def week_dates(start: str, end: str) -> List[str]:
+    """Every ISO calendar date from ``start`` to ``end`` inclusive."""
+    s = date.fromisoformat(start)
+    e = date.fromisoformat(end)
+    out: List[str] = []
+    d = s
+    while d <= e:
+        out.append(d.isoformat())
+        d += timedelta(days=1)
+    return out
+
+
+def sum_counting_stats(
+    daily_lines: "Iterable[Dict[str, dict]]", counting_ids: "Iterable[str]",
+) -> Dict[str, Dict[str, float]]:
+    """Sum counting stats across a week's daily roster lines.
+
+    ``daily_lines`` is one ``{player_key: {stat_id: value}}`` dict per day.
+    Returns ``{player_key: {stat_id: weekly_total}}`` limited to ``counting_ids``
+    (rate stats are never accumulated). Non-numeric values are skipped so a
+    stray ``"-"`` never crashes the sum. A player present on only some days is
+    summed over just those days.
+    """
+    ids = set(counting_ids)
+    out: Dict[str, Dict[str, float]] = {}
+    for day in daily_lines:
+        for player_key, line in day.items():
+            acc = out.setdefault(player_key, {})
+            for sid, val in line.items():
+                if sid in ids and isinstance(val, (int, float)) and not isinstance(val, bool):
+                    acc[sid] = acc.get(sid, 0) + val
+    return out
+
+
+def weeks_needing_compute(
+    planned: List[int], current_week: int, existing: "Iterable[str]",
+    lookback: int = 1,
+) -> List[int]:
+    """Which planned weeks a refresh must (re)compute.
+
+    Always recomputes the in-progress week plus ``lookback`` weeks behind it
+    (so a week that just closed gets its final day settled), and fills any
+    week missing from ``existing`` (e.g. a prior run that died mid-season).
+    Completed weeks already on disk outside the lookback window are frozen.
+    """
+    have = {str(w) for w in existing}
+    return [w for w in planned
+            if w >= current_week - lookback or str(w) not in have]
+
+
+# --------------------------------------------------------------------------- #
 # Per-season fetch
 # --------------------------------------------------------------------------- #
 def fetch_season(
@@ -118,16 +207,22 @@ def fetch_season(
     descriptor: dict,
     cur_game_key: str,
     cur_league_id: str,
+    recompute_all_weeks: bool = False,
 ) -> bool:
     """Fetch and write all raw files for one league-season.
 
-    The current season uses Yahoo's per-team roster-stats endpoint (season
-    totals + weekly). Past seasons can't get stats that way — their archived
-    game returns zeros — so they're pulled via the current-game recipe
-    (``YahooClient.fetch_current_game_season_stats``), season totals only.
+    The current season uses Yahoo's per-team roster-stats endpoint for season
+    totals, plus per-day roster stats summed into real weekly counting totals
+    (see ``_compute_weekly_counting``). Past seasons can't get stats that way —
+    their archived game returns zeros — so they're pulled via the current-game
+    recipe (``YahooClient.fetch_current_game_season_stats``), season totals only.
     A past season whose reachable-player coverage falls below ``MIN_COVERAGE``
     is skipped entirely and *not* written. Returns ``True`` when the season was
     written, ``False`` when skipped.
+
+    ``recompute_all_weeks`` (backfill) rebuilds every week from scratch; left
+    False (daily refresh) only the in-progress week + a lookback are recomputed
+    and merged onto the weeks already frozen on disk, to keep the call count low.
     """
     season = descriptor["season"]
     game_key = descriptor["game_key"]
@@ -172,14 +267,11 @@ def fetch_season(
         for team in teams:
             season_totals[team["team_id"]] = _safe_roster_stats(
                 client, team, league_id, game_key, None, "season")
-        weekly: Dict[str, dict] = {}
-        for week in weeks:
-            per_team: Dict[str, dict] = {}
-            for team in teams:
-                per_team[team["team_id"]] = _safe_roster_stats(
-                    client, team, league_id, game_key, week, f"week {week}")
-            weekly[str(week)] = per_team
-        stats_label = f"season totals + {len(weeks)} weeks"
+        weekly, recomputed = _compute_weekly_counting(
+            client, teams, descriptor, stat_categories, out_dir,
+            recompute_all_weeks=recompute_all_weeks)
+        stats_label = (f"season totals + {len(weekly)} weeks "
+                       f"(counting stats; {recomputed} recomputed)")
     else:
         # Weight each player by how much of the season they were rostered, so a
         # briefly-rostered retiree barely moves the coverage gate.
@@ -354,6 +446,73 @@ def _safe_roster_stats(client, team, league_id, game_key, week, scope) -> dict:
         return {}
 
 
+def _safe_roster_stats_by_date(client, team, league_id, game_key, day) -> dict:
+    try:
+        return client.fetch_roster_stats_by_date(team["team_id"], league_id, game_key, day)
+    except Exception as exc:  # noqa: BLE001 — one bad (team, day) shouldn't kill the week
+        log(f"    ! {day} stats failed for {team['name']}: {exc}")
+        return {}
+
+
+def _load_existing_weekly(out_dir) -> Dict[str, dict]:
+    """The ``weekly`` block already on disk for this season (or ``{}``)."""
+    from common import load_json
+    try:
+        return load_json(out_dir / "player_stats.json").get("weekly", {}) or {}
+    except Exception:  # noqa: BLE001 — missing/corrupt → start fresh
+        return {}
+
+
+def _compute_weekly_counting(
+    client: YahooClient, teams: List[dict], descriptor: dict,
+    stat_categories: dict, out_dir, recompute_all_weeks: bool = False,
+) -> tuple:
+    """Build real per-week counting-stat totals for the current season.
+
+    Each week is the *sum of its calendar days* (Yahoo serves no true per-week
+    per-player MLB stats), restricted to counting categories — rate stats can't
+    be summed and stay season-totals-only. One ``roster-by-date`` call per team
+    per day; off-days sum harmlessly to zero.
+
+    ``recompute_all_weeks`` rebuilds every planned week (backfill). Otherwise
+    only the live edge is recomputed (``weeks_needing_compute``) and merged onto
+    the weeks already frozen on disk. Returns ``(weekly, num_weeks_recomputed)``.
+    """
+    weeks = planned_weeks(descriptor)
+    counting = counting_stat_ids(stat_categories)
+    if not weeks or not counting:
+        return {}, 0
+
+    game_weeks = client.fetch_game_weeks(descriptor["league_id"], descriptor["game_key"])
+
+    if recompute_all_weeks:
+        weekly: Dict[str, dict] = {}
+        to_compute = list(weeks)
+    else:
+        weekly = dict(_load_existing_weekly(out_dir))
+        current_week = int(descriptor.get("current_week") or weeks[-1])
+        to_compute = weeks_needing_compute(weeks, current_week, weekly.keys())
+
+    league_id = descriptor["league_id"]
+    game_key = descriptor["game_key"]
+    for week in to_compute:
+        span = game_weeks.get(week)
+        if not span or not span[0] or not span[1]:
+            log(f"    ! week {week}: no date range from Yahoo — skipped")
+            continue
+        days = week_dates(span[0], span[1])
+        per_team: Dict[str, dict] = {}
+        for team in teams:
+            daily_lines = [
+                _safe_roster_stats_by_date(client, team, league_id, game_key, day)
+                for day in days
+            ]
+            per_team[team["team_id"]] = sum_counting_stats(daily_lines, counting)
+        weekly[str(week)] = per_team
+
+    return weekly, len(to_compute)
+
+
 # --------------------------------------------------------------------------- #
 # leagues.json index
 # --------------------------------------------------------------------------- #
@@ -401,21 +560,27 @@ def run_backfill(client: YahooClient, league_ids: List[str], resume: bool = Fals
                 log(f"  [{descriptor['season']}] already complete — skipping (resume)")
                 kept.append(descriptor["season"])
                 continue
-            if fetch_season(client, league_id, descriptor, cur_gk, cur_lid):
+            if fetch_season(client, league_id, descriptor, cur_gk, cur_lid,
+                            recompute_all_weeks=True):
                 kept.append(descriptor["season"])
         name = seasons[-1]["name"] if seasons else league_id
         index_entries.append({"id": league_id, "name": name, "seasons": kept})
     write_leagues_index(index_entries)
 
 
-def run_refresh(client: YahooClient, league_ids: List[str]) -> None:
+def run_refresh(client: YahooClient, league_ids: List[str],
+                rebuild_weeks: bool = False) -> None:
     index_entries = []
     for league_id in league_ids:
         log(f"\n=== Refresh league {league_id} (current season) ===")
         descriptor = client.fetch_league_metadata(league_id)  # current season
         # Refresh only ever touches the current season, which is its own game.
+        # Normally only the live-edge week is recomputed; ``rebuild_weeks``
+        # forces every week of the current season to be rebuilt from scratch
+        # (a one-time repair, e.g. after changing how weekly is computed).
         fetch_season(client, league_id, descriptor,
-                     descriptor["game_key"], descriptor["league_id"])
+                     descriptor["game_key"], descriptor["league_id"],
+                     recompute_all_weeks=rebuild_weeks)
         # Season list = whatever's already on disk plus the just-refreshed one.
         seasons = sorted(set(list_seasons(league_id)) | {descriptor["season"]})
         index_entries.append({"id": league_id, "name": descriptor["name"], "seasons": seasons})
@@ -431,6 +596,9 @@ def main() -> None:
     parser.add_argument("--since", type=int, default=None,
                         help="Backfill only: ignore seasons older than this year "
                              "(e.g. --since 2021).")
+    parser.add_argument("--rebuild-weeks", action="store_true",
+                        help="Refresh only: rebuild every week of the current "
+                             "season from scratch (one-time weekly repair).")
     args = parser.parse_args()
 
     config = load_config()
@@ -443,7 +611,7 @@ def main() -> None:
     if args.mode == "backfill":
         run_backfill(client, league_ids, resume=args.resume, since=args.since)
     else:
-        run_refresh(client, league_ids)
+        run_refresh(client, league_ids, rebuild_weeks=args.rebuild_weeks)
     log("\nDone.")
 
 
