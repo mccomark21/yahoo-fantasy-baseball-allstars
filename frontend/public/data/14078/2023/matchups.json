@@ -1,0 +1,3388 @@
+{
+  "league_id": "12459",
+  "game_key": "422",
+  "season": 2023,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 4.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 3.0
+        },
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.3",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.3",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 4.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.10",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 4.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.9",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 2.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 2.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.3",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.9",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.8",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.9",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 14.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 3.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.3",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.9",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 2.0
+        },
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 15.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 3.0
+        },
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.9",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 3.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.8",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 15.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.10",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 17.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.3",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.8",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.10",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 16.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.8",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 3.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 14.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 4.0
+        },
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.8",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.10",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 3.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 16.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.3",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 17.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 3.0
+        },
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 14.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.9",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.10",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 2.0
+        },
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 1.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.3",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 3.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 15.0
+        },
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 1.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.8",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.9",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.10",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.3",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 3.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.12",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.8",
+          "team_id": "8",
+          "name": "TBD",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.3",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 13.0
+        },
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 11.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.9",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 16.0
+        },
+        {
+          "team_key": "422.l.12459.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.1",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 10.0
+        },
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 4.0
+        },
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.9",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 14.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.6",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 7.0
+        },
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 5.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.11",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.11",
+          "team_id": "11",
+          "name": "The Kranimals",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.4",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.7",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 9.0
+        },
+        {
+          "team_key": "422.l.12459.t.12",
+          "team_id": "12",
+          "name": "The Spice Lord (TM)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.2",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.1",
+          "team_id": "1",
+          "name": "FIRE ALL THE YANKEES",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.5",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 6.0
+        },
+        {
+          "team_key": "422.l.12459.t.5",
+          "team_id": "5",
+          "name": "That’s Reddickulous",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.14",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.6",
+          "team_id": "6",
+          "name": "Gardy Hits Single (TM)",
+          "points": 8.0
+        },
+        {
+          "team_key": "422.l.12459.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "422.l.12459.t.13",
+      "teams": [
+        {
+          "team_key": "422.l.12459.t.9",
+          "team_id": "9",
+          "name": "ManDark",
+          "points": 3.0
+        },
+        {
+          "team_key": "422.l.12459.t.13",
+          "team_id": "13",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    }
+  ]
+}

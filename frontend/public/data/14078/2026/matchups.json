@@ -1,0 +1,2065 @@
+{
+  "league_id": "14078",
+  "game_key": "469",
+  "season": 2026,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.1",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 11.0
+        },
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.14",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.8",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.13",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 1.0
+        },
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.11",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 11.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.13",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.2",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 13.0
+        },
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 9.0
+        },
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 10.0
+        },
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.9",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 2.0
+        },
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.1",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 9.0
+        },
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.2",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 12.0
+        },
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 13.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.9",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.12",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.14",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.11",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 11.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.13",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.8",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 10.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.13",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 10.0
+        },
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 13.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.8",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 17.0
+        },
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 13.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.1",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 15.0
+        },
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.13",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 2.0
+        },
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        },
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.11",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.9",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.14",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 14.0
+        },
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.7",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.14",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.13",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.2",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 11.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.11",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.8",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 10.0
+        },
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.13",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.1",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 11.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 14.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.13",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.11",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.1",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 10.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.7",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 15.0
+        },
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 13.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.8",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.14",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.12",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 13.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.11",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.8",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.7",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 12.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.13",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.2",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 9.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 14.0
+        },
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 11.0
+        },
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.8",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.14078.t.11",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 12.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.1",
+          "team_id": "1",
+          "name": "Fall of the Empire",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.14078.t.9",
+          "team_id": "9",
+          "name": "Spirit of Troy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.2",
+          "team_id": "2",
+          "name": "Let’s go Knicks ✌️",
+          "points": 12.0
+        },
+        {
+          "team_key": "469.l.14078.t.14",
+          "team_id": "14",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.14078.t.8",
+          "team_id": "8",
+          "name": "Will of the Manly",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 9.0
+        },
+        {
+          "team_key": "469.l.14078.t.13",
+          "team_id": "13",
+          "name": "Game 7 Chet Holmgren",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.14078.t.7",
+          "team_id": "7",
+          "name": "House Omega",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.6",
+          "team_id": "6",
+          "name": "FatherOfTwoLoaded",
+          "points": 11.0
+        },
+        {
+          "team_key": "469.l.14078.t.10",
+          "team_id": "10",
+          "name": "That’s Reddickulous (2x)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.14078.t.11",
+          "team_id": "11",
+          "name": "Kirby Super Star",
+          "points": 11.0
+        },
+        {
+          "team_key": "469.l.14078.t.12",
+          "team_id": "12",
+          "name": "The Kranimals (0x)",
+          "points": 5.0
+        }
+      ]
+    }
+  ]
+}

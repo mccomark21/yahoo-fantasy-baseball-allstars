@@ -1,0 +1,3388 @@
+{
+  "league_id": "30805",
+  "game_key": "431",
+  "season": 2024,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.7",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.8",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 6.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.10",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.4",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.13",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.4",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.10",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 2.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.8",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 3.0
+        },
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.10",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.11",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 3.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.10",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.13",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.11",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 2.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 3.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.13",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 3.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.11",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.4",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 16.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.13",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.4",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.8",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.10",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 6.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 3.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.11",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.8",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.10",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 6.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 14.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.4",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.13",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.4",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.4",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.13",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 6.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.7",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.11",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.4",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.8",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.4",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 6.0
+        },
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 14.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 6.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.8",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 14.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.13",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 16.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.11",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 6.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.10",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.13",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.11",
+          "team_id": "11",
+          "name": "The Spice Lord (10% Champion)",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.7",
+          "team_id": "7",
+          "name": "ManDark",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.12",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.10",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 7.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.8",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 12.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 11.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.15",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.8",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.1",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 13.0
+        },
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 8.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.3",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 9.0
+        },
+        {
+          "team_key": "431.l.30805.t.12",
+          "team_id": "12",
+          "name": "FatherOfTwoLoaded",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.6",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.8",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.13",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.10",
+          "team_id": "10",
+          "name": "The Kranimals",
+          "points": 5.0
+        },
+        {
+          "team_key": "431.l.30805.t.13",
+          "team_id": "13",
+          "name": "WestCoastTruth (1x Champ)",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.2",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.1",
+          "team_id": "1",
+          "name": "The Evil Empire (5x Champ)",
+          "points": 3.0
+        },
+        {
+          "team_key": "431.l.30805.t.2",
+          "team_id": "2",
+          "name": "Alpha Bear 🔥 (TM)",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.9",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.4",
+          "team_id": "4",
+          "name": "El Jefe",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.9",
+          "team_id": "9",
+          "name": "That’s Reddickulous (2x)",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.5",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        },
+        {
+          "team_key": "431.l.30805.t.15",
+          "team_id": "15",
+          "name": "Mo Money Mo Wily Mo Peña",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "431.l.30805.t.8",
+      "teams": [
+        {
+          "team_key": "431.l.30805.t.6",
+          "team_id": "6",
+          "name": "House Omega",
+          "points": 4.0
+        },
+        {
+          "team_key": "431.l.30805.t.8",
+          "team_id": "8",
+          "name": "Spirit of Troy",
+          "points": 14.0
+        }
+      ]
+    }
+  ]
+}

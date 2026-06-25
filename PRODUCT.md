@@ -30,6 +30,15 @@ Slick, modern, sport. This feels like a real broadcast product built for your le
 4. **Personal without being precious.** This is a friend group's trophy case. It should feel high-quality, but not so austere that it loses the fun of fantasy baseball. Player headshots, team names, league history — the human details are the point.
 5. **Accessibility is non-negotiable.** Full WCAG AA compliance. Dark stadium aesthetic must still hit contrast minimums; reduced-motion users get equivalent experiences without degradation.
 
+## Data & History
+
+The app celebrates both the current season and league history, but the two are not the same shape — Yahoo's API only serves rich data for the live season, so the historical archive is deliberately scoped.
+
+- **How far back we go.** History runs back to **2021** only. Older seasons are mostly retired and unreachable through Yahoo's current game, and scanning them is slow and unreliable. Each league's own earliest reachable season may be later (e.g. one league starts at 2022) when coverage falls short — see the gate below.
+- **What a historical season contains.** Season **totals only** — no week-by-week historical splits. Per-player weekly stats are a live-season-only feature; Yahoo does not serve them for past seasons. Current-season views still show weekly detail.
+- **The coverage gate.** A past season is only kept if we can reach stats for enough of its end-of-season-rostered players. Coverage is **roster-week-weighted** — each player counts in proportion to how much of the season they were actually rostered (sampled across the year), so a September bench add who later retired doesn't sink a season the way a season-long core player would. A season is **kept only at ≥75% weighted coverage**; below that it is dropped entirely rather than shown half-empty.
+- **Retired players.** Players who have left the league entirely are unreachable through Yahoo's current game and are **omitted from the totals but named and counted** in each season's `coverage` block (a "_N players unavailable_" label), so the gaps are honest and visible rather than silently missing.
+
 ## Accessibility & Inclusion
 
 WCAG AA compliance throughout. Dark-mode palette must be designed to hit 4.5:1 body text contrast, not just pass superficially. All dynamic content updates (league switcher, sort controls) must be announced to screen readers. Player cards on the diamond must be keyboard-reachable. Every animation must have a `prefers-reduced-motion` alternative that preserves the content without the motion.

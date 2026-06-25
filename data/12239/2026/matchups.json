@@ -1,0 +1,1477 @@
+{
+  "league_id": "12239",
+  "game_key": "469",
+  "season": 2026,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.7",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 0.0
+        },
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 0.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 1.0
+        },
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.2",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.8",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.7",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.2",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.9",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.1",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.2",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.7",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.2",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.7",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.1",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 10.0
+        },
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 9.0
+        },
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.7",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.1",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.2",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 2.0
+        },
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.7",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 2.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.1",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.2",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.8",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.7",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.5",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.4",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.6",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 9.0
+        },
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.1",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 7.0
+        },
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.8",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.3",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 8.0
+        },
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "469.l.12239.t.10",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 1.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.1",
+          "team_id": "1",
+          "name": "Back to One Duran",
+          "points": 5.0
+        },
+        {
+          "team_key": "469.l.12239.t.2",
+          "team_id": "2",
+          "name": "Acuña Matata",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.3",
+          "team_id": "3",
+          "name": "All Rise & Wittness",
+          "points": 3.0
+        },
+        {
+          "team_key": "469.l.12239.t.8",
+          "team_id": "8",
+          "name": "Spaceballs RiseofSAL",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.4",
+          "team_id": "4",
+          "name": "Cruz Missle",
+          "points": 6.0
+        },
+        {
+          "team_key": "469.l.12239.t.6",
+          "team_id": "6",
+          "name": "1% Low Fat McChocolate Milk",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.5",
+          "team_id": "5",
+          "name": "DiZ-Hajj-O",
+          "points": 9.0
+        },
+        {
+          "team_key": "469.l.12239.t.10",
+          "team_id": "10",
+          "name": "TheHotDogSafari",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "469.l.12239.t.7",
+          "team_id": "7",
+          "name": "Salustro's Fantasy Dungeon",
+          "points": 4.0
+        },
+        {
+          "team_key": "469.l.12239.t.9",
+          "team_id": "9",
+          "name": "The Voice of Reason",
+          "points": 6.0
+        }
+      ]
+    }
+  ]
+}

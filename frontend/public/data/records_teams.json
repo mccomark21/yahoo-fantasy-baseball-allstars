@@ -1,0 +1,55 @@
+{
+  "updated_at": "2026-06-24T21:28:27Z",
+  "leagues": {
+    "12239": {
+      "highest_week_score": {
+        "fantasy_team": "Acuña Moncada",
+        "score": 10,
+        "season": 2021,
+        "week": 13
+      },
+      "most_category_wins_week": {
+        "fantasy_team": "Acuña Moncada",
+        "wins": 10,
+        "season": 2021,
+        "week": 13
+      },
+      "longest_win_streak": {
+        "fantasy_team": "Cole World",
+        "streak": 11,
+        "season": 2022
+      },
+      "best_season_record": {
+        "fantasy_team": "Cole World",
+        "wins": 18,
+        "losses": 3,
+        "season": 2022
+      }
+    },
+    "14078": {
+      "highest_week_score": {
+        "fantasy_team": "El Jefe",
+        "score": 18,
+        "season": 2022,
+        "week": 7
+      },
+      "most_category_wins_week": {
+        "fantasy_team": "El Jefe",
+        "wins": 18,
+        "season": 2022,
+        "week": 7
+      },
+      "longest_win_streak": {
+        "fantasy_team": "El Jefe",
+        "streak": 10,
+        "season": 2025
+      },
+      "best_season_record": {
+        "fantasy_team": "Alpha Bear 🔥 (TM)",
+        "wins": 18,
+        "losses": 4,
+        "season": 2024
+      }
+    }
+  }
+}

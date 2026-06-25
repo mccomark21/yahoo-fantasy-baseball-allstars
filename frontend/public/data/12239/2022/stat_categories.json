@@ -1,0 +1,140 @@
+{
+  "league_id": "7240",
+  "game_key": "412",
+  "season": 2022,
+  "stats": [
+    {
+      "stat_id": "7",
+      "name": "Runs",
+      "display_name": "R",
+      "abbr": "R",
+      "group": "batting",
+      "position_type": "B",
+      "sort_order": "1",
+      "enabled": true,
+      "is_only_display_stat": false
+    },
+    {
+      "stat_id": "12",
+      "name": "Home Runs",
+      "display_name": "HR",
+      "abbr": "HR",
+      "group": "batting",
+      "position_type": "B",
+      "sort_order": "1",
+      "enabled": true,
+      "is_only_display_stat": false
+    },
+    {
+      "stat_id": "13",
+      "name": "Runs Batted In",
+      "display_name": "RBI",
+      "abbr": "RBI",
+      "group": "batting",
+      "position_type": "B",
+      "sort_order": "1",
+      "enabled": true,
+      "is_only_display_stat": false
+    },
+    {
+      "stat_id": "16",
+      "name": "Stolen Bases",
+      "display_name": "SB",
+      "abbr": "SB",
+      "group": "batting",
+      "position_type": "B",
+      "sort_order": "1",
+      "enabled": true,
+      "is_only_display_stat": false
+    },
+    {
+      "stat_id": "3",
+      "name": "Batting Average",
+      "display_name": "AVG",
+      "abbr": "AVG",
+      "group": "batting",
+      "position_type": "B",
+      "sort_order": "1",
+      "enabled": true,
+      "is_only_display_stat": false
+    },
+    {
+      "stat_id": "50",
+      "name": "Innings Pitched",
+      "display_name": "IP",
+      "abbr": "IP",
+      "group": "pitching",
+      "position_type": "P",
+      "sort_order": "1",
+      "enabled": true,
+      "is_only_display_stat": true
+    },
+    {
+      "stat_id": "28",
+      "name": "Wins",
+      "display_name": "W",
+      "abbr": "W",
+      "group": "pitching",
+      "position_type": "P",
+      "sort_order": "1",
+      "enabled": true,
+      "is_only_display_stat": false
+    },
+    {
+      "stat_id": "32",
+      "name": "Saves",
+      "display_name": "SV",
+      "abbr": "SV",
+      "group": "pitching",
+      "position_type": "P",
+      "sort_order": "1",
+      "enabled": true,
+      "is_only_display_stat": false
+    },
+    {
+      "stat_id": "42",
+      "name": "Strikeouts",
+      "display_name": "K",
+      "abbr": "K",
+      "group": "pitching",
+      "position_type": "P",
+      "sort_order": "1",
+      "enabled": true,
+      "is_only_display_stat": false
+    },
+    {
+      "stat_id": "26",
+      "name": "Earned Run Average",
+      "display_name": "ERA",
+      "abbr": "ERA",
+      "group": "pitching",
+      "position_type": "P",
+      "sort_order": "",
+      "enabled": true,
+      "is_only_display_stat": false
+    },
+    {
+      "stat_id": "27",
+      "name": "(Walks + Hits)/ Innings Pitched",
+      "display_name": "WHIP",
+      "abbr": "WHIP",
+      "group": "pitching",
+      "position_type": "P",
+      "sort_order": "",
+      "enabled": true,
+      "is_only_display_stat": false
+    }
+  ],
+  "scoring_stat_ids": [
+    "7",
+    "12",
+    "13",
+    "16",
+    "3",
+    "28",
+    "32",
+    "42",
+    "26",
+    "27"
+  ]
+}

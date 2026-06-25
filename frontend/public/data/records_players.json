@@ -1,0 +1,358 @@
+{
+  "updated_at": "2026-06-24T21:28:27Z",
+  "leagues": {
+    "12239": {
+      "single_week": [
+        {
+          "stat": "HR",
+          "value": 2,
+          "player_name": "Player 469.p.10183",
+          "fantasy_team": "Back to One Duran",
+          "season": 2026,
+          "week": 1
+        },
+        {
+          "stat": "K",
+          "value": 12,
+          "player_name": "Kyle Harrison",
+          "fantasy_team": "DiZ-Hajj-O",
+          "season": 2026,
+          "week": 5
+        },
+        {
+          "stat": "R",
+          "value": 4,
+          "player_name": "Rafael Devers",
+          "fantasy_team": "TheHotDogSafari",
+          "season": 2026,
+          "week": 10
+        },
+        {
+          "stat": "RBI",
+          "value": 6,
+          "player_name": "Brent Rooker",
+          "fantasy_team": "TheHotDogSafari",
+          "season": 2026,
+          "week": 2
+        },
+        {
+          "stat": "SB",
+          "value": 2,
+          "player_name": "Otto Lopez",
+          "fantasy_team": "DiZ-Hajj-O",
+          "season": 2026,
+          "week": 8
+        },
+        {
+          "stat": "SV",
+          "value": 1,
+          "player_name": "Player 469.p.9896",
+          "fantasy_team": "1% Low Fat McChocolate Milk",
+          "season": 2026,
+          "week": 1
+        },
+        {
+          "stat": "W",
+          "value": 1,
+          "player_name": "MacKenzie Gore",
+          "fantasy_team": "Cruz Missle",
+          "season": 2026,
+          "week": 1
+        }
+      ],
+      "season_total": [
+        {
+          "stat": "AVG",
+          "value": 0.37,
+          "player_name": "Samad Taylor",
+          "fantasy_team": "DiZ-Hajj-O",
+          "season": 2026
+        },
+        {
+          "stat": "ERA",
+          "value": 12.27,
+          "player_name": "Justin Verlander",
+          "fantasy_team": "DiZ-Hajj-O",
+          "season": 2026
+        },
+        {
+          "stat": "HR",
+          "value": 62,
+          "player_name": "Aaron Judge",
+          "fantasy_team": "Cole World",
+          "season": 2022
+        },
+        {
+          "stat": "K",
+          "value": 281,
+          "player_name": "Spencer Strider",
+          "fantasy_team": "McChocolate Milk",
+          "season": 2023
+        },
+        {
+          "stat": "R",
+          "value": 149,
+          "player_name": "Ronald Acuña Jr.",
+          "fantasy_team": "Acuña Matata",
+          "season": 2023
+        },
+        {
+          "stat": "RBI",
+          "value": 144,
+          "player_name": "Aaron Judge",
+          "fantasy_team": "Cole World",
+          "season": 2024
+        },
+        {
+          "stat": "SB",
+          "value": 73,
+          "player_name": "Ronald Acuña Jr.",
+          "fantasy_team": "Acuña Matata",
+          "season": 2023
+        },
+        {
+          "stat": "SV",
+          "value": 49,
+          "player_name": "Ryan Helsley",
+          "fantasy_team": "Cole World",
+          "season": 2024
+        },
+        {
+          "stat": "W",
+          "value": 20,
+          "player_name": "Spencer Strider",
+          "fantasy_team": "McChocolate Milk",
+          "season": 2023
+        },
+        {
+          "stat": "WHIP",
+          "value": 2.67,
+          "player_name": "Blake Snell",
+          "fantasy_team": "Salustro's Fantasy Dungeon",
+          "season": 2026
+        }
+      ]
+    },
+    "14078": {
+      "single_week": [
+        {
+          "stat": "BB",
+          "value": 8,
+          "player_name": "Cole Ragans",
+          "fantasy_team": "Game 7 Chet Holmgren",
+          "season": 2026,
+          "week": 4
+        },
+        {
+          "stat": "H",
+          "value": 5,
+          "player_name": "Yandy Díaz",
+          "fantasy_team": "Spirit of Troy",
+          "season": 2026,
+          "week": 1
+        },
+        {
+          "stat": "HR",
+          "value": 2,
+          "player_name": "Alex Bregman",
+          "fantasy_team": "Game 7 Chet Holmgren",
+          "season": 2026,
+          "week": 1
+        },
+        {
+          "stat": "K",
+          "value": 14,
+          "player_name": "Reid Detmers",
+          "fantasy_team": "Gardy Goes Yardy",
+          "season": 2026,
+          "week": 9
+        },
+        {
+          "stat": "L",
+          "value": 1,
+          "player_name": "Mick Abel",
+          "fantasy_team": "Let’s go Knicks ✌️",
+          "season": 2026,
+          "week": 1
+        },
+        {
+          "stat": "QS",
+          "value": 1,
+          "player_name": "Chase Burns",
+          "fantasy_team": "El Jefe",
+          "season": 2026,
+          "week": 2
+        },
+        {
+          "stat": "R",
+          "value": 4,
+          "player_name": "Rafael Devers",
+          "fantasy_team": "WestCoastTruth (1x Champ)",
+          "season": 2026,
+          "week": 10
+        },
+        {
+          "stat": "RBI",
+          "value": 6,
+          "player_name": "Brent Rooker",
+          "fantasy_team": "WestCoastTruth (1x Champ)",
+          "season": 2026,
+          "week": 2
+        },
+        {
+          "stat": "SB",
+          "value": 2,
+          "player_name": "Luis Robert Jr.",
+          "fantasy_team": "Brown Bear 🐻",
+          "season": 2026,
+          "week": 2
+        },
+        {
+          "stat": "SV+H",
+          "value": 1,
+          "player_name": "Trevor Megill",
+          "fantasy_team": "Let’s go Knicks ✌️",
+          "season": 2026,
+          "week": 1
+        },
+        {
+          "stat": "W",
+          "value": 1,
+          "player_name": "Dennis Santana",
+          "fantasy_team": "Brown Bear 🐻",
+          "season": 2026,
+          "week": 1
+        },
+        {
+          "stat": "XBH",
+          "value": 3,
+          "player_name": "Player 469.p.11914",
+          "fantasy_team": "El Jefe",
+          "season": 2026,
+          "week": 5
+        }
+      ],
+      "season_total": [
+        {
+          "stat": "AVG",
+          "value": 0.37,
+          "player_name": "Samad Taylor",
+          "fantasy_team": "That’s Reddickulous (2x)",
+          "season": 2026
+        },
+        {
+          "stat": "BB",
+          "value": 99,
+          "player_name": "Blake Snell",
+          "fantasy_team": "That’s Reddickulous",
+          "season": 2023
+        },
+        {
+          "stat": "ERA",
+          "value": 12.0,
+          "player_name": "Blake Snell",
+          "fantasy_team": "Game 7 Chet Holmgren",
+          "season": 2026
+        },
+        {
+          "stat": "H",
+          "value": 217,
+          "player_name": "Ronald Acuña Jr.",
+          "fantasy_team": "TheKingOfTheNorth",
+          "season": 2023
+        },
+        {
+          "stat": "HR",
+          "value": 62,
+          "player_name": "Aaron Judge",
+          "fantasy_team": "Gardy Goes Yardy",
+          "season": 2022
+        },
+        {
+          "stat": "K",
+          "value": 281,
+          "player_name": "Spencer Strider",
+          "fantasy_team": "WestCoastTruth",
+          "season": 2023
+        },
+        {
+          "stat": "K/9",
+          "value": 17.47,
+          "player_name": "Mason Miller",
+          "fantasy_team": "That’s Reddickulous (2x)",
+          "season": 2026
+        },
+        {
+          "stat": "L",
+          "value": 16,
+          "player_name": "Kutter Crawford",
+          "fantasy_team": "The Kranimals",
+          "season": 2024
+        },
+        {
+          "stat": "OBP",
+          "value": 0.458,
+          "player_name": "Aaron Judge",
+          "fantasy_team": "That’s Reddickulous (2x)",
+          "season": 2024
+        },
+        {
+          "stat": "QS",
+          "value": 26,
+          "player_name": "Framber Valdez",
+          "fantasy_team": "MK aka The LOC God",
+          "season": 2022
+        },
+        {
+          "stat": "R",
+          "value": 149,
+          "player_name": "Ronald Acuña Jr.",
+          "fantasy_team": "TheKingOfTheNorth",
+          "season": 2023
+        },
+        {
+          "stat": "RBI",
+          "value": 144,
+          "player_name": "Aaron Judge",
+          "fantasy_team": "That’s Reddickulous (2x)",
+          "season": 2024
+        },
+        {
+          "stat": "SB",
+          "value": 73,
+          "player_name": "Ronald Acuña Jr.",
+          "fantasy_team": "TheKingOfTheNorth",
+          "season": 2023
+        },
+        {
+          "stat": "SV+H",
+          "value": 49,
+          "player_name": "Ryan Helsley",
+          "fantasy_team": "Gardy Goes Yardy",
+          "season": 2024
+        },
+        {
+          "stat": "W",
+          "value": 20,
+          "player_name": "Spencer Strider",
+          "fantasy_team": "WestCoastTruth",
+          "season": 2023
+        },
+        {
+          "stat": "WHIP",
+          "value": 2.67,
+          "player_name": "Blake Snell",
+          "fantasy_team": "Game 7 Chet Holmgren",
+          "season": 2026
+        },
+        {
+          "stat": "XBH",
+          "value": 99,
+          "player_name": "Shohei Ohtani (Batter)",
+          "fantasy_team": "The Kranimals",
+          "season": 2024
+        }
+      ]
+    }
+  }
+}

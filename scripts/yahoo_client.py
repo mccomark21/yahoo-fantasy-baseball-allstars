@@ -23,9 +23,10 @@ Auth is read from the environment (``YAHOO_CONSUMER_KEY``,
 from __future__ import annotations
 
 import os
+import re
 import time
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Union
+from typing import Dict, Iterable, List, Optional, Set, Tuple, Union
 
 from dotenv import load_dotenv
 from requests.exceptions import HTTPError
@@ -42,6 +43,12 @@ REQUIRED_ENV_VARS = (
 )
 
 GAME_CODE = "mlb"
+
+# Yahoo Fantasy REST base (yfpy funnels every call through get_response(url)).
+_API_BASE = "https://fantasysports.yahooapis.com/fantasy/v2/"
+# Yahoo rejects a multi-key players request if ANY key is invalid, naming the
+# offending key in the error so we can drop it and retry.
+_BAD_KEY_RE = re.compile(r"Player key (\S+?) does not exist")
 
 
 # --------------------------------------------------------------------------- #
@@ -72,6 +79,68 @@ def _stats_to_dict(player) -> Dict[str, Union[int, float, str]]:
         if stat_id is None:
             continue
         out[str(stat_id)] = getattr(stat, "value", None)
+    return out
+
+
+def _find_player_key(node) -> Optional[str]:
+    """Find the ``player_key`` anywhere under a raw-JSON player wrapper."""
+    if isinstance(node, dict):
+        if "player_key" in node:
+            return node["player_key"]
+        for v in node.values():
+            found = _find_player_key(v)
+            if found:
+                return found
+    elif isinstance(node, list):
+        for v in node:
+            found = _find_player_key(v)
+            if found:
+                return found
+    return None
+
+
+def _collect_stats(node) -> Dict[str, Union[int, float, str]]:
+    """Collect ``{stat_id: value}`` from anywhere under a raw-JSON node."""
+    out: Dict[str, Union[int, float, str]] = {}
+
+    def walk(n):
+        if isinstance(n, dict):
+            stat = n.get("stat")
+            if isinstance(stat, dict) and "stat_id" in stat:
+                out[str(stat["stat_id"])] = stat.get("value")
+            for v in n.values():
+                walk(v)
+        elif isinstance(n, list):
+            for v in n:
+                walk(v)
+
+    walk(node)
+    return out
+
+
+def _parse_players_stats_json(payload: dict) -> Dict[str, Dict[str, Union[int, float, str]]]:
+    """Parse a raw ``players;.../stats`` JSON response into ``{player_key: {stat_id: value}}``.
+
+    In multi-key responses Yahoo nests ``player_key`` and ``player_stats`` as
+    *siblings* under each ``player`` wrapper (not in the same dict), so we
+    associate at the wrapper level.
+    """
+    out: Dict[str, Dict[str, Union[int, float, str]]] = {}
+
+    def walk(node):
+        if isinstance(node, dict):
+            if "player" in node:
+                wrapper = node["player"]
+                key = _find_player_key(wrapper)
+                if key:
+                    out[key] = _collect_stats(wrapper)
+            for v in node.values():
+                walk(v)
+        elif isinstance(node, list):
+            for v in node:
+                walk(v)
+
+    walk(payload)
     return out
 
 
@@ -409,6 +478,66 @@ class YahooClient:
         if wanted is None:
             return all_stats
         return {pk: s for pk, s in all_stats.items() if pk in wanted}
+
+    # -- historical season stats (current-game recipe) --------------------- #
+    #
+    # Yahoo serves per-player stat *values* only through the CURRENT game; the
+    # archived game_key of a past season returns "-" (→ 0.0) for everything.
+    # But the current game will report ANY past season a player actually played
+    # via ``players;player_keys={cur_gk}.p.{id}/stats;type=season;season=YYYY``.
+    # Numeric player_ids are stable across game_keys, so a historical roster key
+    # (``{old_gk}.p.{id}``) maps to the current game by swapping the prefix.
+    # The catch: a player must still exist in the current game — retired players
+    # 400 with "Player key ... does not exist", and one bad key aborts the whole
+    # multi-key request, so we drop the named key and retry.
+    def fetch_current_game_season_stats(
+        self,
+        player_ids: Iterable[str],
+        season: int,
+        cur_league_id: str,
+        cur_game_key: str,
+        batch_size: int = 25,
+    ) -> Tuple[Dict[str, dict], Set[str]]:
+        """Season totals for a *past* ``season`` via the current game.
+
+        ``player_ids`` are the stable numeric ids (no game prefix). Returns
+        ``({player_id: {stat_id: value}}, unreachable_player_ids)`` where
+        unreachable ids are players no longer present in the current game
+        (retired) whose historical stats are irrecoverable.
+        """
+        q = self.query(cur_league_id, cur_game_key)
+        ids = [str(pid) for pid in player_ids]
+        stats: Dict[str, dict] = {}
+        unreachable: Set[str] = set()
+        for start in range(0, len(ids), batch_size):
+            chunk = ids[start:start + batch_size]
+            self._fetch_season_stats_chunk(q, chunk, season, cur_game_key, stats, unreachable)
+        return stats, unreachable
+
+    def _fetch_season_stats_chunk(self, q, ids, season, cur_game_key, stats, unreachable) -> None:
+        """Fetch one batch, dropping any key Yahoo reports as nonexistent."""
+        remaining = list(ids)
+        # Worst case every key is bad; +1 for the final clean request.
+        for _ in range(len(ids) + 1):
+            if not remaining:
+                return
+            keys = ",".join(f"{cur_game_key}.p.{pid}" for pid in remaining)
+            url = f"{_API_BASE}players;player_keys={keys}/stats;type=season;season={season}"
+            try:
+                payload = q.get_response(url).json()
+            except Exception as exc:  # noqa: BLE001
+                match = _BAD_KEY_RE.search(str(exc))
+                if not match:
+                    print(f"  Warning: season {season} stats batch failed: {str(exc)[:120]}")
+                    return
+                bad_id = match.group(1).split(".p.")[-1]
+                unreachable.add(bad_id)
+                remaining = [pid for pid in remaining if pid != bad_id]
+                continue
+            for key, line in _parse_players_stats_json(payload).items():
+                pid = key.split(".p.")[-1]
+                stats[pid] = line
+            return
 
     # -- matchups ---------------------------------------------------------- #
     def fetch_matchups(self, league_id, game_key, weeks: Optional[Iterable[int]] = None) -> List[dict]:

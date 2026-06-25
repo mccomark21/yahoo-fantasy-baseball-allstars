@@ -1,0 +1,2443 @@
+{
+  "league_id": "7240",
+  "game_key": "412",
+  "season": 2022,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.9",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 8.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.8",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.4",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 2.0
+        },
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.4",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.6",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.9",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 2.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.4",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.2",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 9.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.6",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 9.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.9",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 1.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 9.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.4",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 8.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.2",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 2.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 2.0
+        },
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.4",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.8",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 2.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 0.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 0.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.4",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.8",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.9",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 1.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.6",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.6",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 9.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 8.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.9",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.4",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.8",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.4",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.6",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.6",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 2.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.4",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.9",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.8",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 8.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.2",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 9.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 1.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.8",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 2.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 6.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 1.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.5",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 7.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.7",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.9",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 3.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.10",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.4",
+          "team_id": "4",
+          "name": "Arenadon’t Test Me",
+          "points": 1.0
+        },
+        {
+          "team_key": "412.l.7240.t.10",
+          "team_id": "10",
+          "name": "This IS The Year - Callin' IT!",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.8",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.1",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.1",
+          "team_id": "1",
+          "name": "What a Lovely Day!",
+          "points": 5.0
+        },
+        {
+          "team_key": "412.l.7240.t.5",
+          "team_id": "5",
+          "name": "McChocolate Milk",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.6",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.2",
+          "team_id": "2",
+          "name": "Acuña Moncada",
+          "points": 1.0
+        },
+        {
+          "team_key": "412.l.7240.t.6",
+          "team_id": "6",
+          "name": "All that Jazz",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.3",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 4.0
+        },
+        {
+          "team_key": "412.l.7240.t.7",
+          "team_id": "7",
+          "name": "Spaceballs RiseofSAL",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "412.l.7240.t.9",
+      "teams": [
+        {
+          "team_key": "412.l.7240.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        },
+        {
+          "team_key": "412.l.7240.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 8.0
+        }
+      ]
+    }
+  ]
+}

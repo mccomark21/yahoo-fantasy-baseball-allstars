@@ -1,18 +1,31 @@
 {
-  "season": 2025,
-  "updated_at": "2025-06-15T06:00:00Z",
+  "season": 2026,
+  "updated_at": "2026-06-24T21:27:54Z",
   "leagues": [
     {
-      "id": "12345",
-      "name": "The Show",
-      "season": 2025,
-      "seasons": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+      "id": "12239",
+      "name": "Sega Memorial Fantasy Baseball",
+      "season": 2026,
+      "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
     },
     {
-      "id": "67890",
-      "name": "Sandlot Syndicate",
-      "season": 2025,
-      "seasons": [2019, 2020, 2021, 2022, 2023, 2024, 2025]
+      "id": "14078",
+      "name": "League of Champions™ 2026",
+      "season": 2026,
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
     }
   ]
 }
