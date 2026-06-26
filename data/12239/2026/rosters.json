@@ -614,7 +614,7 @@
           ],
           "primary_position": "SP",
           "selected_position": "SP",
-          "status": "NA"
+          "status": ""
         },
         {
           "player_key": "469.p.11998",
@@ -1168,7 +1168,7 @@
           ],
           "primary_position": "OF",
           "selected_position": "OF",
-          "status": "DTD"
+          "status": ""
         },
         {
           "player_key": "469.p.12719",
@@ -1228,7 +1228,7 @@
           ],
           "primary_position": "SS",
           "selected_position": "BN",
-          "status": "IL7"
+          "status": ""
         },
         {
           "player_key": "469.p.62974",
@@ -1655,7 +1655,7 @@
           ],
           "primary_position": "RP",
           "selected_position": "RP",
-          "status": "SUSP"
+          "status": ""
         },
         {
           "player_key": "469.p.64985",
@@ -2209,7 +2209,7 @@
           ],
           "primary_position": "OF",
           "selected_position": "OF",
-          "status": "DTD"
+          "status": ""
         },
         {
           "player_key": "469.p.12148",
@@ -3220,7 +3220,7 @@
           ],
           "primary_position": "2B",
           "selected_position": "2B",
-          "status": "DTD"
+          "status": "IL10"
         },
         {
           "player_key": "469.p.12336",
@@ -3490,7 +3490,7 @@
           ],
           "primary_position": "SP",
           "selected_position": "BN",
-          "status": "DTD"
+          "status": ""
         },
         {
           "player_key": "469.p.63577",
