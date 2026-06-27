@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T11:04:04Z",
+  "updated_at": "2026-06-27T10:42:55Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -63,7 +63,7 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.379,
+          "value": 0.361,
           "player_name": "Samad Taylor",
           "fantasy_team": "DiZ-Hajj-O",
           "season": 2026
@@ -84,7 +84,7 @@
         },
         {
           "stat": "K",
-          "value": 138,
+          "value": 146,
           "player_name": "Jacob Misiorowski",
           "fantasy_team": "1% Low Fat McChocolate Milk",
           "season": 2026
@@ -98,7 +98,7 @@
         },
         {
           "stat": "RBI",
-          "value": 62,
+          "value": 64,
           "player_name": "Nick Kurtz",
           "fantasy_team": "TheHotDogSafari",
           "season": 2026
@@ -120,8 +120,8 @@
         {
           "stat": "W",
           "value": 9,
-          "player_name": "Chase Burns",
-          "fantasy_team": "Cruz Missle",
+          "player_name": "Max Meyer",
+          "fantasy_team": "Acuña Matata",
           "season": 2026
         },
         {
@@ -235,7 +235,7 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.379,
+          "value": 0.361,
           "player_name": "Samad Taylor",
           "fantasy_team": "That’s Reddickulous (2x)",
           "season": 2026
@@ -270,7 +270,7 @@
         },
         {
           "stat": "K",
-          "value": 138,
+          "value": 146,
           "player_name": "Jacob Misiorowski",
           "fantasy_team": "That’s Reddickulous (2x)",
           "season": 2026
@@ -291,7 +291,7 @@
         },
         {
           "stat": "OBP",
-          "value": 0.438,
+          "value": 0.435,
           "player_name": "Samad Taylor",
           "fantasy_team": "That’s Reddickulous (2x)",
           "season": 2026
@@ -312,7 +312,7 @@
         },
         {
           "stat": "RBI",
-          "value": 62,
+          "value": 64,
           "player_name": "Nick Kurtz",
           "fantasy_team": "Let’s go Knicks ✌️",
           "season": 2026
@@ -348,8 +348,8 @@
         {
           "stat": "XBH",
           "value": 41,
-          "player_name": "Yordan Alvarez",
-          "fantasy_team": "Will of the Manly",
+          "player_name": "Byron Buxton",
+          "fantasy_team": "Gardy Goes Yardy",
           "season": 2026
         }
       ]
