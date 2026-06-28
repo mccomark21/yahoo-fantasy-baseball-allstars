@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T10:42:55Z",
+  "updated_at": "2026-06-28T10:47:49Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -63,7 +63,7 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.361,
+          "value": 0.344,
           "player_name": "Samad Taylor",
           "fantasy_team": "DiZ-Hajj-O",
           "season": 2026
@@ -112,7 +112,7 @@
         },
         {
           "stat": "SV",
-          "value": 24,
+          "value": 25,
           "player_name": "Cade Smith",
           "fantasy_team": "All Rise & Wittness",
           "season": 2026
@@ -235,9 +235,9 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.361,
-          "player_name": "Samad Taylor",
-          "fantasy_team": "That’s Reddickulous (2x)",
+          "value": 0.379,
+          "player_name": "Tommy Edman",
+          "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
           "season": 2026
         },
         {
@@ -256,7 +256,7 @@
         },
         {
           "stat": "H",
-          "value": 107,
+          "value": 109,
           "player_name": "Otto Lopez",
           "fantasy_team": "Kirby Super Star",
           "season": 2026
@@ -291,16 +291,16 @@
         },
         {
           "stat": "OBP",
-          "value": 0.435,
-          "player_name": "Samad Taylor",
-          "fantasy_team": "That’s Reddickulous (2x)",
+          "value": 0.455,
+          "player_name": "Tommy Edman",
+          "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
           "season": 2026
         },
         {
           "stat": "QS",
           "value": 12,
-          "player_name": "Cristopher Sánchez",
-          "fantasy_team": "House Omega",
+          "player_name": "Michael Wacha",
+          "fantasy_team": "Gardy Goes Yardy",
           "season": 2026
         },
         {
@@ -319,14 +319,14 @@
         },
         {
           "stat": "SB",
-          "value": 31,
+          "value": 32,
           "player_name": "Nasim Nuñez",
           "fantasy_team": "House Omega",
           "season": 2026
         },
         {
           "stat": "SV+H",
-          "value": 24,
+          "value": 25,
           "player_name": "Cade Smith",
           "fantasy_team": "El Jefe",
           "season": 2026
