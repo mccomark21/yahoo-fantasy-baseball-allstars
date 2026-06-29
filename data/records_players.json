@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T10:47:49Z",
+  "updated_at": "2026-06-29T11:43:05Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -63,21 +63,21 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.344,
-          "player_name": "Samad Taylor",
-          "fantasy_team": "DiZ-Hajj-O",
+          "value": 0.336,
+          "player_name": "Yandy Díaz",
+          "fantasy_team": "Salustro's Fantasy Dungeon",
           "season": 2026
         },
         {
           "stat": "ERA",
-          "value": 12.27,
-          "player_name": "Justin Verlander",
-          "fantasy_team": "DiZ-Hajj-O",
+          "value": 12.0,
+          "player_name": "Blake Snell",
+          "fantasy_team": "Salustro's Fantasy Dungeon",
           "season": 2026
         },
         {
           "stat": "HR",
-          "value": 29,
+          "value": 30,
           "player_name": "Kyle Schwarber",
           "fantasy_team": "Salustro's Fantasy Dungeon",
           "season": 2026
@@ -91,7 +91,7 @@
         },
         {
           "stat": "R",
-          "value": 70,
+          "value": 72,
           "player_name": "James Wood",
           "fantasy_team": "The Voice of Reason",
           "season": 2026
@@ -112,7 +112,7 @@
         },
         {
           "stat": "SV",
-          "value": 25,
+          "value": 26,
           "player_name": "Cade Smith",
           "fantasy_team": "All Rise & Wittness",
           "season": 2026
@@ -170,7 +170,7 @@
         {
           "stat": "L",
           "value": 1,
-          "player_name": "Mick Abel",
+          "player_name": "Player 469.p.12166",
           "fantasy_team": "Let’s go Knicks ✌️",
           "season": 2026,
           "week": 1
@@ -235,9 +235,9 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.379,
-          "player_name": "Tommy Edman",
-          "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
+          "value": 0.336,
+          "player_name": "Yandy Díaz",
+          "fantasy_team": "Spirit of Troy",
           "season": 2026
         },
         {
@@ -263,7 +263,7 @@
         },
         {
           "stat": "HR",
-          "value": 29,
+          "value": 30,
           "player_name": "Kyle Schwarber",
           "fantasy_team": "El Jefe",
           "season": 2026
@@ -285,15 +285,15 @@
         {
           "stat": "L",
           "value": 8,
-          "player_name": "Tanner Bibee",
-          "fantasy_team": "Gardy Goes Yardy",
+          "player_name": "Kyle Bradish",
+          "fantasy_team": "El Jefe",
           "season": 2026
         },
         {
           "stat": "OBP",
-          "value": 0.455,
-          "player_name": "Tommy Edman",
-          "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
+          "value": 0.426,
+          "player_name": "Yordan Alvarez",
+          "fantasy_team": "Will of the Manly",
           "season": 2026
         },
         {
@@ -305,7 +305,7 @@
         },
         {
           "stat": "R",
-          "value": 70,
+          "value": 72,
           "player_name": "James Wood",
           "fantasy_team": "FatherOfTwoLoaded",
           "season": 2026
@@ -326,7 +326,7 @@
         },
         {
           "stat": "SV+H",
-          "value": 25,
+          "value": 26,
           "player_name": "Cade Smith",
           "fantasy_team": "El Jefe",
           "season": 2026
@@ -348,7 +348,7 @@
         {
           "stat": "XBH",
           "value": 41,
-          "player_name": "Byron Buxton",
+          "player_name": "Matt Olson",
           "fantasy_team": "Gardy Goes Yardy",
           "season": 2026
         }
