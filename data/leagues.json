@@ -7,6 +7,11 @@
       "name": "Sega Memorial Fantasy Baseball",
       "season": 2026,
       "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
         2026
       ]
     },
@@ -15,6 +20,10 @@
       "name": "League of Champions™ 2026",
       "season": 2026,
       "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
         2026
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T11:43:05Z",
+  "updated_at": "2026-06-30T00:35:22Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -63,10 +63,10 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.336,
-          "player_name": "Yandy Díaz",
-          "fantasy_team": "Salustro's Fantasy Dungeon",
-          "season": 2026
+          "value": 0.354,
+          "player_name": "Luis Arraez",
+          "fantasy_team": "Cole World",
+          "season": 2023
         },
         {
           "stat": "ERA",
@@ -77,52 +77,52 @@
         },
         {
           "stat": "HR",
-          "value": 30,
-          "player_name": "Kyle Schwarber",
-          "fantasy_team": "Salustro's Fantasy Dungeon",
-          "season": 2026
+          "value": 62,
+          "player_name": "Aaron Judge",
+          "fantasy_team": "Cole World",
+          "season": 2022
         },
         {
           "stat": "K",
-          "value": 146,
-          "player_name": "Jacob Misiorowski",
-          "fantasy_team": "1% Low Fat McChocolate Milk",
-          "season": 2026
+          "value": 281,
+          "player_name": "Spencer Strider",
+          "fantasy_team": "McChocolate Milk",
+          "season": 2023
         },
         {
           "stat": "R",
-          "value": 72,
-          "player_name": "James Wood",
-          "fantasy_team": "The Voice of Reason",
-          "season": 2026
+          "value": 149,
+          "player_name": "Ronald Acuña Jr.",
+          "fantasy_team": "Acuña Matata",
+          "season": 2023
         },
         {
           "stat": "RBI",
-          "value": 64,
-          "player_name": "Nick Kurtz",
-          "fantasy_team": "TheHotDogSafari",
-          "season": 2026
+          "value": 144,
+          "player_name": "Aaron Judge",
+          "fantasy_team": "Cole World",
+          "season": 2024
         },
         {
           "stat": "SB",
-          "value": 28,
-          "player_name": "Bobby Witt Jr.",
-          "fantasy_team": "All Rise & Wittness",
-          "season": 2026
+          "value": 73,
+          "player_name": "Ronald Acuña Jr.",
+          "fantasy_team": "Acuña Matata",
+          "season": 2023
         },
         {
           "stat": "SV",
-          "value": 26,
-          "player_name": "Cade Smith",
-          "fantasy_team": "All Rise & Wittness",
-          "season": 2026
+          "value": 49,
+          "player_name": "Ryan Helsley",
+          "fantasy_team": "Cole World",
+          "season": 2024
         },
         {
           "stat": "W",
-          "value": 9,
-          "player_name": "Max Meyer",
-          "fantasy_team": "Acuña Matata",
-          "season": 2026
+          "value": 20,
+          "player_name": "Spencer Strider",
+          "fantasy_team": "McChocolate Milk",
+          "season": 2023
         },
         {
           "stat": "WHIP",
@@ -235,17 +235,17 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.336,
-          "player_name": "Yandy Díaz",
-          "fantasy_team": "Spirit of Troy",
-          "season": 2026
+          "value": 0.354,
+          "player_name": "Luis Arraez",
+          "fantasy_team": "House Omega",
+          "season": 2023
         },
         {
           "stat": "BB",
-          "value": 48,
-          "player_name": "José Soriano",
-          "fantasy_team": "The Kranimals (0x)",
-          "season": 2026
+          "value": 99,
+          "player_name": "Blake Snell",
+          "fantasy_team": "That’s Reddickulous",
+          "season": 2023
         },
         {
           "stat": "ERA",
@@ -256,24 +256,24 @@
         },
         {
           "stat": "H",
-          "value": 109,
-          "player_name": "Otto Lopez",
-          "fantasy_team": "Kirby Super Star",
-          "season": 2026
+          "value": 217,
+          "player_name": "Ronald Acuña Jr.",
+          "fantasy_team": "TheKingOfTheNorth",
+          "season": 2023
         },
         {
           "stat": "HR",
-          "value": 30,
-          "player_name": "Kyle Schwarber",
-          "fantasy_team": "El Jefe",
-          "season": 2026
+          "value": 62,
+          "player_name": "Aaron Judge",
+          "fantasy_team": "Gardy Goes Yardy",
+          "season": 2022
         },
         {
           "stat": "K",
-          "value": 146,
-          "player_name": "Jacob Misiorowski",
-          "fantasy_team": "That’s Reddickulous (2x)",
-          "season": 2026
+          "value": 281,
+          "player_name": "Spencer Strider",
+          "fantasy_team": "WestCoastTruth",
+          "season": 2023
         },
         {
           "stat": "K/9",
@@ -284,59 +284,59 @@
         },
         {
           "stat": "L",
-          "value": 8,
-          "player_name": "Kyle Bradish",
-          "fantasy_team": "El Jefe",
-          "season": 2026
+          "value": 16,
+          "player_name": "Kutter Crawford",
+          "fantasy_team": "The Kranimals",
+          "season": 2024
         },
         {
           "stat": "OBP",
-          "value": 0.426,
-          "player_name": "Yordan Alvarez",
-          "fantasy_team": "Will of the Manly",
-          "season": 2026
+          "value": 0.458,
+          "player_name": "Aaron Judge",
+          "fantasy_team": "That’s Reddickulous (2x)",
+          "season": 2024
         },
         {
           "stat": "QS",
-          "value": 12,
-          "player_name": "Michael Wacha",
-          "fantasy_team": "Gardy Goes Yardy",
-          "season": 2026
+          "value": 26,
+          "player_name": "Framber Valdez",
+          "fantasy_team": "MK aka The LOC God",
+          "season": 2022
         },
         {
           "stat": "R",
-          "value": 72,
-          "player_name": "James Wood",
-          "fantasy_team": "FatherOfTwoLoaded",
-          "season": 2026
+          "value": 149,
+          "player_name": "Ronald Acuña Jr.",
+          "fantasy_team": "TheKingOfTheNorth",
+          "season": 2023
         },
         {
           "stat": "RBI",
-          "value": 64,
-          "player_name": "Nick Kurtz",
-          "fantasy_team": "Let’s go Knicks ✌️",
-          "season": 2026
+          "value": 144,
+          "player_name": "Aaron Judge",
+          "fantasy_team": "That’s Reddickulous (2x)",
+          "season": 2024
         },
         {
           "stat": "SB",
-          "value": 32,
-          "player_name": "Nasim Nuñez",
-          "fantasy_team": "House Omega",
-          "season": 2026
+          "value": 73,
+          "player_name": "Ronald Acuña Jr.",
+          "fantasy_team": "TheKingOfTheNorth",
+          "season": 2023
         },
         {
           "stat": "SV+H",
-          "value": 26,
-          "player_name": "Cade Smith",
-          "fantasy_team": "El Jefe",
-          "season": 2026
+          "value": 49,
+          "player_name": "Ryan Helsley",
+          "fantasy_team": "Gardy Goes Yardy",
+          "season": 2024
         },
         {
           "stat": "W",
-          "value": 9,
-          "player_name": "Gavin Williams",
-          "fantasy_team": "Brown Bear 🐻",
-          "season": 2026
+          "value": 20,
+          "player_name": "Spencer Strider",
+          "fantasy_team": "WestCoastTruth",
+          "season": 2023
         },
         {
           "stat": "WHIP",
@@ -347,10 +347,10 @@
         },
         {
           "stat": "XBH",
-          "value": 41,
-          "player_name": "Matt Olson",
-          "fantasy_team": "Gardy Goes Yardy",
-          "season": 2026
+          "value": 99,
+          "player_name": "Shohei Ohtani (Batter)",
+          "fantasy_team": "The Kranimals",
+          "season": 2024
         }
       ]
     }
