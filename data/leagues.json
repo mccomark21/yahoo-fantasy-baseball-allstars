@@ -1,12 +1,17 @@
 {
   "season": 2026,
-  "updated_at": "2026-06-25T11:01:18Z",
+  "updated_at": "2026-06-29T11:43:05Z",
   "leagues": [
     {
       "id": "12239",
       "name": "Sega Memorial Fantasy Baseball",
       "season": 2026,
       "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
         2026
       ]
     },
@@ -15,6 +20,10 @@
       "name": "League of Champions™ 2026",
       "season": 2026,
       "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
         2026
       ]
     }
