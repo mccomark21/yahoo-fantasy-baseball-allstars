@@ -21,6 +21,27 @@
   justify-content: space-between;
   gap: var(--sp-4) var(--sp-5);
   flex-wrap: wrap;
+  /* Settles in once as the view mounts, just ahead of the table rows — the
+     view assembles top-down rather than the whole panel fading as one block.
+     Plays on mount only (the element isn't remounted on filter changes). */
+  animation: tv-controls-in 0.5s var(--ease-out-quart) backwards;
+}
+
+.tv-controls__caption {
+  animation: tv-caption-in 0.5s var(--ease-out-quart) 0.1s backwards;
+}
+
+@keyframes tv-controls-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes tv-caption-in {
+  from {
+    opacity: 0;
+  }
 }
 
 .tv-controls__group {
@@ -349,5 +370,13 @@
   .tv-controls__group {
     width: 100%;
     justify-content: space-between;
+  }
+}
+
+/* Reduced motion: the controls are visible at rest, no settle, no delay. */
+@media (prefers-reduced-motion: reduce) {
+  .tv-controls,
+  .tv-controls__caption {
+    animation: none;
   }
 }

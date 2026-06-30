@@ -235,6 +235,8 @@ export default function PlayerRecordsView() {
         getRowKey={(r) => `${mode}-${r.stat}`}
         caption={`All-time ${isWeekly ? "single-week" : "season-total"} player records`}
         emptyLabel="No records for this stat yet."
+        entrance="wipe"
+        entranceToken={`${leagueId}:${mode}:${stat}`}
       />
 
       {data?.updated_at && (

@@ -6,6 +6,39 @@
    readable through long fields (a 100+ deep UTIL race) and narrow screens.
    ========================================================================= */
 
+/* The frame is a transparent positioning context around the scroller so the
+   right-edge fade can sit above the cells without scrolling away with them. */
+.stat-table-frame {
+  position: relative;
+}
+
+/* Right-edge fade: the box-score affordance. When columns run off the right
+   (a deep stat field on a narrow screen), the last column dissolves into the
+   panel edge so it's clear the table scrolls sideways. Sits just inside both
+   scrollbars via the measured --sbw / --sbh gutters. */
+.stat-table-fade {
+  position: absolute;
+  top: 1px;
+  right: calc(1px + var(--sbw, 0px));
+  bottom: calc(1px + var(--sbh, 0px));
+  width: clamp(28px, 8vw, 52px);
+  pointer-events: none;
+  border-radius: 0 calc(var(--r-lg) - 1px) calc(var(--r-lg) - 1px) 0;
+  /* A soft dark scrim, not a tint to the panel colour — the columns read as
+     sliding under the stadium shadow at the edge, visible whatever sits there. */
+  background: linear-gradient(
+    to right,
+    transparent,
+    oklch(0.1 0.006 255 / 0.72) 92%
+  );
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 6;
+}
+.stat-table-frame[data-fade-right] .stat-table-fade {
+  opacity: 1;
+}
+
 .stat-table-wrap {
   position: relative;
   overflow: auto;
@@ -234,5 +267,64 @@
   .stat-table__sort,
   .stat-table__cell {
     padding-inline: var(--sp-3);
+  }
+  /* a touch tighter so the fade can show a hair earlier on small phones */
+  .stat-table-fade {
+    width: clamp(18px, 9vw, 34px);
+  }
+}
+
+/* ---- Entrance choreography (per view) --------------------------------- */
+/* Each view assigns one move; the rows stagger via --i (capped in the JSX).
+   Transform/opacity only, so the Tabular Lock holds — digits never reflow.
+   The row's transform also makes it the containing block for its sticky cell,
+   so the entrance always plays at scrollLeft 0 (StatTable resets it on a new
+   dataset) where sticky-vs-not is visually identical. */
+
+/* cascade — standings drop into rank, top-down (Positional Races) */
+.stat-table[data-entrance="cascade"] .stat-table__row {
+  animation: st-cascade 0.42s var(--ease-out-quint) backwards;
+  animation-delay: calc(var(--i, 0) * 28ms);
+}
+@keyframes st-cascade {
+  from {
+    opacity: 0;
+    transform: translateY(-9px);
+  }
+}
+
+/* settle — each trophy set down with weight (Team Records) */
+.stat-table[data-entrance="settle"] .stat-table__row {
+  animation: st-settle 0.5s var(--ease-out-quint) backwards;
+  animation-delay: calc(var(--i, 0) * 60ms);
+}
+@keyframes st-settle {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.985);
+  }
+}
+
+/* wipe — records slide in from the identity edge (Player Records) */
+.stat-table[data-entrance="wipe"] .stat-table__row {
+  animation: st-wipe 0.44s var(--ease-out-quint) backwards;
+  animation-delay: calc(var(--i, 0) * 38ms);
+}
+@keyframes st-wipe {
+  from {
+    opacity: 0;
+    transform: translateX(-14px);
+  }
+}
+
+/* Reduced motion: content visible at rest, no stagger delay, no transform
+   flash. (The global rule zeroes durations but not delays, so without this a
+   staggered row would sit hidden through its delay — drop the animation.) */
+@media (prefers-reduced-motion: reduce) {
+  .stat-table[data-entrance] .stat-table__row {
+    animation: none;
+  }
+  .stat-table-fade {
+    transition: none;
   }
 }

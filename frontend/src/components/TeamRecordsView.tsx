@@ -211,6 +211,8 @@ export default function TeamRecordsView() {
         rows={rows}
         getRowKey={(r) => r.id}
         caption="All-time team records"
+        entrance="settle"
+        entranceToken={leagueId}
       />
       {data?.updated_at && (
         <div className="tv-foot">

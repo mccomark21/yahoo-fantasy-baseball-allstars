@@ -210,6 +210,13 @@
   font-weight: 600;
   font-size: var(--fs-sm);
   white-space: nowrap;
+  /* Long, data-driven league names can't force the page wider than the
+     viewport: let the equal-width tracks shrink and ellipsize when the toggle
+     is constrained (the 100%-width mobile case). Desktop has room, so the full
+     name shows — the clip only engages when it must. */
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
   color: var(--muted);
   border-radius: var(--r-pill);
   transition: color 0.24s ease;

@@ -290,6 +290,8 @@ export default function PositionalRaceView() {
         highlightKey={sort.key === RANK_KEY ? undefined : sort.key}
         isFeatured={(r) => r.rank === 1}
         emptyLabel="No players at this position."
+        entrance="cascade"
+        entranceToken={`${leagueId}:${position}`}
       />
 
       {data?.updated_at && (

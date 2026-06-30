@@ -1,4 +1,5 @@
-import type { ReactNode } from "react";
+import { useEffect, useRef, useState } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import "./StatTable.css";
 
 /* =========================================================================
@@ -13,6 +14,16 @@ import "./StatTable.css";
    ========================================================================= */
 
 export type SortDir = "asc" | "desc";
+
+/* Per-view entrance choreography. Each table view picks the move that fits its
+   content — standings drop into rank (cascade), trophies are set down with
+   weight (settle), records slide in from the identity edge (wipe) — so the
+   three views don't share the uniform fade reflex. All are transform/opacity
+   only and replay when the dataset behind them changes (see entranceToken). */
+export type Entrance = "cascade" | "settle" | "wipe";
+
+/* Cap the staggered count so a 100-deep UTIL race doesn't trail a 3s delay. */
+const STAGGER_CAP = 16;
 
 export interface StatColumn<T> {
   /** stable id; also the sort key passed back through onSort */
@@ -48,6 +59,12 @@ interface StatTableProps<T> {
   isFeatured?: (row: T) => boolean;
   /** shown in place of <tbody> when there are no rows */
   emptyLabel?: string;
+  /** entrance choreography for the body rows (omit for no entrance) */
+  entrance?: Entrance;
+  /** when this value changes, the entrance replays and scroll resets to the
+      identity column — pass the dataset identity (league + filter), NOT the
+      sort, so reordering never re-animates or reflows the numbers. */
+  entranceToken?: string | number;
 }
 
 function alignFor<T>(col: StatColumn<T>): "start" | "center" | "end" {
@@ -81,10 +98,74 @@ export default function StatTable<T>({
   highlightKey,
   isFeatured,
   emptyLabel = "No entries yet.",
+  entrance,
+  entranceToken,
 }: StatTableProps<T>) {
+  const frameRef = useRef<HTMLDivElement>(null);
+  const wrapRef = useRef<HTMLDivElement>(null);
+  // True when there are columns scrolled off the right edge — drives the fade
+  // affordance so narrow screens know the box score continues sideways.
+  const [fadeRight, setFadeRight] = useState(false);
+
+  // Track horizontal overflow + measure the scrollbar gutters so the fade can
+  // sit just inside them (never painting over a scrollbar).
+  useEffect(() => {
+    const el = wrapRef.current;
+    const frame = frameRef.current;
+    if (!el || !frame) return;
+
+    const measure = () => {
+      frame.style.setProperty("--sbw", `${el.offsetWidth - el.clientWidth}px`);
+      frame.style.setProperty("--sbh", `${el.offsetHeight - el.clientHeight}px`);
+    };
+    const updateFade = () => {
+      const maxX = el.scrollWidth - el.clientWidth;
+      const next = maxX > 1 && el.scrollLeft < maxX - 1;
+      setFadeRight((prev) => (prev === next ? prev : next));
+    };
+
+    measure();
+    updateFade();
+    el.addEventListener("scroll", updateFade, { passive: true });
+    const ro = new ResizeObserver(() => {
+      measure();
+      updateFade();
+    });
+    // Observe both the scroller (viewport size) and the table (content width):
+    // a late web-font swap widens the table without changing the scroller box,
+    // so without the inner observe the overflow would go undetected.
+    ro.observe(el);
+    const table = el.querySelector("table");
+    if (table) ro.observe(table);
+    // Belt-and-suspenders for the same font-swap reflow.
+    document.fonts?.ready.then(updateFade).catch(() => {});
+    return () => {
+      el.removeEventListener("scroll", updateFade);
+      ro.disconnect();
+    };
+  }, [columns, rows]);
+
+  // A fresh dataset starts at the identity column; this also keeps the
+  // entrance transform invisible against the sticky column (always at scroll 0).
+  useEffect(() => {
+    if (entranceToken === undefined) return;
+    wrapRef.current?.scrollTo({ left: 0 });
+  }, [entranceToken]);
+
   return (
-    <div className="stat-table-wrap" tabIndex={0} role="group" aria-label={caption}>
-      <table className="stat-table">
+    <div
+      className="stat-table-frame"
+      ref={frameRef}
+      data-fade-right={fadeRight || undefined}
+    >
+    <div
+      className="stat-table-wrap"
+      ref={wrapRef}
+      tabIndex={0}
+      role="group"
+      aria-label={caption}
+    >
+      <table className="stat-table" data-entrance={entrance}>
         <caption className="visually-hidden">{caption}</caption>
         <thead>
           <tr>
@@ -145,8 +226,16 @@ export default function StatTable<T>({
           ) : (
             rows.map((row, i) => (
               <tr
-                key={getRowKey(row, i)}
+                // Token in the key remounts the rows when the dataset changes
+                // (replaying the entrance); a plain sort keeps keys stable so
+                // React reorders in place — no re-animation, no column reflow.
+                key={
+                  entranceToken === undefined
+                    ? getRowKey(row, i)
+                    : `${entranceToken}|${getRowKey(row, i)}`
+                }
                 className="stat-table__row"
+                style={{ "--i": Math.min(i, STAGGER_CAP) } as CSSProperties}
                 data-featured={isFeatured?.(row) || undefined}
               >
                 {columns.map((col) => {
@@ -172,6 +261,8 @@ export default function StatTable<T>({
           )}
         </tbody>
       </table>
+    </div>
+      <div className="stat-table-fade" aria-hidden="true" />
     </div>
   );
 }
