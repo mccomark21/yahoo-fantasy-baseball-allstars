@@ -1,0 +1,238 @@
+/* =========================================================================
+   StatTable — the press-box stat sheet shared by all three table views.
+   Box score, not spreadsheet: horizontal hairlines only, no vertical rules,
+   condensed labels, tabular-mono figures locked in columns. A scrollable
+   panel that sticks its header row and identity column so the numbers stay
+   readable through long fields (a 100+ deep UTIL race) and narrow screens.
+   ========================================================================= */
+
+.stat-table-wrap {
+  position: relative;
+  overflow: auto;
+  max-block-size: min(72vh, 760px);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-lg);
+  background: var(--press-box);
+  /* lets the panel sit on the dark field with a touch of depth */
+  box-shadow: 0 18px 44px -28px oklch(0 0 0 / 0.8);
+  scrollbar-width: thin;
+  scrollbar-color: var(--hairline-strong) transparent;
+}
+
+.stat-table-wrap:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}
+
+.stat-table-wrap::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+.stat-table-wrap::-webkit-scrollbar-thumb {
+  background: var(--hairline-strong);
+  border-radius: var(--r-pill);
+  border: 2px solid var(--press-box);
+}
+.stat-table-wrap::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.stat-table {
+  width: 100%;
+  min-width: max-content;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: var(--fs-sm);
+}
+
+/* ---- Header row ------------------------------------------------------- */
+.stat-table__th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: var(--high-surface);
+  padding: 0;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: var(--fs-label);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+  border-bottom: 1px solid var(--hairline-strong);
+}
+
+.stat-table__th-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: var(--sp-3) var(--sp-4);
+}
+
+.stat-table__th[data-align="end"] .stat-table__th-label,
+.stat-table__th[data-align="end"] .stat-table__sort {
+  justify-content: flex-end;
+}
+.stat-table__th[data-align="center"] .stat-table__th-label,
+.stat-table__th[data-align="center"] .stat-table__sort {
+  justify-content: center;
+}
+
+/* Sortable header is a full-cell button */
+.stat-table__sort {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  width: 100%;
+  padding: var(--sp-3) var(--sp-4);
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+  transition: color 0.18s ease, background 0.18s ease;
+}
+
+@media (hover: hover) {
+  .stat-table__sort:hover {
+    color: var(--ink);
+    background: oklch(0.32 0.014 255 / 0.5);
+  }
+}
+
+.stat-table__th[data-active] {
+  color: var(--ink);
+}
+
+/* The column "in focus" (current sort) carries the crimson wash — broadcast
+   intent colour, never a side stripe. */
+.stat-table__th[data-highlight] {
+  color: var(--crimson-ink);
+  background: color-mix(in oklab, var(--crimson) 30%, var(--high-surface));
+}
+
+/* ---- Sort glyph ------------------------------------------------------- */
+.stat-table__glyph {
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.stat-table__glyph-up,
+.stat-table__glyph-down {
+  opacity: 0.32;
+  transition: opacity 0.18s ease;
+}
+.stat-table__glyph[data-state="idle"] {
+  opacity: 0; /* keep header tidy; appears on hover/focus */
+}
+.stat-table__sort:hover .stat-table__glyph[data-state="idle"],
+.stat-table__sort:focus-visible .stat-table__glyph[data-state="idle"] {
+  opacity: 1;
+}
+.stat-table__glyph[data-state="asc"] .stat-table__glyph-up,
+.stat-table__glyph[data-state="desc"] .stat-table__glyph-down {
+  opacity: 1;
+}
+
+/* ---- Body cells ------------------------------------------------------- */
+.stat-table__cell {
+  padding: var(--sp-3) var(--sp-4);
+  text-align: left;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: var(--ink);
+  font-weight: 400;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.stat-table__row:last-child .stat-table__cell {
+  border-bottom: none;
+}
+
+.stat-table__cell[data-align="end"] {
+  text-align: right;
+}
+.stat-table__cell[data-align="center"] {
+  text-align: center;
+}
+
+/* Tabular Lock: every numeric column is mono with tabular lining figures so
+   sorting can never make digits jitter or columns reflow. */
+.stat-table__cell[data-numeric] {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+  font-size: var(--fs-stat);
+  color: var(--ink);
+}
+
+.stat-table__cell[data-highlight] {
+  background: var(--crimson-wash);
+  color: var(--ink);
+}
+
+/* ---- Row states ------------------------------------------------------- */
+@media (hover: hover) {
+  .stat-table__row:hover .stat-table__cell {
+    background: var(--high-surface);
+  }
+  /* keep the focus column reading as the focus column on hover */
+  .stat-table__row:hover .stat-table__cell[data-highlight] {
+    background: color-mix(in oklab, var(--crimson) 16%, var(--high-surface));
+  }
+}
+
+.stat-table__row[data-featured] .stat-table__cell {
+  background: var(--crimson-wash);
+}
+.stat-table__row[data-featured] .stat-table__cell[data-highlight] {
+  background: color-mix(in oklab, var(--crimson) 22%, var(--press-box));
+}
+
+/* ---- Sticky identity column ------------------------------------------ */
+.stat-table__th[data-sticky],
+.stat-table__cell[data-sticky] {
+  position: sticky;
+  left: 0;
+  background: var(--press-box);
+  /* hairline that reads as a seam only when content scrolls under it */
+  box-shadow: 1px 0 0 var(--hairline);
+}
+.stat-table__cell[data-sticky] {
+  z-index: 1;
+}
+.stat-table__th[data-sticky] {
+  z-index: 4; /* top-left corner sits above both sticky axes */
+  background: var(--high-surface);
+}
+/* sticky cells must repaint their own state background (they cover scrolled
+   content), so mirror the row states here */
+.stat-table__row[data-featured] .stat-table__cell[data-sticky] {
+  background: color-mix(in oklab, var(--crimson) 14%, var(--press-box));
+}
+@media (hover: hover) {
+  .stat-table__row:hover .stat-table__cell[data-sticky] {
+    background: var(--high-surface);
+  }
+}
+
+/* ---- Empty ------------------------------------------------------------ */
+.stat-table__empty {
+  padding: var(--sp-6);
+  text-align: center;
+  color: var(--muted);
+  font-family: var(--font-body);
+}
+
+/* ---- Narrow screens --------------------------------------------------- */
+@media (max-width: 560px) {
+  .stat-table {
+    font-size: 0.82rem;
+  }
+  .stat-table__th-label,
+  .stat-table__sort,
+  .stat-table__cell {
+    padding-inline: var(--sp-3);
+  }
+}

@@ -26,7 +26,7 @@ export const VIEWS: ViewDef[] = [
     label: "Positional Races",
     title: "Positional Races",
     hint: "Who is leading each position",
-    ready: false,
+    ready: true,
   },
   {
     id: "team-records",
@@ -34,7 +34,7 @@ export const VIEWS: ViewDef[] = [
     label: "Team Records",
     title: "Team Records",
     hint: "Franchise highs and lows",
-    ready: false,
+    ready: true,
   },
   {
     id: "player-records",
@@ -42,7 +42,7 @@ export const VIEWS: ViewDef[] = [
     label: "Player Records",
     title: "Player Records",
     hint: "Single-season and career marks",
-    ready: false,
+    ready: true,
   },
 ];
 

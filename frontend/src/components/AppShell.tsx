@@ -21,7 +21,7 @@ export default function AppShell() {
   }
 
   return (
-    <div className="app">
+    <div className="app" data-view={view.id}>
       <a className="skip-link" href="#view-panel">
         Skip to content
       </a>

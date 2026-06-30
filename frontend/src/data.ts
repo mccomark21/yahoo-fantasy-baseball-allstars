@@ -261,6 +261,10 @@ async function loadJsonLenient<T>(file: string): Promise<T> {
 }
 
 export const loadLeagues = () => loadJson<LeaguesData>("leagues.json");
+/** Stat-category metadata for one league-season — drives sort labels and the
+    higher-vs-lower-is-better direction in the Positional Races sort picker. */
+export const loadStatCategories = (leagueId: string, season: number | string) =>
+  loadJson<StatCategoriesFile>(`${leagueId}/${season}/stat_categories.json`);
 export const loadAllStars = () => loadJson<AllStarsData>("all_stars.json");
 export const loadPositionalRaces = () =>
   loadJson<PositionalRacesData>("positional_races.json");

@@ -33,7 +33,10 @@
     );
 }
 
-.app > * {
+/* Stack the chrome above the light haze — but leave the skip-link alone, so
+   its own `position: fixed` (off-screen until focused) isn't overridden into
+   normal flow, which would leak a crimson sliver at the top of every view. */
+.app > *:not(.skip-link) {
   position: relative;
   z-index: 1;
 }
@@ -558,13 +561,15 @@
    Stack the view header over the field so the diamond claims its vertical
    space and reads larger. The header floats over the dark top corners; the
    league toggle stays clickable, everything else lets clicks fall through. */
+/* The field-first overlay is the diamond's signature only — the table views
+   keep the header in normal flow above their content. Scope it to home. */
 @media (min-width: 760px) {
-  .app {
+  .app[data-view="all-stars"] {
     display: grid;
     grid-template-rows: auto 1fr;
   }
 
-  .viewhead {
+  .app[data-view="all-stars"] .viewhead {
     grid-row: 2;
     grid-column: 1; /* same cell as .view so they stack, not sit side by side */
     align-self: start;
@@ -575,22 +580,22 @@
     pointer-events: none;
   }
 
-  .viewhead__title-wrap,
-  .viewhead__right {
+  .app[data-view="all-stars"] .viewhead__title-wrap,
+  .app[data-view="all-stars"] .viewhead__right {
     pointer-events: auto;
   }
 
-  .view {
+  .app[data-view="all-stars"] .view {
     grid-row: 2;
     grid-column: 1;
   }
 
-  .stage {
+  .app[data-view="all-stars"] .stage {
     margin-block: 0;
   }
 
   /* Nudge off dead-center so the center-field card clears the floating header. */
-  .diamond {
+  .app[data-view="all-stars"] .diamond {
     top: calc(50% + 0.6rem);
   }
 }

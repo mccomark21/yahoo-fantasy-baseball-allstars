@@ -1,0 +1,353 @@
+/* =========================================================================
+   Shared chrome for the three table views (Positional Races, Team Records,
+   Player Records): the control bar (filters, segmented toggles, sort picker),
+   the identity / record cell contents, the amber "best ever" mark, and the
+   per-view loading + footer treatments. Same stadium as the diamond — dark
+   surfaces, condensed labels, crimson for intent, amber for records only.
+   ========================================================================= */
+
+.tableview {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  width: 100%;
+  padding-block: var(--sp-2) var(--sp-4);
+}
+
+/* ---- Control bar ------------------------------------------------------ */
+.tv-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4) var(--sp-5);
+  flex-wrap: wrap;
+}
+
+.tv-controls__group {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  min-width: 0;
+}
+
+.tv-controls__caption {
+  font-size: var(--fs-sm);
+  color: var(--muted);
+}
+.tv-controls__caption b {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* ---- Chip rail (position filter, stat filter) ------------------------- */
+.tv-chips {
+  display: flex;
+  gap: var(--sp-2);
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-inline: calc(-1 * var(--sp-1));
+  padding: 2px var(--sp-1);
+  scroll-snap-type: x proximity;
+}
+.tv-chips::-webkit-scrollbar {
+  display: none;
+}
+
+.tv-chip {
+  flex: none;
+  scroll-snap-align: start;
+  padding: var(--sp-2) var(--sp-4);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--muted);
+  background: var(--press-box);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-pill);
+  transition: color 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+}
+
+@media (hover: hover) {
+  .tv-chip:not([data-active]):hover {
+    color: var(--ink);
+    border-color: var(--hairline-strong);
+  }
+}
+
+.tv-chip[data-active] {
+  color: var(--crimson-ink);
+  background: var(--crimson);
+  border-color: transparent;
+  box-shadow: var(--glow-crimson);
+}
+
+/* ---- Segmented toggle (single-week / season totals) ------------------- */
+.tv-segment {
+  display: inline-flex;
+  padding: 3px;
+  background: var(--press-box);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-pill);
+}
+
+.tv-segment__btn {
+  padding: var(--sp-2) var(--sp-4);
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  white-space: nowrap;
+  color: var(--muted);
+  border-radius: var(--r-pill);
+  transition: color 0.2s ease, background 0.2s ease;
+}
+.tv-segment__btn[data-active] {
+  color: var(--ink);
+  background: var(--high-surface);
+}
+@media (hover: hover) {
+  .tv-segment__btn:not([data-active]):hover {
+    color: var(--ink);
+  }
+}
+
+/* ---- Sort picker (native select, restyled) --------------------------- */
+.tv-select {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-size: var(--fs-sm);
+  color: var(--muted);
+}
+
+.tv-select select {
+  appearance: none;
+  font: inherit;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--press-box);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-pill);
+  padding: var(--sp-2) calc(var(--sp-6)) var(--sp-2) var(--sp-4);
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239aa0ac' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--sp-3) center;
+  background-size: 15px;
+  transition: border-color 0.18s ease;
+}
+.tv-select select:hover {
+  border-color: var(--hairline-strong);
+}
+
+/* ---- Identity cell (player + fantasy team) --------------------------- */
+.tv-id {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  min-width: 0;
+}
+
+.tv-id__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.tv-id__name {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  color: var(--ink);
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 28ch;
+}
+
+.tv-id__team {
+  font-size: 0.74rem;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 28ch;
+}
+
+/* ---- Avatar ----------------------------------------------------------- */
+.avatar {
+  position: relative;
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--high-surface);
+  border: 1px solid var(--hairline);
+  overflow: visible;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+}
+.avatar__initials {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+.avatar__badge {
+  position: absolute;
+  bottom: -4px;
+  right: -5px;
+  padding: 0 4px;
+  min-width: 17px;
+  height: 16px;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.6rem;
+  letter-spacing: 0.02em;
+  color: var(--crimson-ink);
+  background: var(--crimson);
+  border-radius: var(--r-pill);
+  box-shadow: 0 0 0 2px var(--press-box);
+}
+
+/* ---- Rank pill -------------------------------------------------------- */
+.tv-rank {
+  display: inline-grid;
+  place-items: center;
+  min-width: 2.2ch;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+  font-weight: 500;
+  color: var(--muted);
+}
+.tv-rank[data-lead] {
+  color: var(--crimson-bright);
+  font-weight: 600;
+}
+
+/* ---- Record label cell (Team Records) -------------------------------- */
+.tv-record {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.tv-record__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-title);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--ink);
+  line-height: 1.05;
+}
+.tv-record__desc {
+  font-size: 0.76rem;
+  color: var(--muted);
+}
+
+/* ---- The amber "best ever" mark (Rarity Rule) ------------------------ */
+/* Reserved strictly for the record value itself — the trophy number. */
+.tv-mark {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: var(--amber);
+  text-shadow: 0 0 18px var(--amber-glow);
+}
+.tv-mark small {
+  font-size: 0.7em;
+  font-weight: 500;
+  color: var(--amber-deep);
+  margin-left: 0.15em;
+}
+
+/* the season·week meta on records */
+.tv-when {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+  color: var(--muted);
+}
+.tv-when__season {
+  color: var(--ink);
+}
+.tv-when__week {
+  color: var(--muted);
+}
+.tv-when__dash {
+  color: var(--muted-dim);
+}
+
+/* ---- Stat key cell (Player Records) ---------------------------------- */
+.tv-stat {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-title);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+/* ---- Footer note ------------------------------------------------------ */
+.tv-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--sp-4);
+  flex-wrap: wrap;
+  font-size: var(--fs-sm);
+  color: var(--muted-dim);
+  padding-top: var(--sp-1);
+}
+.tv-foot time {
+  color: var(--muted);
+}
+
+/* ---- Loading skeleton (table-shaped) --------------------------------- */
+.tv-skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  background: var(--hairline);
+}
+.tv-skeleton__row {
+  height: 58px;
+  background: linear-gradient(
+    100deg,
+    oklch(0.22 0.011 255) 30%,
+    oklch(0.29 0.013 255) 50%,
+    oklch(0.22 0.011 255) 70%
+  );
+  background-size: 220% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+.tv-skeleton__row:first-child {
+  height: 46px;
+}
+
+/* ---- Responsive ------------------------------------------------------- */
+@media (max-width: 720px) {
+  .tv-controls {
+    align-items: stretch;
+  }
+  .tv-controls__group {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
