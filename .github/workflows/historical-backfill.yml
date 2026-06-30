@@ -28,6 +28,12 @@ jobs:
           YAHOO_CONSUMER_KEY: ${{ secrets.YAHOO_CONSUMER_KEY }}
           YAHOO_CONSUMER_SECRET: ${{ secrets.YAHOO_CONSUMER_SECRET }}
           YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+          # The backfill is the heaviest job (every season x week x team), and
+          # GitHub's shared runner IPs trip Yahoo's 999 rate limit far sooner
+          # than a home IP — the default 0.6s spacing got an earlier run
+          # throttled to death. Space requests out generously here; this job is
+          # manual and one-shot, so wall-clock time doesn't matter.
+          YAHOO_MIN_REQUEST_INTERVAL: "2.5"
         run: python scripts/fetch_all.py --mode backfill
 
       - name: Compute all-stars and records
