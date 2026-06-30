@@ -14,6 +14,11 @@ def test_backfill_since_skips_seasons_older_than_floor(monkeypatch, tmp_path):
     import fetch_all
     monkeypatch.setattr(common, "DATA_DIR", tmp_path)
 
+    # Snapshot the committed data/leagues.json so we can prove the backfill run
+    # writes only into the redirected tmp dir and never mutates the real file.
+    real_leagues = common.PROJECT_ROOT / "data" / "leagues.json"
+    before = real_leagues.read_bytes() if real_leagues.exists() else None
+
     discovered = [
         {"season": y, "game_key": str(y), "league_id": "L", "name": "My League"}
         for y in (2019, 2020, 2021, 2022)
@@ -31,3 +36,8 @@ def test_backfill_since_skips_seasons_older_than_floor(monkeypatch, tmp_path):
     fetch_all.run_backfill(FakeClient(), ["12239"], since=2021)
 
     assert fetched == [2021, 2022]
+
+    # The index write must land in the redirected dir, not the committed file.
+    assert (tmp_path / "leagues.json").exists()
+    after = real_leagues.read_bytes() if real_leagues.exists() else None
+    assert after == before, "run_backfill mutated the committed data/leagues.json"
