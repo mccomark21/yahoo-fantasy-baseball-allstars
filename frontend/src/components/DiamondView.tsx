@@ -10,6 +10,7 @@ import { useShell } from "../context/ShellContext";
 import Field from "./Field";
 import PlayerCard from "./PlayerCard";
 import BallIcon from "./BallIcon";
+import UpdatedAt from "./UpdatedAt";
 import "./PlayerCard.css";
 import "./diamond.css";
 
@@ -203,10 +204,7 @@ export default function DiamondView() {
       <footer className="view-footer">
         {updated && status === "ready" && (
           <p className="view-footer__updated">
-            Updated{" "}
-            <time dateTime={updated} className="mono">
-              {formatUpdated(updated)}
-            </time>
+            <UpdatedAt iso={updated} />
           </p>
         )}
       </footer>
@@ -297,13 +295,4 @@ function GroupedList({
       ))}
     </div>
   );
-}
-
-function formatUpdated(iso: string): string {
-  const d = new Date(iso);
-  return d.toLocaleDateString(undefined, {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
 }

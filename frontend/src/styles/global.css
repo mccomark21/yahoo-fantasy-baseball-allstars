@@ -71,6 +71,13 @@ h3 {
   font-variant-numeric: tabular-nums lining-nums;
 }
 
+/* Freshness stamp (UpdatedAt) — shared across both footer layouts. The "Updated"
+   word inherits the footer's muted-dim; the relative value lifts one step to
+   Scorecard muted so the freshness reads first. */
+.updated-at time {
+  color: var(--muted);
+}
+
 .skip-link {
   position: fixed;
   top: 0;

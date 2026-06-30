@@ -8,6 +8,7 @@ import {
 import { useShell } from "../context/ShellContext";
 import StatTable, { type StatColumn } from "./StatTable";
 import BallIcon from "./BallIcon";
+import UpdatedAt from "./UpdatedAt";
 import "./tableviews.css";
 
 /* Phase 3.4 — Team Records. The all-time franchise milestones for the active
@@ -214,22 +215,9 @@ export default function TeamRecordsView() {
       {data?.updated_at && (
         <div className="tv-foot">
           <span>All-time, across every reachable season</span>
-          <span>
-            Updated{" "}
-            <time dateTime={data.updated_at} className="mono">
-              {formatDate(data.updated_at)}
-            </time>
-          </span>
+          <UpdatedAt iso={data.updated_at} />
         </div>
       )}
     </div>
   );
-}
-
-function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString(undefined, {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
 }

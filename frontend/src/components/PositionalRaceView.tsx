@@ -11,6 +11,7 @@ import { formatStat } from "../constants/positions";
 import StatTable, { type SortDir, type StatColumn } from "./StatTable";
 import Avatar from "./Avatar";
 import BallIcon from "./BallIcon";
+import UpdatedAt from "./UpdatedAt";
 import "./tableviews.css";
 
 /* Phase 3.3 — Positional Races. A ranked field per position, sortable by any
@@ -294,12 +295,7 @@ export default function PositionalRaceView() {
       {data?.updated_at && (
         <div className="tv-foot">
           <span>Ranked by season composite score</span>
-          <span>
-            Updated{" "}
-            <time dateTime={data.updated_at} className="mono">
-              {formatDate(data.updated_at)}
-            </time>
-          </span>
+          <UpdatedAt iso={data.updated_at} />
         </div>
       )}
     </div>
@@ -316,12 +312,4 @@ function TableSkeleton() {
       </div>
     </div>
   );
-}
-
-function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString(undefined, {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
 }

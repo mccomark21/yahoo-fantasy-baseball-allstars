@@ -9,6 +9,7 @@ import { useShell } from "../context/ShellContext";
 import { formatStat } from "../constants/positions";
 import StatTable, { type StatColumn } from "./StatTable";
 import BallIcon from "./BallIcon";
+import UpdatedAt from "./UpdatedAt";
 import "./tableviews.css";
 
 /* Phase 3.5 — Player Records. All-time individual marks for the active
@@ -243,22 +244,9 @@ export default function PlayerRecordsView() {
               ? "Best single week, all-time"
               : "Best full-season total, all-time"}
           </span>
-          <span>
-            Updated{" "}
-            <time dateTime={data.updated_at} className="mono">
-              {formatDate(data.updated_at)}
-            </time>
-          </span>
+          <UpdatedAt iso={data.updated_at} />
         </div>
       )}
     </div>
   );
-}
-
-function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString(undefined, {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
 }
