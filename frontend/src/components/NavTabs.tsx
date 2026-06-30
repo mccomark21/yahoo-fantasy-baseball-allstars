@@ -34,6 +34,7 @@ export default function NavTabs({ active, onChange }: Props) {
             type="button"
             role="tab"
             aria-selected={isActive}
+            aria-controls="view-panel"
             tabIndex={isActive ? 0 : -1}
             className="nav-tabs__tab"
             data-active={isActive || undefined}
