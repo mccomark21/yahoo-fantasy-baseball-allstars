@@ -23,6 +23,7 @@ the ``renew`` chain — so every season of a league nests under one directory.
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -38,10 +39,31 @@ def load_json(path: Path) -> dict:
         return json.load(f)
 
 
+def _json_safe(obj):
+    """Recursively replace non-finite floats with ``None`` for valid JSON.
+
+    Yahoo reports ERA/WHIP as ``float('inf')`` on zero innings (and division
+    elsewhere can yield ``nan``). Left as-is, ``json.dump`` writes them as bare
+    ``Infinity`` / ``-Infinity`` / ``NaN`` tokens — valid JavaScript but illegal
+    JSON, which makes the browser's ``JSON.parse`` throw. Map them to ``null``,
+    the same "no value" sentinel ``to_number`` already returns for ``"INF"``.
+    """
+    if isinstance(obj, float):
+        return obj if math.isfinite(obj) else None
+    if isinstance(obj, dict):
+        return {k: _json_safe(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_json_safe(v) for v in obj]
+    return obj
+
+
 def dump_json(path: Path, obj) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, indent=2, ensure_ascii=False)
+        # ``allow_nan=False`` is a backstop: ``_json_safe`` already strips every
+        # non-finite value, so a survivor means a new code path produced one —
+        # fail loud here rather than silently emit invalid JSON to disk.
+        json.dump(_json_safe(obj), f, indent=2, ensure_ascii=False, allow_nan=False)
         f.write("\n")
 
 
