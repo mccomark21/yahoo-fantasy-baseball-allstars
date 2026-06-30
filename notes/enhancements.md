@@ -23,3 +23,10 @@ Improvements to things that already exist — make it faster, clearer, nicer, or
 ## Entries
 
 <!-- Add new enhancements below, newest first -->
+## Separate Leagues into 2 pages
+- **Date:** 2026-06-30
+- **What exists today:** one page and two leagues
+- **Proposed change:** is there anyway I can have a github page for each league? this way when I send a link my leaguemates wont need to switch leagues?
+- **Why it's better:** less confusion for users
+- **Effort guess:** small / medium / large
+- **Notes:**
