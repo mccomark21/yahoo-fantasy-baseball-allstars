@@ -116,11 +116,42 @@ _BATTING_ABBR = {"R", "HR", "RBI", "SB", "AVG", "OBP", "SLG", "OPS", "H", "AB",
 _PITCHING_ABBR = {"W", "L", "SV", "K", "ERA", "WHIP", "IP", "QS", "HLD", "BS",
                   "SVH", "K/9", "K/BB", "BB/9", "ER", "CG", "SHO"}
 
+# Stats a player wants to MINIMIZE, keyed by abbreviation. Used only when Yahoo's
+# ``sort_order`` is missing/blank — for some leagues ERA/WHIP arrive with
+# ``sort_order == ""`` rather than ``"0"``, and trusting that blank would reward a
+# *higher* ERA. Abbreviations here are unambiguously "lower is better"; the
+# batter/pitcher walk collision (BB) is deliberately left out.
+_LOWER_IS_BETTER_ABBR = {"ERA", "WHIP", "BB/9", "L", "BS", "ER", "CS", "GIDP",
+                         "E", "HRA", "HBP"}
+
 
 def stat_abbr(stat: dict) -> str:
     """Best human label for a stat category: abbr, else display_name/name."""
     return (stat.get("abbr") or stat.get("display_name") or stat.get("name")
             or stat.get("stat_id") or "").strip()
+
+
+# Role-signature pitching stats: counted only in their own pool. Wins/quality
+# starts are a starter's currency; saves/holds a reliever's. Sharing them across
+# pools lets a save-hoarding swingman win the SP slot (or a long reliever the RP
+# slot), so each is scored only among the role that actually competes for it.
+# Everything else (K, ERA, WHIP, IP…) is shared and scores in both pools.
+_SP_ONLY_ABBR = {"W", "QS", "CG", "SHO"}
+_RP_ONLY_ABBR = {"SV", "SVH", "SV+H", "SVHD", "HLD", "HD", "HOLD", "BS"}
+
+
+def counts_for_role(stat: dict, role: str) -> bool:
+    """Whether a pitching category scores within the given role pool.
+
+    ``role`` is ``"SP"`` or ``"RP"``. Role-signature stats count only in their own
+    pool; shared stats count in both. Used to build the SP and RP scoring pools so
+    wins are judged among starters and saves among relievers."""
+    abbr = stat_abbr(stat).upper()
+    if role == "SP":
+        return abbr not in _RP_ONLY_ABBR
+    if role == "RP":
+        return abbr not in _SP_ONLY_ABBR
+    return True
 
 
 def is_pitching_stat(stat: dict) -> bool:
@@ -133,9 +164,18 @@ def is_pitching_stat(stat: dict) -> bool:
 
 
 def higher_is_better(stat: dict) -> bool:
-    """Yahoo ``sort_order``: ``"0"`` = ascending (lower better, e.g. ERA/WHIP);
-    anything else descending (higher better)."""
-    return str(stat.get("sort_order", "1")).strip() != "0"
+    """Does a larger value score better for this stat category?
+
+    Yahoo's ``sort_order`` is the primary signal — ``"0"`` ascending (lower
+    better, e.g. ERA/WHIP), ``"1"`` descending (higher better). But Yahoo also
+    hands some ratio stats a *blank* ``sort_order``; trusting that blank scored
+    ERA/WHIP as higher-is-better, inverting pitcher rankings. So a blank/unknown
+    value falls back to a known lower-is-better abbreviation table, defaulting to
+    higher-is-better only when the stat is genuinely unrecognized."""
+    so = str(stat.get("sort_order", "")).strip()
+    if so in ("0", "1"):
+        return so != "0"
+    return stat_abbr(stat).upper() not in _LOWER_IS_BETTER_ABBR
 
 
 def scoring_stats(stat_categories: dict) -> List[dict]:
@@ -204,6 +244,54 @@ def eligible_positions(player: dict) -> set:
     if is_batter(player):
         targets.add("UTIL")
     return targets
+
+
+# Slots within a group must be filled by *distinct* players: no one is an
+# all-star twice on the same side of the diamond. Batting is one group, so the
+# best outfielder can't sweep LF/CF/RF and a positional all-star can't also take
+# UTIL/DH — those flex slots surface the best bat not already crowned. Pitching
+# is its own group (a swingman can't win both SP and RP). The two groups are
+# independent, so a genuine two-way player may still appear once on each side.
+POSITION_GROUPS = (
+    tuple(BATTING_POSITIONS + ["UTIL", "DH"]),
+    tuple(PITCHING_POSITIONS),
+)
+
+
+def _player_key(player: dict) -> str:
+    return str(player.get("player_key") or player.get("name") or id(player))
+
+
+def assign_distinct(ranked_by_slot: Dict[str, List[dict]]) -> Dict[str, dict]:
+    """Pick one player per slot from pre-ranked candidate lists.
+
+    Slots in the same :data:`POSITION_GROUPS` group get distinct players: each is
+    filled greedily by rank, skipping anyone already taken within the group. With
+    the three outfield slots sharing one ranked pool this yields the top three
+    distinct outfielders. Ungrouped slots simply take their top candidate, so a
+    player can still headline both an infield slot and UTIL.
+
+    Slots are resolved in the iteration order of ``ranked_by_slot`` (the caller's
+    display order), which makes the assignment deterministic.
+    """
+    slot_group = {slot: gi for gi, group in enumerate(POSITION_GROUPS) for slot in group}
+    taken_by_group: Dict[int, set] = {}
+    chosen: Dict[str, dict] = {}
+
+    for slot, ranked in ranked_by_slot.items():
+        gi = slot_group.get(slot)
+        if gi is None:
+            if ranked:
+                chosen[slot] = ranked[0]
+            continue
+        taken = taken_by_group.setdefault(gi, set())
+        for player in ranked:
+            pid = _player_key(player)
+            if pid not in taken:
+                chosen[slot] = player
+                taken.add(pid)
+                break
+    return chosen
 
 
 # --------------------------------------------------------------------------- #
