@@ -2,6 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 import { loadAllStars, type AllStarsData } from "../data";
 import {
   BENCH_POSITIONS,
+  BENCH_LABEL_POS,
   FIELD_POSITIONS,
   LIST_GROUPS,
   ALL_POSITIONS,
@@ -14,12 +15,12 @@ import UpdatedAt from "./UpdatedAt";
 import "./PlayerCard.css";
 import "./diamond.css";
 
-const DESIGN_W = 940;
-const FIELD_H = Math.round(DESIGN_W * 0.76); // 714 — the field box the % coords assume
-const BENCH_BAND_H = 116; // dugout band below the catcher (keep in sync with diamond.css)
-const DESIGN_H = FIELD_H + BENCH_BAND_H; // 830 — full scaled unit: field + bench
-const MAX_SCALE = 1.2; // let the field grow past natural size to fill the screen
-const NARROW_BREAKPOINT = 600;
+const DESIGN_W = 1320; // broadcast wide-shot — fills landscape desktops
+const DESIGN_H = 660; // field box the % coords assume (2:1; bench rides on the field)
+// Below this, the wide field would be width-bound and float in a tall portrait
+// viewport, so we fall back to the grouped list. Kept in sync with the
+// field-first overlay breakpoint in diamond.css so the two never disagree.
+const NARROW_BREAKPOINT = 860;
 
 type Status = "loading" | "ready" | "error";
 
@@ -81,9 +82,12 @@ export default function DiamondView() {
     const ro = new ResizeObserver(([entry]) => {
       const { width, height } = entry.contentRect;
       setIsNarrow(width < NARROW_BREAKPOINT);
-      // Fill the available box. Allow modest upscaling past natural size so a
-      // roomy desktop genuinely uses the screen; cap it so card text stays sharp.
-      const fit = Math.min(width / DESIGN_W, height / DESIGN_H, MAX_SCALE);
+      // Fill the available box on both axes — no upper cap, so the field keeps
+      // scaling up to fill ever-larger screens. Whichever axis binds first wins,
+      // which keeps the field's aspect ratio intact (no distortion). The
+      // transform-scaled card text is re-rasterised at the target size, so it
+      // stays crisp however large the field grows.
+      const fit = Math.min(width / DESIGN_W, height / DESIGN_H);
       setScale(Number.isFinite(fit) && fit > 0 ? fit : 1);
     });
     ro.observe(el);
@@ -175,28 +179,45 @@ export default function DiamondView() {
                     />
                   </div>
                 ))}
-              </div>
-            </div>
 
-            <section
-              className="diamond__bench"
-              aria-label="Bench"
-              data-switching={switching || undefined}
-            >
-              <h2 className="diamond__bench-label">Bench</h2>
-              <div className="diamond__bench-row">
+                {/* Bench — a labelled column out in right field */}
+                <span
+                  className="diamond__bench-label"
+                  style={
+                    {
+                      "--x": `${BENCH_LABEL_POS.x}%`,
+                      "--y": `${BENCH_LABEL_POS.y}%`,
+                      "--i": FIELD_POSITIONS.length,
+                    } as React.CSSProperties
+                  }
+                  aria-hidden="true"
+                >
+                  Bench
+                </span>
                 {BENCH_POSITIONS.map((pos, i) => (
-                  <PlayerCard
+                  <div
                     key={pos.key}
-                    position={pos}
-                    player={league?.[pos.key] ?? null}
-                    expanded={expandedKey === pos.key}
-                    onToggle={() => toggleCard(pos.key)}
-                    index={FIELD_POSITIONS.length + i}
-                  />
+                    className="diamond__slot"
+                    style={
+                      {
+                        "--x": `${pos.x}%`,
+                        "--y": `${pos.y}%`,
+                        "--i": FIELD_POSITIONS.length + 1 + i,
+                      } as React.CSSProperties
+                    }
+                    data-active={expandedKey === pos.key || undefined}
+                  >
+                    <PlayerCard
+                      position={pos}
+                      player={league?.[pos.key] ?? null}
+                      expanded={expandedKey === pos.key}
+                      onToggle={() => toggleCard(pos.key)}
+                      index={FIELD_POSITIONS.length + 1 + i}
+                    />
+                  </div>
                 ))}
               </div>
-            </section>
+            </div>
           </div>
         )}
       </div>
@@ -236,7 +257,7 @@ function Skeleton({ scale, isNarrow }: { scale: number; isNarrow: boolean }) {
           <Field />
         </div>
         <div className="diamond__cards">
-          {FIELD_POSITIONS.map((pos) => (
+          {[...FIELD_POSITIONS, ...BENCH_POSITIONS].map((pos) => (
             <div
               key={pos.key}
               className="diamond__slot"
@@ -244,14 +265,6 @@ function Skeleton({ scale, isNarrow }: { scale: number; isNarrow: boolean }) {
             >
               <div className="skel skel--card" />
             </div>
-          ))}
-        </div>
-      </div>
-      <div className="diamond__bench" aria-hidden="true">
-        <h2 className="diamond__bench-label">Bench</h2>
-        <div className="diamond__bench-row">
-          {BENCH_POSITIONS.map((pos) => (
-            <div key={pos.key} className="skel skel--card" />
           ))}
         </div>
       </div>

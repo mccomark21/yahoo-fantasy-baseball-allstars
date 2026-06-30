@@ -16,6 +16,9 @@ html {
 
 body {
   min-height: 100dvh;
+  /* The all-stars stage breaks out to 100vw; clip (not hidden, so sticky and
+     position contexts are preserved) keeps that from spawning a scrollbar. */
+  overflow-x: clip;
   font-family: var(--font-body);
   font-size: var(--fs-body);
   font-weight: 400;

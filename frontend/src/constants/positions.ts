@@ -12,22 +12,28 @@ export interface PositionSpec {
 }
 
 export const FIELD_POSITIONS: PositionSpec[] = [
-  { key: "CF", label: "CF", full: "Center Field", x: 50, y: 11, group: "Outfield" },
-  { key: "LF", label: "LF", full: "Left Field", x: 19, y: 22, group: "Outfield" },
-  { key: "RF", label: "RF", full: "Right Field", x: 81, y: 22, group: "Outfield" },
-  { key: "SS", label: "SS", full: "Shortstop", x: 36.5, y: 40, group: "Infield" },
-  { key: "2B", label: "2B", full: "Second Base", x: 63.5, y: 40, group: "Infield" },
-  { key: "SP", label: "SP", full: "Starting Pitcher", x: 50, y: 57.5, group: "Pitching" },
-  { key: "3B", label: "3B", full: "Third Base", x: 22, y: 60, group: "Infield" },
-  { key: "1B", label: "1B", full: "First Base", x: 78, y: 60, group: "Infield" },
-  { key: "C", label: "C", full: "Catcher", x: 50, y: 86, group: "Infield" },
+  { key: "CF", label: "CF", full: "Center Field", x: 47, y: 12, group: "Outfield" },
+  { key: "LF", label: "LF", full: "Left Field", x: 15, y: 27, group: "Outfield" },
+  { key: "RF", label: "RF", full: "Right Field", x: 79, y: 26, group: "Outfield" },
+  { key: "SS", label: "SS", full: "Shortstop", x: 38, y: 47, group: "Infield" },
+  { key: "2B", label: "2B", full: "Second Base", x: 56, y: 47, group: "Infield" },
+  { key: "SP", label: "SP", full: "Starting Pitcher", x: 47, y: 64, group: "Pitching" },
+  { key: "3B", label: "3B", full: "Third Base", x: 20, y: 67, group: "Infield" },
+  { key: "1B", label: "1B", full: "First Base", x: 74, y: 67, group: "Infield" },
+  { key: "C", label: "C", full: "Catcher", x: 47, y: 88, group: "Infield" },
 ];
 
+/* The bench lives on the field — a labelled column out in right field, to the
+   right of first base — so the diamond can fill the full width of the screen
+   instead of being squeezed by a band beneath it. */
 export const BENCH_POSITIONS: PositionSpec[] = [
-  { key: "UTIL", label: "UTIL", full: "Utility", x: 0, y: 0, group: "Pitching" },
-  { key: "DH", label: "DH", full: "Designated Hitter", x: 0, y: 0, group: "Pitching" },
-  { key: "RP", label: "RP", full: "Relief Pitcher", x: 0, y: 0, group: "Pitching" },
+  { key: "UTIL", label: "UTIL", full: "Utility", x: 91, y: 50, group: "Pitching" },
+  { key: "DH", label: "DH", full: "Designated Hitter", x: 91, y: 69, group: "Pitching" },
+  { key: "RP", label: "RP", full: "Relief Pitcher", x: 91, y: 88, group: "Pitching" },
 ];
+
+/* Where the on-field "Bench" label sits (top of the bench column). */
+export const BENCH_LABEL_POS = { x: 91, y: 39 };
 
 /* Ordering used by the mobile grouped list. */
 export const LIST_GROUPS: { title: string; keys: string[] }[] = [
