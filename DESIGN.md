@@ -28,10 +28,10 @@ Motion is choreographed. The All-Stars diamond entrance is a broadcast cut: the 
 
 Four roles. The palette earns its fullness by assigning each role a clear territory — no freelancing.
 
-> **Resolved tokens** live in `frontend/src/styles/tokens.css` (OKLCH). Values below are the committed source of truth. Contrast verified: ink 18:1, muted 8.7:1, all UI roles ≥4.2:1 against Night Field.
+> **Resolved tokens** live in `frontend/src/styles/tokens.css` (OKLCH). Values below are the committed source of truth. WCAG AA verified by computation against every surface a text role actually lands on (not just Night Field): ink 14–18:1, muted 6.8–8.7:1, dim ≥4.6:1, white-on-crimson 4.87:1, amber marks ≥8.7:1 — all ≥4.5:1 body / ≥3:1 large.
 
 ### Primary
-- **Sport Crimson** `oklch(0.585 0.213 25)` · active/glow `oklch(0.64 0.205 27)`: Baseball red, vivid — the color of the stitching, the cap logo, the official MLB brand. Used for position badges, the active state on the league toggle, record-table row highlights when a stat is sorted. Never fills large surfaces. Its rarity makes it read as intent.
+- **Sport Crimson** `oklch(0.575 0.213 25)` · active/glow `oklch(0.64 0.205 27)`: Baseball red, vivid — the color of the stitching, the cap logo, the official MLB brand. Used for position badges, the active state on the league toggle, record-table row highlights when a stat is sorted. Never fills large surfaces. Its rarity makes it read as intent. Because crimson carries text (badges, chips, the toggle thumb), its ink is pure white `oklch(1 0 0)` — the pair clears AA body text at 4.87:1; full chroma is kept, so it stays the vivid cap-logo red.
 
 ### Secondary
 - **Stadium Amber** `oklch(0.82 0.145 78)` · deep `oklch(0.7 0.135 70)`: Championship gold — the color stadium floodlights cast on trophy metal. Reserved for all-time record indicators ("best ever" callouts, single-season crowns, win-streak markers). Appears no more than 5-8% of any view. When it shows up, it means something.
@@ -41,7 +41,7 @@ Four roles. The palette earns its fullness by assigning each role a clear territ
 - **Press Box (surface)** `oklch(0.198 0.011 255)`: Dark surface, one step above Night Field. Used for the nav bar, the league toggle track, containers.
 - **High Surface** `oklch(0.262 0.014 255)`: Player cards and record tiles. One more step up from Press Box. Used at ~88% opacity so the field reads through (see Field Always Shows Rule).
 - **Floodlight (ink)** `oklch(0.972 0.008 90)`: Near-white with a breath of warmth, like stadium arc output. All body text and primary headings. 18:1 against Night Field.
-- **Scorecard (muted)** `oklch(0.745 0.012 255)` · dim `oklch(0.6 0.012 255)`: Cool mid-gray for secondary text — stat keys, fantasy team labels, timestamps. 8.7:1 against Night Field (exceeds the ≥3:1 target; clears AA body text).
+- **Scorecard (muted)** `oklch(0.745 0.012 255)` · dim `oklch(0.64 0.012 255)`: Cool mid-gray for secondary text — stat keys, fantasy team labels, timestamps. Muted is 8.7:1 against Night Field; dim is tuned to clear AA body text on every surface it can land on (≥4.6:1 even on High Surface), so tertiary text is never the weak link.
 
 ### Named Rules
 **The Full-Field Rule.** Four color roles: crimson for intent, amber for records, dark neutrals for atmosphere, near-white for content. No decorative fifth color. If it doesn't map to one of these four roles, it doesn't belong in the palette.
