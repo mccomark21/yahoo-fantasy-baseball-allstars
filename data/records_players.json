@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T11:11:10Z",
+  "updated_at": "2026-07-01T00:28:57Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -69,13 +69,6 @@
           "season": 2023
         },
         {
-          "stat": "ERA",
-          "value": 12.0,
-          "player_name": "Blake Snell",
-          "fantasy_team": "Salustro's Fantasy Dungeon",
-          "season": 2026
-        },
-        {
           "stat": "HR",
           "value": 62,
           "player_name": "Aaron Judge",
@@ -123,13 +116,6 @@
           "player_name": "Spencer Strider",
           "fantasy_team": "McChocolate Milk",
           "season": 2023
-        },
-        {
-          "stat": "WHIP",
-          "value": 2.67,
-          "player_name": "Blake Snell",
-          "fantasy_team": "Salustro's Fantasy Dungeon",
-          "season": 2026
         }
       ]
     },
@@ -164,14 +150,6 @@
           "value": 20,
           "player_name": "Sonny Gray",
           "fantasy_team": "House Omega",
-          "season": 2026,
-          "week": 14
-        },
-        {
-          "stat": "L",
-          "value": 2,
-          "player_name": "Gerrit Cole",
-          "fantasy_team": "Fall of the Empire",
           "season": 2026,
           "week": 14
         },
@@ -248,13 +226,6 @@
           "season": 2023
         },
         {
-          "stat": "ERA",
-          "value": 12.0,
-          "player_name": "Blake Snell",
-          "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
-          "season": 2026
-        },
-        {
           "stat": "H",
           "value": 217,
           "player_name": "Ronald Acuña Jr.",
@@ -281,13 +252,6 @@
           "player_name": "Edwin Díaz",
           "fantasy_team": "Florida Swamp Herpes Monkeys",
           "season": 2022
-        },
-        {
-          "stat": "L",
-          "value": 16,
-          "player_name": "Kutter Crawford",
-          "fantasy_team": "The Kranimals",
-          "season": 2024
         },
         {
           "stat": "OBP",
@@ -337,13 +301,6 @@
           "player_name": "Spencer Strider",
           "fantasy_team": "WestCoastTruth",
           "season": 2023
-        },
-        {
-          "stat": "WHIP",
-          "value": 2.67,
-          "player_name": "Blake Snell",
-          "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
-          "season": 2026
         },
         {
           "stat": "XBH",
