@@ -252,12 +252,15 @@ async function loadJson<T>(file: string): Promise<T> {
   return (await res.json()) as T;
 }
 
-/* The raw player_stats files can carry non-finite numbers (a pitcher's ERA is
-   Infinity on zero innings). Python writes those as bare `Infinity` / `NaN`
-   tokens, which are valid in JS but illegal JSON, so `res.json()` would throw.
-   Parse the text ourselves, coercing those bare numeric tokens to null. The
-   regex only touches tokens in value position (after `:`, `[`, or `,`), so
-   quoted strings like a team named "Infinity" are left untouched. */
+/* Defense-in-depth for non-finite numbers in the raw player_stats files (a
+   pitcher's ERA is Infinity on zero innings). The pipeline now writes these as
+   `null` at the source (scripts/common.py `dump_json`), so the files are valid
+   JSON — but stale/cached copies or a future writer regression could still emit
+   bare `Infinity` / `-Infinity` / `NaN` tokens, which are valid JS yet illegal
+   JSON and make `res.json()` throw. Parse the text ourselves, coercing those
+   bare numeric tokens to null. The regex only touches tokens in value position
+   (after `:`, `[`, or `,`), so a quoted string like a team named "Infinity" is
+   left untouched. */
 async function loadJsonLenient<T>(file: string): Promise<T> {
   const res = await fetch(dataUrl(file), { cache: "no-cache" });
   if (!res.ok) {
