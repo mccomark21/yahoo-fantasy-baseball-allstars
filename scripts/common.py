@@ -200,22 +200,34 @@ def stat_id_to_abbr(stat_categories: dict) -> Dict[str, str]:
 # --------------------------------------------------------------------------- #
 # Positions
 # --------------------------------------------------------------------------- #
-BATTING_POSITIONS = ["C", "1B", "2B", "3B", "SS", "LF", "CF", "RF"]
+INFIELD_POSITIONS = ["C", "1B", "2B", "3B", "SS"]
+# The three outfield spots are undifferentiated (issue #27): one OF race, three
+# distinct OF winners. Slots carry positional keys only so assignment can hand
+# each a distinct player from the shared OF pool.
+OF_SLOTS = ["OF1", "OF2", "OF3"]
+# The on-field starting lineup: fielders + a single Util flex slot (no DH).
+LINEUP_POSITIONS = INFIELD_POSITIONS + OF_SLOTS + ["UTIL"]
 PITCHING_POSITIONS = ["SP", "RP"]
-# Display order on the diamond / in the races view.
-TARGET_POSITIONS = BATTING_POSITIONS + PITCHING_POSITIONS + ["UTIL", "DH"]
+# Race positions surfaced in positional_races.json — one OF race, no DH.
+RACE_POSITIONS = INFIELD_POSITIONS + ["OF"] + PITCHING_POSITIONS + ["UTIL"]
+
+ROTATION_SIZE = 5    # starting pitchers in the Rotation section
+BULLPEN_SIZE = 2     # relievers in the Bullpen section
+BENCH_SIZE = 5       # position-agnostic reserves
 
 # A Yahoo eligibility token → the diamond positions it qualifies a player for.
+# Every outfield token collapses to the single ``OF`` group; ``DH`` grants no
+# diamond slot of its own but still marks a batter (see ``_BATTING_TOKENS``), so
+# a DH-only slugger can still surface at Util or on the bench.
 _ELIGIBILITY: Dict[str, set] = {
     "C": {"C"}, "1B": {"1B"}, "2B": {"2B"}, "3B": {"3B"}, "SS": {"SS"},
-    "LF": {"LF"}, "CF": {"CF"}, "RF": {"RF"},
-    "OF": {"LF", "CF", "RF"},          # generic outfield → all three
-    "UTIL": {"UTIL"}, "DH": {"DH"},
+    "LF": {"OF"}, "CF": {"OF"}, "RF": {"OF"}, "OF": {"OF"},
+    "UTIL": {"UTIL"},
     "SP": {"SP"}, "RP": {"RP"},
     "P": {"SP", "RP"},                 # generic pitcher → both
 }
 
-_BATTING_TOKENS = set(BATTING_POSITIONS) | {"OF", "UTIL", "DH"}
+_BATTING_TOKENS = set(INFIELD_POSITIONS) | {"LF", "CF", "RF", "OF", "UTIL", "DH"}
 _PITCHING_TOKENS = {"SP", "RP", "P"}
 
 
@@ -248,18 +260,22 @@ def eligible_positions(player: dict) -> set:
 
 # Slots within a group must be filled by *distinct* players: no one is an
 # all-star twice on the same side of the diamond. Batting is one group, so the
-# best outfielder can't sweep LF/CF/RF and a positional all-star can't also take
-# UTIL/DH — those flex slots surface the best bat not already crowned. Pitching
-# is its own group (a swingman can't win both SP and RP). The two groups are
-# independent, so a genuine two-way player may still appear once on each side.
+# best outfielder can't sweep the three OF slots and a positional all-star can't
+# also take Util — that flex slot surfaces the best bat not already crowned.
+# Pitching is its own group (a swingman can't win both SP and RP). The two groups
+# are independent, so a genuine two-way player may still appear once on each side.
 POSITION_GROUPS = (
-    tuple(BATTING_POSITIONS + ["UTIL", "DH"]),
+    tuple(LINEUP_POSITIONS),
     tuple(PITCHING_POSITIONS),
 )
 
 
 def _player_key(player: dict) -> str:
     return str(player.get("player_key") or player.get("name") or id(player))
+
+
+# Public alias — the same stable identity used to dedupe players across sections.
+player_key = _player_key
 
 
 def assign_distinct(ranked_by_slot: Dict[str, List[dict]]) -> Dict[str, dict]:

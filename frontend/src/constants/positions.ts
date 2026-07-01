@@ -13,43 +13,50 @@ export interface PositionSpec {
 
 /* Coordinates map each card's center onto its true defensive spot over the
    1320×660 field box (see Field.tsx: home 660,556 · 1B 824,392 · 2B 660,228 ·
-   3B 496,392 · mound 660,408). Array order also drives the entrance stagger —
-   kept back-to-front (outfield → infield → battery) so the lineup fills in like
-   players jogging to their positions. */
+   3B 496,392 · mound 660,408). The three outfields are undifferentiated OF
+   slots (issue #27); the pitcher isn't on the mound — the Rotation and Bullpen
+   ride in a column off to the left, mirroring the reserves on the right — so the
+   corner fielders sit a touch inward to clear those flanking columns. Array
+   order drives the entrance stagger, kept back-to-front (outfield → infield →
+   battery) so the lineup fills in like players jogging to their positions. */
 export const FIELD_POSITIONS: PositionSpec[] = [
-  { key: "LF", label: "LF", full: "Left Field", x: 16, y: 25, group: "Outfield" },
-  { key: "CF", label: "CF", full: "Center Field", x: 50, y: 16, group: "Outfield" },
-  { key: "RF", label: "RF", full: "Right Field", x: 80, y: 25, group: "Outfield" },
-  { key: "SS", label: "SS", full: "Shortstop", x: 40, y: 49, group: "Infield" },
+  { key: "OF1", label: "OF", full: "Outfield", x: 31, y: 25, group: "Outfield" },
+  { key: "OF2", label: "OF", full: "Outfield", x: 50, y: 15, group: "Outfield" },
+  { key: "OF3", label: "OF", full: "Outfield", x: 69, y: 25, group: "Outfield" },
+  { key: "SS", label: "SS", full: "Shortstop", x: 41, y: 49, group: "Infield" },
   { key: "2B", label: "2B", full: "Second Base", x: 59, y: 45, group: "Infield" },
-  { key: "3B", label: "3B", full: "Third Base", x: 21, y: 65, group: "Infield" },
-  { key: "1B", label: "1B", full: "First Base", x: 73, y: 64, group: "Infield" },
-  { key: "SP", label: "SP", full: "Starting Pitcher", x: 50, y: 63, group: "Pitching" },
+  { key: "3B", label: "3B", full: "Third Base", x: 33, y: 66, group: "Infield" },
+  { key: "1B", label: "1B", full: "First Base", x: 67, y: 65, group: "Infield" },
   { key: "C", label: "C", full: "Catcher", x: 50, y: 89, group: "Infield" },
 ];
 
-/* The bench lives on the field — a labelled column out in right field, to the
-   right of first base — so the diamond can fill the full width of the screen
-   instead of being squeezed by a band beneath it. */
-export const BENCH_POSITIONS: PositionSpec[] = [
-  { key: "UTIL", label: "UTIL", full: "Utility", x: 91, y: 51, group: "Pitching" },
-  { key: "DH", label: "DH", full: "Designated Hitter", x: 91, y: 68, group: "Pitching" },
-  { key: "RP", label: "RP", full: "Relief Pitcher", x: 91, y: 85, group: "Pitching" },
+/* The pitching staff and the reserves ride in labelled columns that flank the
+   diamond — Rotation + Bullpen on the left, Utility + Bench on the right — so
+   the field fills the full width of the screen. Each entry is a badge label for
+   its section; the cards themselves come from the grouped roster arrays. */
+export interface SectionSpec {
+  key: string; // section id + column side
+  title: string; // column heading
+  badge: string; // per-card position badge
+  full: string; // accessible position name
+  side: "left" | "right";
+}
+
+export const ROSTER_SECTIONS: SectionSpec[] = [
+  { key: "rotation", title: "Rotation", badge: "SP", full: "Starting Pitcher", side: "left" },
+  { key: "bullpen", title: "Bullpen", badge: "RP", full: "Relief Pitcher", side: "left" },
+  { key: "utility", title: "Utility", badge: "UTIL", full: "Utility", side: "right" },
+  { key: "bench", title: "Bench", badge: "BN", full: "Bench", side: "right" },
 ];
 
-/* Where the on-field "Bench" label sits (caps the top of the bench column,
-   one rhythm-step above UTIL). */
-export const BENCH_LABEL_POS = { x: 91, y: 40 };
-
-/* Ordering used by the mobile grouped list. */
-export const LIST_GROUPS: { title: string; keys: string[] }[] = [
+/* Ordering used by the mobile grouped list. Lineup slots are keyed; the reserve
+   and pitching sections come straight from their roster arrays. */
+export const LINEUP_GROUPS: { title: string; keys: string[] }[] = [
   { title: "Infield", keys: ["C", "1B", "2B", "3B", "SS"] },
-  { title: "Outfield", keys: ["LF", "CF", "RF"] },
-  { title: "Pitching", keys: ["SP", "RP"] },
-  { title: "Bench", keys: ["UTIL", "DH"] },
+  { title: "Outfield", keys: ["OF1", "OF2", "OF3"] },
 ];
 
-export const ALL_POSITIONS = [...FIELD_POSITIONS, ...BENCH_POSITIONS];
+export const ALL_POSITIONS = FIELD_POSITIONS;
 
 /* Rate stats shown without a leading zero (baseball convention: .331). */
 const LEADING_ZERO_DROP = new Set(["AVG", "OBP", "SLG", "OPS"]);
