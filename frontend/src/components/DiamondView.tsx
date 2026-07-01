@@ -11,7 +11,6 @@ import { useShell } from "../context/ShellContext";
 import Field from "./Field";
 import PlayerCard from "./PlayerCard";
 import BallIcon from "./BallIcon";
-import UpdatedAt from "./UpdatedAt";
 import "./PlayerCard.css";
 import "./diamond.css";
 
@@ -128,11 +127,9 @@ export default function DiamondView() {
   }
 
   const league = allStars?.leagues[renderedLeagueId];
-  const updated = allStars?.updated_at;
 
   return (
-    <>
-      <div className="stage" ref={stageRef}>
+    <div className="stage" ref={stageRef}>
         {status === "loading" ? (
           <Skeleton scale={scale} isNarrow={isNarrow} />
         ) : isNarrow ? (
@@ -220,16 +217,7 @@ export default function DiamondView() {
             </div>
           </div>
         )}
-      </div>
-
-      <footer className="view-footer">
-        {updated && status === "ready" && (
-          <p className="view-footer__updated">
-            <UpdatedAt iso={updated} />
-          </p>
-        )}
-      </footer>
-    </>
+    </div>
   );
 }
 

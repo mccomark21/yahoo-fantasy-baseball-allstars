@@ -41,13 +41,12 @@
   z-index: 1;
 }
 
-/* ---- Top bar ---------------------------------------------------------- */
+/* ---- Top bar — home for all persistent chrome ------------------------- */
 .topbar {
   grid-row: 1;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--sp-4);
+  gap: var(--sp-3) var(--sp-4);
   flex-wrap: wrap;
 }
 
@@ -61,6 +60,32 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink);
+}
+
+/* Compact season marker riding beside the wordmark — a quiet mono tag, not a
+   headline. */
+.topbar__season {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  padding: 1px 8px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-pill);
+}
+
+/* League dropdown + freshness stamp, pinned to the right edge of the bar. */
+.topbar__controls {
+  margin-inline-start: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.topbar__updated {
+  font-size: var(--fs-sm);
+  color: var(--muted-dim);
+  white-space: nowrap;
 }
 
 .ball-icon {
@@ -132,21 +157,14 @@
   padding: 0 5px;
 }
 
-/* ---- View header ------------------------------------------------------ */
+/* ---- View header — per-view title (off the diamond) + hint ------------ */
 .viewhead {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: var(--sp-4);
+  align-items: baseline;
+  gap: var(--sp-2) var(--sp-4);
   flex-wrap: wrap;
   margin-top: clamp(var(--sp-3), 2.5vw, var(--sp-5));
   margin-bottom: var(--sp-3);
-}
-
-.viewhead__title-wrap {
-  display: flex;
-  align-items: baseline;
-  gap: var(--sp-3);
 }
 
 .viewhead__title {
@@ -157,73 +175,146 @@
   color: var(--ink);
 }
 
-.viewhead__season {
-  font-size: var(--fs-sm);
-  font-weight: 500;
-  color: var(--muted);
-  padding: 2px 9px;
-  border: 1px solid var(--hairline);
-  border-radius: var(--r-pill);
-  white-space: nowrap;
-}
-
-.viewhead__right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: var(--sp-2);
-}
-
 .viewhead__hint {
   font-size: var(--fs-sm);
   color: var(--muted-dim);
 }
 
-/* ---- League toggle ---------------------------------------------------- */
-.league-toggle {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(var(--count), 1fr);
-  padding: 4px;
+/* ---- League dropdown (top nav) ---------------------------------------- */
+.league-picker__trigger {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  max-width: 260px;
+  padding: var(--sp-2) var(--sp-3);
   background: var(--press-box);
   border: 1px solid var(--hairline);
   border-radius: var(--r-pill);
-}
-
-.league-toggle__thumb {
-  position: absolute;
-  top: 4px;
-  bottom: 4px;
-  left: 4px;
-  width: calc((100% - 8px) / var(--count));
-  background: var(--crimson);
-  border-radius: var(--r-pill);
-  box-shadow: var(--glow-crimson);
-  transform: translateX(calc(var(--active) * 100%));
-  transition: transform 0.34s var(--ease-out-quint);
-}
-
-.league-toggle__tab {
-  position: relative;
-  z-index: 1;
-  padding: var(--sp-2) var(--sp-4);
+  color: var(--ink);
   font-weight: 600;
   font-size: var(--fs-sm);
-  white-space: nowrap;
-  /* Long, data-driven league names can't force the page wider than the
-     viewport: let the equal-width tracks shrink and ellipsize when the toggle
-     is constrained (the 100%-width mobile case). Desktop has room, so the full
-     name shows — the clip only engages when it must. */
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+@media (hover: hover) {
+  .league-picker__trigger:hover {
+    border-color: var(--hairline-strong);
+    background: var(--high-surface);
+  }
+}
+
+.league-picker__eyebrow {
+  flex: none;
+  font-family: var(--font-body);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted-dim);
+}
+
+.league-picker__name {
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: var(--muted);
-  border-radius: var(--r-pill);
-  transition: color 0.24s ease;
+  white-space: nowrap;
 }
 
-.league-toggle__tab[data-active] {
-  color: var(--crimson-ink);
+.league-picker__chevron {
+  flex: none;
+  color: var(--muted);
+  transition: transform 0.24s var(--ease-out-quart);
+}
+
+.league-picker__trigger[aria-expanded="true"] .league-picker__chevron {
+  transform: rotate(180deg);
+}
+
+/* The menu is a top-layer popover positioned by JS (fixed coords under the
+   trigger) — so it escapes the nav's overflow clipping. Reset the UA popover
+   box, then draw it as a Press Box surface. */
+.league-picker__menu {
+  position: fixed;
+  inset: auto;
+  margin: 0;
+  padding: var(--sp-1);
+  max-width: min(340px, calc(100vw - 16px));
+  background: var(--press-box);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-pop);
+  color: var(--ink);
+  opacity: 0;
+  transform: translateY(-6px) scale(0.98);
+  transform-origin: top right;
+  transition:
+    opacity 0.16s var(--ease-out-quart),
+    transform 0.2s var(--ease-out-quint),
+    overlay 0.2s allow-discrete,
+    display 0.2s allow-discrete;
+}
+
+.league-picker__menu:popover-open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@starting-style {
+  .league-picker__menu:popover-open {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+}
+
+.league-picker__option {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  width: 100%;
+  padding: var(--sp-2) var(--sp-4) var(--sp-2) var(--sp-2);
+  border-radius: var(--r-sm);
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  color: var(--muted);
+  text-align: left;
+  white-space: nowrap;
+  transition: color 0.16s ease, background 0.16s ease;
+}
+
+/* Crimson active cue — a full inset ring + wash (never a side-stripe). */
+.league-picker__option[data-active] {
+  color: var(--ink);
+  background: var(--crimson-wash);
+  box-shadow: inset 0 0 0 1px oklch(0.64 0.205 27 / 0.45);
+}
+
+@media (hover: hover) {
+  .league-picker__option:not([data-active]):hover {
+    background: var(--high-surface);
+    color: var(--ink);
+  }
+}
+
+.league-picker__option:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: -2px;
+  color: var(--ink);
+}
+
+.league-picker__check {
+  display: grid;
+  place-items: center;
+  width: 16px;
+  flex: none;
+  color: var(--crimson-bright);
+  opacity: 0;
+  transform: scale(0.6);
+  transition: opacity 0.16s ease, transform 0.18s var(--ease-out-quint);
+}
+
+.league-picker__option[data-active] .league-picker__check {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* ---- Main view + stage ------------------------------------------------ */
@@ -400,19 +491,6 @@
   gap: var(--sp-3);
 }
 
-/* ---- Footer ---------------------------------------------------------- */
-.view-footer {
-  position: relative;
-  z-index: 5;
-  margin-top: var(--sp-2);
-  text-align: center;
-}
-
-.view-footer__updated {
-  font-size: var(--fs-sm);
-  color: var(--muted-dim);
-}
-
 /* ---- Loading skeleton ------------------------------------------------ */
 .skel {
   background: linear-gradient(
@@ -548,9 +626,9 @@
 }
 
 /* ---- Field-first overlay (roomy screens) -----------------------------
-   Stack the view header over the field so the diamond claims its vertical
-   space and reads larger. The header floats over the dark top corners; the
-   league toggle stays clickable, everything else lets clicks fall through. */
+   Stack the lone hint over the field so the diamond claims its vertical space
+   and reads larger. The hint floats over the dark top-left corner and lets
+   clicks fall through; all persistent controls now live in the top bar. */
 /* The field-first overlay is the diamond's signature only — the table views
    keep the header in normal flow above their content. Scope it to home.
    Breakpoint matches NARROW_BREAKPOINT in DiamondView: below it the grouped
@@ -561,6 +639,10 @@
     grid-template-rows: auto 1fr;
   }
 
+  /* Only the lone hint remains here; it floats over the top-left of the field
+     without reserving the old header band's height, so the stage claims the
+     freed space. It's non-interactive, so the whole overlay lets clicks fall
+     through to the cards beneath. */
   .app[data-view="all-stars"] .viewhead {
     grid-row: 2;
     grid-column: 1; /* same cell as .view so they stack, not sit side by side */
@@ -570,11 +652,6 @@
     margin-top: var(--sp-2);
     margin-bottom: 0;
     pointer-events: none;
-  }
-
-  .app[data-view="all-stars"] .viewhead__title-wrap,
-  .app[data-view="all-stars"] .viewhead__right {
-    pointer-events: auto;
   }
 
   .app[data-view="all-stars"] .view {
@@ -606,17 +683,25 @@
 /* ---- Responsive ------------------------------------------------------ */
 @media (max-width: 720px) {
   .topbar {
-    gap: var(--sp-2);
+    gap: var(--sp-2) var(--sp-3);
+  }
+  /* Controls keep to the right, but let the freshness stamp wrap under the
+     dropdown before it ever squeezes the row off-screen. */
+  .topbar__controls {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: var(--sp-1) var(--sp-3);
   }
   .viewhead {
     align-items: flex-start;
   }
-  .viewhead__right {
-    align-items: flex-start;
-    width: 100%;
-  }
   .viewhead__hint {
     display: none;
+  }
+  /* With no title and the hint hidden, the all-stars header is empty on mobile
+     — collapse it so it adds no dead space above the grouped list. */
+  .app[data-view="all-stars"] .viewhead {
+    margin: 0;
   }
 }
 
@@ -629,8 +714,18 @@
 }
 
 @media (max-width: 600px) {
-  .league-toggle {
+  /* Drop the "League" eyebrow inside the trigger to save width; the menu still
+     labels itself. Trigger stretches to share the row with the stamp. */
+  .league-picker {
+    flex: 1;
+    min-width: 0;
+  }
+  .league-picker__trigger {
     width: 100%;
+    max-width: none;
+  }
+  .league-picker__eyebrow {
+    display: none;
   }
 }
 
@@ -653,5 +748,15 @@
     animation: none;
     opacity: 1;
     transform: translate(-50%, -50%);
+  }
+
+  /* Dropdown: crossfade only, no slide/scale. (The global reduce rule already
+     zeroes durations; this drops the transform so there's no movement.) */
+  .league-picker__menu,
+  .league-picker__menu:popover-open {
+    transform: none;
+  }
+  .league-picker__chevron {
+    transition: none;
   }
 }

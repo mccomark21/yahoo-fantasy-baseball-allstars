@@ -15,6 +15,8 @@ import { loadLeagues, type League } from "../data";
 interface ShellValue {
   leagues: League[];
   season?: number;
+  /** ISO timestamp of the last data refresh — feeds the top-nav freshness stamp. */
+  updated?: string;
   leagueId: string;
   setLeague: (id: string) => void;
 }
@@ -34,6 +36,7 @@ const readStored = (): string => {
 export function ShellProvider({ children }: { children: React.ReactNode }) {
   const [leagues, setLeagues] = useState<League[]>([]);
   const [season, setSeason] = useState<number>();
+  const [updated, setUpdated] = useState<string>();
   const [leagueId, setLeagueId] = useState<string>(readStored);
 
   useEffect(() => {
@@ -43,6 +46,7 @@ export function ShellProvider({ children }: { children: React.ReactNode }) {
         if (cancelled) return;
         setLeagues(data.leagues);
         setSeason(data.season);
+        setUpdated(data.updated_at);
         // Validate any stored/initial id against what the league list offers.
         setLeagueId((prev) => {
           const valid = data.leagues.some((l) => l.id === prev);
@@ -68,8 +72,8 @@ export function ShellProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const value = useMemo<ShellValue>(
-    () => ({ leagues, season, leagueId, setLeague }),
-    [leagues, season, leagueId, setLeague]
+    () => ({ leagues, season, updated, leagueId, setLeague }),
+    [leagues, season, updated, leagueId, setLeague]
   );
 
   return <ShellContext.Provider value={value}>{children}</ShellContext.Provider>;
