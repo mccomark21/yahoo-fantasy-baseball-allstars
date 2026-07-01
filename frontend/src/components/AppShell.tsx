@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { VIEWS, viewByPath } from "../views";
 import { useShell } from "../context/ShellContext";
@@ -14,11 +15,19 @@ export default function AppShell() {
   const location = useLocation();
   const view = viewByPath(location.pathname);
   const { leagues, season, leagueId, setLeague } = useShell();
+  const activeLeague = leagues.find((l) => l.id === leagueId);
 
   function onNav(id: string) {
     const target = VIEWS.find((v) => v.id === id);
     if (target) navigate(target.path);
   }
+
+  // Keep the document title in step with the route. SPA navigation doesn't
+  // reload the page, so without this a screen reader announces the same stale
+  // title on every view; updating it names the view the user just landed on.
+  useEffect(() => {
+    document.title = `${view.title} · Fantasy Baseball All-Stars`;
+  }, [view.title]);
 
   return (
     <div className="app" data-view={view.id}>
@@ -54,6 +63,13 @@ export default function AppShell() {
       <main className="view" id="view-panel" role="tabpanel" aria-label={view.title}>
         <Outlet />
       </main>
+
+      {/* Switching leagues swaps a whole view's data without moving focus, so
+          announce the change politely. A polite region stays silent on initial
+          render and speaks only when the active league actually changes. */}
+      <p className="visually-hidden" role="status" aria-live="polite">
+        {activeLeague ? `Showing ${activeLeague.name}` : ""}
+      </p>
     </div>
   );
 }

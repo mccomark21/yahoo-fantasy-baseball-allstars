@@ -1,22 +1,22 @@
 {
   "season": 2026,
-  "updated_at": "2026-06-30T20:25:36Z",
+  "updated_at": "2026-07-01T00:28:57Z",
   "leagues": {
     "12239": {
       "C": {
-        "player_name": "Ben Rice",
+        "player_name": "Hunter Goodman",
         "position": "C",
-        "mlb_team": "NYY",
-        "mlb_team_id": 147,
-        "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/147.svg",
-        "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.PAw8jhnr.QU4.j_T111mw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/62137.1.png",
-        "fantasy_team": "1% Low Fat McChocolate Milk",
+        "mlb_team": "COL",
+        "mlb_team_id": 115,
+        "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/115.svg",
+        "headshot_url": "https://s.yimg.com/iu/api/res/1.2/SG6jRsPTHPBe5Ah8b_OsiA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12409.1.png",
+        "fantasy_team": "DiZ-Hajj-O",
         "stats": {
-          "R": 56,
-          "HR": 22,
-          "RBI": 53,
-          "SB": 2,
-          "AVG": 0.272
+          "R": 53,
+          "HR": 26,
+          "RBI": 48,
+          "SB": 5,
+          "AVG": 0.245
         }
       },
       "1B": {
@@ -44,9 +44,9 @@
         "headshot_url": "https://s.yimg.com/iu/api/res/1.2/vKAuFcOIxAGxD1XnftgjxA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11343.png",
         "fantasy_team": "All Rise & Wittness",
         "stats": {
-          "R": 58,
-          "HR": 11,
-          "RBI": 47,
+          "R": 59,
+          "HR": 12,
+          "RBI": 48,
           "SB": 13,
           "AVG": 0.26
         }
@@ -78,7 +78,7 @@
         "stats": {
           "R": 51,
           "HR": 17,
-          "RBI": 57,
+          "RBI": 59,
           "SB": 13,
           "AVG": 0.275
         }
@@ -92,9 +92,9 @@
         "headshot_url": "https://s.yimg.com/iu/api/res/1.2/dlAVZx_gHHNKR1QHuPXtsA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/12521.3.png",
         "fantasy_team": "The Voice of Reason",
         "stats": {
-          "R": 72,
-          "HR": 20,
-          "RBI": 49,
+          "R": 73,
+          "HR": 21,
+          "RBI": 50,
           "SB": 13,
           "AVG": 0.258
         },
@@ -109,11 +109,11 @@
         "headshot_url": "https://s.yimg.com/iu/api/res/1.2/3c1wXfLQVc8OUuM2qUg58w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12157.1.png",
         "fantasy_team": "TheHotDogSafari",
         "stats": {
-          "R": 51,
+          "R": 52,
           "HR": 17,
           "RBI": 45,
           "SB": 20,
-          "AVG": 0.278
+          "AVG": 0.284
         }
       },
       "RF": {
@@ -129,7 +129,7 @@
           "HR": 25,
           "RBI": 56,
           "SB": 1,
-          "AVG": 0.311
+          "AVG": 0.308
         }
       },
       "SP": {
@@ -160,8 +160,8 @@
           "W": 2,
           "SV": 21,
           "K": 66,
-          "ERA": 0.79,
-          "WHIP": 0.79
+          "ERA": 0.78,
+          "WHIP": 0.84
         }
       },
       "UTIL": {
@@ -175,30 +175,30 @@
         "stats": {
           "R": 54,
           "HR": 30,
-          "RBI": 54,
+          "RBI": 55,
           "SB": 2,
-          "AVG": 0.256
+          "AVG": 0.253
         }
       }
     },
     "14078": {
       "C": {
-        "player_name": "Ben Rice",
+        "player_name": "Hunter Goodman",
         "position": "C",
-        "mlb_team": "NYY",
-        "mlb_team_id": 147,
-        "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/147.svg",
-        "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.PAw8jhnr.QU4.j_T111mw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/62137.1.png",
-        "fantasy_team": "Gardy Goes Yardy",
+        "mlb_team": "COL",
+        "mlb_team_id": 115,
+        "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/115.svg",
+        "headshot_url": "https://s.yimg.com/iu/api/res/1.2/SG6jRsPTHPBe5Ah8b_OsiA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12409.1.png",
+        "fantasy_team": "FatherOfTwoLoaded",
         "stats": {
-          "R": 56,
-          "H": 79,
-          "HR": 22,
-          "RBI": 53,
-          "SB": 2,
-          "K": 77,
-          "AVG": 0.272,
-          "OBP": 0.362,
+          "R": 53,
+          "H": 74,
+          "HR": 26,
+          "RBI": 48,
+          "SB": 5,
+          "K": 109,
+          "AVG": 0.245,
+          "OBP": 0.309,
           "XBH": 39
         }
       },
@@ -212,11 +212,11 @@
         "fantasy_team": "Let’s go Knicks ✌️",
         "stats": {
           "R": 59,
-          "H": 84,
+          "H": 85,
           "HR": 19,
           "RBI": 64,
           "SB": 7,
-          "K": 114,
+          "K": 115,
           "AVG": 0.279,
           "OBP": 0.423,
           "XBH": 35
@@ -231,15 +231,15 @@
         "headshot_url": "https://s.yimg.com/iu/api/res/1.2/vKAuFcOIxAGxD1XnftgjxA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11343.png",
         "fantasy_team": "WestCoastTruth (1x Champ)",
         "stats": {
-          "R": 58,
-          "H": 77,
-          "HR": 11,
-          "RBI": 47,
+          "R": 59,
+          "H": 78,
+          "HR": 12,
+          "RBI": 48,
           "SB": 13,
-          "K": 92,
+          "K": 93,
           "AVG": 0.26,
-          "OBP": 0.363,
-          "XBH": 30
+          "OBP": 0.362,
+          "XBH": 31
         }
       },
       "3B": {
@@ -272,14 +272,14 @@
         "fantasy_team": "El Jefe",
         "stats": {
           "R": 51,
-          "H": 83,
+          "H": 84,
           "HR": 17,
-          "RBI": 57,
+          "RBI": 59,
           "SB": 13,
-          "K": 74,
+          "K": 76,
           "AVG": 0.275,
-          "OBP": 0.358,
-          "XBH": 34
+          "OBP": 0.357,
+          "XBH": 35
         }
       },
       "LF": {
@@ -291,21 +291,41 @@
         "headshot_url": "https://s.yimg.com/iu/api/res/1.2/dlAVZx_gHHNKR1QHuPXtsA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/12521.3.png",
         "fantasy_team": "FatherOfTwoLoaded",
         "stats": {
-          "R": 72,
-          "H": 84,
-          "HR": 20,
-          "RBI": 49,
+          "R": 73,
+          "H": 85,
+          "HR": 21,
+          "RBI": 50,
           "SB": 13,
-          "K": 121,
+          "K": 123,
           "AVG": 0.258,
-          "OBP": 0.384,
-          "XBH": 40
+          "OBP": 0.383,
+          "XBH": 41
         },
         "is_leader": true
       },
       "CF": {
-        "player_name": "Yordan Alvarez",
+        "player_name": "Kyle Schwarber",
         "position": "CF",
+        "mlb_team": "PHI",
+        "mlb_team_id": 143,
+        "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/143.svg",
+        "headshot_url": "https://s.yimg.com/iu/api/res/1.2/LJRB6eK5q1Fmy4rBpWaq4Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9861.1.png",
+        "fantasy_team": "El Jefe",
+        "stats": {
+          "R": 54,
+          "H": 77,
+          "HR": 30,
+          "RBI": 55,
+          "SB": 2,
+          "K": 122,
+          "AVG": 0.253,
+          "OBP": 0.368,
+          "XBH": 40
+        }
+      },
+      "RF": {
+        "player_name": "Yordan Alvarez",
+        "position": "RF",
         "mlb_team": "HOU",
         "mlb_team_id": 117,
         "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/117.svg",
@@ -317,30 +337,10 @@
           "HR": 25,
           "RBI": 56,
           "SB": 1,
-          "K": 63,
-          "AVG": 0.311,
-          "OBP": 0.426,
+          "K": 64,
+          "AVG": 0.308,
+          "OBP": 0.424,
           "XBH": 41
-        }
-      },
-      "RF": {
-        "player_name": "Kyle Schwarber",
-        "position": "RF",
-        "mlb_team": "PHI",
-        "mlb_team_id": 143,
-        "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/143.svg",
-        "headshot_url": "https://s.yimg.com/iu/api/res/1.2/LJRB6eK5q1Fmy4rBpWaq4Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9861.1.png",
-        "fantasy_team": "El Jefe",
-        "stats": {
-          "R": 54,
-          "H": 77,
-          "HR": 30,
-          "RBI": 54,
-          "SB": 2,
-          "K": 121,
-          "AVG": 0.256,
-          "OBP": 0.371,
-          "XBH": 40
         }
       },
       "SP": {
@@ -376,9 +376,9 @@
           "L": 1,
           "BB": 13,
           "K": 66,
-          "ERA": 0.79,
-          "WHIP": 0.79,
-          "K/9": 17.47,
+          "ERA": 0.78,
+          "WHIP": 0.84,
+          "K/9": 17.13,
           "QS": 0,
           "SV+H": 21
         }
@@ -392,14 +392,14 @@
         "headshot_url": "https://s.yimg.com/iu/api/res/1.2/3c1wXfLQVc8OUuM2qUg58w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12157.1.png",
         "fantasy_team": "Gardy Goes Yardy",
         "stats": {
-          "R": 51,
-          "H": 88,
+          "R": 52,
+          "H": 91,
           "HR": 17,
           "RBI": 45,
           "SB": 20,
           "K": 96,
-          "AVG": 0.278,
-          "OBP": 0.364,
+          "AVG": 0.284,
+          "OBP": 0.372,
           "XBH": 34
         }
       }

@@ -17,13 +17,16 @@
   /* ---- Content ----------------------------------------------------------- */
   --ink: oklch(0.972 0.008 90); /* Floodlight — body + headings, ≥7:1       */
   --muted: oklch(0.745 0.012 255); /* Scorecard — labels, meta, ≥4.5:1      */
-  --muted-dim: oklch(0.6 0.012 255); /* tertiary — timestamps                */
+  --muted-dim: oklch(0.64 0.012 255); /* tertiary — timestamps; AA on every surface (≥4.59:1) */
 
-  /* ---- Primary: Sport Crimson (intent) ---------------------------------- */
-  --crimson: oklch(0.585 0.213 25);
+  /* ---- Primary: Sport Crimson (intent) ----------------------------------
+     Crimson is the text-bearing fill for badges/chips/toggles, so the pair
+     (ink on crimson) must clear AA body text: white on L0.575 = 4.87:1.
+     Full chroma is kept — this is still the vivid cap-logo red. */
+  --crimson: oklch(0.575 0.213 25);
   --crimson-bright: oklch(0.64 0.205 27); /* glow / active edge             */
-  --crimson-ink: oklch(0.985 0.01 25); /* text on crimson                   */
-  --crimson-wash: oklch(0.585 0.213 25 / 0.14); /* surface tint, not stripe */
+  --crimson-ink: oklch(1 0 0); /* text on crimson — white, AA-verified 4.87:1 */
+  --crimson-wash: oklch(0.575 0.213 25 / 0.14); /* surface tint, not stripe */
 
   /* ---- Secondary: Stadium Amber (records / best) ------------------------ */
   --amber: oklch(0.82 0.145 78);
