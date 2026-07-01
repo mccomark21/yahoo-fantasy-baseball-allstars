@@ -18,7 +18,15 @@ export interface AllStar {
   stats: PlayerStats;
 }
 
-export type LeagueAllStars = Record<string, AllStar>;
+/** One league's roster, grouped into the sections the field view renders
+    (issue #27): the on-field starting lineup (fielders keyed by slot — C, 1B …
+    SS, OF1, OF2, OF3, UTIL), plus reserve/pitching sections as ranked lists. */
+export interface LeagueAllStars {
+  lineup: Record<string, AllStar>;
+  bench: AllStar[];
+  rotation: AllStar[];
+  bullpen: AllStar[];
+}
 
 export interface AllStarsData {
   season: number;

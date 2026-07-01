@@ -4,7 +4,8 @@
 Reads the raw per-season layer (``data/{league}/{season}/``) for each league's
 *latest* season and writes:
 
-  data/all_stars.json         top player per position per league
+  data/all_stars.json         roster per league — lineup (fielders + Util),
+                              bench (5 reserves), rotation (5 SP), bullpen (2 RP)
   data/positional_races.json  full ranked player list per position per league
 
 Ranking uses actual season stats — not ``percent_owned``. Each player gets a
@@ -12,7 +13,7 @@ composite z-score: for every scoring category the league tracks, how many
 standard deviations above/below the pool mean they sit (sign-flipped for "lower
 is better" stats like ERA/WHIP), summed. Players are scored within role pools —
 batters, starters, relievers — so wins are judged among starters and saves among
-relievers, with innings as a starter workload qualifier. The all-star at each
+relievers, with innings as a starter workload qualifier. The starter at each
 position is the highest composite among players eligible there; the three
 outfield slots are filled by three distinct players.
 
@@ -30,10 +31,12 @@ from typing import Dict, List
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from common import (  # noqa: E402
-    DATA_DIR, assign_distinct, clean_number, counts_for_role, dump_json,
-    eligible_positions, is_batter, is_pitching_stat, higher_is_better, load_json,
-    mlb_team_id, mlb_team_logo_url, scoring_stats, season_dir, stat_abbr,
-    to_number, TARGET_POSITIONS,
+    BENCH_SIZE, BULLPEN_SIZE, DATA_DIR, INFIELD_POSITIONS, OF_SLOTS,
+    RACE_POSITIONS, ROTATION_SIZE, assign_distinct, clean_number,
+    counts_for_role, dump_json, eligible_positions, is_batter, is_pitcher,
+    is_pitching_stat, higher_is_better, load_json, mlb_team_id,
+    mlb_team_logo_url, player_key, scoring_stats, season_dir, stat_abbr,
+    to_number,
 )
 
 
@@ -105,7 +108,13 @@ class ScoringPool:
 
     A workload qualifier (innings for starters) is just another category in the
     pool, so a starter below the pool's mean innings is penalized automatically.
+
+    Each category's z-score is clamped to ``±Z_CLAMP`` before summing, so a lone
+    freak-outlier stat can't run away with a composite — which matters most when
+    the same composites are compared across roles to rank the bench (issue #27).
     """
+
+    Z_CLAMP = 2.5
 
     def __init__(self, members: List[dict], categories: List[dict]):
         self.categories = list(categories)
@@ -128,6 +137,7 @@ class ScoringPool:
                 continue
             mean, stdev = dist
             z = (v - mean) / stdev
+            z = max(-self.Z_CLAMP, min(self.Z_CLAMP, z))
             total += z if higher_is_better(cat) else -z
         return total
 
@@ -179,6 +189,22 @@ def _score_key(position: str) -> str:
     return "batting_score"
 
 
+def _best_pool_score(player: dict) -> float:
+    """A player's strongest standardized composite across the pools they belong
+    to — the cross-role yardstick the bench is ranked by (issue #27). Because
+    each pool's z-scores are clamped to the same range, a hitter's batting
+    composite and a pitcher's role composite are comparable enough to seed one
+    position-agnostic reserve list."""
+    scores = []
+    if is_batter(player):
+        scores.append(player["batting_score"])
+    if "SP" in eligible_positions(player):
+        scores.append(player["sp_score"])
+    if "RP" in eligible_positions(player):
+        scores.append(player["rp_score"])
+    return max(scores) if scores else float("-inf")
+
+
 # --------------------------------------------------------------------------- #
 # Output shaping
 # --------------------------------------------------------------------------- #
@@ -209,59 +235,155 @@ def _base_entry(player: dict, position: str, cats: List[dict]) -> dict:
     return entry
 
 
-def build_league(players: List[dict], stat_categories: dict) -> tuple[dict, dict]:
-    """Return (all_stars_for_league, races_for_league)."""
-    cats = score_players(players, stat_categories)
-    batting_cats = [c for c in cats if not is_pitching_stat(c)]
-    pitching_cats = [c for c in cats if is_pitching_stat(c)]
+def _display_cats_for(player: dict, batting_cats: List[dict],
+                      pitching_cats: List[dict]) -> List[dict]:
+    """Pitchers show pitching stats, everyone else their batting line — so a
+    mixed bench renders each reserve in their own currency."""
+    return pitching_cats if is_pitcher(player) and not is_batter(player) else batting_cats
 
-    all_stars: Dict[str, dict] = {}
-    races: Dict[str, list] = {}
-    ranked_by_slot: Dict[str, list] = {}
-    display_cats_by_slot: Dict[str, list] = {}
 
-    for position in TARGET_POSITIONS:
-        is_pitching = position in ("SP", "RP")
+def _rank_candidates(players: List[dict]) -> Dict[str, list]:
+    """Full ranked candidate list per race position (single OF, no DH) — the raw
+    pools both roster assignment and the emitted races draw from."""
+    ranked: Dict[str, list] = {}
+    for position in RACE_POSITIONS:
         score_key = _score_key(position)
-        display_cats = pitching_cats if is_pitching else batting_cats
-
         candidates = [p for p in players if position in eligible_positions(p)]
         if not candidates:
             continue
         candidates.sort(key=lambda p: (-p[score_key], p.get("name", "")))
-        ranked_by_slot[position] = candidates
-        display_cats_by_slot[position] = display_cats
+        ranked[position] = candidates
+    return ranked
 
-        race = []
-        for rank, player in enumerate(candidates, start=1):
-            entry = _base_entry(player, position, display_cats)
-            race.append({"rank": rank, **entry, "score": round(player[score_key], 3)})
-        races[position] = race
 
-    # The diamond shows three distinct outfielders, not the same star three
-    # times — assign within position groups before shaping the all-star entries.
-    for position, player in assign_distinct(ranked_by_slot).items():
-        all_stars[position] = _base_entry(player, position, display_cats_by_slot[position])
+def _shape_race(candidates: List[dict], position: str, cats_for, score_for) -> list:
+    """JSON-ready ranked list — ``cats_for`` picks each row's display stats and
+    ``score_for`` its composite (both callables of the player)."""
+    return [
+        {"rank": rank, **_base_entry(player, position, cats_for(player)),
+         "score": round(score_for(player), 3)}
+        for rank, player in enumerate(candidates, start=1)
+    ]
 
-    _mark_leader(all_stars, players)
+
+def _build_races(ranked: Dict[str, list], bench_pool: List[dict], crowned: set,
+                 batting_cats: List[dict], pitching_cats: List[dict]) -> dict:
+    """The JSON positional-race lists.
+
+    Fielding, OF and pitching races are the full ranked pools. The Util and Bench
+    races drop anyone already ``crowned`` — a fielding-race leader, a starter or a
+    reliever — so they surface only genuinely available flex/reserve options
+    (issue #27). The Bench race additionally omits the Util pick (already applied
+    to ``bench_pool``), so its top entries mirror the bench roster section."""
+    races: Dict[str, list] = {}
+    for position in INFIELD_POSITIONS + ["OF", "SP", "RP"]:
+        if position not in ranked:
+            continue
+        cats = pitching_cats if position in ("SP", "RP") else batting_cats
+        score_key = _score_key(position)
+        races[position] = _shape_race(
+            ranked[position], position, lambda p: cats, lambda p: p[score_key])
+
+    util_pool = [p for p in ranked.get("UTIL", []) if player_key(p) not in crowned]
+    races["UTIL"] = _shape_race(
+        util_pool, "UTIL", lambda p: batting_cats, lambda p: p["batting_score"])
+
+    races["BN"] = _shape_race(
+        bench_pool, "BN",
+        lambda p: _display_cats_for(p, batting_cats, pitching_cats),
+        _best_pool_score)
+    return races
+
+
+def _build_lineup(ranked: Dict[str, list], batting_cats: List[dict]) -> tuple[dict, dict]:
+    """The on-field starting nine: five fielders, three distinct outfielders, and
+    a Util flex — all distinct players. Returns ``(lineup_entries, chosen)`` where
+    ``chosen`` maps each slot to its raw player dict."""
+    ranked_by_slot: Dict[str, list] = {}
+    for pos in INFIELD_POSITIONS:
+        if pos in ranked:
+            ranked_by_slot[pos] = ranked[pos]
+    for slot in OF_SLOTS:                      # three slots share the one OF pool
+        if "OF" in ranked:
+            ranked_by_slot[slot] = ranked["OF"]
+    if "UTIL" in ranked:
+        ranked_by_slot["UTIL"] = ranked["UTIL"]
+
+    chosen = assign_distinct(ranked_by_slot)   # distinct within the batting group
+    lineup = {slot: _base_entry(player, slot, batting_cats)
+              for slot, player in chosen.items()}
+    return lineup, chosen
+
+
+def build_league(players: List[dict], stat_categories: dict) -> tuple[dict, dict]:
+    """Return (all_stars_for_league, races_for_league).
+
+    ``all_stars`` is grouped into the four roster sections the field view renders
+    (issue #27): ``lineup`` (fielders + Util), ``bench`` (5 reserves), ``rotation``
+    (top 5 SP) and ``bullpen`` (top 2 relievers). ``races`` is the ranked field per
+    race position — one OF race, plus Util and Bench races limited to players not
+    already crowned as a starter or on the pitching staff."""
+    cats = score_players(players, stat_categories)
+    batting_cats = [c for c in cats if not is_pitching_stat(c)]
+    pitching_cats = [c for c in cats if is_pitching_stat(c)]
+
+    ranked = _rank_candidates(players)
+
+    lineup, chosen = _build_lineup(ranked, batting_cats)
+    _mark_leader(lineup, players)
+
+    rotation_players = ranked.get("SP", [])[:ROTATION_SIZE]
+    rotation = [_base_entry(p, "SP", pitching_cats) for p in rotation_players]
+    if rotation:
+        rotation[0]["is_leader"] = True        # highlight the #1 starter
+
+    # The bullpen mirrors the rotation: the best relievers by RP composite. A
+    # two-way arm already crowned in the rotation is skipped so no one appears in
+    # both pitching sections.
+    rotation_keys = {player_key(p) for p in rotation_players}
+    bullpen_players = [p for p in ranked.get("RP", [])
+                       if player_key(p) not in rotation_keys][:BULLPEN_SIZE]
+    bullpen = [_base_entry(p, "RP", pitching_cats) for p in bullpen_players]
+    if bullpen:
+        bullpen[0]["is_leader"] = True          # highlight the #1 reliever
+
+    # Crowned = the fielding-race leaders (lineup minus the Util flex) plus the
+    # pitching staff — excluded from both the Util and Bench races.
+    fielders = {player_key(p) for slot, p in chosen.items() if slot != "UTIL"}
+    crowned = fielders | rotation_keys | {player_key(p) for p in bullpen_players}
+
+    # The bench: best available performers, hitter or pitcher, once the fielding
+    # starters, the Util pick and the pitching staff are set aside.
+    util_key = player_key(chosen["UTIL"]) if "UTIL" in chosen else None
+    bench_excluded = crowned | ({util_key} if util_key else set())
+    bench_pool = [p for p in players if player_key(p) not in bench_excluded]
+    bench_pool.sort(key=lambda p: (-_best_pool_score(p), p.get("name", "")))
+    bench = [_base_entry(p, "BN", _display_cats_for(p, batting_cats, pitching_cats))
+             for p in bench_pool[:BENCH_SIZE]]
+
+    all_stars = {
+        "lineup": lineup,
+        "bench": bench,
+        "rotation": rotation,
+        "bullpen": bullpen,
+    }
+    races = _build_races(ranked, bench_pool, crowned, batting_cats, pitching_cats)
     return all_stars, races
 
 
-def _mark_leader(all_stars: Dict[str, dict], players: List[dict]) -> None:
+def _mark_leader(lineup: Dict[str, dict], players: List[dict]) -> None:
     """Flag the headline hitter — the highest batting composite among the
-    batting-position all-stars — with ``is_leader``."""
+    starting lineup — with ``is_leader``."""
     by_name = {p.get("name", ""): p for p in players}
-    best_pos, best_score = None, None
-    for position, entry in all_stars.items():
-        if position in ("SP", "RP"):
-            continue
+    best_slot, best_score = None, None
+    for slot, entry in lineup.items():
         player = by_name.get(entry["player_name"])
         if player is None:
             continue
         if best_score is None or player["batting_score"] > best_score:
-            best_score, best_pos = player["batting_score"], position
-    if best_pos is not None:
-        all_stars[best_pos]["is_leader"] = True
+            best_score, best_slot = player["batting_score"], slot
+    if best_slot is not None:
+        lineup[best_slot]["is_leader"] = True
 
 
 # --------------------------------------------------------------------------- #
@@ -288,7 +410,9 @@ def main() -> None:
         all_stars, races = build_league(players, stat_categories)
         all_stars_out[league_id] = all_stars
         races_out[league_id] = races
-        log(f"  {len(all_stars)} positions filled from {len(players)} rostered players")
+        filled = (len(all_stars["lineup"]) + len(all_stars["bench"])
+                  + len(all_stars["rotation"]) + len(all_stars["bullpen"]))
+        log(f"  {filled} roster spots filled from {len(players)} rostered players")
 
     dump_json(DATA_DIR / "all_stars.json",
               {"season": top_season, "updated_at": updated, "leagues": all_stars_out})

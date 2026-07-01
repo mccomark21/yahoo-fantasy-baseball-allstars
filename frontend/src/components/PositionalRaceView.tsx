@@ -22,9 +22,11 @@ import "./tableviews.css";
 
 type Status = "loading" | "ready" | "error";
 
-/* Canonical leaderboard order; positions absent from a league are filtered. */
+/* Canonical leaderboard order; positions absent from a league are filtered.
+   One collapsed OF race (issue #27), no DH. UTIL and BN (bench) trail the
+   fielding + pitching races and exclude anyone already crowned as a starter. */
 const POSITION_ORDER = [
-  "C", "1B", "2B", "3B", "SS", "LF", "CF", "RF", "SP", "RP", "UTIL", "DH",
+  "C", "1B", "2B", "3B", "SS", "OF", "SP", "RP", "UTIL", "BN",
 ];
 
 const RANK_KEY = "__rank";
@@ -107,9 +109,13 @@ export default function PositionalRaceView() {
   }, [cats]);
 
   // The stat columns for this position, ordered by the categories file when
-  // available, otherwise by their natural order in the data.
+  // available, otherwise by their natural order in the data. Union across all
+  // rows, not just the first — the position-agnostic Bench race mixes hitters
+  // and pitchers, so no single row carries every column.
   const statKeys = useMemo(() => {
-    const present = entries.length ? Object.keys(entries[0].stats) : [];
+    const present = Array.from(
+      new Set(entries.flatMap((e) => Object.keys(e.stats)))
+    );
     if (!cats) return present;
     const order = cats.stats.map((s) => s.abbr);
     const ranked = present

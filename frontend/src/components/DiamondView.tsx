@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
-import { loadAllStars, type AllStarsData } from "../data";
+import { loadAllStars, type AllStar, type AllStarsData, type LeagueAllStars } from "../data";
 import {
-  BENCH_POSITIONS,
-  BENCH_LABEL_POS,
   FIELD_POSITIONS,
-  LIST_GROUPS,
+  LINEUP_GROUPS,
+  ROSTER_SECTIONS,
   ALL_POSITIONS,
+  type PositionSpec,
+  type SectionSpec,
 } from "../constants/positions";
 import { useShell } from "../context/ShellContext";
 import Field from "./Field";
@@ -15,13 +16,51 @@ import "./PlayerCard.css";
 import "./diamond.css";
 
 const DESIGN_W = 1320; // broadcast wide-shot — fills landscape desktops
-const DESIGN_H = 660; // field box the % coords assume (2:1; bench rides on the field)
+const DESIGN_H = 660; // field box the % coords assume (2:1; columns ride on the field)
 // Below this, the wide field would be width-bound and float in a tall portrait
 // viewport, so we fall back to the grouped list. Kept in sync with the
 // field-first overlay breakpoint in diamond.css so the two never disagree.
 const NARROW_BREAKPOINT = 860;
 
 type Status = "loading" | "ready" | "error";
+
+/* A card slot resolved to its player — the shared shape the diamond fielders,
+   the flanking columns and the mobile list all render. */
+interface Slot {
+  key: string;
+  spec: PositionSpec;
+  player: AllStar | null;
+}
+
+/* The players a roster section surfaces. Utility is the lineup's flex slot; the
+   rest are ranked roster arrays. */
+function sectionPlayers(league: LeagueAllStars | undefined, key: string): AllStar[] {
+  if (!league) return [];
+  if (key === "utility") return league.lineup?.UTIL ? [league.lineup.UTIL] : [];
+  if (key === "rotation") return league.rotation ?? [];
+  if (key === "bullpen") return league.bullpen ?? [];
+  if (key === "bench") return league.bench ?? [];
+  return [];
+}
+
+/* One card's position spec inside a column — PlayerCard only reads label/key. */
+function cardSpec(section: SectionSpec, i: number): PositionSpec {
+  return {
+    key: `${section.key}-${i}`,
+    label: section.badge,
+    full: section.full,
+    x: 0,
+    y: 0,
+    group: "Pitching",
+  };
+}
+
+function sectionSlots(league: LeagueAllStars | undefined, section: SectionSpec): Slot[] {
+  return sectionPlayers(league, section.key).map((player, i) => {
+    const spec = cardSpec(section, i);
+    return { key: spec.key, spec, player };
+  });
+}
 
 export default function DiamondView() {
   // The active league lives in the shell so it persists across views; this view
@@ -130,93 +169,89 @@ export default function DiamondView() {
 
   return (
     <div className="stage" ref={stageRef}>
-        {status === "loading" ? (
-          <Skeleton scale={scale} isNarrow={isNarrow} />
-        ) : isNarrow ? (
-          <GroupedList
-            league={league}
-            switching={switching}
-            expandedKey={expandedKey}
-            onToggle={toggleCard}
-          />
-        ) : (
-          <div
-            className="diamond"
-            data-entering={entering || undefined}
-            style={{ "--scale": scale } as React.CSSProperties}
-          >
-            <div className="diamond__field-wrap">
-              <div className="diamond__field">
-                <Field />
-              </div>
-              <div className="diamond__lights" aria-hidden="true">
-                <span className="diamond__light diamond__light--l" />
-                <span className="diamond__light diamond__light--r" />
-              </div>
-              <div className="diamond__cards" data-switching={switching || undefined}>
-                {FIELD_POSITIONS.map((pos, i) => (
-                  <div
-                    key={pos.key}
-                    className="diamond__slot"
-                    style={
-                      {
-                        "--x": `${pos.x}%`,
-                        "--y": `${pos.y}%`,
-                        "--i": i,
-                      } as React.CSSProperties
-                    }
-                    data-active={expandedKey === pos.key || undefined}
-                  >
-                    <PlayerCard
-                      position={pos}
-                      player={league?.[pos.key] ?? null}
-                      expanded={expandedKey === pos.key}
-                      onToggle={() => toggleCard(pos.key)}
-                      index={i}
-                    />
-                  </div>
-                ))}
-
-                {/* Bench — a labelled column out in right field */}
-                <span
-                  className="diamond__bench-label"
+      {status === "loading" ? (
+        <Skeleton scale={scale} isNarrow={isNarrow} />
+      ) : isNarrow ? (
+        <GroupedList
+          league={league}
+          switching={switching}
+          expandedKey={expandedKey}
+          onToggle={toggleCard}
+        />
+      ) : (
+        <div
+          className="diamond"
+          data-entering={entering || undefined}
+          style={{ "--scale": scale } as React.CSSProperties}
+        >
+          <div className="diamond__field-wrap">
+            <div className="diamond__field">
+              <Field />
+            </div>
+            <div className="diamond__lights" aria-hidden="true">
+              <span className="diamond__light diamond__light--l" />
+              <span className="diamond__light diamond__light--r" />
+            </div>
+            <div className="diamond__cards" data-switching={switching || undefined}>
+              {FIELD_POSITIONS.map((pos, i) => (
+                <div
+                  key={pos.key}
+                  className="diamond__slot"
                   style={
                     {
-                      "--x": `${BENCH_LABEL_POS.x}%`,
-                      "--y": `${BENCH_LABEL_POS.y}%`,
-                      "--i": FIELD_POSITIONS.length,
+                      "--x": `${pos.x}%`,
+                      "--y": `${pos.y}%`,
+                      "--i": i,
                     } as React.CSSProperties
                   }
-                  aria-hidden="true"
+                  data-active={expandedKey === pos.key || undefined}
                 >
-                  Bench
-                </span>
-                {BENCH_POSITIONS.map((pos, i) => (
-                  <div
-                    key={pos.key}
-                    className="diamond__slot"
-                    style={
-                      {
-                        "--x": `${pos.x}%`,
-                        "--y": `${pos.y}%`,
-                        "--i": FIELD_POSITIONS.length + 1 + i,
-                      } as React.CSSProperties
-                    }
-                    data-active={expandedKey === pos.key || undefined}
-                  >
-                    <PlayerCard
-                      position={pos}
-                      player={league?.[pos.key] ?? null}
-                      expanded={expandedKey === pos.key}
-                      onToggle={() => toggleCard(pos.key)}
-                      index={FIELD_POSITIONS.length + 1 + i}
-                    />
-                  </div>
-                ))}
-              </div>
+                  <PlayerCard
+                    position={pos}
+                    player={league?.lineup?.[pos.key] ?? null}
+                    expanded={expandedKey === pos.key}
+                    onToggle={() => toggleCard(pos.key)}
+                    index={i}
+                  />
+                </div>
+              ))}
+
+              {/* Pitching staff + reserves — labelled columns flanking the field */}
+              {(["left", "right"] as const).map((side) => (
+                <div key={side} className={`diamond__col diamond__col--${side}`}>
+                  {ROSTER_SECTIONS.filter((s) => s.side === side).map((section) => {
+                    const slots = sectionSlots(league, section);
+                    if (!slots.length) return null;
+                    return (
+                      <section key={section.key} className="diamond__section">
+                        <h3 className="diamond__section-title">{section.title}</h3>
+                        <div className="diamond__section-cards">
+                          {slots.map((slot, i) => (
+                            <div
+                              key={slot.key}
+                              className="diamond__col-slot"
+                              data-active={expandedKey === slot.key || undefined}
+                            >
+                              <PlayerCard
+                                position={slot.spec}
+                                player={slot.player}
+                                expanded={expandedKey === slot.key}
+                                onToggle={() => toggleCard(slot.key)}
+                                index={i}
+                                variant="bench"
+                              />
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    );
+                  })}
+                </div>
+              ))}
             </div>
           </div>
-        )}
+        </div>
+      )}
     </div>
   );
 }
@@ -245,7 +280,7 @@ function Skeleton({ scale, isNarrow }: { scale: number; isNarrow: boolean }) {
           <Field />
         </div>
         <div className="diamond__cards">
-          {[...FIELD_POSITIONS, ...BENCH_POSITIONS].map((pos) => (
+          {FIELD_POSITIONS.map((pos) => (
             <div
               key={pos.key}
               className="diamond__slot"
@@ -266,31 +301,44 @@ function GroupedList({
   expandedKey,
   onToggle,
 }: {
-  league: ReturnType<() => AllStarsData["leagues"][string]> | undefined;
+  league: LeagueAllStars | undefined;
   switching: boolean;
   expandedKey: string | null;
   onToggle: (key: string) => void;
 }) {
+  // Lineup slots first (keyed by position), then the roster sections in order.
+  const lineupGroups = LINEUP_GROUPS.map((group) => ({
+    title: group.title,
+    slots: group.keys.map<Slot>((key) => ({
+      key,
+      spec: ALL_POSITIONS.find((p) => p.key === key)!,
+      player: league?.lineup?.[key] ?? null,
+    })),
+  }));
+  const sectionGroups = ROSTER_SECTIONS.map((section) => ({
+    title: section.title,
+    slots: sectionSlots(league, section),
+  })).filter((g) => g.slots.length);
+
+  const groups = [...lineupGroups, ...sectionGroups];
+
   return (
     <div className="grouped-list" data-switching={switching || undefined}>
-      {LIST_GROUPS.map((group) => (
+      {groups.map((group) => (
         <section key={group.title} className="grouped-list__group">
           <h2 className="grouped-list__title">{group.title}</h2>
           <div className="grouped-list__items">
-            {group.keys.map((key, i) => {
-              const pos = ALL_POSITIONS.find((p) => p.key === key)!;
-              return (
-                <PlayerCard
-                  key={key}
-                  position={pos}
-                  player={league?.[key] ?? null}
-                  expanded={expandedKey === key}
-                  onToggle={() => onToggle(key)}
-                  index={i}
-                  variant="bench"
-                />
-              );
-            })}
+            {group.slots.map((slot, i) => (
+              <PlayerCard
+                key={slot.key}
+                position={slot.spec}
+                player={slot.player}
+                expanded={expandedKey === slot.key}
+                onToggle={() => onToggle(slot.key)}
+                index={i}
+                variant="bench"
+              />
+            ))}
           </div>
         </section>
       ))}
