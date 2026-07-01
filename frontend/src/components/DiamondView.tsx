@@ -122,9 +122,7 @@ export default function DiamondView() {
       setIsNarrow(width < NARROW_BREAKPOINT);
       // Fill the available box on both axes — no upper cap, so the field keeps
       // scaling up to fill ever-larger screens. Whichever axis binds first wins,
-      // which keeps the field's aspect ratio intact (no distortion). The
-      // transform-scaled card text is re-rasterised at the target size, so it
-      // stays crisp however large the field grows.
+      // which keeps the field's aspect ratio intact (no distortion).
       const fit = Math.min(width / DESIGN_W, height / DESIGN_H);
       setScale(Number.isFinite(fit) && fit > 0 ? fit : 1);
     });
