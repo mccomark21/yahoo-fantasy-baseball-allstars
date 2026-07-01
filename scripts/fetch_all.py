@@ -36,7 +36,8 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from common import DATA_DIR, dump_json, list_seasons, season_dir, to_number  # noqa: E402
+import common  # noqa: E402  (write_leagues_index reads common.DATA_DIR dynamically)
+from common import dump_json, list_seasons, season_dir, to_number  # noqa: E402
 from yahoo_client import YahooClient  # noqa: E402
 
 CONFIG_PATH = Path(__file__).resolve().parent.parent / "config.yaml"
@@ -531,7 +532,9 @@ def write_leagues_index(entries: List[dict]) -> None:
         cur = seasons[-1]
         latest = max(latest, cur)
         leagues.append({"id": e["id"], "name": e["name"], "season": cur, "seasons": seasons})
-    dump_json(DATA_DIR / "leagues.json", {
+    # Read common.DATA_DIR at call time (not an import-time copy) so a test that
+    # redirects ``common.DATA_DIR`` to a tmp dir actually catches this write.
+    dump_json(common.DATA_DIR / "leagues.json", {
         "season": latest, "updated_at": utc_now(), "leagues": leagues,
     })
     log(f"Wrote leagues.json ({len(leagues)} leagues, latest season {latest})")

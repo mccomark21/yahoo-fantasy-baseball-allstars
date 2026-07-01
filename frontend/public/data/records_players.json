@@ -1,79 +1,72 @@
 {
-  "updated_at": "2026-06-25T17:22:22Z",
+  "updated_at": "2026-07-01T00:28:57Z",
   "leagues": {
     "12239": {
       "single_week": [
         {
           "stat": "HR",
-          "value": 5,
-          "player_name": "Aaron Judge",
-          "fantasy_team": "All Rise & Wittness",
+          "value": 7,
+          "player_name": "Junior Caminero",
+          "fantasy_team": "The Voice of Reason",
           "season": 2026,
-          "week": 4
+          "week": 14
         },
         {
           "stat": "K",
           "value": 20,
-          "player_name": "José Soriano",
-          "fantasy_team": "TheHotDogSafari",
+          "player_name": "Sonny Gray",
+          "fantasy_team": "Cruz Missle",
           "season": 2026,
-          "week": 3
+          "week": 14
         },
         {
           "stat": "R",
-          "value": 11,
-          "player_name": "Ketel Marte",
-          "fantasy_team": "Salustro's Fantasy Dungeon",
+          "value": 8,
+          "player_name": "Junior Caminero",
+          "fantasy_team": "The Voice of Reason",
           "season": 2026,
-          "week": 9
+          "week": 14
         },
         {
           "stat": "RBI",
-          "value": 12,
-          "player_name": "Ketel Marte",
-          "fantasy_team": "Salustro's Fantasy Dungeon",
+          "value": 15,
+          "player_name": "Junior Caminero",
+          "fantasy_team": "The Voice of Reason",
           "season": 2026,
-          "week": 9
+          "week": 14
         },
         {
           "stat": "SB",
-          "value": 6,
-          "player_name": "Oneil Cruz",
-          "fantasy_team": "Cruz Missle",
+          "value": 3,
+          "player_name": "Jeremy Peña",
+          "fantasy_team": "DiZ-Hajj-O",
           "season": 2026,
-          "week": 3
+          "week": 14
         },
         {
           "stat": "SV",
-          "value": 4,
-          "player_name": "Mason Miller",
-          "fantasy_team": "DiZ-Hajj-O",
+          "value": 3,
+          "player_name": "Jhoan Duran",
+          "fantasy_team": "Acuña Matata",
           "season": 2026,
-          "week": 4
+          "week": 14
         },
         {
           "stat": "W",
-          "value": 2,
-          "player_name": "Player 469.p.10569",
-          "fantasy_team": "All Rise & Wittness",
+          "value": 1,
+          "player_name": "MacKenzie Gore",
+          "fantasy_team": "Cruz Missle",
           "season": 2026,
-          "week": 2
+          "week": 1
         }
       ],
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.379,
-          "player_name": "Samad Taylor",
-          "fantasy_team": "DiZ-Hajj-O",
-          "season": 2026
-        },
-        {
-          "stat": "ERA",
-          "value": 12.27,
-          "player_name": "Justin Verlander",
-          "fantasy_team": "DiZ-Hajj-O",
-          "season": 2026
+          "value": 0.354,
+          "player_name": "Luis Arraez",
+          "fantasy_team": "Cole World",
+          "season": 2023
         },
         {
           "stat": "HR",
@@ -123,13 +116,6 @@
           "player_name": "Spencer Strider",
           "fantasy_team": "McChocolate Milk",
           "season": 2023
-        },
-        {
-          "stat": "WHIP",
-          "value": 2.67,
-          "player_name": "Blake Snell",
-          "fantasy_team": "Salustro's Fantasy Dungeon",
-          "season": 2026
         }
       ]
     },
@@ -137,108 +123,100 @@
       "single_week": [
         {
           "stat": "BB",
-          "value": 12,
-          "player_name": "Cole Ragans",
-          "fantasy_team": "Game 7 Chet Holmgren",
+          "value": 9,
+          "player_name": "Dylan Cease",
+          "fantasy_team": "Brown Bear 🐻",
           "season": 2026,
-          "week": 4
+          "week": 14
         },
         {
           "stat": "H",
-          "value": 15,
-          "player_name": "Ketel Marte",
-          "fantasy_team": "Kirby Super Star",
+          "value": 12,
+          "player_name": "Brandon Marsh",
+          "fantasy_team": "El Jefe",
           "season": 2026,
-          "week": 9
+          "week": 14
         },
         {
           "stat": "HR",
-          "value": 5,
-          "player_name": "Jordan Walker",
-          "fantasy_team": "Let’s go Knicks ✌️",
+          "value": 7,
+          "player_name": "Junior Caminero",
+          "fantasy_team": "That’s Reddickulous (2x)",
           "season": 2026,
-          "week": 3
+          "week": 14
         },
         {
           "stat": "K",
           "value": 20,
-          "player_name": "José Soriano",
-          "fantasy_team": "The Kranimals (0x)",
+          "player_name": "Sonny Gray",
+          "fantasy_team": "House Omega",
           "season": 2026,
-          "week": 3
-        },
-        {
-          "stat": "L",
-          "value": 2,
-          "player_name": "David Bednar",
-          "fantasy_team": "The Kranimals (0x)",
-          "season": 2026,
-          "week": 3
+          "week": 14
         },
         {
           "stat": "QS",
           "value": 2,
-          "player_name": "Braxton Ashcraft",
-          "fantasy_team": "El Jefe",
+          "player_name": "Michael Wacha",
+          "fantasy_team": "Gardy Goes Yardy",
           "season": 2026,
-          "week": 2
+          "week": 14
         },
         {
           "stat": "R",
-          "value": 11,
-          "player_name": "Ketel Marte",
-          "fantasy_team": "Kirby Super Star",
+          "value": 8,
+          "player_name": "Luis García Jr.",
+          "fantasy_team": "House Omega",
           "season": 2026,
-          "week": 9
+          "week": 14
         },
         {
           "stat": "RBI",
-          "value": 14,
-          "player_name": "Matt Chapman",
-          "fantasy_team": "Brown Bear 🐻",
+          "value": 15,
+          "player_name": "Junior Caminero",
+          "fantasy_team": "That’s Reddickulous (2x)",
           "season": 2026,
-          "week": 11
+          "week": 14
         },
         {
           "stat": "SB",
-          "value": 6,
-          "player_name": "Oneil Cruz",
-          "fantasy_team": "Kirby Super Star",
+          "value": 4,
+          "player_name": "Nasim Nuñez",
+          "fantasy_team": "House Omega",
           "season": 2026,
-          "week": 3
+          "week": 14
         },
         {
           "stat": "SV+H",
-          "value": 4,
-          "player_name": "Mason Miller",
-          "fantasy_team": "That’s Reddickulous (2x)",
+          "value": 3,
+          "player_name": "Jacob Latz",
+          "fantasy_team": "Brown Bear 🐻",
           "season": 2026,
-          "week": 4
+          "week": 14
         },
         {
           "stat": "W",
-          "value": 2,
-          "player_name": "Clay Holmes",
-          "fantasy_team": "Spirit of Troy",
+          "value": 1,
+          "player_name": "Dennis Santana",
+          "fantasy_team": "Brown Bear 🐻",
           "season": 2026,
-          "week": 2
+          "week": 1
         },
         {
           "stat": "XBH",
           "value": 8,
-          "player_name": "Willy Adames",
-          "fantasy_team": "The Kranimals (0x)",
+          "player_name": "Luis García Jr.",
+          "fantasy_team": "House Omega",
           "season": 2026,
-          "week": 3
+          "week": 14
         }
       ],
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.379,
-          "player_name": "Samad Taylor",
-          "fantasy_team": "That’s Reddickulous (2x)",
-          "season": 2026
+          "value": 0.354,
+          "player_name": "Luis Arraez",
+          "fantasy_team": "House Omega",
+          "season": 2023
         },
         {
           "stat": "BB",
@@ -246,13 +224,6 @@
           "player_name": "Blake Snell",
           "fantasy_team": "That’s Reddickulous",
           "season": 2023
-        },
-        {
-          "stat": "ERA",
-          "value": 12.0,
-          "player_name": "Blake Snell",
-          "fantasy_team": "Game 7 Chet Holmgren",
-          "season": 2026
         },
         {
           "stat": "H",
@@ -277,17 +248,10 @@
         },
         {
           "stat": "K/9",
-          "value": 17.47,
-          "player_name": "Mason Miller",
-          "fantasy_team": "That’s Reddickulous (2x)",
-          "season": 2026
-        },
-        {
-          "stat": "L",
-          "value": 16,
-          "player_name": "Kutter Crawford",
-          "fantasy_team": "The Kranimals",
-          "season": 2024
+          "value": 17.13,
+          "player_name": "Edwin Díaz",
+          "fantasy_team": "Florida Swamp Herpes Monkeys",
+          "season": 2022
         },
         {
           "stat": "OBP",
@@ -337,13 +301,6 @@
           "player_name": "Spencer Strider",
           "fantasy_team": "WestCoastTruth",
           "season": 2023
-        },
-        {
-          "stat": "WHIP",
-          "value": 2.67,
-          "player_name": "Blake Snell",
-          "fantasy_team": "Game 7 Chet Holmgren",
-          "season": 2026
         },
         {
           "stat": "XBH",

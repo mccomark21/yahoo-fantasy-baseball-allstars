@@ -9,10 +9,12 @@ Reads the raw per-season layer (``data/{league}/{season}/``) for each league's
 
 Ranking uses actual season stats — not ``percent_owned``. Each player gets a
 composite z-score: for every scoring category the league tracks, how many
-standard deviations above/below the league's rostered-player mean they sit
-(sign-flipped for "lower is better" stats like ERA/WHIP), summed. Batters and
-pitchers are scored within their own pools. The all-star at each position is the
-highest composite among players eligible there.
+standard deviations above/below the pool mean they sit (sign-flipped for "lower
+is better" stats like ERA/WHIP), summed. Players are scored within role pools —
+batters, starters, relievers — so wins are judged among starters and saves among
+relievers, with innings as a starter workload qualifier. The all-star at each
+position is the highest composite among players eligible there; the three
+outfield slots are filled by three distinct players.
 
     python scripts/compute_allstars.py
 """
@@ -28,9 +30,10 @@ from typing import Dict, List
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from common import (  # noqa: E402
-    DATA_DIR, clean_number, dump_json, eligible_positions, is_batter, is_pitcher,
-    is_pitching_stat, higher_is_better, load_json, mlb_team_id, mlb_team_logo_url,
-    scoring_stats, season_dir, stat_abbr, to_number, TARGET_POSITIONS,
+    DATA_DIR, assign_distinct, clean_number, counts_for_role, dump_json,
+    eligible_positions, is_batter, is_pitching_stat, higher_is_better, load_json,
+    mlb_team_id, mlb_team_logo_url, scoring_stats, season_dir, stat_abbr,
+    to_number, TARGET_POSITIONS,
 )
 
 
@@ -89,40 +92,91 @@ def _category_distribution(pool: List[dict], stat_id: str):
     return statistics.mean(vals), stdev
 
 
-def _composite(player: dict, cats: List[dict], dists: Dict[str, tuple]) -> float:
-    score = 0.0
-    for cat in cats:
-        sid = str(cat["stat_id"])
-        dist = dists.get(sid)
-        if dist is None:
-            continue
-        v = to_number(player["raw_stats"].get(sid))
-        if v is None:
-            continue
-        mean, stdev = dist
-        z = (v - mean) / stdev
-        score += z if higher_is_better(cat) else -z
-    return score
+class ScoringPool:
+    """Composite z-score of a player against one pool of comparable peers.
+
+    A *pool* is the set of players a slot's candidates should be judged against
+    (all batters, or just starters, or just relievers) together with the
+    categories they're scored on. Each category contributes a z-score versus the
+    pool's mean/stdev — sign-flipped for lower-is-better stats — and the score is
+    their sum. Scoring within a role pool is what lets wins count among starters
+    and saves among relievers: a reliever's zero wins no longer drags them
+    against starters, because relievers are never scored in the starter pool.
+
+    A workload qualifier (innings for starters) is just another category in the
+    pool, so a starter below the pool's mean innings is penalized automatically.
+    """
+
+    def __init__(self, members: List[dict], categories: List[dict]):
+        self.categories = list(categories)
+        self.dists: Dict[str, tuple] = {}
+        for cat in self.categories:
+            sid = str(cat["stat_id"])
+            dist = _category_distribution(members, sid)
+            if dist is not None:
+                self.dists[sid] = dist
+
+    def score(self, player: dict) -> float:
+        total = 0.0
+        for cat in self.categories:
+            sid = str(cat["stat_id"])
+            dist = self.dists.get(sid)
+            if dist is None:
+                continue
+            v = to_number(player["raw_stats"].get(sid))
+            if v is None:
+                continue
+            mean, stdev = dist
+            z = (v - mean) / stdev
+            total += z if higher_is_better(cat) else -z
+        return total
+
+
+def _innings_category(stat_categories: dict) -> dict | None:
+    """The Innings Pitched category, if the league tracks it — the SP workload
+    qualifier. It's a display-only stat, so it isn't in ``scoring_stats``."""
+    for stat in stat_categories.get("stats", []):
+        if stat_abbr(stat).upper() == "IP":
+            return stat
+    return None
 
 
 def score_players(players: List[dict], stat_categories: dict) -> List[dict]:
-    """Attach ``batting_score`` and ``pitching_score`` to every player."""
+    """Attach ``batting_score``, ``sp_score`` and ``rp_score`` to every player.
+
+    Batters are scored against the batter pool; starters against the SP pool
+    (with an innings qualifier) and relievers against the RP pool, so each
+    pitcher's role stats are judged among peers who accrue them."""
     cats = scoring_stats(stat_categories)
     batting_cats = [c for c in cats if not is_pitching_stat(c)]
     pitching_cats = [c for c in cats if is_pitching_stat(c)]
+    ip_cat = _innings_category(stat_categories)
+    sp_cats = [c for c in pitching_cats if counts_for_role(c, "SP")]
+    sp_cats += [ip_cat] if ip_cat else []   # innings is the starter workload qualifier
+    rp_cats = [c for c in pitching_cats if counts_for_role(c, "RP")]
 
     batters = [p for p in players if is_batter(p)]
-    pitchers = [p for p in players if is_pitcher(p)]
+    starters = [p for p in players if "SP" in eligible_positions(p)]
+    relievers = [p for p in players if "RP" in eligible_positions(p)]
 
-    bat_dists = {str(c["stat_id"]): d for c in batting_cats
-                 if (d := _category_distribution(batters, str(c["stat_id"]))) is not None}
-    pit_dists = {str(c["stat_id"]): d for c in pitching_cats
-                 if (d := _category_distribution(pitchers, str(c["stat_id"]))) is not None}
+    batting_pool = ScoringPool(batters, batting_cats)
+    sp_pool = ScoringPool(starters, sp_cats)
+    rp_pool = ScoringPool(relievers, rp_cats)
 
     for p in players:
-        p["batting_score"] = _composite(p, batting_cats, bat_dists)
-        p["pitching_score"] = _composite(p, pitching_cats, pit_dists)
+        p["batting_score"] = batting_pool.score(p)
+        p["sp_score"] = sp_pool.score(p)
+        p["rp_score"] = rp_pool.score(p)
     return cats
+
+
+def _score_key(position: str) -> str:
+    """Which composite ranks candidates for a diamond slot."""
+    if position == "SP":
+        return "sp_score"
+    if position == "RP":
+        return "rp_score"
+    return "batting_score"
 
 
 # --------------------------------------------------------------------------- #
@@ -163,16 +217,20 @@ def build_league(players: List[dict], stat_categories: dict) -> tuple[dict, dict
 
     all_stars: Dict[str, dict] = {}
     races: Dict[str, list] = {}
+    ranked_by_slot: Dict[str, list] = {}
+    display_cats_by_slot: Dict[str, list] = {}
 
     for position in TARGET_POSITIONS:
         is_pitching = position in ("SP", "RP")
-        score_key = "pitching_score" if is_pitching else "batting_score"
+        score_key = _score_key(position)
         display_cats = pitching_cats if is_pitching else batting_cats
 
         candidates = [p for p in players if position in eligible_positions(p)]
         if not candidates:
             continue
         candidates.sort(key=lambda p: (-p[score_key], p.get("name", "")))
+        ranked_by_slot[position] = candidates
+        display_cats_by_slot[position] = display_cats
 
         race = []
         for rank, player in enumerate(candidates, start=1):
@@ -180,7 +238,10 @@ def build_league(players: List[dict], stat_categories: dict) -> tuple[dict, dict
             race.append({"rank": rank, **entry, "score": round(player[score_key], 3)})
         races[position] = race
 
-        all_stars[position] = _base_entry(candidates[0], position, display_cats)
+    # The diamond shows three distinct outfielders, not the same star three
+    # times — assign within position groups before shaping the all-star entries.
+    for position, player in assign_distinct(ranked_by_slot).items():
+        all_stars[position] = _base_entry(player, position, display_cats_by_slot[position])
 
     _mark_leader(all_stars, players)
     return all_stars, races
