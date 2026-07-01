@@ -78,6 +78,8 @@ export default function PlayerCard({
         aria-controls={statsId}
         onClick={onToggle}
       >
+        <span className="player-card__pos">{position.label}</span>
+
         <span className="player-card__avatar">
           {player.headshot_url && !imgFailed ? (
             <img
@@ -92,7 +94,6 @@ export default function PlayerCard({
               {initials(player.player_name)}
             </span>
           )}
-          <span className="player-card__pos">{position.label}</span>
         </span>
 
         <span className="player-card__id">
