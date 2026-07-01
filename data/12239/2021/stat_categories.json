@@ -2,6 +2,7 @@
   "league_id": "6791",
   "game_key": "404",
   "season": 2021,
+  "scoring_type": "head",
   "stats": [
     {
       "stat_id": "7",

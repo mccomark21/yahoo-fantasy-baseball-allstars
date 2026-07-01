@@ -2,6 +2,7 @@
   "league_id": "23900",
   "game_key": "422",
   "season": 2023,
+  "scoring_type": "head",
   "stats": [
     {
       "stat_id": "60",

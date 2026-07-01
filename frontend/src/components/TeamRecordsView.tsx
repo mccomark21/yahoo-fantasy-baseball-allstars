@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { Fragment, useCallback, useEffect, useMemo, useState } from "react";
 import type { ReactNode } from "react";
 import {
   loadTeamRecords,
@@ -6,130 +6,69 @@ import {
   type TeamRecordsData,
 } from "../data";
 import { useShell } from "../context/ShellContext";
+import { formatStat } from "../constants/positions";
 import StatTable, { type StatColumn } from "./StatTable";
 import BallIcon from "./BallIcon";
 import UpdatedAt from "./UpdatedAt";
 import "./tableviews.css";
 
-/* Phase 3.4 — Team Records. The all-time franchise milestones for the active
-   league, presented in the shared StatTable. Each row is a different record
-   with its own unit, so the "Mark" column carries the trophy number itself —
-   the one place Stadium Amber is allowed here (Rarity Rule). */
+/* Phase 3.4 — Team Records (issue #29). Reshaped from four fixed matchup
+   trophies into a Player-Records-style leaderboard: a chip selector — Best
+   Season · Worst Season · then one chip per counting stat — swaps a top-5 table
+   of all-time team-seasons beneath it. The unit is a team-season, so the same
+   franchise can appear more than once. Best/Worst marks are a season-long
+   W-L-T that matches the league's Yahoo scoring format (category aggregate for
+   "head" leagues, weekly for "headone"); counting boards mark a season total.
+   The mark carries Stadium Amber — the trophy number (Rarity Rule). */
 
 type Status = "loading" | "ready" | "error";
 
-interface TeamRow {
-  id: string;
-  name: string;
-  desc: string;
+const BEST = "__best";
+const WORST = "__worst";
+
+interface LeaderRow {
+  rank: number;
   team: string;
   mark: ReactNode;
   season: number;
-  week?: number;
 }
 
-function buildRows(rec: TeamRecords): TeamRow[] {
-  const rows: TeamRow[] = [];
-
-  if (rec.highest_week_score) {
-    const r = rec.highest_week_score;
-    rows.push({
-      id: "highest_week_score",
-      name: "Highest Week",
-      desc: "Most category points in a single matchup",
-      team: r.fantasy_team,
-      mark: <Mark value={r.score} unit="pts" />,
-      season: r.season,
-      week: r.week,
-    });
-  }
-
-  if (rec.most_category_wins_week) {
-    const r = rec.most_category_wins_week;
-    rows.push({
-      id: "most_category_wins_week",
-      name: "Category Sweep",
-      desc: "Most stat categories won in one week",
-      team: r.fantasy_team,
-      mark: <Mark value={r.wins} unit="cats" />,
-      season: r.season,
-      week: r.week,
-    });
-  }
-
-  if (rec.longest_win_streak) {
-    const r = rec.longest_win_streak;
-    rows.push({
-      id: "longest_win_streak",
-      name: "Win Streak",
-      desc: "Most consecutive matchup wins",
-      team: r.fantasy_team,
-      mark: <Mark value={r.streak} unit="wks" />,
-      season: r.season,
-    });
-  }
-
-  if (rec.best_season_record) {
-    const r = rec.best_season_record;
-    rows.push({
-      id: "best_season_record",
-      name: "Best Season",
-      desc: "Best regular-season win–loss record",
-      team: r.fantasy_team,
-      mark: (
-        <span className="tv-mark">
-          {r.wins}
-          <span aria-hidden="true">–</span>
-          {r.losses}
-          <span className="visually-hidden"> win loss</span>
-        </span>
-      ),
-      season: r.season,
-    });
-  }
-
-  return rows;
-}
-
-function Mark({ value, unit }: { value: number; unit: string }) {
+/* Best/Worst season W-L-T. Ties are shown only when they happen, so a headone
+   league's clean 18–4 doesn't grow a redundant "–0". */
+function WltMark({ w, l, t }: { w: number; l: number; t: number }) {
   return (
     <span className="tv-mark">
-      {value}
-      <small>{unit}</small>
-    </span>
-  );
-}
-
-function When({ season, week }: { season: number; week?: number }) {
-  return (
-    <span className="tv-when">
-      <span className="tv-when__season">{season}</span>
-      {week != null ? (
+      {w}
+      <span aria-hidden="true">–</span>
+      {l}
+      {t > 0 ? (
         <>
-          {" · "}
-          <span className="tv-when__week">Wk {week}</span>
+          <span aria-hidden="true">–</span>
+          {t}
         </>
       ) : null}
+      <span className="visually-hidden">
+        {` ${w} wins ${l} losses${t > 0 ? ` ${t} ties` : ""}`}
+      </span>
     </span>
   );
 }
 
-const COLUMNS: StatColumn<TeamRow>[] = [
-  {
-    key: "record",
-    header: "Record",
-    sticky: true,
-    render: (r) => (
-      <div className="tv-record">
-        <span className="tv-record__name">{r.name}</span>
-        <span className="tv-record__desc">{r.desc}</span>
-      </div>
-    ),
-  },
+const COLUMNS: StatColumn<LeaderRow>[] = [
   {
     key: "team",
-    header: "Holder",
-    render: (r) => <span className="tv-id__name">{r.team}</span>,
+    header: "Team",
+    sticky: true,
+    render: (r) => (
+      <div className="tv-id">
+        <span className="tv-rank" data-lead={r.rank === 1 || undefined}>
+          {r.rank}
+        </span>
+        <span className="tv-id__text">
+          <span className="tv-id__name">{r.team}</span>
+        </span>
+      </div>
+    ),
   },
   {
     key: "mark",
@@ -138,10 +77,10 @@ const COLUMNS: StatColumn<TeamRow>[] = [
     render: (r) => r.mark,
   },
   {
-    key: "when",
-    header: "When",
+    key: "season",
+    header: "Season",
     align: "end",
-    render: (r) => <When season={r.season} week={r.week} />,
+    render: (r) => <span className="tv-when tv-when__season">{r.season}</span>,
   },
 ];
 
@@ -149,6 +88,7 @@ export default function TeamRecordsView() {
   const { leagueId } = useShell();
   const [status, setStatus] = useState<Status>("loading");
   const [data, setData] = useState<TeamRecordsData | null>(null);
+  const [sel, setSel] = useState<string>(BEST);
 
   const load = useCallback(async () => {
     setStatus("loading");
@@ -164,10 +104,61 @@ export default function TeamRecordsView() {
     load();
   }, [load]);
 
-  const rows = useMemo(() => {
-    const rec = data?.leagues[leagueId];
-    return rec ? buildRows(rec) : [];
-  }, [data, leagueId]);
+  const rec: TeamRecords | undefined = data?.leagues[leagueId];
+
+  // Selector entries: the two W-L-T boards, then one per counting stat (already
+  // in the league's canonical batting → pitching order from the pipeline).
+  const options = useMemo(() => {
+    const opts = [
+      { key: BEST, label: "Best Season" },
+      { key: WORST, label: "Worst Season" },
+    ];
+    for (const b of rec?.season_stats ?? []) {
+      opts.push({ key: b.stat, label: b.stat });
+    }
+    return opts;
+  }, [rec]);
+
+  // Keep the selection valid as league / data changes.
+  useEffect(() => {
+    const keys = new Set(options.map((o) => o.key));
+    setSel((prev) => (keys.has(prev) ? prev : BEST));
+  }, [options]);
+
+  const board = useMemo(
+    () => rec?.season_stats.find((b) => b.stat === sel),
+    [rec, sel]
+  );
+
+  const rows = useMemo<LeaderRow[]>(() => {
+    if (!rec) return [];
+    if (sel === BEST || sel === WORST) {
+      const src = sel === BEST ? rec.best_season : rec.worst_season;
+      return src.map((s, i) => ({
+        rank: i + 1,
+        team: s.fantasy_team,
+        mark: <WltMark w={s.wins} l={s.losses} t={s.ties} />,
+        season: s.season,
+      }));
+    }
+    if (!board) return [];
+    return board.entries.map((e, i) => ({
+      rank: i + 1,
+      team: e.fantasy_team,
+      mark: <span className="tv-mark">{formatStat(board.stat, e.value)}</span>,
+      season: e.season,
+    }));
+  }, [rec, sel, board]);
+
+  // Contextual copy for the live caption + footer.
+  const isSeason = sel === BEST || sel === WORST;
+  const wltNote =
+    rec?.scoring_type === "head"
+      ? "season-long category W–L–T"
+      : "weekly W–L–T";
+  const caption = isSeason
+    ? `The ${sel === BEST ? "best" : "worst"} team-seasons of all time — ${wltNote}`
+    : `Most ${board?.display ?? sel} in a single team-season`;
 
   if (status === "error") {
     return (
@@ -186,7 +177,7 @@ export default function TeamRecordsView() {
     return (
       <div className="tableview">
         <div className="tv-skeleton" aria-busy="true" aria-label="Loading records">
-          {Array.from({ length: 5 }).map((_, i) => (
+          {Array.from({ length: 6 }).map((_, i) => (
             <div key={i} className="tv-skeleton__row" />
           ))}
         </div>
@@ -194,7 +185,10 @@ export default function TeamRecordsView() {
     );
   }
 
-  if (rows.length === 0) {
+  const hasAny =
+    rec && (rec.best_season.length > 0 || rec.season_stats.length > 0);
+
+  if (!hasAny) {
     return (
       <div className="state" role="status">
         <BallIcon />
@@ -206,17 +200,47 @@ export default function TeamRecordsView() {
 
   return (
     <div className="tableview">
+      <div className="tv-controls">
+        <div className="tv-chips" role="group" aria-label="Team record category">
+          {options.map((o, i) => (
+            <Fragment key={o.key}>
+              {i === 2 ? <span className="tv-chips__sep" aria-hidden="true" /> : null}
+              <button
+                type="button"
+                className="tv-chip"
+                data-active={sel === o.key || undefined}
+                aria-pressed={sel === o.key}
+                onClick={() => setSel(o.key)}
+              >
+                {o.label}
+              </button>
+            </Fragment>
+          ))}
+        </div>
+      </div>
+
+      <p className="tv-controls__caption" aria-live="polite">
+        {caption}
+      </p>
+
       <StatTable
         columns={COLUMNS}
         rows={rows}
-        getRowKey={(r) => r.id}
-        caption="All-time team records"
-        entrance="settle"
-        entranceToken={leagueId}
+        getRowKey={(r) => `${sel}-${r.rank}-${r.team}`}
+        caption={caption}
+        isFeatured={(r) => r.rank === 1}
+        emptyLabel="No team-seasons to rank yet."
+        entrance="cascade"
+        entranceToken={`${leagueId}:${sel}`}
       />
+
       {data?.updated_at && (
         <div className="tv-foot">
-          <span>All-time, across every reachable season</span>
+          <span>
+            {isSeason
+              ? "All-time team-seasons, every reachable year"
+              : "Top team-seasons, all-time"}
+          </span>
           <UpdatedAt iso={data.updated_at} />
         </div>
       )}

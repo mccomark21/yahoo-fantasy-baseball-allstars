@@ -2,6 +2,7 @@
   "league_id": "7240",
   "game_key": "412",
   "season": 2022,
+  "scoring_type": "head",
   "stats": [
     {
       "stat_id": "7",

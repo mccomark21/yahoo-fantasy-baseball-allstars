@@ -105,6 +105,16 @@
   box-shadow: var(--glow-crimson);
 }
 
+/* Hairline between the two W-L-T record chips and the counting-stat chips —
+   they're different kinds of leaderboard, so the rail reads in two groups. */
+.tv-chips__sep {
+  flex: none;
+  align-self: center;
+  width: 1px;
+  height: 1.5em;
+  background: var(--hairline-strong);
+}
+
 /* ---- Segmented toggle (single-week / season totals) ------------------- */
 .tv-segment {
   display: inline-flex;

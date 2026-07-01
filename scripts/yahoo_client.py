@@ -379,6 +379,10 @@ class YahooClient:
         settings = self.query(league_id, game_key).get_league_settings()
         stat_categories = getattr(settings, "stat_categories", None)
         stats = getattr(stat_categories, "stats", None) or []
+        # Scoring format is a league-constant on the settings object, so it costs
+        # no extra API call. "head" = head-to-head categories, "headone" = a
+        # single win per week. Drives how season W-L-T records are computed.
+        scoring_type = decode_str(getattr(settings, "scoring_type", "") or "")
 
         out_stats: List[dict] = []
         scoring_stat_ids: List[str] = []
@@ -404,6 +408,7 @@ class YahooClient:
             "league_id": str(league_id),
             "game_key": str(game_key),
             "season": int(season) if season is not None else None,
+            "scoring_type": scoring_type,
             "stats": out_stats,
             "scoring_stat_ids": scoring_stat_ids,
         }
@@ -435,6 +440,38 @@ class YahooClient:
             player_key = decode_str(getattr(player, "player_key", "") or "")
             if player_key:
                 out[player_key] = _stats_to_dict(player)
+        return out
+
+    def fetch_team_season_stats(self, team_key, league_id, game_key) -> Dict[str, Union[int, float, str]]:
+        """A team's season *category totals* — the standings "Stats" view.
+
+        Yahoo's authoritative team-level aggregate: only active-lineup production
+        while the player was rostered counts. This is the correct source for a
+        team's season HR/R/K record — NOT summing rostered players' full individual
+        season totals, which over-counts late adds and the bench and misses dropped
+        players. Returns ``{stat_id: value}`` (values are Yahoo's raw strings).
+
+        yfpy's typed ``get_team_stats`` returns only fantasy *points* (a
+        ``TeamPoints``), and no typed method surfaces ``team_stats.stats`` — so we
+        hit the raw ``team/{team_key}/stats;type=season`` resource. Unlike per-
+        player stats, team totals SURVIVE game archival: past seasons return real
+        values (verified live against 2021/2022), so this works for every season.
+        """
+        url = (f"https://fantasysports.yahooapis.com/fantasy/v2/"
+               f"team/{team_key}/stats;type=season")
+        data = self.query(league_id, game_key).get_response(url).json()
+        team = data.get("fantasy_content", {}).get("team", [])
+        node = None
+        for part in team if isinstance(team, list) else []:
+            if isinstance(part, dict) and "team_stats" in part:
+                node = part["team_stats"]
+                break
+        out: Dict[str, Union[int, float, str]] = {}
+        for wrapped in (node or {}).get("stats", []):
+            stat = wrapped.get("stat", wrapped) if isinstance(wrapped, dict) else {}
+            sid = stat.get("stat_id")
+            if sid is not None:
+                out[str(sid)] = stat.get("value")
         return out
 
     def fetch_roster_stats_by_date(self, team_id, league_id, game_key, day) -> Dict[str, dict]:

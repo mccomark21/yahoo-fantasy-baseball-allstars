@@ -3,8 +3,10 @@
 
 Reads ALL raw per-season JSON for each league and writes:
 
-  data/records_teams.json    highest single-week score, most category wins in a
-                             week, longest win streak, best season record
+  data/records_teams.json    top-5 best/worst team-seasons by W-L-T (category
+                             aggregate for "head" leagues, weekly for "headone"),
+                             plus a top-5 team-season leaderboard per counting
+                             scoring category
   data/records_players.json  single-week and season-total records per stat,
                              with player / fantasy-team / season / week context
 
@@ -28,8 +30,9 @@ from typing import Dict, List, Optional
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from common import (  # noqa: E402
-    DATA_DIR, RATE_STATS, clean_number, dump_json, higher_is_better, list_seasons,
-    load_json, scoring_stats, season_dir, stat_abbr, to_number,
+    DATA_DIR, RATE_STATS, clean_number, counting_scoring_stats, dump_json,
+    higher_is_better, list_seasons, load_json, scoring_stats, scoring_type,
+    season_dir, stat_abbr, to_number,
 )
 
 
@@ -68,72 +71,143 @@ def build_name_index(league_id: str, seasons: List[int]) -> Dict[str, str]:
 # --------------------------------------------------------------------------- #
 # Team records
 # --------------------------------------------------------------------------- #
-def compute_team_records(league_id: str, seasons: List[int]) -> dict:
-    highest_week = None          # max team points (= category wins) in any week
-    longest_streak = None        # longest consecutive-win run within a season
-    best_record = None           # most wins in a season (tiebreak: fewer losses)
+def _mark_num(v: float):
+    """Int when whole, else 2-place — for W/L/T marks and counting totals."""
+    return int(v) if float(v) == int(v) else round(float(v), 2)
+
+
+def league_scoring_type(league_id: str, seasons: List[int]) -> str:
+    """The league's scoring format, from the newest season that recorded it.
+
+    A league-constant, but only present on files fetched after the format was
+    captured; scan newest → oldest and take the first value, else ``""``."""
+    for season in reversed(seasons):
+        path = season_dir(league_id, season) / "stat_categories.json"
+        if path.exists():
+            st = scoring_type(load_json(path))
+            if st:
+                return st
+    return ""
+
+
+def _season_wlt(matchups: List[dict], use_head: bool, cat_count: int) -> List[dict]:
+    """Every team's season-long W-L-T from one season's matchups.
+
+    ``head`` (categories): per matchup a team banks its category wins as W, the
+    opponent's as L, and the untied remainder (``C − own − opp``) as T — the
+    season aggregate a Yahoo categories league ranks by. ``headone`` (one win
+    per week): a plain weekly win / loss / tie off ``winner_team_key``. All
+    matchups count, playoffs included."""
+    wlt: Dict[str, dict] = {}  # team_key -> {name, w, l, t}
+    for m in matchups:
+        teams = m.get("teams", [])
+        if len(teams) != 2:
+            continue
+        winner = m.get("winner_team_key") or ""
+        tied = bool(m.get("is_tied"))
+        a, b = teams
+        for own, opp in ((a, b), (b, a)):
+            key = own.get("team_key", "")
+            if not key:
+                continue
+            rec = wlt.setdefault(key, {"name": "", "w": 0.0, "l": 0.0, "t": 0.0})
+            rec["name"] = own.get("name", "") or rec["name"]
+            if use_head:
+                op = to_number(own.get("points"))
+                pp = to_number(opp.get("points"))
+                if op is None or pp is None:
+                    continue
+                rec["w"] += op
+                rec["l"] += pp
+                rec["t"] += max(0.0, cat_count - op - pp)
+            elif tied:
+                rec["t"] += 1
+            elif winner and key == winner:
+                rec["w"] += 1
+            elif winner:
+                rec["l"] += 1
+            # winner missing and not tied → unplayed matchup, skip
+    return [
+        {"fantasy_team": rec["name"], "season": None,  # season filled by caller
+         "wins": _mark_num(rec["w"]), "losses": _mark_num(rec["l"]),
+         "ties": _mark_num(rec["t"]), "_w": rec["w"], "_l": rec["l"]}
+        for rec in wlt.values()
+        if rec["w"] or rec["l"] or rec["t"]
+    ]
+
+
+def compute_team_records(league_id: str, seasons: List[int], scoring: str) -> dict:
+    """Best/worst season W-L-T leaderboards + per-counting-stat team-season
+    leaderboards, all top-5. The unit is a team-season, so a franchise may
+    appear more than once. ``scoring`` selects the W-L-T formula per league."""
+    season_rows: List[dict] = []              # W-L-T, one per (season, team)
+    stat_boards: Dict[str, dict] = {}         # abbr -> {display, entries[]}
+    stat_order: List[str] = []                # first-seen scoring order (bat→pit)
 
     for season in seasons:
-        path = season_dir(league_id, season) / "matchups.json"
-        if not path.exists():
+        sdir = season_dir(league_id, season)
+        cat_path = sdir / "stat_categories.json"
+        stat_categories = load_json(cat_path) if cat_path.exists() else {}
+
+        # -- Season W-L-T (format-aware) -------------------------------------- #
+        mpath = sdir / "matchups.json"
+        matchups = load_json(mpath).get("matchups", []) if mpath.exists() else []
+        cat_count = len(scoring_stats(stat_categories)) if stat_categories else 0
+        use_head = scoring == "head" and cat_count > 0
+        for row in _season_wlt(matchups, use_head, cat_count):
+            row["season"] = season
+            season_rows.append(row)
+
+        # -- Counting-stat team-season totals --------------------------------- #
+        # Yahoo's authoritative team category total (standings "Stats" view),
+        # captured per team in player_stats.json. This is the team's accumulated
+        # HR/R/K — NOT the sum of its roster's full individual season totals, which
+        # over-counts late adds and the bench. Seasons fetched before team totals
+        # were captured simply contribute nothing here (no wrong-source fallback).
+        spath = sdir / "player_stats.json"
+        if not stat_categories or not spath.exists():
             continue
-        matchups = load_json(path).get("matchups", [])
+        player_stats = load_json(spath)
+        team_names = player_stats.get("teams", {})
+        team_season_stats = player_stats.get("team_season_stats", {})
+        for cat in counting_scoring_stats(stat_categories):
+            abbr = stat_abbr(cat)
+            board = stat_boards.get(abbr)
+            if board is None:
+                # Yahoo's ``name`` is the friendly label ("Home Runs"); its
+                # ``display_name`` is just the abbr. Prefer name, fall back down.
+                board = stat_boards[abbr] = {
+                    "display": cat.get("name") or cat.get("display_name") or abbr,
+                    "entries": []}
+                stat_order.append(abbr)
+            sid = str(cat["stat_id"])
+            for team_id, stats in team_season_stats.items():
+                v = to_number(stats.get(sid))
+                if v is None:
+                    continue
+                board["entries"].append({
+                    "fantasy_team": team_names.get(team_id, ""),
+                    "value": clean_number(v, abbr), "season": season, "_raw": v})
 
-        names: Dict[str, str] = {}
-        results: Dict[str, List[tuple]] = {}  # team_key -> [(week, 'W'|'L'|'T')]
+    def public(rows: List[dict]) -> List[dict]:
+        return [{k: v for k, v in r.items() if not k.startswith("_")} for r in rows]
 
-        for m in matchups:
-            week = int(m.get("week") or 0)
-            winner = m.get("winner_team_key") or ""
-            tied = bool(m.get("is_tied"))
-            for t in m.get("teams", []):
-                key = t.get("team_key", "")
-                name = t.get("name", "")
-                if key:
-                    names[key] = name
-                pts = to_number(t.get("points"))
-                if pts is not None and (highest_week is None or pts > highest_week["score"]):
-                    highest_week = {"fantasy_team": name, "score": clean_number(pts, ""),
-                                    "season": season, "week": week}
-                if tied:
-                    res = "T"
-                elif winner and key == winner:
-                    res = "W"
-                elif winner:
-                    res = "L"
-                else:
-                    res = None
-                if res and key:
-                    results.setdefault(key, []).append((week, res))
+    best = sorted(season_rows, key=lambda r: (-r["_w"], r["_l"]))[:5]
+    worst = sorted(season_rows, key=lambda r: (-r["_l"], r["_w"]))[:5]
 
-        for key, games in results.items():
-            games.sort(key=lambda g: g[0])
-            wins = sum(1 for _, r in games if r == "W")
-            losses = sum(1 for _, r in games if r == "L")
-            name = names.get(key, "")
-
-            run = best_run = 0
-            for _, r in games:
-                run = run + 1 if r == "W" else 0
-                best_run = max(best_run, run)
-            if best_run and (longest_streak is None or best_run > longest_streak["streak"]):
-                longest_streak = {"fantasy_team": name, "streak": best_run, "season": season}
-
-            if best_record is None or (wins, -losses) > (best_record["wins"], -best_record["losses"]):
-                best_record = {"fantasy_team": name, "wins": wins, "losses": losses, "season": season}
-
-    most_category_wins = None
-    if highest_week is not None:
-        # In H2H-categories scoring a team's weekly points ARE its category wins.
-        most_category_wins = {"fantasy_team": highest_week["fantasy_team"],
-                              "wins": highest_week["score"],
-                              "season": highest_week["season"], "week": highest_week["week"]}
+    season_stats = [
+        {"stat": abbr, "display": stat_boards[abbr]["display"],
+         "entries": public(sorted(stat_boards[abbr]["entries"],
+                                  key=lambda e: -e["_raw"])[:5])}
+        for abbr in stat_order
+        if stat_boards[abbr]["entries"]  # drop stats with no team totals yet
+    ]
 
     return {
-        "highest_week_score": highest_week,
-        "most_category_wins_week": most_category_wins,
-        "longest_win_streak": longest_streak,
-        "best_season_record": best_record,
+        "scoring_type": scoring,
+        "best_season": public(best),
+        "worst_season": public(worst),
+        "season_stats": season_stats,
     }
 
 
@@ -227,10 +301,14 @@ def main() -> None:
         seasons = sorted(int(s) for s in seasons)
         log(f"League {league_id} - {len(seasons)} seasons: {seasons}")
 
+        scoring = league_scoring_type(league_id, seasons)
         names = build_name_index(league_id, seasons)
-        teams_out[league_id] = compute_team_records(league_id, seasons)
+        teams_out[league_id] = compute_team_records(league_id, seasons, scoring)
         players_out[league_id] = compute_player_records(league_id, seasons, names)
-        log(f"  team records computed; "
+        tr = teams_out[league_id]
+        log(f"  team records ({scoring or 'scoring_type?'}): "
+            f"{len(tr['best_season'])} best / {len(tr['worst_season'])} worst season, "
+            f"{len(tr['season_stats'])} counting-stat boards; "
             f"{len(players_out[league_id]['season_total'])} season + "
             f"{len(players_out[league_id]['single_week'])} weekly player records")
 
