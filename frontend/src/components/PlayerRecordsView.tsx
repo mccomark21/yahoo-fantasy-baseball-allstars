@@ -2,8 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   loadPlayerRecords,
   type PlayerRecordsData,
-  type SeasonStatRecord,
-  type WeekStatRecord,
+  type PlayerStatLeaderboard,
 } from "../data";
 import { useShell } from "../context/ShellContext";
 import { formatStat } from "../constants/positions";
@@ -13,27 +12,33 @@ import UpdatedAt from "./UpdatedAt";
 import SeasonRange from "./SeasonRange";
 import "./tableviews.css";
 
-/* Phase 3.5 — Player Records. All-time individual marks for the active
-   league: the best single-week explosion and the best full-season total for
-   every stat the league tracks. Toggle between the two timeframes, filter to
-   one stat, and the trophy value glows amber — consistent with Team Records. */
+/* Phase 3.5 — Player Records (issue #30). All-time individual leaderboards for
+   the active league. Pick a timeframe — the best single week or the best full
+   season — then either browse the whole board at a glance ("All": the #1 mark in
+   every stat) or filter to one stat for its ranked top-10 leaderboard. The unit
+   is a player-season, so the same player can hold several places on a board
+   (different seasons are distinct marks). The trophy value carries Stadium Amber.
+
+   Reach is data-bound: Yahoo archival leaves season totals reaching ~2021+ and
+   weekly current-season only, so single-week boards fill in as live history
+   accrues. SeasonRange surfaces the true covered span rather than let "all-time"
+   overstate how far back the marks go. */
 
 type Status = "loading" | "ready" | "error";
 type Mode = "single_week" | "season_total";
 
-/* Canonical category order so the chips and rows read batting → pitching. */
-const STAT_ORDER = ["R", "HR", "RBI", "SB", "AVG", "W", "SV", "K", "ERA", "WHIP"];
-
 const ALL = "__all";
 
-type AnyRecord = WeekStatRecord | SeasonStatRecord;
-
-function orderStats(stats: string[]): string[] {
-  return [...stats].sort((a, b) => {
-    const ai = STAT_ORDER.indexOf(a);
-    const bi = STAT_ORDER.indexOf(b);
-    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi) || a.localeCompare(b);
-  });
+/** A flat table row for either view: the "All" summary (one #1 per stat, no
+    rank) or a single stat's ranked board (rank set). */
+interface Row {
+  rank?: number;
+  stat: string;
+  value: number;
+  player_name: string;
+  fantasy_team: string;
+  season: number;
+  week?: number;
 }
 
 const UNRESOLVED = /^Player\s+\d+\.p\.\d+$/;
@@ -48,11 +53,25 @@ function PlayerName({ name }: { name: string }) {
   return <span className="tv-id__name">{name}</span>;
 }
 
+function When({ season, week }: { season: number; week?: number }) {
+  return (
+    <span className="tv-when">
+      <span className="tv-when__season">{season}</span>
+      {week != null ? (
+        <>
+          {" · "}
+          <span className="tv-when__week">Wk {week}</span>
+        </>
+      ) : null}
+    </span>
+  );
+}
+
 export default function PlayerRecordsView() {
   const { leagueId } = useShell();
   const [status, setStatus] = useState<Status>("loading");
   const [data, setData] = useState<PlayerRecordsData | null>(null);
-  const [mode, setMode] = useState<Mode>("single_week");
+  const [mode, setMode] = useState<Mode>("season_total");
   const [stat, setStat] = useState<string>(ALL);
 
   const load = useCallback(async () => {
@@ -70,53 +89,103 @@ export default function PlayerRecordsView() {
   }, [load]);
 
   const league = data?.leagues[leagueId];
-  const records: AnyRecord[] = useMemo(
+  const boards: PlayerStatLeaderboard[] = useMemo(
     () => (league ? league[mode] : []),
     [league, mode]
   );
 
-  const stats = useMemo(
-    () => orderStats(Array.from(new Set(records.map((r) => r.stat)))),
-    [records]
-  );
+  // Pipeline already orders boards batting → pitching; keep that order.
+  const stats = useMemo(() => boards.map((b) => b.stat), [boards]);
 
   // Keep the stat filter valid as mode / league changes.
   useEffect(() => {
     setStat((prev) => (prev === ALL || stats.includes(prev) ? prev : ALL));
   }, [stats]);
 
-  const rows = useMemo(() => {
-    const filtered =
-      stat === ALL ? records : records.filter((r) => r.stat === stat);
-    return [...filtered].sort(
-      (a, b) =>
-        (STAT_ORDER.indexOf(a.stat) === -1 ? 99 : STAT_ORDER.indexOf(a.stat)) -
-        (STAT_ORDER.indexOf(b.stat) === -1 ? 99 : STAT_ORDER.indexOf(b.stat))
-    );
-  }, [records, stat]);
+  const board = useMemo(
+    () => boards.find((b) => b.stat === stat),
+    [boards, stat]
+  );
 
+  const isAll = stat === ALL;
   const isWeekly = mode === "single_week";
 
-  // The span these records actually cover. Unlike Team Records, the player views
-  // can't reach retired players, so old seasons contribute nothing and the range
-  // is derived from the records themselves (it lands at 2021+), not the league's
-  // full season list — which would overstate how far back player marks go.
+  const rows = useMemo<Row[]>(() => {
+    if (isAll) {
+      // Summary: the #1 mark in every stat, in canonical order.
+      return stats
+        .map((s) => {
+          const b = boards.find((x) => x.stat === s);
+          const top = b?.entries[0];
+          return top ? { stat: s, ...top } : null;
+        })
+        .filter((r): r is Row => r !== null);
+    }
+    if (!board) return [];
+    return board.entries.map((e, i) => ({ rank: i + 1, stat: board.stat, ...e }));
+  }, [isAll, stats, boards, board]);
+
+  // The span the active timeframe actually covers. Unlike Team Records, the
+  // player views can't reach retired players / archived seasons, so the range is
+  // derived from the entries themselves and tracks the mode: season totals land
+  // ~2021+, single week is current-season only. Deriving it (rather than using the
+  // league's full season list) keeps "all-time" from overstating the true reach.
   const span = useMemo(() => {
-    const yrs = [
-      ...(league?.season_total ?? []).map((r) => r.season),
-      ...(league?.single_week ?? []).map((r) => r.season),
-    ];
+    const yrs = boards.flatMap((b) => b.entries.map((e) => e.season));
     if (!yrs.length) return null;
     return { lo: Math.min(...yrs), hi: Math.max(...yrs) };
-  }, [league]);
+  }, [boards]);
 
-  const columns = useMemo<StatColumn<AnyRecord>[]>(() => {
-    const cols: StatColumn<AnyRecord>[] = [
+  const columns = useMemo<StatColumn<Row>[]>(() => {
+    if (isAll) {
+      return [
+        {
+          key: "stat",
+          header: "Stat",
+          sticky: true,
+          render: (r) => <span className="tv-stat">{r.stat}</span>,
+        },
+        {
+          key: "value",
+          header: "Mark",
+          numeric: true,
+          render: (r) => <span className="tv-mark">{formatStat(r.stat, r.value)}</span>,
+        },
+        {
+          key: "player",
+          header: "Player",
+          render: (r) => (
+            <span className="tv-id__text">
+              <PlayerName name={r.player_name} />
+              <span className="tv-id__team">{r.fantasy_team}</span>
+            </span>
+          ),
+        },
+        {
+          key: "when",
+          header: isWeekly ? "Season · Week" : "Season",
+          align: "end",
+          render: (r) => <When season={r.season} week={r.week} />,
+        },
+      ];
+    }
+    // Ranked leaderboard for one stat: rank + player identity, mark, when.
+    return [
       {
-        key: "stat",
-        header: "Stat",
+        key: "player",
+        header: "Player",
         sticky: true,
-        render: (r) => <span className="tv-stat">{r.stat}</span>,
+        render: (r) => (
+          <div className="tv-id">
+            <span className="tv-rank" data-lead={r.rank === 1 || undefined}>
+              {r.rank}
+            </span>
+            <span className="tv-id__text">
+              <PlayerName name={r.player_name} />
+              <span className="tv-id__team">{r.fantasy_team}</span>
+            </span>
+          </div>
+        ),
       },
       {
         key: "value",
@@ -125,34 +194,19 @@ export default function PlayerRecordsView() {
         render: (r) => <span className="tv-mark">{formatStat(r.stat, r.value)}</span>,
       },
       {
-        key: "player",
-        header: "Player",
-        render: (r) => (
-          <span className="tv-id__text">
-            <PlayerName name={r.player_name} />
-            <span className="tv-id__team">{r.fantasy_team}</span>
-          </span>
-        ),
-      },
-      {
         key: "when",
         header: isWeekly ? "Season · Week" : "Season",
         align: "end",
-        render: (r) => (
-          <span className="tv-when">
-            <span className="tv-when__season">{r.season}</span>
-            {isWeekly && "week" in r ? (
-              <>
-                {" · "}
-                <span className="tv-when__week">Wk {(r as WeekStatRecord).week}</span>
-              </>
-            ) : null}
-          </span>
-        ),
+        render: (r) => <When season={r.season} week={r.week} />,
       },
     ];
-    return cols;
-  }, [isWeekly]);
+  }, [isAll, isWeekly]);
+
+  const caption = isAll
+    ? `All-time ${isWeekly ? "single-week" : "season-total"} player records`
+    : `Top ${rows.length} ${board?.display ?? stat} — best ${
+        isWeekly ? "single week" : "season total"
+      }, all-time`;
 
   if (status === "error") {
     return (
@@ -200,20 +254,20 @@ export default function PlayerRecordsView() {
             <button
               type="button"
               className="tv-segment__btn"
-              data-active={mode === "single_week" || undefined}
-              aria-pressed={mode === "single_week"}
-              onClick={() => setMode("single_week")}
-            >
-              Single Week
-            </button>
-            <button
-              type="button"
-              className="tv-segment__btn"
               data-active={mode === "season_total" || undefined}
               aria-pressed={mode === "season_total"}
               onClick={() => setMode("season_total")}
             >
               Season Totals
+            </button>
+            <button
+              type="button"
+              className="tv-segment__btn"
+              data-active={mode === "single_week" || undefined}
+              aria-pressed={mode === "single_week"}
+              onClick={() => setMode("single_week")}
+            >
+              Single Week
             </button>
           </div>
         </div>
@@ -222,8 +276,8 @@ export default function PlayerRecordsView() {
           <button
             type="button"
             className="tv-chip"
-            data-active={stat === ALL || undefined}
-            aria-pressed={stat === ALL}
+            data-active={isAll || undefined}
+            aria-pressed={isAll}
             onClick={() => setStat(ALL)}
           >
             All
@@ -244,13 +298,24 @@ export default function PlayerRecordsView() {
         {span && <SeasonRange lo={span.lo} hi={span.hi} />}
       </div>
 
+      <p className="tv-controls__caption" aria-live="polite">
+        {caption}
+      </p>
+
       <StatTable
         columns={columns}
         rows={rows}
-        getRowKey={(r) => `${mode}-${r.stat}`}
-        caption={`All-time ${isWeekly ? "single-week" : "season-total"} player records`}
+        getRowKey={(r) =>
+          isAll
+            ? `${mode}-${r.stat}`
+            : `${mode}-${r.stat}-${r.rank}-${r.player_name}-${r.season}${
+                r.week != null ? `-${r.week}` : ""
+              }`
+        }
+        caption={caption}
+        isFeatured={(r) => r.rank === 1}
         emptyLabel="No records for this stat yet."
-        entrance="wipe"
+        entrance={isAll ? "wipe" : "cascade"}
         entranceToken={`${leagueId}:${mode}:${stat}`}
       />
 

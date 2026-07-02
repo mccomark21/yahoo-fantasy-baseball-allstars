@@ -14,8 +14,9 @@ Player attribution: a player's weekly and season lines are tied to the fantasy
 team that rostered them that season (captured per-team in player_stats.json).
 Player *names* come from roster snapshots pooled across all seasons; a player who
 only ever appears mid-season and was never on a season-end roster falls back to a
-cleaned player key. Single-week records cover counting stats only (a 1-AB 1.000
-AVG week is noise); season totals include rate stats too.
+cleaned player key. Both single-week and season-total boards cover counting
+scoring stats only — rate stats (AVG/ERA/WHIP…) and lower-is-better stats are
+excluded so an all-time mark is an unambiguous maximum.
 
     python scripts/compute_records.py
 """
@@ -30,9 +31,8 @@ from typing import Dict, List, Optional
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from common import (  # noqa: E402
-    DATA_DIR, RATE_STATS, clean_number, counting_scoring_stats, dump_json,
-    higher_is_better, list_seasons, load_json, scoring_stats, scoring_type,
-    season_dir, stat_abbr, to_number,
+    DATA_DIR, clean_number, counting_scoring_stats, dump_json, list_seasons,
+    load_json, scoring_stats, scoring_type, season_dir, stat_abbr, to_number,
 )
 
 
@@ -41,6 +41,11 @@ from common import (  # noqa: E402
 # carried one-off cats like NSB, CYC, SLAM, or a lone-season SV); a "record" set
 # from a stat that only existed a year or two isn't an all-time mark, it's noise.
 MIN_STAT_SEASONS = 5
+
+# Depth of the all-time Player Records leaderboards (issue #30): the top N
+# player-seasons (and player-weeks) per stat, not just the single best. A player
+# may appear more than once across a board — different seasons are distinct marks.
+PLAYER_TOP_N = 10
 
 
 def log(msg: str) -> None:
@@ -237,10 +242,38 @@ def compute_team_records(league_id: str, seasons: List[int], scoring: str) -> di
 # Player records
 # --------------------------------------------------------------------------- #
 def compute_player_records(league_id: str, seasons: List[int], names: Dict[str, str]) -> dict:
-    # abbr -> winning record dict. Only "higher is better" stats are tracked
-    # (an all-time record is a maximum).
-    season_best: Dict[str, dict] = {}
-    week_best: Dict[str, dict] = {}
+    """Top-N all-time player leaderboards per stat (issue #30).
+
+    For every counting scoring category, collect *every* player-season and
+    player-week line, then keep the top ``PLAYER_TOP_N`` by value. The unit is a
+    player-season / player-week, so the same player may hold several places on a
+    board — different seasons are distinct marks. Only counting stats are ranked
+    (via ``counting_scoring_stats``): rate stats (AVG/ERA/WHIP…) and lower-is-
+    better stats are excluded — an all-time record is an unambiguous maximum, and
+    excluding ratios keeps a wide category set (LOC scores 18) manageable.
+
+    Reach is data-bound, not calendar-bound: Yahoo archival leaves early seasons
+    without per-player lines (season totals reach ~2021+, weekly is current-season
+    only), so a board spans exactly the seasons that carry player stats and grows
+    as more live history accrues. The frontend surfaces the true covered span."""
+    # abbr -> {"display", "group", "entries": [record dict, ...]} — accumulated,
+    # then grouped/cut. ``stat_order`` is the first-seen scoring order; the final
+    # output is re-sorted batting → pitching by ``group`` so a league that scores
+    # both hitting and pitching cats (LOC scores 18) never interleaves the two.
+    season_boards: Dict[str, dict] = {}
+    week_boards: Dict[str, dict] = {}
+    stat_order: List[str] = []
+
+    def name_of(pk: str) -> str:
+        return names.get(pk) or _pretty_key(pk)
+
+    def board(store: Dict[str, dict], abbr: str, display: str, group: str) -> dict:
+        b = store.get(abbr)
+        if b is None:
+            b = store[abbr] = {"display": display, "group": group, "entries": []}
+            if abbr not in stat_order:
+                stat_order.append(abbr)
+        return b
 
     for season in seasons:
         sdir = season_dir(league_id, season)
@@ -253,57 +286,60 @@ def compute_player_records(league_id: str, seasons: List[int], names: Dict[str, 
         player_stats = load_json(stats_path)
         team_names = player_stats.get("teams", {})
 
-        # Stat id -> (abbr, counting?) for the higher-is-better scoring cats.
+        # Stat id -> (abbr, display, group) for the counting scoring cats (rate and
+        # lower-is-better stats excluded, deduped by abbr). Yahoo's ``name`` is the
+        # friendly label ("Home Runs"); its ``display_name`` is just the abbr.
         tracked: Dict[str, tuple] = {}
-        for cat in scoring_stats(stat_categories):
-            if not higher_is_better(cat):
-                continue  # a "record low ERA" is noisy/ambiguous — skip
+        for cat in counting_scoring_stats(stat_categories):
             abbr = stat_abbr(cat)
-            tracked[str(cat["stat_id"])] = (abbr, abbr.upper() not in RATE_STATS)
-
-        def name_of(pk: str) -> str:
-            return names.get(pk) or _pretty_key(pk)
+            display = cat.get("name") or cat.get("display_name") or abbr
+            tracked[str(cat["stat_id"])] = (abbr, display, cat.get("group", ""))
 
         # Season totals.
         for team_id, players in player_stats.get("season_totals", {}).items():
             team_name = team_names.get(team_id, "")
             for pk, line in players.items():
-                for sid, (abbr, _counting) in tracked.items():
+                for sid, (abbr, display, group) in tracked.items():
                     v = to_number(line.get(sid))
                     if v is None:
                         continue
-                    cur = season_best.get(abbr)
-                    if cur is None or v > cur["_raw"]:
-                        season_best[abbr] = {"stat": abbr, "value": clean_number(v, abbr),
-                                             "player_name": name_of(pk), "fantasy_team": team_name,
-                                             "season": season, "_raw": v}
+                    board(season_boards, abbr, display, group)["entries"].append(
+                        {"value": clean_number(v, abbr), "player_name": name_of(pk),
+                         "fantasy_team": team_name, "season": season, "_raw": v})
 
-        # Single-week (counting stats only).
+        # Single-week.
         for week, teams in player_stats.get("weekly", {}).items():
             wk = int(week)
             for team_id, players in teams.items():
                 team_name = team_names.get(team_id, "")
                 for pk, line in players.items():
-                    for sid, (abbr, counting) in tracked.items():
-                        if not counting:
-                            continue
+                    for sid, (abbr, display, group) in tracked.items():
                         v = to_number(line.get(sid))
                         if v is None:
                             continue
-                        cur = week_best.get(abbr)
-                        if cur is None or v > cur["_raw"]:
-                            week_best[abbr] = {"stat": abbr, "value": clean_number(v, abbr),
-                                               "player_name": name_of(pk), "fantasy_team": team_name,
-                                               "season": season, "week": wk, "_raw": v}
+                        board(week_boards, abbr, display, group)["entries"].append(
+                            {"value": clean_number(v, abbr), "player_name": name_of(pk),
+                             "fantasy_team": team_name, "season": season, "week": wk,
+                             "_raw": v})
 
-    def finalize(d: Dict[str, dict]) -> List[dict]:
+    # Batting boards before pitching; original scoring order within each group.
+    group_rank = {"batting": 0, "pitching": 1}
+
+    def finalize(store: Dict[str, dict]) -> List[dict]:
+        present = [a for a in stat_order if store.get(a) and store[a]["entries"]]
+        present.sort(key=lambda a: (group_rank.get(store[a]["group"], 2),
+                                    stat_order.index(a)))
         out = []
-        for rec in sorted(d.values(), key=lambda r: r["stat"]):
-            rec.pop("_raw", None)
-            out.append(rec)
+        for abbr in present:
+            b = store[abbr]
+            entries = sorted(b["entries"], key=lambda e: -e["_raw"])[:PLAYER_TOP_N]
+            for e in entries:
+                e.pop("_raw", None)
+            out.append({"stat": abbr, "display": b["display"],
+                        "group": b["group"], "entries": entries})
         return out
 
-    return {"single_week": finalize(week_best), "season_total": finalize(season_best)}
+    return {"single_week": finalize(week_boards), "season_total": finalize(season_boards)}
 
 
 # --------------------------------------------------------------------------- #

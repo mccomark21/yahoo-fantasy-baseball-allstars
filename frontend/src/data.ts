@@ -119,29 +119,35 @@ export interface TeamRecordsData {
 }
 
 /* --- Player Records (records_players.json) ---------------------------------
-   All-time individual marks: best single week and best season total, one row
-   per tracked stat category. `week` is present only on single-week records. */
+   All-time top-10 individual leaderboards per tracked stat: best single week and
+   best season total (issue #30). Mirrors the Team Records leaderboard shape. The
+   unit is a player-season (or player-week), so the same player may appear more
+   than once on a board — different seasons are distinct marks. `week` is present
+   only on single-week entries. */
 
-export interface WeekStatRecord {
-  stat: string;
+/** One player-season (or player-week) mark for a stat. */
+export interface PlayerStatEntry {
   value: number;
   player_name: string;
   fantasy_team: string;
   season: number;
-  week: number;
+  /** present only on single-week entries */
+  week?: number;
 }
 
-export interface SeasonStatRecord {
+/** A top-10 leaderboard for one stat. `stat` is the abbr (chip label);
+    `display` is the friendly name ("Home Runs") for captions. Boards arrive
+    ordered batting → pitching; `group` is "batting" | "pitching". */
+export interface PlayerStatLeaderboard {
   stat: string;
-  value: number;
-  player_name: string;
-  fantasy_team: string;
-  season: number;
+  display: string;
+  group: string;
+  entries: PlayerStatEntry[];
 }
 
 export interface PlayerRecords {
-  single_week: WeekStatRecord[];
-  season_total: SeasonStatRecord[];
+  single_week: PlayerStatLeaderboard[];
+  season_total: PlayerStatLeaderboard[];
 }
 
 export interface PlayerRecordsData {
