@@ -180,8 +180,10 @@
   color: var(--muted-dim);
 }
 
-/* ---- League dropdown (top nav) ---------------------------------------- */
-.league-picker__trigger {
+/* ---- Current-league badge (top nav) ---------------------------------- */
+/* The league is pinned by the URL slug (#/<slug>), so this is a static label,
+   not a switcher. Styled as a quiet Press Box pill echoing the old picker. */
+.topbar__league {
   display: flex;
   align-items: center;
   gap: var(--sp-2);
@@ -193,17 +195,9 @@
   color: var(--ink);
   font-weight: 600;
   font-size: var(--fs-sm);
-  transition: border-color 0.2s ease, background 0.2s ease;
 }
 
-@media (hover: hover) {
-  .league-picker__trigger:hover {
-    border-color: var(--hairline-strong);
-    background: var(--high-surface);
-  }
-}
-
-.league-picker__eyebrow {
+.topbar__league-eyebrow {
   flex: none;
   font-family: var(--font-body);
   font-size: var(--fs-label);
@@ -213,108 +207,11 @@
   color: var(--muted-dim);
 }
 
-.league-picker__name {
+.topbar__league-name {
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.league-picker__chevron {
-  flex: none;
-  color: var(--muted);
-  transition: transform 0.24s var(--ease-out-quart);
-}
-
-.league-picker__trigger[aria-expanded="true"] .league-picker__chevron {
-  transform: rotate(180deg);
-}
-
-/* The menu is a top-layer popover positioned by JS (fixed coords under the
-   trigger) — so it escapes the nav's overflow clipping. Reset the UA popover
-   box, then draw it as a Press Box surface. */
-.league-picker__menu {
-  position: fixed;
-  inset: auto;
-  margin: 0;
-  padding: var(--sp-1);
-  max-width: min(340px, calc(100vw - 16px));
-  background: var(--press-box);
-  border: 1px solid var(--hairline-strong);
-  border-radius: var(--r-md);
-  box-shadow: var(--shadow-pop);
-  color: var(--ink);
-  opacity: 0;
-  transform: translateY(-6px) scale(0.98);
-  transform-origin: top right;
-  transition:
-    opacity 0.16s var(--ease-out-quart),
-    transform 0.2s var(--ease-out-quint),
-    overlay 0.2s allow-discrete,
-    display 0.2s allow-discrete;
-}
-
-.league-picker__menu:popover-open {
-  opacity: 1;
-  transform: translateY(0) scale(1);
-}
-
-@starting-style {
-  .league-picker__menu:popover-open {
-    opacity: 0;
-    transform: translateY(-6px) scale(0.98);
-  }
-}
-
-.league-picker__option {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-2);
-  width: 100%;
-  padding: var(--sp-2) var(--sp-4) var(--sp-2) var(--sp-2);
-  border-radius: var(--r-sm);
-  font-weight: 600;
-  font-size: var(--fs-sm);
-  color: var(--muted);
-  text-align: left;
-  white-space: nowrap;
-  transition: color 0.16s ease, background 0.16s ease;
-}
-
-/* Crimson active cue — a full inset ring + wash (never a side-stripe). */
-.league-picker__option[data-active] {
-  color: var(--ink);
-  background: var(--crimson-wash);
-  box-shadow: inset 0 0 0 1px oklch(0.64 0.205 27 / 0.45);
-}
-
-@media (hover: hover) {
-  .league-picker__option:not([data-active]):hover {
-    background: var(--high-surface);
-    color: var(--ink);
-  }
-}
-
-.league-picker__option:focus-visible {
-  outline: 2px solid var(--amber);
-  outline-offset: -2px;
-  color: var(--ink);
-}
-
-.league-picker__check {
-  display: grid;
-  place-items: center;
-  width: 16px;
-  flex: none;
-  color: var(--crimson-bright);
-  opacity: 0;
-  transform: scale(0.6);
-  transition: opacity 0.16s ease, transform 0.18s var(--ease-out-quint);
-}
-
-.league-picker__option[data-active] .league-picker__check {
-  opacity: 1;
-  transform: scale(1);
 }
 
 /* ---- Main view + stage ------------------------------------------------ */
@@ -750,17 +647,13 @@
 }
 
 @media (max-width: 600px) {
-  /* Drop the "League" eyebrow inside the trigger to save width; the menu still
-     labels itself. Trigger stretches to share the row with the stamp. */
-  .league-picker {
+  /* Drop the "League" eyebrow to save width; the name still reads on its own.
+     The badge stretches to share the row with the freshness stamp. */
+  .topbar__league {
     flex: 1;
     min-width: 0;
   }
-  .league-picker__trigger {
-    width: 100%;
-    max-width: none;
-  }
-  .league-picker__eyebrow {
+  .topbar__league-eyebrow {
     display: none;
   }
 }
@@ -784,15 +677,5 @@
     animation: none;
     opacity: 1;
     transform: translateY(-50%);
-  }
-
-  /* Dropdown: crossfade only, no slide/scale. (The global reduce rule already
-     zeroes durations; this drops the transform so there's no movement.) */
-  .league-picker__menu,
-  .league-picker__menu:popover-open {
-    transform: none;
-  }
-  .league-picker__chevron {
-    transition: none;
   }
 }

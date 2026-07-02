@@ -653,6 +653,9 @@ def write_leagues_index(entries: List[dict]) -> None:
     ``entries`` items: ``{id, name, seasons:[int,...]}``. Top-level ``season``
     is the latest across all leagues.
     """
+    # Per-league URL slugs (id → slug) drive the frontend's shareable hash
+    # routes (#/<slug>). A league without a configured slug falls back to its id.
+    slug_map = {str(k): str(v) for k, v in load_config().get("league_slugs", {}).items()}
     leagues = []
     latest = 0
     for e in entries:
@@ -673,6 +676,7 @@ def write_leagues_index(entries: List[dict]) -> None:
                     scoring = st
                     break
         leagues.append({"id": e["id"], "name": e["name"], "season": cur,
+                        "slug": slug_map.get(e["id"], e["id"]),
                         "scoring_type": scoring, "seasons": seasons})
     # Read common.DATA_DIR at call time (not an import-time copy) so a test that
     # redirects ``common.DATA_DIR`` to a tmp dir actually catches this write.

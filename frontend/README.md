@@ -2,6 +2,17 @@
 
 React + TypeScript + Vite. Static SPA that reads committed JSON from `data/`.
 
+## Routing
+
+`HashRouter`, with the league as the leading route segment so each league has
+its own shareable URL: `#/<slug>` opens that league's All-Stars, and the four
+views nest under it (`#/loc/positional-races`, `#/sega/team-records`, …). The
+active league is pinned by the URL slug — there's no in-app league switcher; the
+top nav shows the current league as a static badge. `ShellProvider`
+(`src/context/ShellContext.tsx`) resolves the `:leagueSlug` param to a league and
+redirects unknown slugs (and the bare `#/`) to the default (first) league. Slugs
+come from `data/leagues.json` (`slug` field, sourced from `config.yaml`).
+
 ## Develop
 
 ```bash

@@ -38,6 +38,9 @@ export interface League {
   id: string;
   name: string;
   season: number;
+  /** Short URL slug — the league's shareable hash route is `#/<slug>`.
+      Falls back to the league id when no slug is configured. */
+  slug: string;
   /** Yahoo scoring format: "head" (categories) | "headone" (one win/week). */
   scoring_type?: string;
   seasons: number[];

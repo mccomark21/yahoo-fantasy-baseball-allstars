@@ -6,6 +6,7 @@
       "id": "12239",
       "name": "Sega Memorial Fantasy Baseball",
       "season": 2026,
+      "slug": "sega",
       "scoring_type": "head",
       "seasons": [
         2010,
@@ -31,6 +32,7 @@
       "id": "14078",
       "name": "League of Champions™ 2026",
       "season": 2026,
+      "slug": "loc",
       "scoring_type": "headone",
       "seasons": [
         2011,

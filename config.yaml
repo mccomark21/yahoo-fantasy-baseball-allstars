@@ -4,6 +4,13 @@ league_ids:
   - "12239"
   - "14078"
 
+# Short, stable URL slug per league. Each league gets its own shareable
+# GitHub Pages hash route (#/<slug>) so the owner can send one link per league.
+# Keyed by league id; a league without a slug falls back to its id in the URL.
+league_slugs:
+  "12239": sega   # Sega Memorial Fantasy Baseball
+  "14078": loc    # League of Champions™
+
 # Default sort applied when fetching/ranking free-agent (rostered) players.
 # AR = actual rank by season stats; matches the Yahoo "Actual Rank" sort.
 free_agent_sort: AR

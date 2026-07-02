@@ -1,37 +1,50 @@
 import { useEffect } from "react";
-import { Outlet, useLocation, useNavigate } from "react-router-dom";
+import { Outlet, useLocation, useNavigate, useParams } from "react-router-dom";
 import { VIEWS, viewByPath } from "../views";
 import { useShell } from "../context/ShellContext";
 import BallIcon from "./BallIcon";
-import LeagueToggle from "./LeagueToggle";
 import NavTabs from "./NavTabs";
 import UpdatedAt from "./UpdatedAt";
 import "./PlayerCard.css";
 import "./diamond.css";
 
 /* The broadcast chrome shared by all four views. The top bar is the home for
-   persistent controls — brand + season, nav tabs, the league dropdown, and the
-   freshness stamp. The view header below carries only the per-view title (off
-   the diamond) and hint, then the routed <Outlet />. */
+   persistent controls — brand + season, nav tabs, the current-league badge, and
+   the freshness stamp. The league is pinned by the URL slug (#/<slug>), so the
+   badge is a static label, not a switcher. The view header below carries only
+   the per-view title (off the diamond) and hint, then the routed <Outlet />. */
 export default function AppShell() {
   const navigate = useNavigate();
   const location = useLocation();
-  const view = viewByPath(location.pathname);
-  const { leagues, season, updated, leagueId, setLeague } = useShell();
+  const { leagueSlug } = useParams();
+  const { leagues, season, updated, leagueId } = useShell();
+
+  // Routes are nested under the league segment (/<slug>/…), so strip the slug
+  // prefix before matching the view — the view paths ("/", "/team-records", …)
+  // are league-agnostic.
+  const subPath =
+    (leagueSlug ? location.pathname.replace(`/${leagueSlug}`, "") : location.pathname) ||
+    "/";
+  const view = viewByPath(subPath);
   const isAllStars = view.id === "all-stars";
   const activeLeague = leagues.find((l) => l.id === leagueId);
 
+  // Navigate within the current league: keep the /<slug> prefix, swap the view.
   function onNav(id: string) {
     const target = VIEWS.find((v) => v.id === id);
-    if (target) navigate(target.path);
+    if (!target || !leagueSlug) return;
+    const suffix = target.path === "/" ? "" : target.path;
+    navigate(`/${leagueSlug}${suffix}`);
   }
 
-  // Keep the document title in step with the route. SPA navigation doesn't
-  // reload the page, so without this a screen reader announces the same stale
-  // title on every view; updating it names the view the user just landed on.
+  // Keep the document title in step with the route + league. SPA navigation
+  // doesn't reload the page, so without this a screen reader announces the same
+  // stale title on every view; the league name also makes a shared link's tab
+  // self-describing.
   useEffect(() => {
-    document.title = `${view.title} · Fantasy Baseball All-Stars`;
-  }, [view.title]);
+    const league = activeLeague ? ` · ${activeLeague.name}` : "";
+    document.title = `${view.title}${league} · Fantasy Baseball All-Stars`;
+  }, [view.title, activeLeague]);
 
   return (
     <div className="app" data-view={view.id}>
@@ -53,12 +66,11 @@ export default function AppShell() {
         <NavTabs active={view.id} onChange={onNav} />
 
         <div className="topbar__controls">
-          {leagues.length > 0 && (
-            <LeagueToggle
-              leagues={leagues}
-              activeId={leagueId}
-              onChange={setLeague}
-            />
+          {activeLeague && (
+            <p className="topbar__league" aria-label={`League: ${activeLeague.name}`}>
+              <span className="topbar__league-eyebrow">League</span>
+              <span className="topbar__league-name">{activeLeague.name}</span>
+            </p>
           )}
           {updated && (
             <p className="topbar__updated">
@@ -76,13 +88,6 @@ export default function AppShell() {
       <main className="view" id="view-panel" role="tabpanel" aria-label={view.title}>
         <Outlet />
       </main>
-
-      {/* Switching leagues swaps a whole view's data without moving focus, so
-          announce the change politely. A polite region stays silent on initial
-          render and speaks only when the active league actually changes. */}
-      <p className="visually-hidden" role="status" aria-live="polite">
-        {activeLeague ? `Showing ${activeLeague.name}` : ""}
-      </p>
     </div>
   );
 }
