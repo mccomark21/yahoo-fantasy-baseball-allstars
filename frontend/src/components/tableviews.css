@@ -62,6 +62,16 @@
 
 /* ---- Chip rail (position filter, stat filter) ------------------------- */
 .tv-chips {
+  /* Fill the space between the row's fixed clusters (a leading segment toggle,
+     a trailing season-range label) and scroll internally when the chips overrun
+     it, so those clusters stay pinned instead of being shoved off the line.
+     Basis 0 (not auto) is load-bearing: an auto basis makes the rail's
+     hypothetical size its full content width, so a long chip set (e.g. a
+     23-category league) claims the whole line and wraps the season-range label
+     onto the next one. Basis 0 keeps the rail from bumping the trailing label;
+     min-width 0 lets it shrink below content so overflow-x can scroll. */
+  flex: 1 1 0;
+  min-width: 0;
   display: flex;
   gap: var(--sp-2);
   overflow-x: auto;
@@ -113,6 +123,35 @@
   width: 1px;
   height: 1.5em;
   background: var(--hairline-strong);
+}
+
+/* ---- Season-range label (records scope) ------------------------------- */
+/* Reports how far back a records view reaches — Team Records span each league's
+   full reachable history; the player views stay 2021+. Pinned to the trailing
+   edge of the control bar. The "Seasons" key uses the same uppercase-tracked
+   Label treatment as the stat-column headers, so it reads as a data label, not
+   a decorative eyebrow. Not a control — nothing to press. */
+.tv-range {
+  flex: none;
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+  white-space: nowrap;
+}
+.tv-range__key {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted-dim);
+}
+.tv-range__val {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  color: var(--ink);
 }
 
 /* ---- Segmented toggle (single-week / season totals) ------------------- */

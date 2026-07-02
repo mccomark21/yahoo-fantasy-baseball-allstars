@@ -1,0 +1,3787 @@
+{
+  "league_id": "24167",
+  "game_key": "308",
+  "season": 2013,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.14",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.4",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.6",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.8",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 14.0
+        },
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.2",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 15.0
+        },
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.10",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.10",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.16",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 4.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.6",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.2",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.10",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.6",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 13.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 4.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 2.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.16",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.6",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.8",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.6",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 2.0
+        },
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 15.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.2",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.4",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.14",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 1.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.10",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.2",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 15.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.14",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 13.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.8",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 14.0
+        },
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.5",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 4.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.2",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.10",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.5",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.2",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.16",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 3.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.10",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.16",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.6",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 13.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.8",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.2",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.8",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.6",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.4",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 2.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.8",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.2",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.14",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 4.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.6",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 13.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 4.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.6",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.5",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 2.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.14",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.4",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.5",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.10",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.14",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 13.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.4",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.5",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.6",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 4.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.14",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 2.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.4",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 4.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 9.0
+        },
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.2",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 14.0
+        },
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 13.0
+        },
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 5.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.10",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 8.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 13.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.2",
+          "team_id": "2",
+          "name": "I'm Rollins Swishers",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.10",
+          "team_id": "10",
+          "name": "zzz",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.16",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.4",
+          "team_id": "4",
+          "name": "BlitzPuig Bop",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.16",
+          "team_id": "16",
+          "name": "Sucking & Troutless",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.13",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.5",
+          "team_id": "5",
+          "name": "#lasttofirstnextyear",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.14",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.6",
+          "team_id": "6",
+          "name": "Zeta Dark Thirty",
+          "points": 4.0
+        },
+        {
+          "team_key": "308.l.24167.t.14",
+          "team_id": "14",
+          "name": "I've Got Hoes",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.8",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.8",
+          "team_id": "8",
+          "name": "HeartBreakKid",
+          "points": 12.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 2.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 13.0
+        },
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 10.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.15",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.12",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 7.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.7",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 11.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.1",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.1",
+          "team_id": "1",
+          "name": "MK™ The Evil Empire",
+          "points": 16.0
+        },
+        {
+          "team_key": "308.l.24167.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.3",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.3",
+          "team_id": "3",
+          "name": "Alpha Dolan",
+          "points": 14.0
+        },
+        {
+          "team_key": "308.l.24167.t.7",
+          "team_id": "7",
+          "name": "El Jefe",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.9",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.9",
+          "team_id": "9",
+          "name": "Feeling Spicy",
+          "points": 14.0
+        },
+        {
+          "team_key": "308.l.24167.t.15",
+          "team_id": "15",
+          "name": "Thats Reddickulous",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "308.l.24167.t.11",
+      "teams": [
+        {
+          "team_key": "308.l.24167.t.11",
+          "team_id": "11",
+          "name": "Brown Bear",
+          "points": 15.0
+        },
+        {
+          "team_key": "308.l.24167.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        }
+      ]
+    }
+  ]
+}

@@ -36,6 +36,13 @@ from common import (  # noqa: E402
 )
 
 
+# A counting-stat board must span at least this many seasons to earn a place in
+# all-time Team Records. Leagues churn their category set over the years (LOC has
+# carried one-off cats like NSB, CYC, SLAM, or a lone-season SV); a "record" set
+# from a stat that only existed a year or two isn't an all-time mark, it's noise.
+MIN_STAT_SEASONS = 5
+
+
 def log(msg: str) -> None:
     print(msg, flush=True)
 
@@ -143,6 +150,7 @@ def compute_team_records(league_id: str, seasons: List[int], scoring: str) -> di
     season_rows: List[dict] = []              # W-L-T, one per (season, team)
     stat_boards: Dict[str, dict] = {}         # abbr -> {display, entries[]}
     stat_order: List[str] = []                # first-seen scoring order (bat→pit)
+    stat_seasons: Dict[str, set] = {}         # abbr -> {seasons it was scored in}
 
     for season in seasons:
         sdir = season_dir(league_id, season)
@@ -172,6 +180,7 @@ def compute_team_records(league_id: str, seasons: List[int], scoring: str) -> di
         team_season_stats = player_stats.get("team_season_stats", {})
         for cat in counting_scoring_stats(stat_categories):
             abbr = stat_abbr(cat)
+            stat_seasons.setdefault(abbr, set()).add(season)
             board = stat_boards.get(abbr)
             if board is None:
                 # Yahoo's ``name`` is the friendly label ("Home Runs"); its
@@ -195,12 +204,25 @@ def compute_team_records(league_id: str, seasons: List[int], scoring: str) -> di
     best = sorted(season_rows, key=lambda r: (-r["_w"], r["_l"]))[:5]
     worst = sorted(season_rows, key=lambda r: (-r["_l"], r["_w"]))[:5]
 
+    # A board earns a place only if the stat was scored in >= MIN_STAT_SEASONS
+    # seasons AND has team totals to rank. Short-lived cats (a category the league
+    # carried a year or two, then dropped) produce a "record" that isn't all-time.
+    kept, dropped = [], []
+    for abbr in stat_order:
+        span = len(stat_seasons.get(abbr, set()))
+        if stat_boards[abbr]["entries"] and span >= MIN_STAT_SEASONS:
+            kept.append(abbr)
+        else:
+            dropped.append((abbr, span))
+    if dropped:
+        log("    dropped short-lived / empty counting boards: "
+            + ", ".join(f"{a} ({s}yr)" for a, s in dropped))
+
     season_stats = [
         {"stat": abbr, "display": stat_boards[abbr]["display"],
          "entries": public(sorted(stat_boards[abbr]["entries"],
                                   key=lambda e: -e["_raw"])[:5])}
-        for abbr in stat_order
-        if stat_boards[abbr]["entries"]  # drop stats with no team totals yet
+        for abbr in kept
     ]
 
     return {

@@ -1,0 +1,3787 @@
+{
+  "league_id": "25044",
+  "game_key": "357",
+  "season": 2016,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.3",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.7",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 4.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.14",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 11.0
+        },
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 4.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.15",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 13.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 11.0
+        },
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 15.0
+        },
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.3",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.5",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 2.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 16.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 11.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.3",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.4",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.6",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 14.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.7",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 13.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.4",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 11.0
+        },
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.5",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.4",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.6",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 1.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 13.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 16.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.3",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.6",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 14.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.7",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 2.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.6",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 3.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 14.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 13.0
+        },
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.7",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 2.0
+        },
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.3",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 11.0
+        },
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 13.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 15.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.15",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.5",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 15.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 17.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 4.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.6",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.5",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.7",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 15.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 2.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.4",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 3.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.7",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 13.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.5",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.7",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 13.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.3",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 16.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.7",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 2.0
+        },
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 15.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.3",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.5",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 14.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 17.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.4",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 16.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.4",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 17.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.6",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 13.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 11.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.7",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 1.0
+        },
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.3",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 15.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.4",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 14.0
+        },
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 4.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 16.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.5",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.6",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 11.0
+        },
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 15.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.15",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 1.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.5",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.4",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.11",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.3",
+          "team_id": "3",
+          "name": "Hold The Door",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.11",
+          "team_id": "11",
+          "name": "The Byung-HoLES",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.14",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.4",
+          "team_id": "4",
+          "name": "Thats Reddickulous",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.14",
+          "team_id": "14",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.9",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.5",
+          "team_id": "5",
+          "name": "Bos Club",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.6",
+          "team_id": "6",
+          "name": "Pokey Reese's Pieces",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.7",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.7",
+          "team_id": "7",
+          "name": "cruzing to victory",
+          "points": 14.0
+        },
+        {
+          "team_key": "357.l.25044.t.15",
+          "team_id": "15",
+          "name": "New year NEW ME",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.1",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 11.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 5.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 10.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.12",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.2",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 13.0
+        },
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 11.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 12.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.13",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.1",
+          "team_id": "1",
+          "name": "Kempire Strikes Back",
+          "points": 8.0
+        },
+        {
+          "team_key": "357.l.25044.t.13",
+          "team_id": "13",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.10",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.2",
+          "team_id": "2",
+          "name": "Bob Barker",
+          "points": 6.0
+        },
+        {
+          "team_key": "357.l.25044.t.10",
+          "team_id": "10",
+          "name": "Spirit of Troy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.8",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.8",
+          "team_id": "8",
+          "name": "Ålpha Bear #spicy ⚡⚡",
+          "points": 9.0
+        },
+        {
+          "team_key": "357.l.25044.t.12",
+          "team_id": "12",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "357.l.25044.t.16",
+      "teams": [
+        {
+          "team_key": "357.l.25044.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 7.0
+        },
+        {
+          "team_key": "357.l.25044.t.16",
+          "team_id": "16",
+          "name": "TheKingOfTheNorth",
+          "points": 10.0
+        }
+      ]
+    }
+  ]
+}

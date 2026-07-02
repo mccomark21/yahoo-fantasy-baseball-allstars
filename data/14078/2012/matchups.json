@@ -1,0 +1,3787 @@
+{
+  "league_id": "34889",
+  "game_key": "268",
+  "season": 2012,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.11",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.12",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 17.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 14.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 13.0
+        },
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.11",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 18.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 13.0
+        },
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 17.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 15.0
+        },
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.11",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 18.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 14.0
+        },
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.11",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 14.0
+        },
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 15.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 18.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 15.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.11",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 13.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 16.0
+        },
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 14.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.11",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 17.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 16.0
+        },
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 13.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.12",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 15.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 16.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 14.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 17.0
+        },
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.11",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.12",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 13.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 14.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 14.0
+        },
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.11",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 14.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 16.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 16.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 13.0
+        },
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 18.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 14.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 15.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 12.0
+        },
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 16.0
+        },
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 18.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 11.0
+        },
+        {
+          "team_key": "268.l.34889.t.9",
+          "team_id": "9",
+          "name": "4th and Longo",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 15.0
+        },
+        {
+          "team_key": "268.l.34889.t.5",
+          "team_id": "5",
+          "name": "Why So Ciriaco?",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.3",
+          "team_id": "3",
+          "name": "zzz",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.34889.t.6",
+          "team_id": "6",
+          "name": "MANDARK",
+          "points": 17.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.7",
+          "team_id": "7",
+          "name": "Revenge of BrownBear",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.8",
+          "team_id": "8",
+          "name": "El Jefe",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.12",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.12",
+          "team_id": "12",
+          "name": "AAA",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.11",
+          "team_id": "11",
+          "name": "LordCommanderSnow.",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 13.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.13",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.16",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.1",
+          "team_id": "1",
+          "name": "MK™ Bryce Bryce Baby",
+          "points": 19.0
+        },
+        {
+          "team_key": "268.l.34889.t.13",
+          "team_id": "13",
+          "name": "Amazin' Mets",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.2",
+          "team_id": "2",
+          "name": "#BEASTMODE",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.4",
+          "team_id": "4",
+          "name": "Pokey Reese's Pieces",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.15",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.10",
+          "team_id": "10",
+          "name": "Pat's Nation",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.34889.t.15",
+          "team_id": "15",
+          "name": "Votto's Back!..Kinda",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.34889.t.14",
+      "teams": [
+        {
+          "team_key": "268.l.34889.t.14",
+          "team_id": "14",
+          "name": "That's Reddickulous",
+          "points": 14.0
+        },
+        {
+          "team_key": "268.l.34889.t.16",
+          "team_id": "16",
+          "name": "Alpha Dolan",
+          "points": 5.0
+        }
+      ]
+    }
+  ]
+}

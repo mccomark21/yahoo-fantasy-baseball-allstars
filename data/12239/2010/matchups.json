@@ -1,0 +1,2548 @@
+{
+  "league_id": "262562",
+  "game_key": "238",
+  "season": 2010,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.6",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 8.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.5",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 2.0
+        },
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 2.0
+        },
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.8",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.6",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 8.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.5",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 2.0
+        },
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.5",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.8",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 2.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.10",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 8.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.8",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 0.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.5",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 8.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 8.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.8",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 0.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.6",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 1.0
+        },
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.10",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 1.0
+        },
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.8",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 2.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.6",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 8.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 2.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.5",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 9.0
+        },
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.10",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.8",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.5",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 1.0
+        },
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 1.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.6",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 0.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 1.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 8.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.10",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.6",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 8.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.8",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 1.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.1",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.9",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.6",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.10",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.5",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 1.0
+        },
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 2.0
+        },
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 9.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.5",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 2.0
+        },
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.2",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.1",
+          "team_id": "1",
+          "name": "Level 6 Laser Lotus",
+          "points": 4.0
+        },
+        {
+          "team_key": "238.l.262562.t.2",
+          "team_id": "2",
+          "name": "Jacobs Candidates",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 9.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 1.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.5",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.6",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 6.0
+        },
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.3",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.3",
+          "team_id": "3",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        },
+        {
+          "team_key": "238.l.262562.t.6",
+          "team_id": "6",
+          "name": "GhostOfGreinkesPast",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.4",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.4",
+          "team_id": "4",
+          "name": "South Beach Sloths",
+          "points": 7.0
+        },
+        {
+          "team_key": "238.l.262562.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.7",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.5",
+          "team_id": "5",
+          "name": "Do not fight",
+          "points": 3.0
+        },
+        {
+          "team_key": "238.l.262562.t.7",
+          "team_id": "7",
+          "name": "A-Rod AJax Blanks",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "238.l.262562.t.8",
+      "teams": [
+        {
+          "team_key": "238.l.262562.t.8",
+          "team_id": "8",
+          "name": "SpaceballsThe3-Peat",
+          "points": 8.0
+        },
+        {
+          "team_key": "238.l.262562.t.10",
+          "team_id": "10",
+          "name": "Team Awesome",
+          "points": 2.0
+        }
+      ]
+    }
+  ]
+}

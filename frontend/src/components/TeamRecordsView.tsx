@@ -10,6 +10,7 @@ import { formatStat } from "../constants/positions";
 import StatTable, { type StatColumn } from "./StatTable";
 import BallIcon from "./BallIcon";
 import UpdatedAt from "./UpdatedAt";
+import SeasonRange from "./SeasonRange";
 import "./tableviews.css";
 
 /* Phase 3.4 — Team Records (issue #29). Reshaped from four fixed matchup
@@ -85,7 +86,7 @@ const COLUMNS: StatColumn<LeaderRow>[] = [
 ];
 
 export default function TeamRecordsView() {
-  const { leagueId } = useShell();
+  const { leagueId, leagues } = useShell();
   const [status, setStatus] = useState<Status>("loading");
   const [data, setData] = useState<TeamRecordsData | null>(null);
   const [sel, setSel] = useState<string>(BEST);
@@ -129,6 +130,16 @@ export default function TeamRecordsView() {
     () => rec?.season_stats.find((b) => b.stat === sel),
     [rec, sel]
   );
+
+  // The span these records search: every reachable season for the active league
+  // (leagues.json lists exactly the seasons on disk). Team records reach back
+  // further than the player-facing views, so we surface the range rather than
+  // let the "all-time" copy hide how far back "all" actually goes.
+  const span = useMemo(() => {
+    const yrs = leagues.find((l) => l.id === leagueId)?.seasons ?? [];
+    if (!yrs.length) return null;
+    return { lo: Math.min(...yrs), hi: Math.max(...yrs) };
+  }, [leagues, leagueId]);
 
   const rows = useMemo<LeaderRow[]>(() => {
     if (!rec) return [];
@@ -217,6 +228,7 @@ export default function TeamRecordsView() {
             </Fragment>
           ))}
         </div>
+        {span && <SeasonRange lo={span.lo} hi={span.hi} />}
       </div>
 
       <p className="tv-controls__caption" aria-live="polite">
