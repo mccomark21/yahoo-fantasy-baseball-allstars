@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T01:58:54Z",
+  "updated_at": "2026-07-02T11:03:05Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -58,6 +58,13 @@
               "week": 14
             },
             {
+              "value": 6,
+              "player_name": "Trea Turner",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 5,
               "player_name": "Trea Turner",
               "fantasy_team": "Back to One Duran",
@@ -68,13 +75,6 @@
               "value": 5,
               "player_name": "Freddie Freeman",
               "fantasy_team": "All Rise & Wittness",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 5,
-              "player_name": "Otto Lopez",
-              "fantasy_team": "DiZ-Hajj-O",
               "season": 2026,
               "week": 14
             }
@@ -135,25 +135,25 @@
               "week": 14
             },
             {
+              "value": 3,
+              "player_name": "Trea Turner",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 3,
+              "player_name": "Brandon Marsh",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 2,
               "player_name": "Player 469.p.10183",
               "fantasy_team": "Back to One Duran",
               "season": 2026,
               "week": 1
-            },
-            {
-              "value": 2,
-              "player_name": "Brent Rooker",
-              "fantasy_team": "TheHotDogSafari",
-              "season": 2026,
-              "week": 2
-            },
-            {
-              "value": 2,
-              "player_name": "Brice Turang",
-              "fantasy_team": "All Rise & Wittness",
-              "season": 2026,
-              "week": 3
             }
           ]
         },
@@ -219,18 +219,18 @@
               "week": 14
             },
             {
+              "value": 7,
+              "player_name": "Trea Turner",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 6,
               "player_name": "Brent Rooker",
               "fantasy_team": "TheHotDogSafari",
               "season": 2026,
               "week": 2
-            },
-            {
-              "value": 6,
-              "player_name": "Carter Jensen",
-              "fantasy_team": "Cruz Missle",
-              "season": 2026,
-              "week": 14
             }
           ]
         },
