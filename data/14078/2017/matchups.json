@@ -1,0 +1,3787 @@
+{
+  "league_id": "12769",
+  "game_key": "370",
+  "season": 2017,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.1",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.15",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.6",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 14.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.4",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 2.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.12",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 1.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 17.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.8",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.4",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.6",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.8",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 3.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.1",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.15",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.7",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 12.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 15.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.7",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 12.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.11",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.7",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 4.0
+        },
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.6",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 3.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.15",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 4.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.11",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.1",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 14.0
+        },
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 3.0
+        },
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 3.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.8",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 14.0
+        },
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.6",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.12",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 14.0
+        },
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.7",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 4.0
+        },
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 16.0
+        },
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.12",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.11",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 1.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 17.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.4",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 15.0
+        },
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.6",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.15",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.1",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 12.0
+        },
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.6",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 3.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 12.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.4",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.6",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.8",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.1",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.4",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 2.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.7",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 4.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.4",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.6",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 16.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.12",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.11",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 3.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.8",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 4.0
+        },
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.15",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.6",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.7",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.8",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.4",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 1.0
+        },
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 14.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 4.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 3.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.8",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.1",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.15",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 3.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.7",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 12.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.12",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.11",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.6",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.7",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 12.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.8",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.12",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.11",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.1",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.1",
+          "team_id": "1",
+          "name": "Rise of the Kempire",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.7",
+          "team_id": "7",
+          "name": "Boston Roid Sox",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.6",
+          "team_id": "6",
+          "name": "Eaton Dat Puss",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 13.0
+        },
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.4",
+          "team_id": "4",
+          "name": "Omega Bos Club",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.8",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.8",
+          "team_id": "8",
+          "name": "Gardy Goes Yardy",
+          "points": 14.0
+        },
+        {
+          "team_key": "370.l.12769.t.15",
+          "team_id": "15",
+          "name": "TheKingOfTheNorth",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.13",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 1.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 17.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.12",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.11",
+          "team_id": "11",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 4.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 11.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.9",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 2.0
+        },
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.14",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 5.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.16",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 7.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.2",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "370.l.12769.t.13",
+          "team_id": "13",
+          "name": "Fall of  the Kempire",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.3",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.3",
+          "team_id": "3",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "370.l.12769.t.16",
+          "team_id": "16",
+          "name": "Ålpha Bear #spicy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.5",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.5",
+          "team_id": "5",
+          "name": "Karamourtopoulos (2)",
+          "points": 14.0
+        },
+        {
+          "team_key": "370.l.12769.t.14",
+          "team_id": "14",
+          "name": "Fire inthe Poo-Holes",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "370.l.12769.t.10",
+      "teams": [
+        {
+          "team_key": "370.l.12769.t.9",
+          "team_id": "9",
+          "name": "Brown Bear 🐻",
+          "points": 6.0
+        },
+        {
+          "team_key": "370.l.12769.t.10",
+          "team_id": "10",
+          "name": "Forgot about Trea🔫",
+          "points": 11.0
+        }
+      ]
+    }
+  ]
+}

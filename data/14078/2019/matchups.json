@@ -1,0 +1,3787 @@
+{
+  "league_id": "53236",
+  "game_key": "388",
+  "season": 2019,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 13.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.15",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.12",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.15",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 14.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.15",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 13.0
+        },
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 15.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 13.0
+        },
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 15.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.14",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 14.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.15",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 1.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 17.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 1.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.14",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 14.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 15.0
+        },
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.15",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.14",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 1.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 14.0
+        },
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.15",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 15.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 13.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.14",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.14",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 13.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 13.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.14",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.12",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 16.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 13.0
+        },
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.15",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.14",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.12",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.15",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 15.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 1.0
+        },
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.14",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.15",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 14.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.12",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 11.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 16.0
+        },
+        {
+          "team_key": "388.l.53236.t.7",
+          "team_id": "7",
+          "name": "Forgot about Trea",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.2",
+          "team_id": "2",
+          "name": "#westcoastruth",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.5",
+          "team_id": "5",
+          "name": "Rhys's Pieces",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.4",
+          "team_id": "4",
+          "name": "Confortnite",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.15",
+          "team_id": "15",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.14",
+          "team_id": "14",
+          "name": "TheKingOfTheNorth",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.10",
+          "team_id": "10",
+          "name": "House Omega",
+          "points": 0.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.12",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.12",
+          "team_id": "12",
+          "name": "Spirit of Troy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 12.0
+        },
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.11",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 1.0
+        },
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.13",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.1",
+          "team_id": "1",
+          "name": "Rise of the Empire™",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.53236.t.13",
+          "team_id": "13",
+          "name": "Thats Reddickulous",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.3",
+          "team_id": "3",
+          "name": "Brown Bear 🐻",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.9",
+          "team_id": "9",
+          "name": "Mayor of #FlavorTown",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.6",
+          "team_id": "6",
+          "name": "That Godley Greene",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.8",
+          "team_id": "8",
+          "name": "Manly",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.53236.t.16",
+      "teams": [
+        {
+          "team_key": "388.l.53236.t.11",
+          "team_id": "11",
+          "name": "Alpha Bear #🔥",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.53236.t.16",
+          "team_id": "16",
+          "name": "El Jefe",
+          "points": 11.0
+        }
+      ]
+    }
+  ]
+}

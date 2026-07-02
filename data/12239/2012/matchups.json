@@ -1,0 +1,2548 @@
+{
+  "league_id": "18186",
+  "game_key": "268",
+  "season": 2012,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 1.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 1.0
+        },
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 1.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 0.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 1.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 10.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 1.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.1",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 9.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.5",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 5.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.9",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 4.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.6",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 2.0
+        },
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.10",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 1.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.3",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.3",
+          "team_id": "3",
+          "name": "ThanksALotTulo",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.5",
+          "team_id": "5",
+          "name": "GhostOfChampionsPast",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 8.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.8",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.1",
+          "team_id": "1",
+          "name": "The Sunday Truce",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.8",
+          "team_id": "8",
+          "name": "The El Dude Brothers",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.2",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.2",
+          "team_id": "2",
+          "name": "SpaceballsTheTelos",
+          "points": 6.0
+        },
+        {
+          "team_key": "268.l.18186.t.9",
+          "team_id": "9",
+          "name": "Those are balls!",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.4",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.4",
+          "team_id": "4",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        },
+        {
+          "team_key": "268.l.18186.t.10",
+          "team_id": "10",
+          "name": "Nashville Hipsters",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "268.l.18186.t.7",
+      "teams": [
+        {
+          "team_key": "268.l.18186.t.6",
+          "team_id": "6",
+          "name": "Redman the Robot",
+          "points": 3.0
+        },
+        {
+          "team_key": "268.l.18186.t.7",
+          "team_id": "7",
+          "name": "The Voice of Reason",
+          "points": 6.0
+        }
+      ]
+    }
+  ]
+}
