@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T23:42:13Z",
+  "updated_at": "2026-07-02T00:06:18Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -213,10 +213,10 @@
       "season_total": [
         {
           "stat": "AVG",
-          "value": 0.354,
-          "player_name": "Luis Arraez",
-          "fantasy_team": "House Omega",
-          "season": 2023
+          "value": 0.395,
+          "player_name": "Tommy Edman",
+          "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
+          "season": 2026
         },
         {
           "stat": "BB",
