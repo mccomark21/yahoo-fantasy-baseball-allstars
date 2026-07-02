@@ -1,0 +1,3787 @@
+{
+  "league_id": "19468",
+  "game_key": "328",
+  "season": 2014,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 3.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 14.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.4",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 13.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.11",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.6",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.15",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 5.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 13.0
+        },
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.15",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 3.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.11",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 12.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.14",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 15.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 14.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.5",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.11",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        },
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.6",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 3.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 5.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 15.0
+        },
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.8",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.7",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 14.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.14",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.15",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 5.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.7",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.14",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.8",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.5",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.6",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.14",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.15",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 12.0
+        },
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.5",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 5.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 5.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 3.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.5",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.4",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.11",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.8",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.5",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.14",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 15.0
+        },
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.6",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.15",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 3.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 2.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.5",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.8",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.15",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.4",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 13.0
+        },
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.7",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 13.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 13.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.4",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 12.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.6",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 1.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 17.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.4",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 15.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.11",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 5.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.6",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 0.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 17.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.8",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.6",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 16.0
+        },
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.15",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.8",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.14",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 5.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.8",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.11",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 14.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 16.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.5",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.6",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.8",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.11",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 14.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.6",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.15",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 14.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 14.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.15",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.7",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.6",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 2.0
+        },
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.8",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 11.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 10.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 14.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.2",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 12.0
+        },
+        {
+          "team_key": "328.l.19468.t.8",
+          "team_id": "8",
+          "name": "TheNightsWatch",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.4",
+          "team_id": "4",
+          "name": "Bob Barker",
+          "points": 5.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.5",
+          "team_id": "5",
+          "name": "Gardy Goes Yardy",
+          "points": 3.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.11",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.6",
+          "team_id": "6",
+          "name": "Ryu's Hadouken",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.11",
+          "team_id": "11",
+          "name": "El Jefe",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.14",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.7",
+          "team_id": "7",
+          "name": "The people's Chump",
+          "points": 2.0
+        },
+        {
+          "team_key": "328.l.19468.t.14",
+          "team_id": "14",
+          "name": "BlitzPuig Bop",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.15",
+          "team_id": "15",
+          "name": "Zeta's Decline",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 12.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.10",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 3.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 13.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.3",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 6.0
+        },
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 11.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.13",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.1",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.1",
+          "team_id": "1",
+          "name": "#BlameKateUpton",
+          "points": 9.0
+        },
+        {
+          "team_key": "328.l.19468.t.10",
+          "team_id": "10",
+          "name": "Pokey Reese's Pieces",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.9",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.2",
+          "team_id": "2",
+          "name": "Alpha Dolan",
+          "points": 7.0
+        },
+        {
+          "team_key": "328.l.19468.t.9",
+          "team_id": "9",
+          "name": "#westcoastruth",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.12",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.3",
+          "team_id": "3",
+          "name": "Brown Bear",
+          "points": 4.0
+        },
+        {
+          "team_key": "328.l.19468.t.12",
+          "team_id": "12",
+          "name": "Duda Wheres My Car?",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "328.l.19468.t.16",
+      "teams": [
+        {
+          "team_key": "328.l.19468.t.13",
+          "team_id": "13",
+          "name": "Eaton Dat Puss",
+          "points": 8.0
+        },
+        {
+          "team_key": "328.l.19468.t.16",
+          "team_id": "16",
+          "name": "Alpha Bear #spicy",
+          "points": 11.0
+        }
+      ]
+    }
+  ]
+}

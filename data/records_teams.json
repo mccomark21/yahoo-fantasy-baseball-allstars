@@ -1,9 +1,23 @@
 {
-  "updated_at": "2026-07-02T00:06:18Z",
+  "updated_at": "2026-07-02T01:16:51Z",
   "leagues": {
     "12239": {
       "scoring_type": "head",
       "best_season": [
+        {
+          "fantasy_team": "SpaceballsTheUnemply",
+          "season": 2017,
+          "wins": 151,
+          "losses": 73,
+          "ties": 16
+        },
+        {
+          "fantasy_team": "Sporting Spaceballs",
+          "season": 2013,
+          "wins": 145,
+          "losses": 82,
+          "ties": 13
+        },
         {
           "fantasy_team": "Acuña Moncada",
           "season": 2021,
@@ -12,69 +26,55 @@
           "ties": 18
         },
         {
-          "fantasy_team": "Cole World",
-          "season": 2022,
-          "wins": 136,
-          "losses": 72,
-          "ties": 22
+          "fantasy_team": "A-Rod AJax Blanks",
+          "season": 2010,
+          "wins": 140,
+          "losses": 83,
+          "ties": 17
         },
         {
-          "fantasy_team": "Cole World",
-          "season": 2023,
-          "wins": 132,
-          "losses": 90,
-          "ties": 18
-        },
-        {
-          "fantasy_team": "TheHotDogSafari",
-          "season": 2024,
-          "wins": 131,
-          "losses": 93,
-          "ties": 16
-        },
-        {
-          "fantasy_team": "Salustro's Fantasy Dungeon",
-          "season": 2024,
-          "wins": 130,
-          "losses": 92,
+          "fantasy_team": "SpaceballsTheHack",
+          "season": 2018,
+          "wins": 139,
+          "losses": 83,
           "ties": 18
         }
       ],
       "worst_season": [
+        {
+          "fantasy_team": "The Voice of Reason",
+          "season": 2019,
+          "wins": 70,
+          "losses": 149,
+          "ties": 21
+        },
+        {
+          "fantasy_team": "ManBearPuig",
+          "season": 2016,
+          "wins": 71,
+          "losses": 148,
+          "ties": 21
+        },
+        {
+          "fantasy_team": "The Voice of Reason",
+          "season": 2017,
+          "wins": 79,
+          "losses": 148,
+          "ties": 13
+        },
+        {
+          "fantasy_team": "ManBearPuig",
+          "season": 2015,
+          "wins": 80,
+          "losses": 146,
+          "ties": 14
+        },
         {
           "fantasy_team": "Spaceballs RiseofSAL",
           "season": 2025,
           "wins": 77,
           "losses": 143,
           "ties": 20
-        },
-        {
-          "fantasy_team": "Acuña Moncada",
-          "season": 2022,
-          "wins": 71,
-          "losses": 141,
-          "ties": 18
-        },
-        {
-          "fantasy_team": "The Voice of Reason",
-          "season": 2024,
-          "wins": 84,
-          "losses": 139,
-          "ties": 17
-        },
-        {
-          "fantasy_team": "It’s a Cutch 22!",
-          "season": 2021,
-          "wins": 86,
-          "losses": 137,
-          "ties": 17
-        },
-        {
-          "fantasy_team": "The Voice of Reason",
-          "season": 2023,
-          "wins": 88,
-          "losses": 135,
-          "ties": 17
         }
       ],
       "season_stats": [
@@ -83,29 +83,29 @@
           "display": "Runs",
           "entries": [
             {
+              "fantasy_team": "Weinhold's Wallopers",
+              "value": 893,
+              "season": 2019
+            },
+            {
+              "fantasy_team": "TheHotDogSafari",
+              "value": 883,
+              "season": 2019
+            },
+            {
+              "fantasy_team": "Cole World",
+              "value": 859,
+              "season": 2019
+            },
+            {
               "fantasy_team": "Acuña Moncada",
               "value": 843,
               "season": 2021
             },
             {
-              "fantasy_team": "Acuña Matata",
-              "value": 841,
-              "season": 2023
-            },
-            {
-              "fantasy_team": "TheHotDogSafari",
-              "value": 818,
-              "season": 2025
-            },
-            {
-              "fantasy_team": "Cole World",
-              "value": 814,
-              "season": 2022
-            },
-            {
-              "fantasy_team": "Salustro's Fantasy Dungeon",
-              "value": 803,
-              "season": 2025
+              "fantasy_team": "Awaited in Valhalla",
+              "value": 842,
+              "season": 2017
             }
           ]
         },
@@ -113,6 +113,11 @@
           "stat": "HR",
           "display": "Home Runs",
           "entries": [
+            {
+              "fantasy_team": "Cole World",
+              "value": 331,
+              "season": 2019
+            },
             {
               "fantasy_team": "Acuña Matata",
               "value": 284,
@@ -129,14 +134,9 @@
               "season": 2021
             },
             {
-              "fantasy_team": "Good on Paper",
-              "value": 256,
-              "season": 2023
-            },
-            {
-              "fantasy_team": "Cole World",
-              "value": 255,
-              "season": 2024
+              "fantasy_team": "SpaceballsTheUnemply",
+              "value": 272,
+              "season": 2017
             }
           ]
         },
@@ -145,29 +145,29 @@
           "display": "Runs Batted In",
           "entries": [
             {
+              "fantasy_team": "Cole World",
+              "value": 848,
+              "season": 2019
+            },
+            {
+              "fantasy_team": "The El Dude Brothers",
+              "value": 840,
+              "season": 2016
+            },
+            {
               "fantasy_team": "Salustro's Fantasy Dungeon",
               "value": 835,
               "season": 2025
             },
             {
+              "fantasy_team": "Orchids of Asia",
+              "value": 833,
+              "season": 2019
+            },
+            {
               "fantasy_team": "Spaceballs RiseofSAL",
               "value": 820,
               "season": 2023
-            },
-            {
-              "fantasy_team": "Cole World",
-              "value": 819,
-              "season": 2024
-            },
-            {
-              "fantasy_team": "Cole World",
-              "value": 810,
-              "season": 2023
-            },
-            {
-              "fantasy_team": "Acuña Moncada",
-              "value": 809,
-              "season": 2021
             }
           ]
         },
@@ -207,29 +207,29 @@
           "display": "Wins",
           "entries": [
             {
-              "fantasy_team": "McChocolate Milk",
-              "value": 89,
-              "season": 2023
+              "fantasy_team": "The El Dude Brothers",
+              "value": 100,
+              "season": 2014
             },
             {
-              "fantasy_team": "Never Did No One Duran",
-              "value": 88,
-              "season": 2025
+              "fantasy_team": "McClutchen",
+              "value": 96,
+              "season": 2014
             },
             {
-              "fantasy_team": "What a Lovely Day!",
-              "value": 84,
-              "season": 2022
+              "fantasy_team": "ThanksALotTulo",
+              "value": 95,
+              "season": 2012
             },
             {
-              "fantasy_team": "The Voice of Reason",
-              "value": 82,
-              "season": 2021
+              "fantasy_team": "SpaceballsTheUnemply",
+              "value": 95,
+              "season": 2017
             },
             {
-              "fantasy_team": "Spaceballs RiseofSAL",
-              "value": 82,
-              "season": 2022
+              "fantasy_team": "TulosOffenseIsTooLow",
+              "value": 93,
+              "season": 2011
             }
           ]
         },
@@ -238,29 +238,29 @@
           "display": "Saves",
           "entries": [
             {
+              "fantasy_team": "1)BaseBall 2)Family",
+              "value": 113,
+              "season": 2019
+            },
+            {
+              "fantasy_team": "DiZHajjO",
+              "value": 97,
+              "season": 2014
+            },
+            {
               "fantasy_team": "This IS The Year - Callin' IT!",
               "value": 96,
               "season": 2023
             },
             {
-              "fantasy_team": "This IS The Year - Callin' IT!",
-              "value": 82,
-              "season": 2022
+              "fantasy_team": "Shiny and Chrome",
+              "value": 92,
+              "season": 2016
             },
             {
-              "fantasy_team": "McChocolate Milk",
-              "value": 80,
-              "season": 2022
-            },
-            {
-              "fantasy_team": "Spaceballs RiseofSAL",
-              "value": 77,
-              "season": 2023
-            },
-            {
-              "fantasy_team": "McChocolate Milk",
-              "value": 76,
-              "season": 2023
+              "fantasy_team": "DiZHajjO",
+              "value": 91,
+              "season": 2016
             }
           ]
         },
@@ -269,29 +269,29 @@
           "display": "Strikeouts",
           "entries": [
             {
-              "fantasy_team": "Witness Me",
-              "value": 1278,
-              "season": 2021
+              "fantasy_team": "SpaceballsTheUnemply",
+              "value": 1417,
+              "season": 2017
             },
             {
               "fantasy_team": "TheHotDogSafari",
-              "value": 1265,
-              "season": 2021
+              "value": 1413,
+              "season": 2019
             },
             {
-              "fantasy_team": "What a Lovely Day!",
-              "value": 1254,
-              "season": 2022
+              "fantasy_team": "MortgagingSpaceballs",
+              "value": 1378,
+              "season": 2014
             },
             {
-              "fantasy_team": "Acuña Moncada",
-              "value": 1239,
-              "season": 2021
+              "fantasy_team": "The Bux starts here",
+              "value": 1365,
+              "season": 2015
             },
             {
-              "fantasy_team": "McChocolate Milk",
-              "value": 1231,
-              "season": 2023
+              "fantasy_team": "SpaceballsTheHack",
+              "value": 1359,
+              "season": 2018
             }
           ]
         }
@@ -301,75 +301,75 @@
       "scoring_type": "headone",
       "best_season": [
         {
-          "fantasy_team": "Alpha Bear 🔥 (TM)",
-          "season": 2024,
-          "wins": 18,
+          "fantasy_team": "MK™ Grandy-win-ski's",
+          "season": 2011,
+          "wins": 20,
+          "losses": 3,
+          "ties": 1
+        },
+        {
+          "fantasy_team": "Ålpha Bear #spicy ⚡⚡",
+          "season": 2016,
+          "wins": 20,
+          "losses": 3,
+          "ties": 1
+        },
+        {
+          "fantasy_team": "Alpha Dolan",
+          "season": 2012,
+          "wins": 20,
+          "losses": 4,
+          "ties": 0
+        },
+        {
+          "fantasy_team": "Kempire Strikes Back",
+          "season": 2015,
+          "wins": 19,
           "losses": 4,
           "ties": 1
         },
         {
-          "fantasy_team": "Gardy Goes Yardy",
-          "season": 2022,
-          "wins": 16,
-          "losses": 7,
+          "fantasy_team": "Bob Barker",
+          "season": 2015,
+          "wins": 19,
+          "losses": 5,
           "ties": 0
-        },
-        {
-          "fantasy_team": "WestCoastTruth",
-          "season": 2023,
-          "wins": 16,
-          "losses": 7,
-          "ties": 0
-        },
-        {
-          "fantasy_team": "The Evil Empire (6x Champ)",
-          "season": 2025,
-          "wins": 16,
-          "losses": 7,
-          "ties": 1
-        },
-        {
-          "fantasy_team": "Gardy Hits Single (TM)",
-          "season": 2023,
-          "wins": 15,
-          "losses": 7,
-          "ties": 1
         }
       ],
       "worst_season": [
+        {
+          "fantasy_team": "Brown Bear 🐻",
+          "season": 2021,
+          "wins": 2,
+          "losses": 20,
+          "ties": 0
+        },
+        {
+          "fantasy_team": "Eaton Dat Puss",
+          "season": 2016,
+          "wins": 2,
+          "losses": 19,
+          "ties": 0
+        },
+        {
+          "fantasy_team": "New year NEW ME",
+          "season": 2016,
+          "wins": 3,
+          "losses": 18,
+          "ties": 0
+        },
+        {
+          "fantasy_team": "Eaton Dat Puss",
+          "season": 2015,
+          "wins": 3,
+          "losses": 17,
+          "ties": 1
+        },
         {
           "fantasy_team": "TheKingOfTheNorth",
           "season": 2022,
           "wins": 4,
           "losses": 17,
-          "ties": 0
-        },
-        {
-          "fantasy_team": "ManDark",
-          "season": 2024,
-          "wins": 2,
-          "losses": 15,
-          "ties": 4
-        },
-        {
-          "fantasy_team": "Spirit of Troy",
-          "season": 2022,
-          "wins": 6,
-          "losses": 15,
-          "ties": 2
-        },
-        {
-          "fantasy_team": "TBD",
-          "season": 2023,
-          "wins": 6,
-          "losses": 15,
-          "ties": 0
-        },
-        {
-          "fantasy_team": "The Spice Lord (10% Champion)",
-          "season": 2024,
-          "wins": 6,
-          "losses": 15,
           "ties": 0
         }
       ],
@@ -379,29 +379,29 @@
           "display": "Runs",
           "entries": [
             {
-              "fantasy_team": "El Jefe",
-              "value": 852,
-              "season": 2025
+              "fantasy_team": "MK™ Grandy-win-ski's",
+              "value": 891,
+              "season": 2011
+            },
+            {
+              "fantasy_team": "El Palo Loco",
+              "value": 881,
+              "season": 2021
+            },
+            {
+              "fantasy_team": "Thats Reddickulous",
+              "value": 875,
+              "season": 2019
             },
             {
               "fantasy_team": "Gardy Goes Yardy",
-              "value": 828,
-              "season": 2022
+              "value": 874,
+              "season": 2011
             },
             {
-              "fantasy_team": "That’s Reddickulous",
-              "value": 823,
-              "season": 2023
-            },
-            {
-              "fantasy_team": "The Spice Lord",
-              "value": 816,
-              "season": 2022
-            },
-            {
-              "fantasy_team": "FatherOfTwoLoaded",
-              "value": 810,
-              "season": 2025
+              "fantasy_team": "TheKingOfTheNorth",
+              "value": 868,
+              "season": 2021
             }
           ]
         },
@@ -410,29 +410,29 @@
           "display": "Hits",
           "entries": [
             {
-              "fantasy_team": "The Spice Lord",
-              "value": 1503,
-              "season": 2022
-            },
-            {
               "fantasy_team": "Gardy Goes Yardy",
-              "value": 1466,
-              "season": 2022
+              "value": 1796,
+              "season": 2011
             },
             {
-              "fantasy_team": "WestCoastTruth",
-              "value": 1435,
-              "season": 2022
+              "fantasy_team": "domination all day",
+              "value": 1724,
+              "season": 2011
             },
             {
-              "fantasy_team": "Alpha Bear #spicy🔥",
-              "value": 1431,
-              "season": 2022
+              "fantasy_team": "MK™ Grandy-win-ski's",
+              "value": 1608,
+              "season": 2011
             },
             {
-              "fantasy_team": "House Omega",
-              "value": 1427,
-              "season": 2025
+              "fantasy_team": "BAW$E",
+              "value": 1586,
+              "season": 2011
+            },
+            {
+              "fantasy_team": "Beantown B's",
+              "value": 1545,
+              "season": 2011
             }
           ]
         },
@@ -441,29 +441,29 @@
           "display": "Home Runs",
           "entries": [
             {
+              "fantasy_team": "Bruh 🤦🏻‍♂️",
+              "value": 306,
+              "season": 2021
+            },
+            {
+              "fantasy_team": "Thats Reddickulous",
+              "value": 302,
+              "season": 2019
+            },
+            {
               "fantasy_team": "El Jefe",
               "value": 285,
               "season": 2025
             },
             {
-              "fantasy_team": "FatherOfTwoLoaded",
-              "value": 252,
-              "season": 2025
+              "fantasy_team": "TheKingOfTheNorth",
+              "value": 274,
+              "season": 2019
             },
             {
-              "fantasy_team": "Alpha Bear 🔥 (TM)",
-              "value": 251,
-              "season": 2024
-            },
-            {
-              "fantasy_team": "The Kranimals",
-              "value": 246,
-              "season": 2024
-            },
-            {
-              "fantasy_team": "WestCoastTruth",
-              "value": 244,
-              "season": 2023
+              "fantasy_team": "Thats Reddickulous",
+              "value": 271,
+              "season": 2018
             }
           ]
         },
@@ -472,60 +472,29 @@
           "display": "Runs Batted In",
           "entries": [
             {
-              "fantasy_team": "Gardy Goes Yardy",
-              "value": 820,
-              "season": 2024
+              "fantasy_team": "BAW$E",
+              "value": 900,
+              "season": 2011
             },
             {
-              "fantasy_team": "El Jefe",
-              "value": 814,
-              "season": 2025
+              "fantasy_team": "Bruh 🤦🏻‍♂️",
+              "value": 878,
+              "season": 2021
             },
             {
-              "fantasy_team": "FatherOfTwoLoaded",
-              "value": 802,
-              "season": 2025
+              "fantasy_team": "domination all day",
+              "value": 869,
+              "season": 2011
             },
             {
-              "fantasy_team": "WestCoastTruth",
-              "value": 791,
-              "season": 2023
-            },
-            {
-              "fantasy_team": "Gardy Goes Yardy",
-              "value": 779,
-              "season": 2022
-            }
-          ]
-        },
-        {
-          "stat": "SB",
-          "display": "Stolen Bases",
-          "entries": [
-            {
-              "fantasy_team": "El Jefe",
-              "value": 188,
-              "season": 2025
-            },
-            {
-              "fantasy_team": "House Omega",
-              "value": 182,
-              "season": 2023
-            },
-            {
-              "fantasy_team": "ManDark",
-              "value": 173,
-              "season": 2024
-            },
-            {
-              "fantasy_team": "ManDark",
-              "value": 164,
-              "season": 2023
+              "fantasy_team": "MK™ Grandy-win-ski's",
+              "value": 861,
+              "season": 2011
             },
             {
               "fantasy_team": "TheKingOfTheNorth",
-              "value": 144,
-              "season": 2023
+              "value": 846,
+              "season": 2019
             }
           ]
         },
@@ -534,29 +503,29 @@
           "display": "Extra Base Hits",
           "entries": [
             {
-              "fantasy_team": "El Jefe",
-              "value": 556,
-              "season": 2025
+              "fantasy_team": "Thats Reddickulous",
+              "value": 626,
+              "season": 2019
             },
             {
-              "fantasy_team": "That’s Reddickulous (2x)",
-              "value": 544,
-              "season": 2024
+              "fantasy_team": "MK™ Grandy-win-ski's",
+              "value": 600,
+              "season": 2011
             },
             {
-              "fantasy_team": "WestCoastTruth",
-              "value": 541,
-              "season": 2022
+              "fantasy_team": "domination all day",
+              "value": 593,
+              "season": 2011
             },
             {
-              "fantasy_team": "Alpha Bear 🔥 (TM)",
-              "value": 539,
-              "season": 2024
+              "fantasy_team": "Bruh 🤦🏻‍♂️",
+              "value": 593,
+              "season": 2021
             },
             {
               "fantasy_team": "Gardy Goes Yardy",
-              "value": 538,
-              "season": 2024
+              "value": 585,
+              "season": 2019
             }
           ]
         },
@@ -565,29 +534,29 @@
           "display": "Wins",
           "entries": [
             {
-              "fantasy_team": "J-Money",
-              "value": 97,
-              "season": 2022
+              "fantasy_team": "CARP-WIN-ZKI",
+              "value": 113,
+              "season": 2011
             },
             {
-              "fantasy_team": "FatherOfTwoLoaded",
-              "value": 97,
-              "season": 2025
+              "fantasy_team": "MK™ Grandy-win-ski's",
+              "value": 111,
+              "season": 2011
             },
             {
-              "fantasy_team": "Mo Money Mo Wily Mo Peña",
-              "value": 94,
-              "season": 2024
+              "fantasy_team": "Amazin' Mets",
+              "value": 110,
+              "season": 2012
             },
             {
-              "fantasy_team": "Spirit of Troy",
-              "value": 92,
-              "season": 2024
+              "fantasy_team": "LordCommanderSnow.",
+              "value": 109,
+              "season": 2012
             },
             {
-              "fantasy_team": "El Jefe",
-              "value": 91,
-              "season": 2022
+              "fantasy_team": "TULO-WIN-ZKI",
+              "value": 106,
+              "season": 2011
             }
           ]
         },
@@ -595,6 +564,21 @@
           "stat": "K",
           "display": "Strikeouts",
           "entries": [
+            {
+              "fantasy_team": "MK™ Grandy-win-ski's",
+              "value": 1549,
+              "season": 2011
+            },
+            {
+              "fantasy_team": "MasonSaunders #1 Fan",
+              "value": 1530,
+              "season": 2021
+            },
+            {
+              "fantasy_team": "TULO-WIN-ZKI",
+              "value": 1486,
+              "season": 2011
+            },
             {
               "fantasy_team": "Alpha Bear 🔥 (TM)",
               "value": 1459,
@@ -604,21 +588,6 @@
               "fantasy_team": "WestCoastTruth",
               "value": 1456,
               "season": 2023
-            },
-            {
-              "fantasy_team": "Alpha Bear #spicy🔥",
-              "value": 1449,
-              "season": 2022
-            },
-            {
-              "fantasy_team": "El Jefe",
-              "value": 1431,
-              "season": 2022
-            },
-            {
-              "fantasy_team": "Mo Money Mo Wily Mo Peña",
-              "value": 1422,
-              "season": 2024
             }
           ]
         },
@@ -627,29 +596,60 @@
           "display": "Quality Starts",
           "entries": [
             {
-              "fantasy_team": "Mo Money Mo Wily Mo Peña",
-              "value": 115,
-              "season": 2024
+              "fantasy_team": "BlitzPuig Bop",
+              "value": 144,
+              "season": 2014
             },
             {
-              "fantasy_team": "J-Money",
-              "value": 110,
-              "season": 2022
+              "fantasy_team": "TULO-WIN-ZKI",
+              "value": 142,
+              "season": 2011
             },
             {
-              "fantasy_team": "Alpha Bear 🔥 (TM)",
-              "value": 109,
-              "season": 2024
+              "fantasy_team": "CARP-WIN-ZKI",
+              "value": 137,
+              "season": 2011
             },
             {
-              "fantasy_team": "Alpha Bear #spicy🔥",
-              "value": 105,
-              "season": 2022
+              "fantasy_team": "BlitzPuig Bop",
+              "value": 133,
+              "season": 2013
             },
             {
-              "fantasy_team": "Brown Bear 🐻",
-              "value": 99,
-              "season": 2022
+              "fantasy_team": "LordCommanderSnow.",
+              "value": 132,
+              "season": 2012
+            }
+          ]
+        },
+        {
+          "stat": "SB",
+          "display": "Stolen Bases",
+          "entries": [
+            {
+              "fantasy_team": "Pat's Nation",
+              "value": 197,
+              "season": 2012
+            },
+            {
+              "fantasy_team": "MK™ The Evil Empire",
+              "value": 194,
+              "season": 2013
+            },
+            {
+              "fantasy_team": "El Jefe",
+              "value": 188,
+              "season": 2025
+            },
+            {
+              "fantasy_team": "Eaton Dat Puss",
+              "value": 184,
+              "season": 2014
+            },
+            {
+              "fantasy_team": "House Omega",
+              "value": 182,
+              "season": 2023
             }
           ]
         },
@@ -658,29 +658,29 @@
           "display": "Saves + Holds",
           "entries": [
             {
-              "fantasy_team": "Gardy Goes Yardy",
-              "value": 111,
-              "season": 2024
+              "fantasy_team": "Confortnite",
+              "value": 143,
+              "season": 2018
             },
             {
-              "fantasy_team": "FatherOfTwoLoaded",
-              "value": 111,
-              "season": 2024
+              "fantasy_team": "The Byung-HoLES",
+              "value": 137,
+              "season": 2016
             },
             {
-              "fantasy_team": "The Kranimals",
-              "value": 109,
-              "season": 2023
+              "fantasy_team": "Seager and Company",
+              "value": 135,
+              "season": 2021
             },
             {
-              "fantasy_team": "WestCoastTruth",
-              "value": 108,
-              "season": 2022
+              "fantasy_team": "Confortnite",
+              "value": 134,
+              "season": 2019
             },
             {
-              "fantasy_team": "TheKingOfTheNorth",
-              "value": 107,
-              "season": 2022
+              "fantasy_team": "El Jefe",
+              "value": 129,
+              "season": 2016
             }
           ]
         }

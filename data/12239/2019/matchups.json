@@ -1,0 +1,2548 @@
+{
+  "league_id": "2932",
+  "game_key": "388",
+  "season": 2019,
+  "matchups": [
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 0.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 2.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 0.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 2.0
+        },
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.8",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 2.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 2.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 1.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 2.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 1.0
+        },
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 1.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 10.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 0.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 2.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": true,
+      "winner_team_key": "",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.7",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "is_playoffs": false,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.10",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 2.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 7.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.1",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.1",
+          "team_id": "1",
+          "name": "He's Heating Up",
+          "points": 6.0
+        },
+        {
+          "team_key": "388.l.2932.t.7",
+          "team_id": "7",
+          "name": "SpaceballsTheHack",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 8.0
+        },
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 2.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.5",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 4.0
+        },
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.4",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.2",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.2",
+          "team_id": "2",
+          "name": "Trees Grow Bats",
+          "points": 9.0
+        },
+        {
+          "team_key": "388.l.2932.t.4",
+          "team_id": "4",
+          "name": "1)BaseBall 2)Family",
+          "points": 1.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.3",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.3",
+          "team_id": "3",
+          "name": "Cole World",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.10",
+          "team_id": "10",
+          "name": "Weinhold's Wallopers",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": false,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.9",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.5",
+          "team_id": "5",
+          "name": "Orchids of Asia",
+          "points": 3.0
+        },
+        {
+          "team_key": "388.l.2932.t.9",
+          "team_id": "9",
+          "name": "TheHotDogSafari",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "is_playoffs": true,
+      "is_consolation": true,
+      "is_tied": false,
+      "winner_team_key": "388.l.2932.t.6",
+      "teams": [
+        {
+          "team_key": "388.l.2932.t.6",
+          "team_id": "6",
+          "name": "The time is Hiura",
+          "points": 5.0
+        },
+        {
+          "team_key": "388.l.2932.t.8",
+          "team_id": "8",
+          "name": "The Voice of Reason",
+          "points": 3.0
+        }
+      ]
+    }
+  ]
+}

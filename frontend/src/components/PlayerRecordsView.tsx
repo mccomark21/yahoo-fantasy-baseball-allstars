@@ -10,6 +10,7 @@ import { formatStat } from "../constants/positions";
 import StatTable, { type StatColumn } from "./StatTable";
 import BallIcon from "./BallIcon";
 import UpdatedAt from "./UpdatedAt";
+import SeasonRange from "./SeasonRange";
 import "./tableviews.css";
 
 /* Phase 3.5 — Player Records. All-time individual marks for the active
@@ -95,6 +96,19 @@ export default function PlayerRecordsView() {
   }, [records, stat]);
 
   const isWeekly = mode === "single_week";
+
+  // The span these records actually cover. Unlike Team Records, the player views
+  // can't reach retired players, so old seasons contribute nothing and the range
+  // is derived from the records themselves (it lands at 2021+), not the league's
+  // full season list — which would overstate how far back player marks go.
+  const span = useMemo(() => {
+    const yrs = [
+      ...(league?.season_total ?? []).map((r) => r.season),
+      ...(league?.single_week ?? []).map((r) => r.season),
+    ];
+    if (!yrs.length) return null;
+    return { lo: Math.min(...yrs), hi: Math.max(...yrs) };
+  }, [league]);
 
   const columns = useMemo<StatColumn<AnyRecord>[]>(() => {
     const cols: StatColumn<AnyRecord>[] = [
@@ -227,6 +241,7 @@ export default function PlayerRecordsView() {
             </button>
           ))}
         </div>
+        {span && <SeasonRange lo={span.lo} hi={span.hi} />}
       </div>
 
       <StatTable

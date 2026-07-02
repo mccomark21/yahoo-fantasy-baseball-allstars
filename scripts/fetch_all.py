@@ -11,6 +11,17 @@ Two modes:
   --mode refresh    Current season only — re-fetch and overwrite just that
                     season's raw JSON. This is the daily-cron path.
 
+  --mode team-records
+                    Team-records-only historical fill. Walks the ``renew`` chain
+                    and, for every season the full backfill couldn't reach (it
+                    drops pre-2021 seasons at the player-coverage gate), fetches
+                    just the inputs Team Records need — settings, teams, per-team
+                    season totals, matchups — bypassing the coverage gate. Team
+                    totals survive game archival, so this reaches each league's
+                    earliest season. Player-facing views are unaffected: the
+                    added seasons carry no per-player data. Run once, like
+                    backfill; never re-fetches a season already on disk.
+
 Output per league/season → ``data/{league_id}/{season}/``:
   stat_categories.json, rosters.json, player_stats.json, matchups.json
 
@@ -339,6 +350,107 @@ def fetch_season(
     return True
 
 
+def fetch_team_records_season(
+    client: YahooClient,
+    entry_league_id: str,
+    descriptor: dict,
+) -> bool:
+    """Fetch ONLY the inputs Team Records needs for one historical season.
+
+    Team-level season totals and matchups come straight from Yahoo and never
+    touch individual players, and — unlike per-player stats — they *survive game
+    archival*. So they reach as far back as the ``renew`` chain, well past the
+    2021 wall the full path hits (that wall is the ≥``MIN_COVERAGE`` player gate,
+    which exists only because retired players are unreachable). This path fetches
+    stat categories + teams + per-team season totals + matchups, **bypasses the
+    coverage gate entirely**, and writes a minimal raw set: no rosters, and a
+    ``player_stats.json`` whose ``season_totals``/``weekly`` are empty (no
+    per-player data is available or needed — ``compute_records`` already treats
+    such a season as contributing nothing to player records and everything to
+    team records).
+
+    Returns ``True`` when a season carrying usable team data was written,
+    ``False`` when there was nothing worth keeping (an archived stub with neither
+    team totals nor matchups — the likely fate of the 2020 COVID season).
+    """
+    season = descriptor["season"]
+    game_key = descriptor["game_key"]
+    league_id = descriptor["league_id"]  # per-season Yahoo id (renew chain)
+    out_dir = season_dir(entry_league_id, season)
+
+    log(f"  [{season}] league {league_id} game_key {game_key}  (team records only)")
+
+    # 1. Stat categories — for scoring_type, the category count C (W-L-T math),
+    #    and the dynamic counting-cat set the boards are built from.
+    try:
+        stat_categories = client.fetch_stat_categories(league_id, game_key, season)
+    except Exception as exc:  # noqa: BLE001
+        log(f"    ! stat categories failed: {exc}")
+        stat_categories = {"league_id": league_id, "game_key": game_key,
+                           "season": season, "scoring_type": "",
+                           "stats": [], "scoring_stat_ids": []}
+
+    # 2. Teams — only for team_key (to fetch totals) and the id→name map. No
+    #    rosters, no per-player fetch: that's the archived, unreachable part.
+    try:
+        teams = client.fetch_teams(league_id, game_key)
+    except Exception as exc:  # noqa: BLE001
+        log(f"    ! team list failed: {exc}")
+        teams = []
+
+    # 3. Team season category totals — Yahoo's authoritative team HR/R/K aggregate
+    #    (the standings "Stats" view); survives archival, one call per team. This
+    #    is the whole reason team records can go back further than everything else.
+    team_season_stats: Dict[str, dict] = {}
+    for team in teams:
+        tk = team.get("team_key")
+        if not tk:
+            continue
+        try:
+            team_season_stats[team["team_id"]] = client.fetch_team_season_stats(
+                tk, league_id, game_key)
+        except Exception as exc:  # noqa: BLE001
+            log(f"    ! team season stats failed for {team['name']}: {exc}")
+
+    # 4. Matchups — the W-L-T source. Passing the planned weeks when we can derive
+    #    them, else None so fetch_matchups reads the season's bounds from metadata.
+    #    The 2020 COVID season can report start=end=0 and yield no weeks; that's
+    #    handled below rather than treated as an error.
+    try:
+        matchups = client.fetch_matchups(
+            league_id, game_key, planned_weeks(descriptor) or None)
+    except Exception as exc:  # noqa: BLE001
+        log(f"    ! matchups failed: {exc}")
+        matchups = []
+
+    # An archived stub with neither real team totals nor matchups has nothing to
+    # show — skip it explicitly (and loudly) instead of writing an empty season.
+    # ``team_season_stats`` can be a dict of *empty* per-team lines (2020's likely
+    # shape), so check for actual stat content, not just team keys.
+    has_team_data = any(line for line in team_season_stats.values())
+    if not has_team_data and not matchups:
+        log(f"    — no team totals and no matchups — skipping {season} "
+            f"(nothing written)")
+        return False
+
+    dump_json(out_dir / "stat_categories.json", stat_categories)
+    dump_json(out_dir / "player_stats.json", {
+        "league_id": league_id, "game_key": game_key, "season": season,
+        "teams": {t["team_id"]: t["name"] for t in teams},
+        "season_totals": {},          # no reachable per-player data (archived)
+        "team_season_stats": team_season_stats,
+        "weekly": {},                 # no historical weekly per-player stats
+        "team_records_only": True,    # marks a lightweight historical season
+    })
+    dump_json(out_dir / "matchups.json", {
+        "league_id": league_id, "game_key": game_key, "season": season,
+        "matchups": matchups,
+    })
+    log(f"    wrote team-records season: {len(team_season_stats)} team totals, "
+        f"{len(matchups)} matchups")
+    return True
+
+
 def _roster_week_weights(
     client: YahooClient, roster_teams: List[dict], descriptor: dict,
     league_id: str, game_key: str, count: int = 5,
@@ -620,15 +732,59 @@ def run_refresh(client: YahooClient, league_ids: List[str],
     write_leagues_index(index_entries)
 
 
+def run_team_records_backfill(client: YahooClient, league_ids: List[str],
+                              since: Optional[int] = None) -> None:
+    """Fill the historical seasons the full backfill can't reach — for Team
+    Records only.
+
+    The full backfill drops every pre-2021 season at the player-coverage gate,
+    so those seasons never land on disk. Team records don't need players, and
+    their inputs survive archival (see ``fetch_team_records_season``), so this
+    path walks the renew chain and fills exactly the *gap* seasons — the ones
+    discovery finds that aren't already on disk. Seasons the full path already
+    wrote (with real player data) are left untouched. ``leagues.json`` is then
+    rewritten to span everything now on disk, so ``compute_records`` picks up the
+    newly reachable team-seasons; player records stay put because the added
+    seasons carry no per-player data.
+    """
+    index_entries = []
+    for league_id in league_ids:
+        log(f"\n=== Team-records backfill league {league_id} ===")
+        seasons = client.discover_league_seasons(league_id)
+        log(f"Discovered {len(seasons)} seasons: {[s['season'] for s in seasons]}")
+        existing = set(list_seasons(league_id))
+        gaps = [s for s in seasons if s["season"] not in existing]
+        if since is not None:
+            gaps = [s for s in gaps if s["season"] >= since]
+        log(f"  on disk: {sorted(existing)}")
+        log(f"  gap seasons to fill: {[s['season'] for s in gaps]}")
+
+        written, skipped = [], []
+        for descriptor in gaps:
+            if fetch_team_records_season(client, league_id, descriptor):
+                written.append(descriptor["season"])
+            else:
+                skipped.append(descriptor["season"])
+        if skipped:
+            log(f"  skipped (nothing to keep): {skipped}")
+
+        # Season list = everything now on disk (existing full + new lightweight).
+        all_seasons = sorted(set(list_seasons(league_id)))
+        name = seasons[-1]["name"] if seasons else league_id
+        index_entries.append({"id": league_id, "name": name, "seasons": all_seasons})
+    write_leagues_index(index_entries)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--mode", required=True, choices=("backfill", "refresh"))
+    parser.add_argument("--mode", required=True,
+                        choices=("backfill", "refresh", "team-records"))
     parser.add_argument("--resume", action="store_true",
                         help="Backfill only: skip seasons already complete on disk.")
     parser.add_argument("--since", type=int, default=None,
-                        help="Backfill only: ignore seasons older than this year "
-                             "(e.g. --since 2021).")
+                        help="Backfill / team-records only: ignore seasons older "
+                             "than this year (e.g. --since 2021).")
     parser.add_argument("--rebuild-weeks", action="store_true",
                         help="Refresh only: rebuild every week of the current "
                              "season from scratch (one-time weekly repair).")
@@ -643,6 +799,8 @@ def main() -> None:
     client = YahooClient()
     if args.mode == "backfill":
         run_backfill(client, league_ids, resume=args.resume, since=args.since)
+    elif args.mode == "team-records":
+        run_team_records_backfill(client, league_ids, since=args.since)
     else:
         run_refresh(client, league_ids, rebuild_weeks=args.rebuild_weeks)
     log("\nDone.")
