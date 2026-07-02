@@ -38,6 +38,8 @@ export interface League {
   id: string;
   name: string;
   season: number;
+  /** Yahoo scoring format: "head" (categories) | "headone" (one win/week). */
+  scoring_type?: string;
   seasons: number[];
 }
 
@@ -74,41 +76,41 @@ export interface PositionalRacesData {
 }
 
 /* --- Team Records (records_teams.json) -------------------------------------
-   A fixed set of named all-time team milestones per league. Each is nullable:
-   a league without enough reachable history may not produce every record. */
+   Per league, top-5 leaderboards of all-time team-seasons: the best and worst
+   season W-L-T (category aggregate for "head" leagues, weekly for "headone"),
+   plus one leaderboard per counting scoring category. The unit is a team-season,
+   so the same franchise may appear more than once within a board. */
 
-export interface WeekScoreRecord {
+/** One team-season's season-long W-L-T record. */
+export interface TeamSeasonRecord {
   fantasy_team: string;
-  score: number;
   season: number;
-  week: number;
-}
-
-export interface CategoryWinsRecord {
-  fantasy_team: string;
-  wins: number;
-  season: number;
-  week: number;
-}
-
-export interface WinStreakRecord {
-  fantasy_team: string;
-  streak: number;
-  season: number;
-}
-
-export interface SeasonRecord {
-  fantasy_team: string;
   wins: number;
   losses: number;
+  ties: number;
+}
+
+/** One team-season's total for a counting stat (e.g. team HR that season). */
+export interface TeamStatEntry {
+  fantasy_team: string;
+  value: number;
   season: number;
+}
+
+/** A top-5 leaderboard for one counting stat. `stat` is the abbr (chip label);
+    `display` is the friendly name ("Home Runs") for captions. */
+export interface TeamStatLeaderboard {
+  stat: string;
+  display: string;
+  entries: TeamStatEntry[];
 }
 
 export interface TeamRecords {
-  highest_week_score: WeekScoreRecord | null;
-  most_category_wins_week: CategoryWinsRecord | null;
-  longest_win_streak: WinStreakRecord | null;
-  best_season_record: SeasonRecord | null;
+  /** "head" (categories) | "headone" (one win/week) — how W-L-T was computed. */
+  scoring_type: string;
+  best_season: TeamSeasonRecord[];
+  worst_season: TeamSeasonRecord[];
+  season_stats: TeamStatLeaderboard[];
 }
 
 export interface TeamRecordsData {

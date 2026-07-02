@@ -37,7 +37,7 @@ import yaml
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import common  # noqa: E402  (write_leagues_index reads common.DATA_DIR dynamically)
-from common import dump_json, list_seasons, season_dir, to_number  # noqa: E402
+from common import dump_json, list_seasons, load_json, season_dir, to_number  # noqa: E402
 from yahoo_client import YahooClient  # noqa: E402
 
 CONFIG_PATH = Path(__file__).resolve().parent.parent / "config.yaml"
@@ -240,7 +240,8 @@ def fetch_season(
     except Exception as exc:  # noqa: BLE001
         log(f"    ! stat categories failed: {exc}")
         stat_categories = {"league_id": league_id, "game_key": game_key,
-                           "season": season, "stats": [], "scoring_stat_ids": []}
+                           "season": season, "scoring_type": "",
+                           "stats": [], "scoring_stat_ids": []}
 
     # 2. Rosters (player info + fantasy-team assignment) -------------------- #
     teams: List[dict] = []
@@ -303,10 +304,27 @@ def fetch_season(
         "week_label": "current", "teams": roster_teams,
     })
     log(f"    rosters: {len(roster_teams)} teams")
+    # Team season category totals — the standings "Stats" view, and the correct
+    # source for team counting-stat records (issue #29). Summing rostered players'
+    # full individual season totals over-counts late adds and the bench; this is
+    # Yahoo's own aggregate and, unlike per-player stats, it survives archival so
+    # every season (current + historical) gets real numbers. One call per team.
+    team_season_stats: Dict[str, dict] = {}
+    for team in teams:
+        tk = team.get("team_key")
+        if not tk:
+            continue
+        try:
+            team_season_stats[team["team_id"]] = client.fetch_team_season_stats(
+                tk, league_id, game_key)
+        except Exception as exc:  # noqa: BLE001
+            log(f"    ! team season stats failed for {team['name']}: {exc}")
+
     player_stats = {
         "league_id": league_id, "game_key": game_key, "season": season,
         "teams": {t["team_id"]: t["name"] for t in teams},
         "season_totals": season_totals,
+        "team_season_stats": team_season_stats,
         "weekly": weekly,
     }
     if coverage is not None:
@@ -531,7 +549,19 @@ def write_leagues_index(entries: List[dict]) -> None:
             continue
         cur = seasons[-1]
         latest = max(latest, cur)
-        leagues.append({"id": e["id"], "name": e["name"], "season": cur, "seasons": seasons})
+        # Scoring format is a league-constant; surface it here (read from the raw
+        # stat_categories fetch_season just wrote) so the frontend has it without
+        # opening a per-season file. Newest season with a value wins.
+        scoring = ""
+        for s in reversed(seasons):
+            cat_path = season_dir(e["id"], s) / "stat_categories.json"
+            if cat_path.exists():
+                st = common.scoring_type(load_json(cat_path))
+                if st:
+                    scoring = st
+                    break
+        leagues.append({"id": e["id"], "name": e["name"], "season": cur,
+                        "scoring_type": scoring, "seasons": seasons})
     # Read common.DATA_DIR at call time (not an import-time copy) so a test that
     # redirects ``common.DATA_DIR`` to a tmp dir actually catches this write.
     dump_json(common.DATA_DIR / "leagues.json", {

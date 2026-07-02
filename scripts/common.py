@@ -219,6 +219,47 @@ def stat_id_to_abbr(stat_categories: dict) -> Dict[str, str]:
     return {str(s.get("stat_id")): stat_abbr(s) for s in stat_categories.get("stats", [])}
 
 
+def scoring_type(stat_categories: dict) -> str:
+    """Yahoo's league scoring format, captured from settings.
+
+    ``"head"`` = head-to-head *categories* (each category won is a point);
+    ``"headone"`` = head-to-head *one win* (a single win/loss per week). Absent
+    on raw files written before the format was captured — callers fall back."""
+    return str(stat_categories.get("scoring_type") or "").strip()
+
+
+# Counting categories whose "more is better" reading flips with the player role,
+# and whose abbreviation collides across roles: batter strikeouts and pitcher
+# walks-allowed are both lower-is-better, yet Yahoo hands them a blank sort_order
+# that ``higher_is_better`` would otherwise read as higher-is-better. Keyed by
+# (abbr, position_type) so the batter/pitcher walk (BB) and strikeout (K) that
+# ARE celebratory records still pass.
+_ROLE_LOWER_IS_BETTER = {("K", "B"), ("SO", "B"), ("BB", "P")}
+
+
+def counting_scoring_stats(stat_categories: dict) -> List[dict]:
+    """Scoring categories fit for a "most in a team-season" leaderboard.
+
+    A counting stat where more is unambiguously better: excludes rate stats
+    (AVG/ERA/WHIP…) and lower-is-better stats (losses, walks allowed, batter
+    strikeouts…). Deduped by abbr so a league never surfaces two identically-
+    labelled leaderboards."""
+    out: List[dict] = []
+    seen: set = set()
+    for cat in scoring_stats(stat_categories):
+        upper = stat_abbr(cat).upper()
+        ptype = (cat.get("position_type") or "").upper()
+        if upper in RATE_STATS or not higher_is_better(cat):
+            continue
+        if (upper, ptype) in _ROLE_LOWER_IS_BETTER:
+            continue
+        if upper in seen:
+            continue
+        seen.add(upper)
+        out.append(cat)
+    return out
+
+
 # --------------------------------------------------------------------------- #
 # Positions
 # --------------------------------------------------------------------------- #

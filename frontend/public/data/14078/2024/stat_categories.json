@@ -2,6 +2,7 @@
   "league_id": "30805",
   "game_key": "431",
   "season": 2024,
+  "scoring_type": "headone",
   "stats": [
     {
       "stat_id": "60",
