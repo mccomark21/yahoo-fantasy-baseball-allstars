@@ -41,7 +41,7 @@ export const VIEWS: ViewDef[] = [
     path: "/player-records",
     label: "Player Records",
     title: "Player Records",
-    hint: "Single-season and career marks",
+    hint: "All-time individual leaderboards",
     ready: true,
   },
 ];

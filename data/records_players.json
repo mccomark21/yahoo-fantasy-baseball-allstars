@@ -1,313 +1,2463 @@
 {
-  "updated_at": "2026-07-02T01:16:51Z",
+  "updated_at": "2026-07-02T01:58:54Z",
   "leagues": {
     "12239": {
       "single_week": [
         {
-          "stat": "HR",
-          "value": 7,
-          "player_name": "Junior Caminero",
-          "fantasy_team": "The Voice of Reason",
-          "season": 2026,
-          "week": 14
-        },
-        {
-          "stat": "K",
-          "value": 20,
-          "player_name": "Sonny Gray",
-          "fantasy_team": "Cruz Missle",
-          "season": 2026,
-          "week": 14
-        },
-        {
           "stat": "R",
-          "value": 8,
-          "player_name": "Junior Caminero",
-          "fantasy_team": "The Voice of Reason",
-          "season": 2026,
-          "week": 14
+          "display": "Runs",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 8,
+              "player_name": "Junior Caminero",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Andy Pages",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Yandy Díaz",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 6,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "Acuña Matata",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 6,
+              "player_name": "Hunter Goodman",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 6,
+              "player_name": "Jeremy Peña",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 6,
+              "player_name": "Brandon Marsh",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 5,
+              "player_name": "Trea Turner",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 5,
+              "player_name": "Freddie Freeman",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 5,
+              "player_name": "Otto Lopez",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            }
+          ]
+        },
+        {
+          "stat": "HR",
+          "display": "Home Runs",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 7,
+              "player_name": "Junior Caminero",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 4,
+              "player_name": "Hunter Goodman",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Brandon Marsh",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Miguel Vargas",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Mookie Betts",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Ketel Marte",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Rafael Devers",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Player 469.p.10183",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 1
+            },
+            {
+              "value": 2,
+              "player_name": "Brent Rooker",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2026,
+              "week": 2
+            },
+            {
+              "value": 2,
+              "player_name": "Brice Turang",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2026,
+              "week": 3
+            }
+          ]
         },
         {
           "stat": "RBI",
-          "value": 15,
-          "player_name": "Junior Caminero",
-          "fantasy_team": "The Voice of Reason",
-          "season": 2026,
-          "week": 14
+          "display": "Runs Batted In",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 15,
+              "player_name": "Junior Caminero",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 8,
+              "player_name": "Hunter Goodman",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 8,
+              "player_name": "Miguel Vargas",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 8,
+              "player_name": "Mookie Betts",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Brandon Lowe",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Bryce Harper",
+              "fantasy_team": "Acuña Matata",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Brandon Marsh",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Rafael Devers",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 6,
+              "player_name": "Brent Rooker",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2026,
+              "week": 2
+            },
+            {
+              "value": 6,
+              "player_name": "Carter Jensen",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 14
+            }
+          ]
         },
         {
           "stat": "SB",
-          "value": 3,
-          "player_name": "Jeremy Peña",
-          "fantasy_team": "DiZ-Hajj-O",
-          "season": 2026,
-          "week": 14
-        },
-        {
-          "stat": "SV",
-          "value": 3,
-          "player_name": "Jhoan Duran",
-          "fantasy_team": "Acuña Matata",
-          "season": 2026,
-          "week": 14
+          "display": "Stolen Bases",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 3,
+              "player_name": "Jeremy Peña",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Otto Lopez",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 8
+            },
+            {
+              "value": 2,
+              "player_name": "Xander Bogaerts",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2026,
+              "week": 8
+            },
+            {
+              "value": 2,
+              "player_name": "Xavier Edwards",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2026,
+              "week": 8
+            },
+            {
+              "value": 2,
+              "player_name": "Jackson Holliday",
+              "fantasy_team": "Acuña Matata",
+              "season": 2026,
+              "week": 9
+            },
+            {
+              "value": 2,
+              "player_name": "Julio Rodríguez",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 11
+            },
+            {
+              "value": 2,
+              "player_name": "Bobby Witt Jr.",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2026,
+              "week": 12
+            },
+            {
+              "value": 2,
+              "player_name": "Jazz Chisholm Jr.",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 12
+            },
+            {
+              "value": 2,
+              "player_name": "Jazz Chisholm Jr.",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 13
+            },
+            {
+              "value": 2,
+              "player_name": "Cody Bellinger",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 13
+            }
+          ]
         },
         {
           "stat": "W",
-          "value": 1,
-          "player_name": "MacKenzie Gore",
-          "fantasy_team": "Cruz Missle",
-          "season": 2026,
-          "week": 1
+          "display": "Wins",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 1,
+              "player_name": "MacKenzie Gore",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 1
+            },
+            {
+              "value": 1,
+              "player_name": "Logan Gilbert",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Player 469.p.12330",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Jacob deGrom",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Tarik Skubal",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Chris Sale",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Daniel Palencia",
+              "fantasy_team": "Spaceballs RiseofSAL",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Drew Rasmussen",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "José Soriano",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Riley O'Brien",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2026,
+              "week": 4
+            }
+          ]
+        },
+        {
+          "stat": "SV",
+          "display": "Saves",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 3,
+              "player_name": "Jhoan Duran",
+              "fantasy_team": "Acuña Matata",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Jacob Latz",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Riley O'Brien",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Bryan Baker",
+              "fantasy_team": "Acuña Matata",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Cade Smith",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Aroldis Chapman",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Josh Hader",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Tanner Scott",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Andrés Muñoz",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "David Bednar",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2026,
+              "week": 14
+            }
+          ]
+        },
+        {
+          "stat": "K",
+          "display": "Strikeouts",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 20,
+              "player_name": "Sonny Gray",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 19,
+              "player_name": "Jesús Luzardo",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 18,
+              "player_name": "Dylan Cease",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 16,
+              "player_name": "Brandon Woodruff",
+              "fantasy_team": "Acuña Matata",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 14,
+              "player_name": "Gavin Williams",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 12,
+              "player_name": "Kyle Harrison",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 5
+            },
+            {
+              "value": 11,
+              "player_name": "Braxton Ashcraft",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 10
+            },
+            {
+              "value": 11,
+              "player_name": "Kyle Bradish",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 11,
+              "player_name": "Carlos Rodón",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 11,
+              "player_name": "Bryce Miller",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 14
+            }
+          ]
         }
       ],
       "season_total": [
         {
-          "stat": "AVG",
-          "value": 0.354,
-          "player_name": "Luis Arraez",
-          "fantasy_team": "Cole World",
-          "season": 2023
+          "stat": "R",
+          "display": "Runs",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 149,
+              "player_name": "Ronald Acuña Jr.",
+              "fantasy_team": "Acuña Matata",
+              "season": 2023
+            },
+            {
+              "value": 146,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "Acuña Matata",
+              "season": 2025
+            },
+            {
+              "value": 137,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2025
+            },
+            {
+              "value": 134,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "Acuña Matata",
+              "season": 2024
+            },
+            {
+              "value": 133,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "Cole World",
+              "season": 2022
+            },
+            {
+              "value": 131,
+              "player_name": "Freddie Freeman",
+              "fantasy_team": "Cole World",
+              "season": 2023
+            },
+            {
+              "value": 128,
+              "player_name": "Juan Soto",
+              "fantasy_team": "Larry Bonds",
+              "season": 2024
+            },
+            {
+              "value": 127,
+              "player_name": "Matt Olson",
+              "fantasy_team": "Arenadon’t Test Me",
+              "season": 2023
+            },
+            {
+              "value": 126,
+              "player_name": "Mookie Betts",
+              "fantasy_team": "McChocolate Milk",
+              "season": 2023
+            },
+            {
+              "value": 125,
+              "player_name": "Bobby Witt Jr.",
+              "fantasy_team": "Cole World",
+              "season": 2024
+            }
+          ]
         },
         {
           "stat": "HR",
-          "value": 62,
-          "player_name": "Aaron Judge",
-          "fantasy_team": "Cole World",
-          "season": 2022
-        },
-        {
-          "stat": "K",
-          "value": 281,
-          "player_name": "Spencer Strider",
-          "fantasy_team": "McChocolate Milk",
-          "season": 2023
-        },
-        {
-          "stat": "R",
-          "value": 149,
-          "player_name": "Ronald Acuña Jr.",
-          "fantasy_team": "Acuña Matata",
-          "season": 2023
+          "display": "Home Runs",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 62,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "Cole World",
+              "season": 2022
+            },
+            {
+              "value": 60,
+              "player_name": "Cal Raleigh",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2025
+            },
+            {
+              "value": 58,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "Cole World",
+              "season": 2024
+            },
+            {
+              "value": 56,
+              "player_name": "Kyle Schwarber",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2025
+            },
+            {
+              "value": 55,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "Acuña Matata",
+              "season": 2025
+            },
+            {
+              "value": 54,
+              "player_name": "Matt Olson",
+              "fantasy_team": "Arenadon’t Test Me",
+              "season": 2023
+            },
+            {
+              "value": 54,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "Acuña Matata",
+              "season": 2024
+            },
+            {
+              "value": 53,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2025
+            },
+            {
+              "value": 49,
+              "player_name": "Eugenio Suárez",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2025
+            },
+            {
+              "value": 48,
+              "player_name": "Vladimir Guerrero Jr.",
+              "fantasy_team": "It’s a Cutch 22!",
+              "season": 2021
+            }
+          ]
         },
         {
           "stat": "RBI",
-          "value": 144,
-          "player_name": "Aaron Judge",
-          "fantasy_team": "Cole World",
-          "season": 2024
+          "display": "Runs Batted In",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 144,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "Cole World",
+              "season": 2024
+            },
+            {
+              "value": 139,
+              "player_name": "Matt Olson",
+              "fantasy_team": "Arenadon’t Test Me",
+              "season": 2023
+            },
+            {
+              "value": 132,
+              "player_name": "Kyle Schwarber",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2025
+            },
+            {
+              "value": 131,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "Cole World",
+              "season": 2022
+            },
+            {
+              "value": 131,
+              "player_name": "Pete Alonso",
+              "fantasy_team": "Spaceballs RiseofSAL",
+              "season": 2022
+            },
+            {
+              "value": 130,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "Acuña Matata",
+              "season": 2024
+            },
+            {
+              "value": 126,
+              "player_name": "José Ramírez",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2022
+            },
+            {
+              "value": 126,
+              "player_name": "Pete Alonso",
+              "fantasy_team": "Spaceballs RiseofSAL",
+              "season": 2025
+            },
+            {
+              "value": 125,
+              "player_name": "Cal Raleigh",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2025
+            },
+            {
+              "value": 121,
+              "player_name": "Salvador Perez",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2021
+            }
+          ]
         },
         {
           "stat": "SB",
-          "value": 73,
-          "player_name": "Ronald Acuña Jr.",
-          "fantasy_team": "Acuña Matata",
-          "season": 2023
-        },
-        {
-          "stat": "SV",
-          "value": 49,
-          "player_name": "Ryan Helsley",
-          "fantasy_team": "Cole World",
-          "season": 2024
+          "display": "Stolen Bases",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 73,
+              "player_name": "Ronald Acuña Jr.",
+              "fantasy_team": "Acuña Matata",
+              "season": 2023
+            },
+            {
+              "value": 67,
+              "player_name": "Esteury Ruiz",
+              "fantasy_team": "This IS The Year - Callin' IT!",
+              "season": 2023
+            },
+            {
+              "value": 67,
+              "player_name": "Elly De La Cruz",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2024
+            },
+            {
+              "value": 59,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "Acuña Matata",
+              "season": 2024
+            },
+            {
+              "value": 54,
+              "player_name": "Corbin Carroll",
+              "fantasy_team": "McChocolate Milk",
+              "season": 2023
+            },
+            {
+              "value": 50,
+              "player_name": "Brice Turang",
+              "fantasy_team": "Duran Duran",
+              "season": 2024
+            },
+            {
+              "value": 49,
+              "player_name": "Bobby Witt Jr.",
+              "fantasy_team": "Cole World",
+              "season": 2023
+            },
+            {
+              "value": 47,
+              "player_name": "Starling Marte",
+              "fantasy_team": "Holland Hot Tot’chos",
+              "season": 2021
+            },
+            {
+              "value": 47,
+              "player_name": "CJ Abrams",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2023
+            },
+            {
+              "value": 44,
+              "player_name": "Chandler Simpson",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2025
+            }
+          ]
         },
         {
           "stat": "W",
-          "value": 20,
-          "player_name": "Spencer Strider",
-          "fantasy_team": "McChocolate Milk",
-          "season": 2023
+          "display": "Wins",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 20,
+              "player_name": "Spencer Strider",
+              "fantasy_team": "McChocolate Milk",
+              "season": 2023
+            },
+            {
+              "value": 19,
+              "player_name": "Max Fried",
+              "fantasy_team": "Never Did No One Duran",
+              "season": 2025
+            },
+            {
+              "value": 18,
+              "player_name": "Justin Verlander",
+              "fantasy_team": "What a Lovely Day!",
+              "season": 2022
+            },
+            {
+              "value": 18,
+              "player_name": "Tarik Skubal",
+              "fantasy_team": "McChocolate Milk",
+              "season": 2024
+            },
+            {
+              "value": 18,
+              "player_name": "Chris Sale",
+              "fantasy_team": "McChocolate Milk",
+              "season": 2024
+            },
+            {
+              "value": 18,
+              "player_name": "Garrett Crochet",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2025
+            },
+            {
+              "value": 18,
+              "player_name": "Carlos Rodón",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2025
+            },
+            {
+              "value": 17,
+              "player_name": "Framber Valdez",
+              "fantasy_team": "Spaceballs RiseofSAL",
+              "season": 2022
+            },
+            {
+              "value": 17,
+              "player_name": "Zac Gallen",
+              "fantasy_team": "Good on Paper",
+              "season": 2023
+            },
+            {
+              "value": 17,
+              "player_name": "Freddy Peralta",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2025
+            }
+          ]
+        },
+        {
+          "stat": "SV",
+          "display": "Saves",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 49,
+              "player_name": "Ryan Helsley",
+              "fantasy_team": "Cole World",
+              "season": 2024
+            },
+            {
+              "value": 47,
+              "player_name": "Emmanuel Clase",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2024
+            },
+            {
+              "value": 44,
+              "player_name": "Emmanuel Clase",
+              "fantasy_team": "This IS The Year - Callin' IT!",
+              "season": 2023
+            },
+            {
+              "value": 42,
+              "player_name": "Emmanuel Clase",
+              "fantasy_team": "This IS The Year - Callin' IT!",
+              "season": 2022
+            },
+            {
+              "value": 42,
+              "player_name": "Carlos Estévez",
+              "fantasy_team": "Never Did No One Duran",
+              "season": 2025
+            },
+            {
+              "value": 41,
+              "player_name": "Kenley Jansen",
+              "fantasy_team": "McChocolate Milk",
+              "season": 2022
+            },
+            {
+              "value": 40,
+              "player_name": "Robert Suarez",
+              "fantasy_team": "Acuña Matata",
+              "season": 2025
+            },
+            {
+              "value": 39,
+              "player_name": "Camilo Doval",
+              "fantasy_team": "Spaceballs RiseofSAL",
+              "season": 2023
+            },
+            {
+              "value": 39,
+              "player_name": "David Bednar",
+              "fantasy_team": "Spaceballs RiseofSAL",
+              "season": 2023
+            },
+            {
+              "value": 38,
+              "player_name": "Kenley Jansen",
+              "fantasy_team": "Acuña Moncada",
+              "season": 2021
+            }
+          ]
+        },
+        {
+          "stat": "K",
+          "display": "Strikeouts",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 281,
+              "player_name": "Spencer Strider",
+              "fantasy_team": "McChocolate Milk",
+              "season": 2023
+            },
+            {
+              "value": 257,
+              "player_name": "Gerrit Cole",
+              "fantasy_team": "Cole World",
+              "season": 2022
+            },
+            {
+              "value": 255,
+              "player_name": "Garrett Crochet",
+              "fantasy_team": "All Rise & Wittness",
+              "season": 2025
+            },
+            {
+              "value": 248,
+              "player_name": "Robbie Ray",
+              "fantasy_team": "Acuña Moncada",
+              "season": 2021
+            },
+            {
+              "value": 247,
+              "player_name": "Zack Wheeler",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2021
+            },
+            {
+              "value": 243,
+              "player_name": "Gerrit Cole",
+              "fantasy_team": "Cole World",
+              "season": 2021
+            },
+            {
+              "value": 243,
+              "player_name": "Corbin Burnes",
+              "fantasy_team": "What a Lovely Day!",
+              "season": 2022
+            },
+            {
+              "value": 241,
+              "player_name": "Tarik Skubal",
+              "fantasy_team": "McChocolate Milk",
+              "season": 2025
+            },
+            {
+              "value": 237,
+              "player_name": "Carlos Rodón",
+              "fantasy_team": "What a Lovely Day!",
+              "season": 2022
+            },
+            {
+              "value": 237,
+              "player_name": "Kevin Gausman",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2023
+            }
+          ]
         }
       ]
     },
     "14078": {
       "single_week": [
         {
-          "stat": "BB",
-          "value": 9,
-          "player_name": "Dylan Cease",
-          "fantasy_team": "Brown Bear 🐻",
-          "season": 2026,
-          "week": 14
+          "stat": "R",
+          "display": "Runs",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 8,
+              "player_name": "Luis García Jr.",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 8,
+              "player_name": "Junior Caminero",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Nico Hoerner",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Yandy Díaz",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Andy Pages",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Dylan Crews",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 6,
+              "player_name": "Jeremy Peña",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 6,
+              "player_name": "Brandon Marsh",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 6,
+              "player_name": "Hunter Goodman",
+              "fantasy_team": "FatherOfTwoLoaded",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 6,
+              "player_name": "Brandon Nimmo",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2026,
+              "week": 14
+            }
+          ]
         },
         {
           "stat": "H",
-          "value": 12,
-          "player_name": "Brandon Marsh",
-          "fantasy_team": "El Jefe",
-          "season": 2026,
-          "week": 14
+          "display": "Hits",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 12,
+              "player_name": "Brandon Marsh",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 11,
+              "player_name": "Junior Caminero",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 11,
+              "player_name": "Freddie Freeman",
+              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 10,
+              "player_name": "Miguel Vargas",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 10,
+              "player_name": "Ryan O'Hearn",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 10,
+              "player_name": "Isaac Paredes",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 10,
+              "player_name": "Xavier Edwards",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 10,
+              "player_name": "Bryce Harper",
+              "fantasy_team": "FatherOfTwoLoaded",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 10,
+              "player_name": "Luis García Jr.",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 10,
+              "player_name": "Yandy Díaz",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2026,
+              "week": 14
+            }
+          ]
         },
         {
           "stat": "HR",
-          "value": 7,
-          "player_name": "Junior Caminero",
-          "fantasy_team": "That’s Reddickulous (2x)",
-          "season": 2026,
-          "week": 14
-        },
-        {
-          "stat": "K",
-          "value": 20,
-          "player_name": "Sonny Gray",
-          "fantasy_team": "House Omega",
-          "season": 2026,
-          "week": 14
-        },
-        {
-          "stat": "QS",
-          "value": 2,
-          "player_name": "Michael Wacha",
-          "fantasy_team": "Gardy Goes Yardy",
-          "season": 2026,
-          "week": 14
-        },
-        {
-          "stat": "R",
-          "value": 8,
-          "player_name": "Luis García Jr.",
-          "fantasy_team": "House Omega",
-          "season": 2026,
-          "week": 14
+          "display": "Home Runs",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 7,
+              "player_name": "Junior Caminero",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 6,
+              "player_name": "Luis García Jr.",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 4,
+              "player_name": "Hunter Goodman",
+              "fantasy_team": "FatherOfTwoLoaded",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Miguel Vargas",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Kazuma Okamoto",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Brandon Marsh",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Curtis Mead",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Ketel Marte",
+              "fantasy_team": "Kirby Super Star",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Mookie Betts",
+              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Rafael Devers",
+              "fantasy_team": "WestCoastTruth (1x Champ)",
+              "season": 2026,
+              "week": 14
+            }
+          ]
         },
         {
           "stat": "RBI",
-          "value": 15,
-          "player_name": "Junior Caminero",
-          "fantasy_team": "That’s Reddickulous (2x)",
-          "season": 2026,
-          "week": 14
+          "display": "Runs Batted In",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 15,
+              "player_name": "Junior Caminero",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 9,
+              "player_name": "Ryan O'Hearn",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 9,
+              "player_name": "Luis García Jr.",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 8,
+              "player_name": "Miguel Vargas",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 8,
+              "player_name": "Kazuma Okamoto",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 8,
+              "player_name": "Isaac Paredes",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 8,
+              "player_name": "Hunter Goodman",
+              "fantasy_team": "FatherOfTwoLoaded",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 8,
+              "player_name": "Mookie Betts",
+              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Brandon Marsh",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Brandon Lowe",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            }
+          ]
         },
         {
           "stat": "SB",
-          "value": 4,
-          "player_name": "Nasim Nuñez",
-          "fantasy_team": "House Omega",
-          "season": 2026,
-          "week": 14
-        },
-        {
-          "stat": "SV+H",
-          "value": 3,
-          "player_name": "Jacob Latz",
-          "fantasy_team": "Brown Bear 🐻",
-          "season": 2026,
-          "week": 14
-        },
-        {
-          "stat": "W",
-          "value": 1,
-          "player_name": "Dennis Santana",
-          "fantasy_team": "Brown Bear 🐻",
-          "season": 2026,
-          "week": 1
+          "display": "Stolen Bases",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 4,
+              "player_name": "Nasim Nuñez",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Jeremy Peña",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "José Caballero",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Luis Robert Jr.",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2026,
+              "week": 2
+            },
+            {
+              "value": 2,
+              "player_name": "Jakob Marsee",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 7
+            },
+            {
+              "value": 2,
+              "player_name": "Xavier Edwards",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 8
+            },
+            {
+              "value": 2,
+              "player_name": "Player 469.p.12476",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 8
+            },
+            {
+              "value": 2,
+              "player_name": "Player 469.p.9319",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 8
+            },
+            {
+              "value": 2,
+              "player_name": "Otto Lopez",
+              "fantasy_team": "Kirby Super Star",
+              "season": 2026,
+              "week": 8
+            },
+            {
+              "value": 2,
+              "player_name": "Jackson Holliday",
+              "fantasy_team": "FatherOfTwoLoaded",
+              "season": 2026,
+              "week": 9
+            }
+          ]
         },
         {
           "stat": "XBH",
-          "value": 8,
-          "player_name": "Luis García Jr.",
-          "fantasy_team": "House Omega",
-          "season": 2026,
-          "week": 14
+          "display": "Extra Base Hits",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 8,
+              "player_name": "Luis García Jr.",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Junior Caminero",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 5,
+              "player_name": "Miguel Vargas",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 5,
+              "player_name": "Ryan O'Hearn",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 5,
+              "player_name": "Nico Hoerner",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 5,
+              "player_name": "Brandon Marsh",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 5,
+              "player_name": "Freddie Freeman",
+              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 5,
+              "player_name": "Manny Machado",
+              "fantasy_team": "WestCoastTruth (1x Champ)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 4,
+              "player_name": "Bo Bichette",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 4,
+              "player_name": "Kazuma Okamoto",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            }
+          ]
+        },
+        {
+          "stat": "W",
+          "display": "Wins",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 1,
+              "player_name": "Dennis Santana",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2026,
+              "week": 1
+            },
+            {
+              "value": 1,
+              "player_name": "MacKenzie Gore",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2026,
+              "week": 1
+            },
+            {
+              "value": 1,
+              "player_name": "Player 469.p.12687",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 2
+            },
+            {
+              "value": 1,
+              "player_name": "Braxton Ashcraft",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 2
+            },
+            {
+              "value": 1,
+              "player_name": "Kyle Harrison",
+              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
+              "season": 2026,
+              "week": 2
+            },
+            {
+              "value": 1,
+              "player_name": "Taj Bradley",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Jacob deGrom",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Logan Gilbert",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Player 469.p.12330",
+              "fantasy_team": "FatherOfTwoLoaded",
+              "season": 2026,
+              "week": 3
+            },
+            {
+              "value": 1,
+              "player_name": "Daniel Palencia",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 3
+            }
+          ]
+        },
+        {
+          "stat": "K",
+          "display": "Strikeouts",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 20,
+              "player_name": "Sonny Gray",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 19,
+              "player_name": "Jesús Luzardo",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 18,
+              "player_name": "Dylan Cease",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 18,
+              "player_name": "Foster Griffin",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 16,
+              "player_name": "Brandon Woodruff",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 14,
+              "player_name": "Reid Detmers",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 9
+            },
+            {
+              "value": 14,
+              "player_name": "Gavin Williams",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 12,
+              "player_name": "Kyle Harrison",
+              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
+              "season": 2026,
+              "week": 5
+            },
+            {
+              "value": 12,
+              "player_name": "Michael Wacha",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 11,
+              "player_name": "Braxton Ashcraft",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 10
+            }
+          ]
+        },
+        {
+          "stat": "QS",
+          "display": "Quality Starts",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 2,
+              "player_name": "Michael Wacha",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Sonny Gray",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Drew Rasmussen",
+              "fantasy_team": "Will of the Manly",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Foster Griffin",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Mitch Keller",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 1,
+              "player_name": "Chase Burns",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 2
+            },
+            {
+              "value": 1,
+              "player_name": "Braxton Ashcraft",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 2
+            },
+            {
+              "value": 1,
+              "player_name": "Max Fried",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 2
+            },
+            {
+              "value": 1,
+              "player_name": "Logan Webb",
+              "fantasy_team": "WestCoastTruth (1x Champ)",
+              "season": 2026,
+              "week": 2
+            },
+            {
+              "value": 1,
+              "player_name": "Jacob deGrom",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 3
+            }
+          ]
+        },
+        {
+          "stat": "SV+H",
+          "display": "Saves + Holds",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 3,
+              "player_name": "Jacob Latz",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Kevin Kelly",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Tanner Scott",
+              "fantasy_team": "FatherOfTwoLoaded",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Richard Lovelady",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Jhoan Duran",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Garrett Whitlock",
+              "fantasy_team": "WestCoastTruth (1x Champ)",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Aroldis Chapman",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Alex Vesia",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Cade Smith",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            },
+            {
+              "value": 2,
+              "player_name": "Jason Adam",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 14
+            }
+          ]
         }
       ],
       "season_total": [
         {
-          "stat": "AVG",
-          "value": 0.395,
-          "player_name": "Tommy Edman",
-          "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
-          "season": 2026
-        },
-        {
-          "stat": "BB",
-          "value": 99,
-          "player_name": "Blake Snell",
-          "fantasy_team": "That’s Reddickulous",
-          "season": 2023
+          "stat": "R",
+          "display": "Runs",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 149,
+              "player_name": "Ronald Acuña Jr.",
+              "fantasy_team": "TheKingOfTheNorth",
+              "season": 2023
+            },
+            {
+              "value": 146,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2025
+            },
+            {
+              "value": 137,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "FatherOfNone",
+              "season": 2025
+            },
+            {
+              "value": 134,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "The Kranimals",
+              "season": 2024
+            },
+            {
+              "value": 133,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2022
+            },
+            {
+              "value": 131,
+              "player_name": "Freddie Freeman",
+              "fantasy_team": "Gardy Hits Single (TM)",
+              "season": 2023
+            },
+            {
+              "value": 128,
+              "player_name": "Juan Soto",
+              "fantasy_team": "El Jefe",
+              "season": 2024
+            },
+            {
+              "value": 127,
+              "player_name": "Matt Olson",
+              "fantasy_team": "WestCoastTruth",
+              "season": 2023
+            },
+            {
+              "value": 126,
+              "player_name": "Mookie Betts",
+              "fantasy_team": "The Spice Lord (TM)",
+              "season": 2023
+            },
+            {
+              "value": 125,
+              "player_name": "Bobby Witt Jr.",
+              "fantasy_team": "House Omega",
+              "season": 2024
+            }
+          ]
         },
         {
           "stat": "H",
-          "value": 217,
-          "player_name": "Ronald Acuña Jr.",
-          "fantasy_team": "TheKingOfTheNorth",
-          "season": 2023
+          "display": "Hits",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 217,
+              "player_name": "Ronald Acuña Jr.",
+              "fantasy_team": "TheKingOfTheNorth",
+              "season": 2023
+            },
+            {
+              "value": 211,
+              "player_name": "Freddie Freeman",
+              "fantasy_team": "Gardy Hits Single (TM)",
+              "season": 2023
+            },
+            {
+              "value": 211,
+              "player_name": "Bobby Witt Jr.",
+              "fantasy_team": "House Omega",
+              "season": 2024
+            },
+            {
+              "value": 203,
+              "player_name": "Luis Arraez",
+              "fantasy_team": "House Omega",
+              "season": 2023
+            },
+            {
+              "value": 200,
+              "player_name": "Luis Arraez",
+              "fantasy_team": "House Omega",
+              "season": 2024
+            },
+            {
+              "value": 199,
+              "player_name": "Freddie Freeman",
+              "fantasy_team": "The Spice Lord",
+              "season": 2022
+            },
+            {
+              "value": 199,
+              "player_name": "Vladimir Guerrero Jr.",
+              "fantasy_team": "Alpha Bear 🔥 (TM)",
+              "season": 2024
+            },
+            {
+              "value": 197,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "The Kranimals",
+              "season": 2024
+            },
+            {
+              "value": 194,
+              "player_name": "Trea Turner",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2022
+            },
+            {
+              "value": 191,
+              "player_name": "Jarren Duran",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2024
+            }
+          ]
         },
         {
           "stat": "HR",
-          "value": 62,
-          "player_name": "Aaron Judge",
-          "fantasy_team": "Gardy Goes Yardy",
-          "season": 2022
-        },
-        {
-          "stat": "K",
-          "value": 281,
-          "player_name": "Spencer Strider",
-          "fantasy_team": "WestCoastTruth",
-          "season": 2023
-        },
-        {
-          "stat": "K/9",
-          "value": 17.13,
-          "player_name": "Edwin Díaz",
-          "fantasy_team": "Florida Swamp Herpes Monkeys",
-          "season": 2022
-        },
-        {
-          "stat": "OBP",
-          "value": 0.458,
-          "player_name": "Aaron Judge",
-          "fantasy_team": "That’s Reddickulous (2x)",
-          "season": 2024
-        },
-        {
-          "stat": "QS",
-          "value": 26,
-          "player_name": "Framber Valdez",
-          "fantasy_team": "MK aka The LOC God",
-          "season": 2022
-        },
-        {
-          "stat": "R",
-          "value": 149,
-          "player_name": "Ronald Acuña Jr.",
-          "fantasy_team": "TheKingOfTheNorth",
-          "season": 2023
+          "display": "Home Runs",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 62,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2022
+            },
+            {
+              "value": 60,
+              "player_name": "Cal Raleigh",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2025
+            },
+            {
+              "value": 58,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2024
+            },
+            {
+              "value": 56,
+              "player_name": "Kyle Schwarber",
+              "fantasy_team": "El Jefe",
+              "season": 2025
+            },
+            {
+              "value": 55,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2025
+            },
+            {
+              "value": 54,
+              "player_name": "Matt Olson",
+              "fantasy_team": "WestCoastTruth",
+              "season": 2023
+            },
+            {
+              "value": 54,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "The Kranimals",
+              "season": 2024
+            },
+            {
+              "value": 53,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "FatherOfNone",
+              "season": 2025
+            },
+            {
+              "value": 49,
+              "player_name": "Eugenio Suárez",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2025
+            },
+            {
+              "value": 47,
+              "player_name": "Kyle Schwarber",
+              "fantasy_team": "Alpha Bear 🔥 (TM)",
+              "season": 2023
+            }
+          ]
         },
         {
           "stat": "RBI",
-          "value": 144,
-          "player_name": "Aaron Judge",
-          "fantasy_team": "That’s Reddickulous (2x)",
-          "season": 2024
+          "display": "Runs Batted In",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 144,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2024
+            },
+            {
+              "value": 139,
+              "player_name": "Matt Olson",
+              "fantasy_team": "WestCoastTruth",
+              "season": 2023
+            },
+            {
+              "value": 132,
+              "player_name": "Kyle Schwarber",
+              "fantasy_team": "El Jefe",
+              "season": 2025
+            },
+            {
+              "value": 131,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2022
+            },
+            {
+              "value": 131,
+              "player_name": "Pete Alonso",
+              "fantasy_team": "The Kranimals",
+              "season": 2022
+            },
+            {
+              "value": 130,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "The Kranimals",
+              "season": 2024
+            },
+            {
+              "value": 126,
+              "player_name": "José Ramírez",
+              "fantasy_team": "El Jefe",
+              "season": 2022
+            },
+            {
+              "value": 126,
+              "player_name": "Pete Alonso",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2025
+            },
+            {
+              "value": 125,
+              "player_name": "Cal Raleigh",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2025
+            },
+            {
+              "value": 118,
+              "player_name": "Pete Alonso",
+              "fantasy_team": "The Kranimals",
+              "season": 2023
+            }
+          ]
         },
         {
           "stat": "SB",
-          "value": 73,
-          "player_name": "Ronald Acuña Jr.",
-          "fantasy_team": "TheKingOfTheNorth",
-          "season": 2023
-        },
-        {
-          "stat": "SV+H",
-          "value": 49,
-          "player_name": "Ryan Helsley",
-          "fantasy_team": "Gardy Goes Yardy",
-          "season": 2024
-        },
-        {
-          "stat": "W",
-          "value": 20,
-          "player_name": "Spencer Strider",
-          "fantasy_team": "WestCoastTruth",
-          "season": 2023
+          "display": "Stolen Bases",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 73,
+              "player_name": "Ronald Acuña Jr.",
+              "fantasy_team": "TheKingOfTheNorth",
+              "season": 2023
+            },
+            {
+              "value": 67,
+              "player_name": "Esteury Ruiz",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2023
+            },
+            {
+              "value": 67,
+              "player_name": "Elly De La Cruz",
+              "fantasy_team": "ManDark",
+              "season": 2024
+            },
+            {
+              "value": 59,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "The Kranimals",
+              "season": 2024
+            },
+            {
+              "value": 54,
+              "player_name": "Corbin Carroll",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2023
+            },
+            {
+              "value": 50,
+              "player_name": "Brice Turang",
+              "fantasy_team": "El Jefe",
+              "season": 2024
+            },
+            {
+              "value": 49,
+              "player_name": "Bobby Witt Jr.",
+              "fantasy_team": "House Omega",
+              "season": 2023
+            },
+            {
+              "value": 49,
+              "player_name": "José Caballero",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2025
+            },
+            {
+              "value": 47,
+              "player_name": "CJ Abrams",
+              "fantasy_team": "The Spice Lord (TM)",
+              "season": 2023
+            },
+            {
+              "value": 44,
+              "player_name": "Chandler Simpson",
+              "fantasy_team": "Alpha Bear 🔥 (3x)",
+              "season": 2025
+            }
+          ]
         },
         {
           "stat": "XBH",
-          "value": 99,
-          "player_name": "Shohei Ohtani (Batter)",
-          "fantasy_team": "The Kranimals",
-          "season": 2024
+          "display": "Extra Base Hits",
+          "group": "batting",
+          "entries": [
+            {
+              "value": 99,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "The Kranimals",
+              "season": 2024
+            },
+            {
+              "value": 95,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2024
+            },
+            {
+              "value": 90,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2022
+            },
+            {
+              "value": 90,
+              "player_name": "Freddie Freeman",
+              "fantasy_team": "Gardy Hits Single (TM)",
+              "season": 2023
+            },
+            {
+              "value": 89,
+              "player_name": "Shohei Ohtani (Batter)",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2025
+            },
+            {
+              "value": 88,
+              "player_name": "Bobby Witt Jr.",
+              "fantasy_team": "House Omega",
+              "season": 2024
+            },
+            {
+              "value": 85,
+              "player_name": "Aaron Judge",
+              "fantasy_team": "FatherOfNone",
+              "season": 2025
+            },
+            {
+              "value": 84,
+              "player_name": "Matt Olson",
+              "fantasy_team": "WestCoastTruth",
+              "season": 2023
+            },
+            {
+              "value": 84,
+              "player_name": "Cal Raleigh",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2025
+            },
+            {
+              "value": 83,
+              "player_name": "Jarren Duran",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2024
+            }
+          ]
+        },
+        {
+          "stat": "W",
+          "display": "Wins",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 20,
+              "player_name": "Spencer Strider",
+              "fantasy_team": "WestCoastTruth",
+              "season": 2023
+            },
+            {
+              "value": 19,
+              "player_name": "Max Fried",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2025
+            },
+            {
+              "value": 18,
+              "player_name": "Justin Verlander",
+              "fantasy_team": "WestCoastTruth",
+              "season": 2022
+            },
+            {
+              "value": 18,
+              "player_name": "Chris Sale",
+              "fantasy_team": "The Evil Empire (5x Champ)",
+              "season": 2024
+            },
+            {
+              "value": 18,
+              "player_name": "Tarik Skubal",
+              "fantasy_team": "Mo Money Mo Wily Mo Peña",
+              "season": 2024
+            },
+            {
+              "value": 18,
+              "player_name": "Garrett Crochet",
+              "fantasy_team": "The Evil Empire (6x Champ)",
+              "season": 2025
+            },
+            {
+              "value": 18,
+              "player_name": "Carlos Rodón",
+              "fantasy_team": "WestCoastTruth (1x Champ)",
+              "season": 2025
+            },
+            {
+              "value": 17,
+              "player_name": "Framber Valdez",
+              "fantasy_team": "MK aka The LOC God",
+              "season": 2022
+            },
+            {
+              "value": 17,
+              "player_name": "Zac Gallen",
+              "fantasy_team": "The Kranimals",
+              "season": 2023
+            },
+            {
+              "value": 17,
+              "player_name": "Freddy Peralta",
+              "fantasy_team": "House Omega",
+              "season": 2025
+            }
+          ]
+        },
+        {
+          "stat": "K",
+          "display": "Strikeouts",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 281,
+              "player_name": "Spencer Strider",
+              "fantasy_team": "WestCoastTruth",
+              "season": 2023
+            },
+            {
+              "value": 257,
+              "player_name": "Gerrit Cole",
+              "fantasy_team": "MK aka The LOC God",
+              "season": 2022
+            },
+            {
+              "value": 255,
+              "player_name": "Garrett Crochet",
+              "fantasy_team": "The Evil Empire (6x Champ)",
+              "season": 2025
+            },
+            {
+              "value": 243,
+              "player_name": "Corbin Burnes",
+              "fantasy_team": "El Jefe",
+              "season": 2022
+            },
+            {
+              "value": 241,
+              "player_name": "Tarik Skubal",
+              "fantasy_team": "The Curse of Kendrys Morales",
+              "season": 2025
+            },
+            {
+              "value": 237,
+              "player_name": "Carlos Rodón",
+              "fantasy_team": "Alpha Bear #spicy🔥",
+              "season": 2022
+            },
+            {
+              "value": 237,
+              "player_name": "Kevin Gausman",
+              "fantasy_team": "House Omega",
+              "season": 2023
+            },
+            {
+              "value": 235,
+              "player_name": "Aaron Nola",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2022
+            },
+            {
+              "value": 234,
+              "player_name": "Blake Snell",
+              "fantasy_team": "That’s Reddickulous",
+              "season": 2023
+            },
+            {
+              "value": 234,
+              "player_name": "Pablo López",
+              "fantasy_team": "ManDark",
+              "season": 2023
+            }
+          ]
+        },
+        {
+          "stat": "QS",
+          "display": "Quality Starts",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 26,
+              "player_name": "Framber Valdez",
+              "fantasy_team": "MK aka The LOC God",
+              "season": 2022
+            },
+            {
+              "value": 26,
+              "player_name": "Zack Wheeler",
+              "fantasy_team": "Alpha Bear 🔥 (TM)",
+              "season": 2024
+            },
+            {
+              "value": 25,
+              "player_name": "Yu Darvish",
+              "fantasy_team": "House Omega",
+              "season": 2022
+            },
+            {
+              "value": 25,
+              "player_name": "Alek Manoah",
+              "fantasy_team": "J-Money",
+              "season": 2022
+            },
+            {
+              "value": 24,
+              "player_name": "Sandy Alcantara",
+              "fantasy_team": "Alpha Bear #spicy🔥",
+              "season": 2022
+            },
+            {
+              "value": 24,
+              "player_name": "Gerrit Cole",
+              "fantasy_team": "Alpha Bear 🔥 (TM)",
+              "season": 2023
+            },
+            {
+              "value": 24,
+              "player_name": "Logan Webb",
+              "fantasy_team": "WestCoastTruth",
+              "season": 2023
+            },
+            {
+              "value": 23,
+              "player_name": "Martín Pérez",
+              "fantasy_team": "MK aka The LOC God",
+              "season": 2022
+            },
+            {
+              "value": 23,
+              "player_name": "Shane Bieber",
+              "fantasy_team": "Manly",
+              "season": 2022
+            },
+            {
+              "value": 22,
+              "player_name": "Miles Mikolas",
+              "fantasy_team": "House Omega",
+              "season": 2022
+            }
+          ]
+        },
+        {
+          "stat": "SV+H",
+          "display": "Saves + Holds",
+          "group": "pitching",
+          "entries": [
+            {
+              "value": 49,
+              "player_name": "Ryan Helsley",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2024
+            },
+            {
+              "value": 47,
+              "player_name": "Emmanuel Clase",
+              "fantasy_team": "FatherOfTwoLoaded",
+              "season": 2024
+            },
+            {
+              "value": 44,
+              "player_name": "Emmanuel Clase",
+              "fantasy_team": "Brown Bear 🐻",
+              "season": 2023
+            },
+            {
+              "value": 44,
+              "player_name": "Abner Uribe",
+              "fantasy_team": "The Spice Lord (10% Champion)",
+              "season": 2025
+            },
+            {
+              "value": 42,
+              "player_name": "Emmanuel Clase",
+              "fantasy_team": "The Spice Lord",
+              "season": 2022
+            },
+            {
+              "value": 42,
+              "player_name": "Carlos Estévez",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2025
+            },
+            {
+              "value": 41,
+              "player_name": "Devin Williams",
+              "fantasy_team": "Manly",
+              "season": 2022
+            },
+            {
+              "value": 41,
+              "player_name": "Kenley Jansen",
+              "fantasy_team": "The Kranimals",
+              "season": 2022
+            },
+            {
+              "value": 40,
+              "player_name": "Tony Santillan",
+              "fantasy_team": "FatherOfNone",
+              "season": 2025
+            },
+            {
+              "value": 40,
+              "player_name": "Robert Suarez",
+              "fantasy_team": "House Omega",
+              "season": 2025
+            }
+          ]
         }
       ]
     }
