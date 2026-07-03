@@ -90,8 +90,8 @@
           "name": "Kyle Tucker",
           "mlb_team": "LAD",
           "mlb_team_full": "Los Angeles Dodgers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/JEYTNBPG_e3kgAh6RSN6sA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/07012026/10480.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/JEYTNBPG_e3kgAh6RSN6sA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/07012026/10480.1.png",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/7fL5Jdv0pYG.SgYjNJ1VSg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/07022026/10480.5.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/7fL5Jdv0pYG.SgYjNJ1VSg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/07022026/10480.5.png",
           "eligible_positions": [
             "OF"
           ],
@@ -1123,7 +1123,7 @@
           ],
           "primary_position": "OF",
           "selected_position": "OF",
-          "status": ""
+          "status": "DTD"
         },
         {
           "player_key": "469.p.10626",
@@ -1415,7 +1415,7 @@
           ],
           "primary_position": "1B",
           "selected_position": "1B",
-          "status": ""
+          "status": "SUSP"
         },
         {
           "player_key": "469.p.12100",
@@ -1797,7 +1797,7 @@
           ],
           "primary_position": "SS",
           "selected_position": "SS",
-          "status": "DTD"
+          "status": ""
         },
         {
           "player_key": "469.p.11722",
@@ -3460,7 +3460,7 @@
           ],
           "primary_position": "RP",
           "selected_position": "BN",
-          "status": "NA"
+          "status": ""
         },
         {
           "player_key": "469.p.9121",
