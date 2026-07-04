@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T11:02:29Z",
+  "updated_at": "2026-07-04T10:48:14Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -16,6 +16,13 @@
               "week": 14
             },
             {
+              "value": 8,
+              "player_name": "Kyle Stowers",
+              "fantasy_team": "Spaceballs RiseofSAL",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 7,
               "player_name": "Andy Pages",
               "fantasy_team": "Salustro's Fantasy Dungeon",
@@ -28,6 +35,13 @@
               "fantasy_team": "Salustro's Fantasy Dungeon",
               "season": 2026,
               "week": 14
+            },
+            {
+              "value": 7,
+              "player_name": "Mickey Moniak",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 15
             },
             {
               "value": 6,
@@ -59,24 +73,10 @@
             },
             {
               "value": 6,
-              "player_name": "Mickey Moniak",
+              "player_name": "Kyle Tucker",
               "fantasy_team": "Back to One Duran",
               "season": 2026,
               "week": 15
-            },
-            {
-              "value": 6,
-              "player_name": "Trea Turner",
-              "fantasy_team": "Back to One Duran",
-              "season": 2026,
-              "week": 15
-            },
-            {
-              "value": 5,
-              "player_name": "Trea Turner",
-              "fantasy_team": "Back to One Duran",
-              "season": 2026,
-              "week": 14
             }
           ]
         },
@@ -170,6 +170,13 @@
               "week": 14
             },
             {
+              "value": 13,
+              "player_name": "Jake McCarthy",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 8,
               "player_name": "Hunter Goodman",
               "fantasy_team": "DiZ-Hajj-O",
@@ -224,13 +231,6 @@
               "fantasy_team": "Back to One Duran",
               "season": 2026,
               "week": 15
-            },
-            {
-              "value": 7,
-              "player_name": "Trea Turner",
-              "fantasy_team": "Back to One Duran",
-              "season": 2026,
-              "week": 15
             }
           ]
         },
@@ -245,6 +245,20 @@
               "fantasy_team": "DiZ-Hajj-O",
               "season": 2026,
               "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Konnor Griffin",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 3,
+              "player_name": "Ketel Marte",
+              "fantasy_team": "Salustro's Fantasy Dungeon",
+              "season": 2026,
+              "week": 15
             },
             {
               "value": 2,
@@ -294,20 +308,6 @@
               "fantasy_team": "Cruz Missle",
               "season": 2026,
               "week": 12
-            },
-            {
-              "value": 2,
-              "player_name": "Jazz Chisholm Jr.",
-              "fantasy_team": "Cruz Missle",
-              "season": 2026,
-              "week": 13
-            },
-            {
-              "value": 2,
-              "player_name": "Cody Bellinger",
-              "fantasy_team": "DiZ-Hajj-O",
-              "season": 2026,
-              "week": 13
             }
           ]
         },
@@ -1037,6 +1037,13 @@
               "week": 14
             },
             {
+              "value": 8,
+              "player_name": "Kyle Stowers",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 7,
               "player_name": "Nico Hoerner",
               "fantasy_team": "Let’s go Knicks ✌️",
@@ -1082,13 +1089,6 @@
               "value": 6,
               "player_name": "Hunter Goodman",
               "fantasy_team": "FatherOfTwoLoaded",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 6,
-              "player_name": "Brandon Nimmo",
-              "fantasy_team": "The Kranimals (0x)",
               "season": 2026,
               "week": 14
             }
@@ -1261,6 +1261,13 @@
               "week": 14
             },
             {
+              "value": 13,
+              "player_name": "Jake McCarthy",
+              "fantasy_team": "Will of the Manly",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 9,
               "player_name": "Ryan O'Hearn",
               "fantasy_team": "Fall of the Empire",
@@ -1315,13 +1322,6 @@
               "fantasy_team": "El Jefe",
               "season": 2026,
               "week": 14
-            },
-            {
-              "value": 7,
-              "player_name": "Brandon Lowe",
-              "fantasy_team": "El Jefe",
-              "season": 2026,
-              "week": 14
             }
           ]
         },
@@ -1350,6 +1350,20 @@
               "fantasy_team": "House Omega",
               "season": 2026,
               "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Ketel Marte",
+              "fantasy_team": "Kirby Super Star",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 3,
+              "player_name": "Konnor Griffin",
+              "fantasy_team": "WestCoastTruth (1x Champ)",
+              "season": 2026,
+              "week": 15
             },
             {
               "value": 2,
@@ -1385,20 +1399,6 @@
               "fantasy_team": "House Omega",
               "season": 2026,
               "week": 8
-            },
-            {
-              "value": 2,
-              "player_name": "Otto Lopez",
-              "fantasy_team": "Kirby Super Star",
-              "season": 2026,
-              "week": 8
-            },
-            {
-              "value": 2,
-              "player_name": "Jackson Holliday",
-              "fantasy_team": "FatherOfTwoLoaded",
-              "season": 2026,
-              "week": 9
             }
           ]
         },
@@ -1464,18 +1464,18 @@
               "week": 14
             },
             {
-              "value": 4,
-              "player_name": "Bo Bichette",
-              "fantasy_team": "Let’s go Knicks ✌️",
+              "value": 5,
+              "player_name": "James Wood",
+              "fantasy_team": "FatherOfTwoLoaded",
               "season": 2026,
-              "week": 14
+              "week": 15
             },
             {
-              "value": 4,
-              "player_name": "Kazuma Okamoto",
-              "fantasy_team": "El Jefe",
+              "value": 5,
+              "player_name": "Jake McCarthy",
+              "fantasy_team": "Will of the Manly",
               "season": 2026,
-              "week": 14
+              "week": 15
             }
           ]
         },
