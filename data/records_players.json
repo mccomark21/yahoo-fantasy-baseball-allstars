@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T10:52:33Z",
+  "updated_at": "2026-07-06T11:40:24Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -45,6 +45,13 @@
             },
             {
               "value": 7,
+              "player_name": "Kyle Tucker",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 7,
               "player_name": "Mickey Moniak",
               "fantasy_team": "Back to One Duran",
               "season": 2026,
@@ -58,25 +65,18 @@
               "week": 15
             },
             {
-              "value": 6,
-              "player_name": "Shohei Ohtani (Batter)",
-              "fantasy_team": "Acuña Matata",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 6,
-              "player_name": "Hunter Goodman",
+              "value": 7,
+              "player_name": "Otto Lopez",
               "fantasy_team": "DiZ-Hajj-O",
               "season": 2026,
-              "week": 14
+              "week": 15
             },
             {
-              "value": 6,
-              "player_name": "Jeremy Peña",
-              "fantasy_team": "DiZ-Hajj-O",
+              "value": 7,
+              "player_name": "Jordan Walker",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
               "season": 2026,
-              "week": 14
+              "week": 15
             }
           ]
         },
@@ -114,6 +114,20 @@
               "week": 15
             },
             {
+              "value": 4,
+              "player_name": "Riley Greene",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 4,
+              "player_name": "Rafael Devers",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 3,
               "player_name": "Brandon Marsh",
               "fantasy_team": "DiZ-Hajj-O",
@@ -140,20 +154,6 @@
               "fantasy_team": "Salustro's Fantasy Dungeon",
               "season": 2026,
               "week": 14
-            },
-            {
-              "value": 3,
-              "player_name": "Rafael Devers",
-              "fantasy_team": "TheHotDogSafari",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 3,
-              "player_name": "Mickey Moniak",
-              "fantasy_team": "Back to One Duran",
-              "season": 2026,
-              "week": 15
             }
           ]
         },
@@ -184,6 +184,34 @@
               "week": 15
             },
             {
+              "value": 10,
+              "player_name": "Riley Greene",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 9,
+              "player_name": "Luis García Jr.",
+              "fantasy_team": "Acuña Matata",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 9,
+              "player_name": "Willson Contreras",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 9,
+              "player_name": "Jordan Walker",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 8,
               "player_name": "Hunter Goodman",
               "fantasy_team": "DiZ-Hajj-O",
@@ -203,34 +231,6 @@
               "fantasy_team": "1% Low Fat McChocolate Milk",
               "season": 2026,
               "week": 14
-            },
-            {
-              "value": 7,
-              "player_name": "Brandon Lowe",
-              "fantasy_team": "Back to One Duran",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 7,
-              "player_name": "Bryce Harper",
-              "fantasy_team": "Acuña Matata",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 7,
-              "player_name": "Brandon Marsh",
-              "fantasy_team": "DiZ-Hajj-O",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 7,
-              "player_name": "Rafael Devers",
-              "fantasy_team": "TheHotDogSafari",
-              "season": 2026,
-              "week": 14
             }
           ]
         },
@@ -240,7 +240,7 @@
           "group": "batting",
           "entries": [
             {
-              "value": 5,
+              "value": 6,
               "player_name": "Konnor Griffin",
               "fantasy_team": "1% Low Fat McChocolate Milk",
               "season": 2026,
@@ -263,6 +263,13 @@
             {
               "value": 3,
               "player_name": "Elly De La Cruz",
+              "fantasy_team": "TheHotDogSafari",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 3,
+              "player_name": "Pete Crow-Armstrong",
               "fantasy_team": "TheHotDogSafari",
               "season": 2026,
               "week": 15
@@ -301,13 +308,6 @@
               "fantasy_team": "Cruz Missle",
               "season": 2026,
               "week": 11
-            },
-            {
-              "value": 2,
-              "player_name": "Bobby Witt Jr.",
-              "fantasy_team": "All Rise & Wittness",
-              "season": 2026,
-              "week": 12
             }
           ]
         },
@@ -325,8 +325,22 @@
             },
             {
               "value": 2,
+              "player_name": "Eury Pérez",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 2,
               "player_name": "Braxton Ashcraft",
               "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 2,
+              "player_name": "Nolan McLean",
+              "fantasy_team": "Spaceballs RiseofSAL",
               "season": 2026,
               "week": 15
             },
@@ -371,20 +385,6 @@
               "fantasy_team": "1% Low Fat McChocolate Milk",
               "season": 2026,
               "week": 3
-            },
-            {
-              "value": 1,
-              "player_name": "Daniel Palencia",
-              "fantasy_team": "Spaceballs RiseofSAL",
-              "season": 2026,
-              "week": 3
-            },
-            {
-              "value": 1,
-              "player_name": "Drew Rasmussen",
-              "fantasy_team": "The Voice of Reason",
-              "season": 2026,
-              "week": 3
             }
           ]
         },
@@ -406,6 +406,13 @@
               "fantasy_team": "Cruz Missle",
               "season": 2026,
               "week": 14
+            },
+            {
+              "value": 3,
+              "player_name": "Trevor Megill",
+              "fantasy_team": "DiZ-Hajj-O",
+              "season": 2026,
+              "week": 15
             },
             {
               "value": 2,
@@ -455,13 +462,6 @@
               "fantasy_team": "The Voice of Reason",
               "season": 2026,
               "week": 14
-            },
-            {
-              "value": 2,
-              "player_name": "David Bednar",
-              "fantasy_team": "TheHotDogSafari",
-              "season": 2026,
-              "week": 14
             }
           ]
         },
@@ -500,10 +500,17 @@
             },
             {
               "value": 16,
-              "player_name": "Brandon Woodruff",
+              "player_name": "Player 469.p.10730",
               "fantasy_team": "Acuña Matata",
               "season": 2026,
               "week": 14
+            },
+            {
+              "value": 16,
+              "player_name": "Eury Pérez",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 15
             },
             {
               "value": 15,
@@ -520,25 +527,18 @@
               "week": 14
             },
             {
-              "value": 12,
-              "player_name": "Kyle Harrison",
-              "fantasy_team": "DiZ-Hajj-O",
-              "season": 2026,
-              "week": 5
-            },
-            {
-              "value": 12,
-              "player_name": "Shota Imanaga",
-              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "value": 14,
+              "player_name": "Joe Ryan",
+              "fantasy_team": "Back to One Duran",
               "season": 2026,
               "week": 15
             },
             {
-              "value": 11,
-              "player_name": "Braxton Ashcraft",
-              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "value": 13,
+              "player_name": "Ranger Suarez",
+              "fantasy_team": "Back to One Duran",
               "season": 2026,
-              "week": 10
+              "week": 15
             }
           ]
         }
@@ -1080,15 +1080,15 @@
             },
             {
               "value": 7,
-              "player_name": "Trea Turner",
-              "fantasy_team": "Brown Bear 🐻",
+              "player_name": "Jordan Walker",
+              "fantasy_team": "Let’s go Knicks ✌️",
               "season": 2026,
               "week": 15
             },
             {
               "value": 7,
-              "player_name": "Cole Carrigg",
-              "fantasy_team": "Kirby Super Star",
+              "player_name": "Trea Turner",
+              "fantasy_team": "Brown Bear 🐻",
               "season": 2026,
               "week": 15
             }
@@ -1099,6 +1099,20 @@
           "display": "Hits",
           "group": "batting",
           "entries": [
+            {
+              "value": 14,
+              "player_name": "Otto Lopez",
+              "fantasy_team": "Kirby Super Star",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 13,
+              "player_name": "Nick Gonzales",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2026,
+              "week": 15
+            },
             {
               "value": 12,
               "player_name": "Brandon Marsh",
@@ -1122,6 +1136,13 @@
             },
             {
               "value": 11,
+              "player_name": "Liam Hicks",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 11,
               "player_name": "Kyle Stowers",
               "fantasy_team": "That’s Reddickulous (2x)",
               "season": 2026,
@@ -1129,8 +1150,8 @@
             },
             {
               "value": 11,
-              "player_name": "Otto Lopez",
-              "fantasy_team": "Kirby Super Star",
+              "player_name": "Brice Turang",
+              "fantasy_team": "WestCoastTruth (1x Champ)",
               "season": 2026,
               "week": 15
             },
@@ -1145,27 +1166,6 @@
               "value": 10,
               "player_name": "Ryan O'Hearn",
               "fantasy_team": "Fall of the Empire",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 10,
-              "player_name": "Isaac Paredes",
-              "fantasy_team": "El Jefe",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 10,
-              "player_name": "Xavier Edwards",
-              "fantasy_team": "Gardy Goes Yardy",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 10,
-              "player_name": "Bryce Harper",
-              "fantasy_team": "FatherOfTwoLoaded",
               "season": 2026,
               "week": 14
             }
@@ -1206,8 +1206,22 @@
             },
             {
               "value": 4,
+              "player_name": "Riley Greene",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 4,
               "player_name": "Junior Caminero",
               "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 4,
+              "player_name": "Rafael Devers",
+              "fantasy_team": "WestCoastTruth (1x Champ)",
               "season": 2026,
               "week": 15
             },
@@ -1229,20 +1243,6 @@
               "value": 3,
               "player_name": "Brandon Marsh",
               "fantasy_team": "El Jefe",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 3,
-              "player_name": "Curtis Mead",
-              "fantasy_team": "House Omega",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 3,
-              "player_name": "Ketel Marte",
-              "fantasy_team": "Kirby Super Star",
               "season": 2026,
               "week": 14
             }
@@ -1275,6 +1275,13 @@
               "week": 15
             },
             {
+              "value": 10,
+              "player_name": "Riley Greene",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 9,
               "player_name": "Ryan O'Hearn",
               "fantasy_team": "Fall of the Empire",
@@ -1289,37 +1296,30 @@
               "week": 14
             },
             {
+              "value": 9,
+              "player_name": "Jordan Walker",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 9,
+              "player_name": "Luis García Jr.",
+              "fantasy_team": "House Omega",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 9,
+              "player_name": "Willson Contreras",
+              "fantasy_team": "Kirby Super Star",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 8,
               "player_name": "Miguel Vargas",
               "fantasy_team": "Fall of the Empire",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 8,
-              "player_name": "Kazuma Okamoto",
-              "fantasy_team": "El Jefe",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 8,
-              "player_name": "Isaac Paredes",
-              "fantasy_team": "El Jefe",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 8,
-              "player_name": "Hunter Goodman",
-              "fantasy_team": "FatherOfTwoLoaded",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 8,
-              "player_name": "Mookie Betts",
-              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
               "season": 2026,
               "week": 14
             }
@@ -1331,7 +1331,7 @@
           "group": "batting",
           "entries": [
             {
-              "value": 5,
+              "value": 6,
               "player_name": "Konnor Griffin",
               "fantasy_team": "WestCoastTruth (1x Champ)",
               "season": 2026,
@@ -1367,6 +1367,13 @@
             },
             {
               "value": 3,
+              "player_name": "Pete Crow-Armstrong",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 3,
               "player_name": "Elly De La Cruz",
               "fantasy_team": "Will of the Manly",
               "season": 2026,
@@ -1392,13 +1399,6 @@
               "fantasy_team": "Let’s go Knicks ✌️",
               "season": 2026,
               "week": 7
-            },
-            {
-              "value": 2,
-              "player_name": "Xavier Edwards",
-              "fantasy_team": "Gardy Goes Yardy",
-              "season": 2026,
-              "week": 8
             }
           ]
         },
@@ -1413,6 +1413,13 @@
               "fantasy_team": "House Omega",
               "season": 2026,
               "week": 14
+            },
+            {
+              "value": 8,
+              "player_name": "Otto Lopez",
+              "fantasy_team": "Kirby Super Star",
+              "season": 2026,
+              "week": 15
             },
             {
               "value": 7,
@@ -1430,15 +1437,22 @@
             },
             {
               "value": 6,
-              "player_name": "Kyle Stowers",
-              "fantasy_team": "That’s Reddickulous (2x)",
+              "player_name": "Jake McCarthy",
+              "fantasy_team": "Will of the Manly",
               "season": 2026,
               "week": 15
             },
             {
               "value": 6,
-              "player_name": "Otto Lopez",
-              "fantasy_team": "Kirby Super Star",
+              "player_name": "Riley Greene",
+              "fantasy_team": "Spirit of Troy",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 6,
+              "player_name": "Kyle Stowers",
+              "fantasy_team": "That’s Reddickulous (2x)",
               "season": 2026,
               "week": 15
             },
@@ -1462,20 +1476,6 @@
               "fantasy_team": "Let’s go Knicks ✌️",
               "season": 2026,
               "week": 14
-            },
-            {
-              "value": 5,
-              "player_name": "Brandon Marsh",
-              "fantasy_team": "El Jefe",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 5,
-              "player_name": "Freddie Freeman",
-              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
-              "season": 2026,
-              "week": 14
             }
           ]
         },
@@ -1493,8 +1493,29 @@
             },
             {
               "value": 2,
+              "player_name": "Eury Pérez",
+              "fantasy_team": "Will of the Manly",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 2,
               "player_name": "Sandy Alcantara",
               "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 2,
+              "player_name": "Nolan McLean",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 2,
+              "player_name": "Casey Mize",
+              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
               "season": 2026,
               "week": 15
             },
@@ -1532,27 +1553,6 @@
               "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
               "season": 2026,
               "week": 2
-            },
-            {
-              "value": 1,
-              "player_name": "Taj Bradley",
-              "fantasy_team": "Fall of the Empire",
-              "season": 2026,
-              "week": 3
-            },
-            {
-              "value": 1,
-              "player_name": "Jacob deGrom",
-              "fantasy_team": "Let’s go Knicks ✌️",
-              "season": 2026,
-              "week": 3
-            },
-            {
-              "value": 1,
-              "player_name": "Logan Gilbert",
-              "fantasy_team": "Brown Bear 🐻",
-              "season": 2026,
-              "week": 3
             }
           ]
         },
@@ -1604,6 +1604,13 @@
               "week": 14
             },
             {
+              "value": 16,
+              "player_name": "Eury Pérez",
+              "fantasy_team": "Will of the Manly",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 15,
               "player_name": "Braxton Ashcraft",
               "fantasy_team": "El Jefe",
@@ -1623,13 +1630,6 @@
               "fantasy_team": "Brown Bear 🐻",
               "season": 2026,
               "week": 14
-            },
-            {
-              "value": 12,
-              "player_name": "Kyle Harrison",
-              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
-              "season": 2026,
-              "week": 5
             }
           ]
         },
@@ -1674,39 +1674,39 @@
               "week": 14
             },
             {
+              "value": 2,
+              "player_name": "Eduardo Rodriguez",
+              "fantasy_team": "FatherOfTwoLoaded",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 2,
+              "player_name": "Nolan McLean",
+              "fantasy_team": "That’s Reddickulous (2x)",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 2,
+              "player_name": "Trey Yesavage",
+              "fantasy_team": "The Kranimals (0x)",
+              "season": 2026,
+              "week": 15
+            },
+            {
+              "value": 2,
+              "player_name": "Casey Mize",
+              "fantasy_team": "Alpha Bear Spiciest 🔥🔥",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 1,
               "player_name": "Chase Burns",
               "fantasy_team": "El Jefe",
               "season": 2026,
               "week": 2
-            },
-            {
-              "value": 1,
-              "player_name": "Braxton Ashcraft",
-              "fantasy_team": "El Jefe",
-              "season": 2026,
-              "week": 2
-            },
-            {
-              "value": 1,
-              "player_name": "Max Fried",
-              "fantasy_team": "Gardy Goes Yardy",
-              "season": 2026,
-              "week": 2
-            },
-            {
-              "value": 1,
-              "player_name": "Logan Webb",
-              "fantasy_team": "WestCoastTruth (1x Champ)",
-              "season": 2026,
-              "week": 2
-            },
-            {
-              "value": 1,
-              "player_name": "Jacob deGrom",
-              "fantasy_team": "Let’s go Knicks ✌️",
-              "season": 2026,
-              "week": 3
             }
           ]
         },
@@ -1758,6 +1758,13 @@
               "week": 14
             },
             {
+              "value": 3,
+              "player_name": "Trevor Megill",
+              "fantasy_team": "Let’s go Knicks ✌️",
+              "season": 2026,
+              "week": 15
+            },
+            {
               "value": 2,
               "player_name": "Aroldis Chapman",
               "fantasy_team": "Fall of the Empire",
@@ -1774,13 +1781,6 @@
             {
               "value": 2,
               "player_name": "Cade Smith",
-              "fantasy_team": "El Jefe",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 2,
-              "player_name": "Jason Adam",
               "fantasy_team": "El Jefe",
               "season": 2026,
               "week": 14

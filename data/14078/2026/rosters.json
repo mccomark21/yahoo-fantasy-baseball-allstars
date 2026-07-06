@@ -22,7 +22,7 @@
           ],
           "primary_position": "C",
           "selected_position": "C",
-          "status": "DTD"
+          "status": ""
         },
         {
           "player_key": "469.p.10621",
@@ -175,66 +175,6 @@
           "status": "IL10"
         },
         {
-          "player_key": "469.p.10366",
-          "player_id": "10366",
-          "name": "Teoscar Hernández",
-          "mlb_team": "LAD",
-          "mlb_team_full": "Los Angeles Dodgers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/yLhAkQ_uhsyTBBm5hh1_Ig--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10366.2.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/yLhAkQ_uhsyTBBm5hh1_Ig--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10366.2.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
-          "selected_position": "",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.9414",
-          "player_id": "9414",
-          "name": "Joc Pederson",
-          "mlb_team": "TEX",
-          "mlb_team_full": "Texas Rangers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/qcPI6uG.duG912j_kr3Jug--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/9414.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/qcPI6uG.duG912j_kr3Jug--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/9414.1.png",
-          "eligible_positions": [
-            "Util"
-          ],
-          "primary_position": "Util",
-          "selected_position": "",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.11722",
-          "player_id": "11722",
-          "name": "Corbin Carroll",
-          "mlb_team": "AZ",
-          "mlb_team_full": "Arizona Diamondbacks",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Q97gBw8.dCORT5OvLa4oVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03102026/11722.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/Q97gBw8.dCORT5OvLa4oVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03102026/11722.1.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
-          "selected_position": "",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.10616",
-          "player_id": "10616",
-          "name": "Lourdes Gurriel Jr.",
-          "mlb_team": "AZ",
-          "mlb_team_full": "Arizona Diamondbacks",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/NICwiGI.xzqRPDEmwSZCbg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03102026/10616.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/NICwiGI.xzqRPDEmwSZCbg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03102026/10616.1.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
-          "selected_position": "",
-          "status": ""
-        },
-        {
           "player_key": "469.p.9121",
           "player_id": "9121",
           "name": "Gerrit Cole",
@@ -277,7 +217,7 @@
           ],
           "primary_position": "SP",
           "selected_position": "SP",
-          "status": ""
+          "status": "DTD"
         },
         {
           "player_key": "469.p.12554",
@@ -554,7 +494,7 @@
           ],
           "primary_position": "OF",
           "selected_position": "OF",
-          "status": ""
+          "status": "DTD"
         },
         {
           "player_key": "469.p.12024",
@@ -632,21 +572,6 @@
           "status": "NA"
         },
         {
-          "player_key": "469.p.11323",
-          "player_id": "11323",
-          "name": "Brady Singer",
-          "mlb_team": "CIN",
-          "mlb_team_full": "Cincinnati Reds",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/mOQxwyy3K7IUiNF8G5fTfQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/11323.3.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/mOQxwyy3K7IUiNF8G5fTfQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/11323.3.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "SP",
-          "status": ""
-        },
-        {
           "player_key": "469.p.9701",
           "player_id": "9701",
           "name": "Jacob deGrom",
@@ -684,6 +609,21 @@
           "mlb_team_full": "Houston Astros",
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/onvPeO.vfTuQfK3IMYktfA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/60188.1.png",
           "image_url": "https://s.yimg.com/iu/api/res/1.2/onvPeO.vfTuQfK3IMYktfA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/60188.1.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "SP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.11988",
+          "player_id": "11988",
+          "name": "Emerson Hancock",
+          "mlb_team": "SEA",
+          "mlb_team_full": "Seattle Mariners",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/c2IvyY8XhaNffMrCWddDwg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03182025/11988.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/c2IvyY8XhaNffMrCWddDwg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03182025/11988.png",
           "eligible_positions": [
             "SP"
           ],
@@ -737,13 +677,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.11988",
-          "player_id": "11988",
-          "name": "Emerson Hancock",
-          "mlb_team": "SEA",
-          "mlb_team_full": "Seattle Mariners",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/c2IvyY8XhaNffMrCWddDwg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03182025/11988.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/c2IvyY8XhaNffMrCWddDwg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03182025/11988.png",
+          "player_key": "469.p.11323",
+          "player_id": "11323",
+          "name": "Brady Singer",
+          "mlb_team": "CIN",
+          "mlb_team_full": "Cincinnati Reds",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/mOQxwyy3K7IUiNF8G5fTfQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/11323.3.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/mOQxwyy3K7IUiNF8G5fTfQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/11323.3.png",
           "eligible_positions": [
             "SP"
           ],
@@ -1029,21 +969,6 @@
           "status": "IL60"
         },
         {
-          "player_key": "469.p.12086",
-          "player_id": "12086",
-          "name": "Jacob Latz",
-          "mlb_team": "TEX",
-          "mlb_team_full": "Texas Rangers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/HINixoTj1sjFTP6nA3nnnw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/12086.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/HINixoTj1sjFTP6nA3nnnw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/12086.1.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "SP",
-          "status": ""
-        },
-        {
           "player_key": "469.p.10438",
           "player_id": "10438",
           "name": "Dylan Cease",
@@ -1074,33 +999,33 @@
           "status": ""
         },
         {
-          "player_key": "469.p.9823",
-          "player_id": "9823",
-          "name": "Carlos Rodón",
-          "mlb_team": "NYY",
-          "mlb_team_full": "New York Yankees",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/rpLD.krt2S4GwUw6IUZlNg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04042025/9823.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/rpLD.krt2S4GwUw6IUZlNg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04042025/9823.png",
+          "player_key": "469.p.11847",
+          "player_id": "11847",
+          "name": "Joe Ryan",
+          "mlb_team": "MIN",
+          "mlb_team_full": "Minnesota Twins",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/IFRw5y6sCU.G0J5m__4GNQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11847.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/IFRw5y6sCU.G0J5m__4GNQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11847.png",
           "eligible_positions": [
             "SP"
           ],
           "primary_position": "SP",
           "selected_position": "SP",
-          "status": "IL15"
+          "status": ""
         },
         {
-          "player_key": "469.p.10901",
-          "player_id": "10901",
-          "name": "Dennis Santana",
-          "mlb_team": "PIT",
-          "mlb_team_full": "Pittsburgh Pirates",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/4XKkks8fofVbogkJ8tjBnw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10901.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/4XKkks8fofVbogkJ8tjBnw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10901.1.png",
+          "player_key": "469.p.12086",
+          "player_id": "12086",
+          "name": "Jacob Latz",
+          "mlb_team": "TEX",
+          "mlb_team_full": "Texas Rangers",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/HINixoTj1sjFTP6nA3nnnw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/12086.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/HINixoTj1sjFTP6nA3nnnw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/12086.1.png",
           "eligible_positions": [
-            "RP"
+            "SP"
           ],
-          "primary_position": "RP",
-          "selected_position": "RP",
+          "primary_position": "SP",
+          "selected_position": "SP",
           "status": ""
         },
         {
@@ -1111,6 +1036,21 @@
           "mlb_team_full": "Chicago White Sox",
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/aa7j_70uDZug5Xo1CzRyQA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11011.3.png",
           "image_url": "https://s.yimg.com/iu/api/res/1.2/aa7j_70uDZug5Xo1CzRyQA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11011.3.png",
+          "eligible_positions": [
+            "RP"
+          ],
+          "primary_position": "RP",
+          "selected_position": "RP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.10901",
+          "player_id": "10901",
+          "name": "Dennis Santana",
+          "mlb_team": "PIT",
+          "mlb_team_full": "Pittsburgh Pirates",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/4XKkks8fofVbogkJ8tjBnw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10901.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/4XKkks8fofVbogkJ8tjBnw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10901.1.png",
           "eligible_positions": [
             "RP"
           ],
@@ -1132,6 +1072,21 @@
           "primary_position": "RP",
           "selected_position": "P",
           "status": ""
+        },
+        {
+          "player_key": "469.p.9823",
+          "player_id": "9823",
+          "name": "Carlos Rodón",
+          "mlb_team": "NYY",
+          "mlb_team_full": "New York Yankees",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/rpLD.krt2S4GwUw6IUZlNg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04042025/9823.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/rpLD.krt2S4GwUw6IUZlNg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04042025/9823.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "BN",
+          "status": "IL15"
         },
         {
           "player_key": "469.p.12401",
@@ -1156,21 +1111,6 @@
           "mlb_team_full": "Seattle Mariners",
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/LlR94PnA8AxkmB4x_AxBTw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/60584.png",
           "image_url": "https://s.yimg.com/iu/api/res/1.2/LlR94PnA8AxkmB4x_AxBTw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/60584.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "BN",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.11847",
-          "player_id": "11847",
-          "name": "Joe Ryan",
-          "mlb_team": "MIN",
-          "mlb_team_full": "Minnesota Twins",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/IFRw5y6sCU.G0J5m__4GNQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11847.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/IFRw5y6sCU.G0J5m__4GNQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11847.png",
           "eligible_positions": [
             "SP"
           ],
@@ -1321,13 +1261,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.10572",
-          "player_id": "10572",
-          "name": "Josh Naylor",
-          "mlb_team": "SEA",
-          "mlb_team_full": "Seattle Mariners",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/If7ZRO8sqMYRyHeU2Ejz3Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/10572.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/If7ZRO8sqMYRyHeU2Ejz3Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/10572.png",
+          "player_key": "469.p.10600",
+          "player_id": "10600",
+          "name": "Jake Bauers",
+          "mlb_team": "MIL",
+          "mlb_team_full": "Milwaukee Brewers",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Ytg8aQAXR7fEFQnWLozjxQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10600.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/Ytg8aQAXR7fEFQnWLozjxQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10600.png",
           "eligible_positions": [
             "1B"
           ],
@@ -1336,13 +1276,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.10600",
-          "player_id": "10600",
-          "name": "Jake Bauers",
-          "mlb_team": "MIL",
-          "mlb_team_full": "Milwaukee Brewers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Ytg8aQAXR7fEFQnWLozjxQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10600.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/Ytg8aQAXR7fEFQnWLozjxQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10600.png",
+          "player_key": "469.p.10572",
+          "player_id": "10572",
+          "name": "Josh Naylor",
+          "mlb_team": "SEA",
+          "mlb_team_full": "Seattle Mariners",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/If7ZRO8sqMYRyHeU2Ejz3Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/10572.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/If7ZRO8sqMYRyHeU2Ejz3Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/10572.png",
           "eligible_positions": [
             "1B"
           ],
@@ -1685,6 +1625,21 @@
           ],
           "primary_position": "OF",
           "selected_position": "OF",
+          "status": "DTD"
+        },
+        {
+          "player_key": "469.p.12731",
+          "player_id": "12731",
+          "name": "Wilyer Abreu",
+          "mlb_team": "BOS",
+          "mlb_team_full": "Boston Red Sox",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/QgbksacAELR_xXrKGIY_Og--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/12731.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/QgbksacAELR_xXrKGIY_Og--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/12731.png",
+          "eligible_positions": [
+            "OF"
+          ],
+          "primary_position": "OF",
+          "selected_position": "Util",
           "status": ""
         },
         {
@@ -1699,7 +1654,7 @@
             "OF"
           ],
           "primary_position": "OF",
-          "selected_position": "Util",
+          "selected_position": "BN",
           "status": ""
         },
         {
@@ -1714,21 +1669,6 @@
             "C"
           ],
           "primary_position": "C",
-          "selected_position": "BN",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.12731",
-          "player_id": "12731",
-          "name": "Wilyer Abreu",
-          "mlb_team": "BOS",
-          "mlb_team_full": "Boston Red Sox",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/QgbksacAELR_xXrKGIY_Og--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/12731.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/QgbksacAELR_xXrKGIY_Og--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/12731.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
           "selected_position": "BN",
           "status": ""
         },
@@ -1896,36 +1836,6 @@
           "primary_position": "SP",
           "selected_position": "IL",
           "status": "IL15"
-        },
-        {
-          "player_key": "469.p.66492",
-          "player_id": "66492",
-          "name": "Tatsuya Imai",
-          "mlb_team": "HOU",
-          "mlb_team_full": "Houston Astros",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/3HLySuuzRFgTwTixQlQ.Fw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/66492.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/3HLySuuzRFgTwTixQlQ.Fw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/66492.1.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.10909",
-          "player_id": "10909",
-          "name": "Trevor Rogers",
-          "mlb_team": "BAL",
-          "mlb_team_full": "Baltimore Orioles",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ElqEChBI_.EZGEUO8OOcuw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/10909.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/ElqEChBI_.EZGEUO8OOcuw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/10909.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "",
-          "status": ""
         }
       ]
     },
@@ -1965,17 +1875,17 @@
           "status": ""
         },
         {
-          "player_key": "469.p.60090",
-          "player_id": "60090",
-          "name": "Jackson Holliday",
-          "mlb_team": "BAL",
-          "mlb_team_full": "Baltimore Orioles",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.UIOvqxnHAiLaMH.OBelzg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/60090.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/.UIOvqxnHAiLaMH.OBelzg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/60090.png",
+          "player_key": "469.p.11886",
+          "player_id": "11886",
+          "name": "Ezequiel Duran",
+          "mlb_team": "TEX",
+          "mlb_team_full": "Texas Rangers",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/qo124ResIW7xioBrOPAuHA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11886.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/qo124ResIW7xioBrOPAuHA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11886.1.png",
           "eligible_positions": [
-            "2B"
+            "1B"
           ],
-          "primary_position": "2B",
+          "primary_position": "1B",
           "selected_position": "2B",
           "status": ""
         },
@@ -2055,36 +1965,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.60092",
-          "player_id": "60092",
-          "name": "Samuel Basallo",
-          "mlb_team": "BAL",
-          "mlb_team_full": "Baltimore Orioles",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Tqw.H9V9jiE8pYFHYBU_QQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/60092.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/Tqw.H9V9jiE8pYFHYBU_QQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/60092.png",
-          "eligible_positions": [
-            "C"
-          ],
-          "primary_position": "C",
-          "selected_position": "Util",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.11886",
-          "player_id": "11886",
-          "name": "Ezequiel Duran",
-          "mlb_team": "TEX",
-          "mlb_team_full": "Texas Rangers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/qo124ResIW7xioBrOPAuHA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11886.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/qo124ResIW7xioBrOPAuHA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11886.1.png",
-          "eligible_positions": [
-            "1B"
-          ],
-          "primary_position": "1B",
-          "selected_position": "BN",
-          "status": ""
-        },
-        {
           "player_key": "469.p.12503",
           "player_id": "12503",
           "name": "Zack Gelof",
@@ -2096,7 +1976,37 @@
             "2B"
           ],
           "primary_position": "2B",
-          "selected_position": "IL",
+          "selected_position": "Util",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.60092",
+          "player_id": "60092",
+          "name": "Samuel Basallo",
+          "mlb_team": "BAL",
+          "mlb_team_full": "Baltimore Orioles",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Tqw.H9V9jiE8pYFHYBU_QQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/60092.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/Tqw.H9V9jiE8pYFHYBU_QQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/60092.png",
+          "eligible_positions": [
+            "C"
+          ],
+          "primary_position": "C",
+          "selected_position": "BN",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.60090",
+          "player_id": "60090",
+          "name": "Jackson Holliday",
+          "mlb_team": "BAL",
+          "mlb_team_full": "Baltimore Orioles",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.UIOvqxnHAiLaMH.OBelzg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/60090.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/.UIOvqxnHAiLaMH.OBelzg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/60090.png",
+          "eligible_positions": [
+            "2B"
+          ],
+          "primary_position": "2B",
+          "selected_position": "BN",
           "status": ""
         },
         {
@@ -2130,13 +2040,28 @@
           "status": "NA"
         },
         {
-          "player_key": "469.p.60907",
-          "player_id": "60907",
-          "name": "Jared Jones",
-          "mlb_team": "PIT",
-          "mlb_team_full": "Pittsburgh Pirates",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.k1VFYb6HbrvsOGB._NRjQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03122025/60907.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/.k1VFYb6HbrvsOGB._NRjQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03122025/60907.png",
+          "player_key": "469.p.9691",
+          "player_id": "9691",
+          "name": "Robbie Ray",
+          "mlb_team": "SF",
+          "mlb_team_full": "San Francisco Giants",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/89UB2DRBQw36NDwbmt1duQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9691.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/89UB2DRBQw36NDwbmt1duQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9691.1.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "SP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.9546",
+          "player_id": "9546",
+          "name": "Eduardo Rodriguez",
+          "mlb_team": "AZ",
+          "mlb_team_full": "Arizona Diamondbacks",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/LE7l6vxVJ3KGIzy03oCE.g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03102026/9546.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/LE7l6vxVJ3KGIzy03oCE.g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03102026/9546.1.png",
           "eligible_positions": [
             "SP"
           ],
@@ -2175,21 +2100,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.9691",
-          "player_id": "9691",
-          "name": "Robbie Ray",
-          "mlb_team": "SF",
-          "mlb_team_full": "San Francisco Giants",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/89UB2DRBQw36NDwbmt1duQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9691.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/89UB2DRBQw36NDwbmt1duQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9691.1.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "SP",
-          "status": ""
-        },
-        {
           "player_key": "469.p.10432",
           "player_id": "10432",
           "name": "Tanner Scott",
@@ -2205,17 +2115,17 @@
           "status": ""
         },
         {
-          "player_key": "469.p.10882",
-          "player_id": "10882",
-          "name": "Gregory Soto",
-          "mlb_team": "PIT",
-          "mlb_team_full": "Pittsburgh Pirates",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/hpAQYouuE7O6YmshVSq54w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10882.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/hpAQYouuE7O6YmshVSq54w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10882.1.png",
+          "player_key": "469.p.63581",
+          "player_id": "63581",
+          "name": "Justin Wrobleski",
+          "mlb_team": "LAD",
+          "mlb_team_full": "Los Angeles Dodgers",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/0OdfZgLOopeUx65SEf.T_Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/63581.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/0OdfZgLOopeUx65SEf.T_Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/63581.png",
           "eligible_positions": [
-            "RP"
+            "SP"
           ],
-          "primary_position": "RP",
+          "primary_position": "SP",
           "selected_position": "RP",
           "status": ""
         },
@@ -2235,6 +2145,21 @@
           "status": ""
         },
         {
+          "player_key": "469.p.10882",
+          "player_id": "10882",
+          "name": "Gregory Soto",
+          "mlb_team": "PIT",
+          "mlb_team_full": "Pittsburgh Pirates",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/hpAQYouuE7O6YmshVSq54w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10882.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/hpAQYouuE7O6YmshVSq54w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10882.1.png",
+          "eligible_positions": [
+            "RP"
+          ],
+          "primary_position": "RP",
+          "selected_position": "BN",
+          "status": ""
+        },
+        {
           "player_key": "469.p.12516",
           "player_id": "12516",
           "name": "Bubba Chandler",
@@ -2250,28 +2175,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.63581",
-          "player_id": "63581",
-          "name": "Justin Wrobleski",
-          "mlb_team": "LAD",
-          "mlb_team_full": "Los Angeles Dodgers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/0OdfZgLOopeUx65SEf.T_Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/63581.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/0OdfZgLOopeUx65SEf.T_Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/63581.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "BN",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.9546",
-          "player_id": "9546",
-          "name": "Eduardo Rodriguez",
-          "mlb_team": "AZ",
-          "mlb_team_full": "Arizona Diamondbacks",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/LE7l6vxVJ3KGIzy03oCE.g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03102026/9546.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/LE7l6vxVJ3KGIzy03oCE.g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03102026/9546.1.png",
+          "player_key": "469.p.60907",
+          "player_id": "60907",
+          "name": "Jared Jones",
+          "mlb_team": "PIT",
+          "mlb_team_full": "Pittsburgh Pirates",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.k1VFYb6HbrvsOGB._NRjQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03122025/60907.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/.k1VFYb6HbrvsOGB._NRjQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03122025/60907.png",
           "eligible_positions": [
             "SP"
           ],
@@ -2344,7 +2254,7 @@
           ],
           "primary_position": "3B",
           "selected_position": "3B",
-          "status": ""
+          "status": "DTD"
         },
         {
           "player_key": "469.p.11771",
@@ -2629,7 +2539,7 @@
           ],
           "primary_position": "SP",
           "selected_position": "BN",
-          "status": "DTD"
+          "status": ""
         },
         {
           "player_key": "469.p.10889",
@@ -2864,66 +2774,6 @@
           "status": "IL10"
         },
         {
-          "player_key": "469.p.12160",
-          "player_id": "12160",
-          "name": "Endy Rodríguez",
-          "mlb_team": "PIT",
-          "mlb_team_full": "Pittsburgh Pirates",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/S2SwwXlbYSMHKLxl5GopyA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03122025/12160.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/S2SwwXlbYSMHKLxl5GopyA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03122025/12160.png",
-          "eligible_positions": [
-            "C"
-          ],
-          "primary_position": "C",
-          "selected_position": "",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.64311",
-          "player_id": "64311",
-          "name": "Travis Bazzana",
-          "mlb_team": "CLE",
-          "mlb_team_full": "Cleveland Guardians",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/VpmN9nVAuKwMWUdw7KU4tA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/05012026/64311.3.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/VpmN9nVAuKwMWUdw7KU4tA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/05012026/64311.3.png",
-          "eligible_positions": [
-            "2B"
-          ],
-          "primary_position": "2B",
-          "selected_position": "",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.12468",
-          "player_id": "12468",
-          "name": "Eury Pérez",
-          "mlb_team": "MIA",
-          "mlb_team_full": "Miami Marlins",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/yYOo27B2u50IAqDerUU7VA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04222024/12468.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/yYOo27B2u50IAqDerUU7VA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04222024/12468.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "SP",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.60427",
-          "player_id": "60427",
-          "name": "Kumar Rocker",
-          "mlb_team": "TEX",
-          "mlb_team_full": "Texas Rangers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/2952IkvpwvfG.icSXWInCg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60427.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/2952IkvpwvfG.icSXWInCg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60427.1.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "SP",
-          "status": ""
-        },
-        {
           "player_key": "469.p.64374",
           "player_id": "64374",
           "name": "Gage Jump",
@@ -2946,6 +2796,36 @@
           "mlb_team_full": "New York Yankees",
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ykSg5NSY9U1hEQkw4Gjm_A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/11379.1.png",
           "image_url": "https://s.yimg.com/iu/api/res/1.2/ykSg5NSY9U1hEQkw4Gjm_A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/11379.1.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "SP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.11789",
+          "player_id": "11789",
+          "name": "Drew Rasmussen",
+          "mlb_team": "TB",
+          "mlb_team_full": "Tampa Bay Rays",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/bwTnDYprFuO0Y5XTUTORGQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11789.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/bwTnDYprFuO0Y5XTUTORGQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11789.1.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "SP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.60418",
+          "player_id": "60418",
+          "name": "Ian Seymour",
+          "mlb_team": "TB",
+          "mlb_team_full": "Tampa Bay Rays",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/wtVKBBSM89I9T2MotOJP6Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60418.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/wtVKBBSM89I9T2MotOJP6Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60418.1.png",
           "eligible_positions": [
             "SP"
           ],
@@ -2999,13 +2879,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.11789",
-          "player_id": "11789",
-          "name": "Drew Rasmussen",
-          "mlb_team": "TB",
-          "mlb_team_full": "Tampa Bay Rays",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/bwTnDYprFuO0Y5XTUTORGQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11789.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/bwTnDYprFuO0Y5XTUTORGQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11789.1.png",
+          "player_key": "469.p.12468",
+          "player_id": "12468",
+          "name": "Eury Pérez",
+          "mlb_team": "MIA",
+          "mlb_team_full": "Miami Marlins",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/yYOo27B2u50IAqDerUU7VA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04222024/12468.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/yYOo27B2u50IAqDerUU7VA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04222024/12468.png",
           "eligible_positions": [
             "SP"
           ],
@@ -3044,13 +2924,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.60418",
-          "player_id": "60418",
-          "name": "Ian Seymour",
-          "mlb_team": "TB",
-          "mlb_team_full": "Tampa Bay Rays",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/wtVKBBSM89I9T2MotOJP6Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60418.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/wtVKBBSM89I9T2MotOJP6Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60418.1.png",
+          "player_key": "469.p.62972",
+          "player_id": "62972",
+          "name": "Paul Skenes",
+          "mlb_team": "PIT",
+          "mlb_team_full": "Pittsburgh Pirates",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/jXCiwGTK8YU07oFVCxMwUA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/62972.3.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/jXCiwGTK8YU07oFVCxMwUA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/62972.3.png",
           "eligible_positions": [
             "SP"
           ],
@@ -3059,13 +2939,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.62972",
-          "player_id": "62972",
-          "name": "Paul Skenes",
-          "mlb_team": "PIT",
-          "mlb_team_full": "Pittsburgh Pirates",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/jXCiwGTK8YU07oFVCxMwUA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/62972.3.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/jXCiwGTK8YU07oFVCxMwUA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/62972.3.png",
+          "player_key": "469.p.60267",
+          "player_id": "60267",
+          "name": "Connor Prielipp",
+          "mlb_team": "MIN",
+          "mlb_team_full": "Minnesota Twins",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/NdScgyKjkIrp9zJeJK5Tgg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/60267.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/NdScgyKjkIrp9zJeJK5Tgg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/60267.png",
           "eligible_positions": [
             "SP"
           ],
@@ -3117,36 +2997,6 @@
           "primary_position": "SP",
           "selected_position": "NA",
           "status": "NA"
-        },
-        {
-          "player_key": "469.p.10921",
-          "player_id": "10921",
-          "name": "David Peterson",
-          "mlb_team": "CHC",
-          "mlb_team_full": "Chicago Cubs",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/OKBknno9nSMlP61_xJeiZg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10921.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/OKBknno9nSMlP61_xJeiZg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10921.1.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.64803",
-          "player_id": "64803",
-          "name": "Roki Sasaki",
-          "mlb_team": "LAD",
-          "mlb_team_full": "Los Angeles Dodgers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/IcsQdIhaFkHaXq6tX9FQaw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/64803.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/IcsQdIhaFkHaXq6tX9FQaw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/64803.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "",
-          "status": ""
         }
       ]
     },
@@ -3171,13 +3021,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.11796",
-          "player_id": "11796",
-          "name": "Brett Baty",
-          "mlb_team": "NYM",
-          "mlb_team_full": "New York Mets",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/0aLTVijm2ZR7Ug2A31nckQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/11796.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/0aLTVijm2ZR7Ug2A31nckQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/11796.1.png",
+          "player_key": "469.p.10465",
+          "player_id": "10465",
+          "name": "Yandy Díaz",
+          "mlb_team": "TB",
+          "mlb_team_full": "Tampa Bay Rays",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/lR9cDDZTaFPSmbkfEjANaA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03122025/10465.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/lR9cDDZTaFPSmbkfEjANaA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03122025/10465.png",
           "eligible_positions": [
             "1B"
           ],
@@ -3291,13 +3141,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.10465",
-          "player_id": "10465",
-          "name": "Yandy Díaz",
-          "mlb_team": "TB",
-          "mlb_team_full": "Tampa Bay Rays",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/lR9cDDZTaFPSmbkfEjANaA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03122025/10465.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/lR9cDDZTaFPSmbkfEjANaA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03122025/10465.png",
+          "player_key": "469.p.11796",
+          "player_id": "11796",
+          "name": "Brett Baty",
+          "mlb_team": "NYM",
+          "mlb_team_full": "New York Mets",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/0aLTVijm2ZR7Ug2A31nckQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/11796.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/0aLTVijm2ZR7Ug2A31nckQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/11796.1.png",
           "eligible_positions": [
             "1B"
           ],
@@ -3318,7 +3168,7 @@
           ],
           "primary_position": "2B",
           "selected_position": "BN",
-          "status": ""
+          "status": "DTD"
         },
         {
           "player_key": "469.p.10489",
@@ -3328,21 +3178,6 @@
           "mlb_team_full": "Washington Nationals",
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/tViO4H5uv74oIGpKqObOVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10489.3.png",
           "image_url": "https://s.yimg.com/iu/api/res/1.2/tViO4H5uv74oIGpKqObOVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10489.3.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "SP",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.11661",
-          "player_id": "11661",
-          "name": "Michael King",
-          "mlb_team": "SD",
-          "mlb_team_full": "San Diego Padres",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/0qk1hYJ7hOmn6zAtWVFivg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/11661.2.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/0qk1hYJ7hOmn6zAtWVFivg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/11661.2.png",
           "eligible_positions": [
             "SP"
           ],
@@ -3373,6 +3208,21 @@
           "mlb_team_full": "Chicago Cubs",
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/TqLwtOHNOPqaMsFYzBarVw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/63640.3.png",
           "image_url": "https://s.yimg.com/iu/api/res/1.2/TqLwtOHNOPqaMsFYzBarVw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/63640.3.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "SP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.10467",
+          "player_id": "10467",
+          "name": "Peter Lambert",
+          "mlb_team": "HOU",
+          "mlb_team_full": "Houston Astros",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/9KFvqVQqhriicqjY2zLCUA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04282026/10467.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/9KFvqVQqhriicqjY2zLCUA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04282026/10467.1.png",
           "eligible_positions": [
             "SP"
           ],
@@ -3426,6 +3276,21 @@
           "status": ""
         },
         {
+          "player_key": "469.p.11661",
+          "player_id": "11661",
+          "name": "Michael King",
+          "mlb_team": "SD",
+          "mlb_team_full": "San Diego Padres",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/0qk1hYJ7hOmn6zAtWVFivg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/11661.2.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/0qk1hYJ7hOmn6zAtWVFivg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/11661.2.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "BN",
+          "status": ""
+        },
+        {
           "player_key": "469.p.10549",
           "player_id": "10549",
           "name": "Grant Holmes",
@@ -3456,21 +3321,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.12333",
-          "player_id": "12333",
-          "name": "JP Sears",
-          "mlb_team": "SD",
-          "mlb_team_full": "San Diego Padres",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ZkVJ_6lK1rza8u2YKTj14A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/12333.2.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/ZkVJ_6lK1rza8u2YKTj14A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/12333.2.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "BN",
-          "status": ""
-        },
-        {
           "player_key": "469.p.10569",
           "player_id": "10569",
           "name": "Clay Holmes",
@@ -3484,21 +3334,6 @@
           "primary_position": "SP",
           "selected_position": "IL",
           "status": "IL60"
-        },
-        {
-          "player_key": "469.p.12523",
-          "player_id": "12523",
-          "name": "Robert Gasser",
-          "mlb_team": "MIL",
-          "mlb_team_full": "Milwaukee Brewers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ME9x1IjOCN6VVsXqIG8Mcg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/12523.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/ME9x1IjOCN6VVsXqIG8Mcg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/12523.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "",
-          "status": "NA"
         }
       ]
     },
@@ -3643,21 +3478,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.12575",
-          "player_id": "12575",
-          "name": "Samad Taylor",
-          "mlb_team": "SD",
-          "mlb_team_full": "San Diego Padres",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/WfWBPc4S.Wkrv5rTWsRMkQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/02282024/12575.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/WfWBPc4S.Wkrv5rTWsRMkQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/02282024/12575.png",
-          "eligible_positions": [
-            "2B"
-          ],
-          "primary_position": "2B",
-          "selected_position": "BN",
-          "status": ""
-        },
-        {
           "player_key": "469.p.9339",
           "player_id": "9339",
           "name": "George Springer",
@@ -3733,13 +3553,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.60223",
-          "player_id": "60223",
-          "name": "Walbert Ureña",
-          "mlb_team": "LAA",
-          "mlb_team_full": "Los Angeles Angels",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/R9QP5gCzsrPS4UPyPfVBkQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60223.2.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/R9QP5gCzsrPS4UPyPfVBkQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60223.2.png",
+          "player_key": "469.p.60238",
+          "player_id": "60238",
+          "name": "Emmet Sheehan",
+          "mlb_team": "LAD",
+          "mlb_team_full": "Los Angeles Dodgers",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/LDnwZBRRVhB7REk7MoUnVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/60238.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/LDnwZBRRVhB7REk7MoUnVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/60238.png",
           "eligible_positions": [
             "SP"
           ],
@@ -3748,13 +3568,28 @@
           "status": ""
         },
         {
-          "player_key": "469.p.60238",
-          "player_id": "60238",
-          "name": "Emmet Sheehan",
-          "mlb_team": "LAD",
-          "mlb_team_full": "Los Angeles Dodgers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/LDnwZBRRVhB7REk7MoUnVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/60238.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/LDnwZBRRVhB7REk7MoUnVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/60238.png",
+          "player_key": "469.p.11397",
+          "player_id": "11397",
+          "name": "Matthew Liberatore",
+          "mlb_team": "STL",
+          "mlb_team_full": "St. Louis Cardinals",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/avNgjsjSJnGHYf3Sv9aGpQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/11397.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/avNgjsjSJnGHYf3Sv9aGpQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/11397.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "SP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.12682",
+          "player_id": "12682",
+          "name": "Javier Assad",
+          "mlb_team": "CHC",
+          "mlb_team_full": "Chicago Cubs",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/D1S_hfeqV3coCa8.cFvGZw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/12682.3.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/D1S_hfeqV3coCa8.cFvGZw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/12682.3.png",
           "eligible_positions": [
             "SP"
           ],
@@ -3778,21 +3613,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.10574",
-          "player_id": "10574",
-          "name": "Adrian Morejon",
-          "mlb_team": "SD",
-          "mlb_team_full": "San Diego Padres",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/hdp29MlaNuS8rCeQ.pi8Gg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10574.2.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/hdp29MlaNuS8rCeQ.pi8Gg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10574.2.png",
-          "eligible_positions": [
-            "RP"
-          ],
-          "primary_position": "RP",
-          "selected_position": "RP",
-          "status": ""
-        },
-        {
           "player_key": "469.p.12505",
           "player_id": "12505",
           "name": "Mason Miller",
@@ -3804,7 +3624,37 @@
             "RP"
           ],
           "primary_position": "RP",
+          "selected_position": "RP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.64367",
+          "player_id": "64367",
+          "name": "Ryan Johnson",
+          "mlb_team": "LAA",
+          "mlb_team_full": "Los Angeles Angels",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/rVqzDHsbiXW2_C3Aw.bPVw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/64367.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/rVqzDHsbiXW2_C3Aw.bPVw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/64367.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
           "selected_position": "P",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.60223",
+          "player_id": "60223",
+          "name": "Walbert Ureña",
+          "mlb_team": "LAA",
+          "mlb_team_full": "Los Angeles Angels",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/R9QP5gCzsrPS4UPyPfVBkQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60223.2.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/R9QP5gCzsrPS4UPyPfVBkQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60223.2.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "BN",
           "status": ""
         },
         {
@@ -3853,21 +3703,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.63601",
-          "player_id": "63601",
-          "name": "Zebby Matthews",
-          "mlb_team": "MIN",
-          "mlb_team_full": "Minnesota Twins",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/EY4JEoo5VSOMB6_tjlXUfg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/63601.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/EY4JEoo5VSOMB6_tjlXUfg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/63601.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "BN",
-          "status": "DTD"
-        },
-        {
           "player_key": "469.p.12354",
           "player_id": "12354",
           "name": "Robert Suarez",
@@ -3896,21 +3731,6 @@
           "primary_position": "SP",
           "selected_position": "IL",
           "status": "IL60"
-        },
-        {
-          "player_key": "469.p.8652",
-          "player_id": "8652",
-          "name": "Martín Pérez",
-          "mlb_team": "ATL",
-          "mlb_team_full": "Atlanta Braves",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/oOfxrchouAyExrK7bLliHg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/06152026/8652.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/oOfxrchouAyExrK7bLliHg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/06152026/8652.1.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "",
-          "status": ""
         }
       ]
     },
@@ -3995,21 +3815,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.63002",
-          "player_id": "63002",
-          "name": "Cole Carrigg",
-          "mlb_team": "COL",
-          "mlb_team_full": "Colorado Rockies",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/cu5XDZfcVr8WQhb14uFy9Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/06102026/63002.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/cu5XDZfcVr8WQhb14uFy9Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/06102026/63002.1.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
-          "selected_position": "OF",
-          "status": ""
-        },
-        {
           "player_key": "469.p.11722",
           "player_id": "11722",
           "name": "Corbin Carroll",
@@ -4025,36 +3830,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.64150",
-          "player_id": "64150",
-          "name": "Esmerlyn Valdez",
-          "mlb_team": "PIT",
-          "mlb_team_full": "Pittsburgh Pirates",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/TcM85WhJ.fAOHWf2QKLjIw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMDA7Y3I9MTtjdz0xNTM7ZHg9NzQ7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/dh/ap/default/140828/silhouette@2x.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/TcM85WhJ.fAOHWf2QKLjIw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMDA7Y3I9MTtjdz0xNTM7ZHg9NzQ7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/dh/ap/default/140828/silhouette@2x.png",
-          "eligible_positions": [
-            "1B"
-          ],
-          "primary_position": "1B",
-          "selected_position": "OF",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.64533",
-          "player_id": "64533",
-          "name": "Sam Antonacci",
-          "mlb_team": "CWS",
-          "mlb_team_full": "Chicago White Sox",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ofEuxMHewdGEPvp244tbwA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04242026/64533.3.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/ofEuxMHewdGEPvp244tbwA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04242026/64533.3.png",
-          "eligible_positions": [
-            "2B"
-          ],
-          "primary_position": "2B",
-          "selected_position": "Util",
-          "status": ""
-        },
-        {
           "player_key": "469.p.10366",
           "player_id": "10366",
           "name": "Teoscar Hernández",
@@ -4066,7 +3841,22 @@
             "OF"
           ],
           "primary_position": "OF",
-          "selected_position": "BN",
+          "selected_position": "OF",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.63002",
+          "player_id": "63002",
+          "name": "Cole Carrigg",
+          "mlb_team": "COL",
+          "mlb_team_full": "Colorado Rockies",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/cu5XDZfcVr8WQhb14uFy9Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/06102026/63002.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/cu5XDZfcVr8WQhb14uFy9Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/06102026/63002.1.png",
+          "eligible_positions": [
+            "OF"
+          ],
+          "primary_position": "OF",
+          "selected_position": "OF",
           "status": ""
         },
         {
@@ -4081,6 +3871,36 @@
             "OF"
           ],
           "primary_position": "OF",
+          "selected_position": "Util",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.64533",
+          "player_id": "64533",
+          "name": "Sam Antonacci",
+          "mlb_team": "CWS",
+          "mlb_team_full": "Chicago White Sox",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ofEuxMHewdGEPvp244tbwA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04242026/64533.3.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/ofEuxMHewdGEPvp244tbwA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04242026/64533.3.png",
+          "eligible_positions": [
+            "2B"
+          ],
+          "primary_position": "2B",
+          "selected_position": "BN",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.64150",
+          "player_id": "64150",
+          "name": "Esmerlyn Valdez",
+          "mlb_team": "PIT",
+          "mlb_team_full": "Pittsburgh Pirates",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/TcM85WhJ.fAOHWf2QKLjIw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMDA7Y3I9MTtjdz0xNTM7ZHg9NzQ7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/dh/ap/default/140828/silhouette@2x.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/TcM85WhJ.fAOHWf2QKLjIw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMDA7Y3I9MTtjdz0xNTM7ZHg9NzQ7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/dh/ap/default/140828/silhouette@2x.png",
+          "eligible_positions": [
+            "1B"
+          ],
+          "primary_position": "1B",
           "selected_position": "BN",
           "status": ""
         },
@@ -4145,36 +3965,6 @@
           "status": "NA"
         },
         {
-          "player_key": "469.p.10944",
-          "player_id": "10944",
-          "name": "Heliot Ramos",
-          "mlb_team": "SF",
-          "mlb_team_full": "San Francisco Giants",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ekqvVzCS8eUL4PqspLULRg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03272026/10944.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/ekqvVzCS8eUL4PqspLULRg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03272026/10944.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
-          "selected_position": "",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.8967",
-          "player_id": "8967",
-          "name": "Paul Goldschmidt",
-          "mlb_team": "NYY",
-          "mlb_team_full": "New York Yankees",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/iIBvt0uswG8buHzt.vxwpA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/8967.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/iIBvt0uswG8buHzt.vxwpA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/8967.1.png",
-          "eligible_positions": [
-            "1B"
-          ],
-          "primary_position": "1B",
-          "selected_position": "",
-          "status": ""
-        },
-        {
           "player_key": "469.p.11117",
           "player_id": "11117",
           "name": "Ranger Suarez",
@@ -4187,7 +3977,7 @@
           ],
           "primary_position": "SP",
           "selected_position": "SP",
-          "status": ""
+          "status": "DTD"
         },
         {
           "player_key": "469.p.11826",
@@ -4250,13 +4040,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.11597",
-          "player_id": "11597",
-          "name": "Pete Fairbanks",
-          "mlb_team": "MIA",
-          "mlb_team_full": "Miami Marlins",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/7G_yHyhrmFMGmWZUWAGqHw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11597.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/7G_yHyhrmFMGmWZUWAGqHw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11597.png",
+          "player_key": "469.p.11704",
+          "player_id": "11704",
+          "name": "Garrett Cleavinger",
+          "mlb_team": "TB",
+          "mlb_team_full": "Tampa Bay Rays",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/LZ3Kx6Fzflga6V2ra1wUww--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11704.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/LZ3Kx6Fzflga6V2ra1wUww--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/11704.1.png",
           "eligible_positions": [
             "RP"
           ],
@@ -4322,21 +4112,6 @@
           ],
           "primary_position": "SP",
           "selected_position": "BN",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.10467",
-          "player_id": "10467",
-          "name": "Peter Lambert",
-          "mlb_team": "HOU",
-          "mlb_team_full": "Houston Astros",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/9KFvqVQqhriicqjY2zLCUA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04282026/10467.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/9KFvqVQqhriicqjY2zLCUA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04282026/10467.1.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "",
           "status": ""
         }
       ]
@@ -4479,7 +4254,7 @@
           ],
           "primary_position": "Util",
           "selected_position": "Util",
-          "status": "DTD"
+          "status": ""
         },
         {
           "player_key": "469.p.9893",
@@ -4510,21 +4285,6 @@
           "primary_position": "OF",
           "selected_position": "BN",
           "status": ""
-        },
-        {
-          "player_key": "469.p.10730",
-          "player_id": "10730",
-          "name": "Brandon Woodruff",
-          "mlb_team": "MIL",
-          "mlb_team_full": "Milwaukee Brewers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ro.8nXOgH1MVkJ40AN9CIQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10730.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/ro.8nXOgH1MVkJ40AN9CIQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10730.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "SP",
-          "status": "DTD"
         },
         {
           "player_key": "469.p.10565",
@@ -4564,6 +4324,21 @@
           "mlb_team_full": "Los Angeles Dodgers",
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/HhgpJouqV5vWFnkFQAh9mg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/63423.png",
           "image_url": "https://s.yimg.com/iu/api/res/1.2/HhgpJouqV5vWFnkFQAh9mg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/63423.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "SP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.64320",
+          "player_id": "64320",
+          "name": "Trey Yesavage",
+          "mlb_team": "TOR",
+          "mlb_team_full": "Toronto Blue Jays",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/_D7ARAtnSt9HlzVUcnddOg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/64320.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/_D7ARAtnSt9HlzVUcnddOg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/64320.1.png",
           "eligible_positions": [
             "SP"
           ],
@@ -4617,19 +4392,19 @@
           "status": "IL15"
         },
         {
-          "player_key": "469.p.64320",
-          "player_id": "64320",
-          "name": "Trey Yesavage",
-          "mlb_team": "TOR",
-          "mlb_team_full": "Toronto Blue Jays",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/_D7ARAtnSt9HlzVUcnddOg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/64320.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/_D7ARAtnSt9HlzVUcnddOg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/64320.1.png",
+          "player_key": "469.p.10730",
+          "player_id": "10730",
+          "name": "Brandon Woodruff",
+          "mlb_team": "MIL",
+          "mlb_team_full": "Milwaukee Brewers",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ro.8nXOgH1MVkJ40AN9CIQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10730.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/ro.8nXOgH1MVkJ40AN9CIQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10730.png",
           "eligible_positions": [
             "SP"
           ],
           "primary_position": "SP",
           "selected_position": "BN",
-          "status": ""
+          "status": "IL15"
         },
         {
           "player_key": "469.p.62461",
@@ -4876,7 +4651,7 @@
           ],
           "primary_position": "2B",
           "selected_position": "BN",
-          "status": ""
+          "status": "DTD"
         },
         {
           "player_key": "469.p.12449",
@@ -4924,36 +4699,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.12175",
-          "player_id": "12175",
-          "name": "Kyle Harrison",
-          "mlb_team": "MIL",
-          "mlb_team_full": "Milwaukee Brewers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/6yBWbrnBbLtzwBmVqN.Yrw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/12175.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/6yBWbrnBbLtzwBmVqN.Yrw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/12175.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "SP",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.10867",
-          "player_id": "10867",
-          "name": "Shane Bieber",
-          "mlb_team": "TOR",
-          "mlb_team_full": "Toronto Blue Jays",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/UsquzO61G3vjs4B.dKX4hA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10867.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/UsquzO61G3vjs4B.dKX4hA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10867.1.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "SP",
-          "status": ""
-        },
-        {
           "player_key": "469.p.11083",
           "player_id": "11083",
           "name": "Casey Mize",
@@ -4961,6 +4706,36 @@
           "mlb_team_full": "Detroit Tigers",
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/7oDZE3whvJAhjgL6sUfKPg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/11083.1.png",
           "image_url": "https://s.yimg.com/iu/api/res/1.2/7oDZE3whvJAhjgL6sUfKPg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/11083.1.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "SP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.9882",
+          "player_id": "9882",
+          "name": "Aaron Nola",
+          "mlb_team": "PHI",
+          "mlb_team_full": "Philadelphia Phillies",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/AuDXqyHqGcKyxne6ekYpbg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9882.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/AuDXqyHqGcKyxne6ekYpbg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9882.1.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "SP",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.10455",
+          "player_id": "10455",
+          "name": "Tyler Mahle",
+          "mlb_team": "SF",
+          "mlb_team_full": "San Francisco Giants",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/NWWc2oVza8lS8DzJ8gi22Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10455.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/NWWc2oVza8lS8DzJ8gi22Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10455.1.png",
           "eligible_positions": [
             "SP"
           ],
@@ -5014,13 +4789,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.60116",
-          "player_id": "60116",
-          "name": "Shane Drohan",
-          "mlb_team": "MIL",
-          "mlb_team_full": "Milwaukee Brewers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/oiPlquw1IFnkuQy.vK5jmw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/60116.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/oiPlquw1IFnkuQy.vK5jmw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/60116.png",
+          "player_key": "469.p.10867",
+          "player_id": "10867",
+          "name": "Shane Bieber",
+          "mlb_team": "TOR",
+          "mlb_team_full": "Toronto Blue Jays",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/UsquzO61G3vjs4B.dKX4hA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10867.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/UsquzO61G3vjs4B.dKX4hA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10867.1.png",
           "eligible_positions": [
             "SP"
           ],
@@ -5029,13 +4804,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.10326",
-          "player_id": "10326",
-          "name": "Seth Lugo",
-          "mlb_team": "KC",
-          "mlb_team_full": "Kansas City Royals",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/gXUtYJHcCl4wFKUMN58hBA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10326.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/gXUtYJHcCl4wFKUMN58hBA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10326.png",
+          "player_key": "469.p.12175",
+          "player_id": "12175",
+          "name": "Kyle Harrison",
+          "mlb_team": "MIL",
+          "mlb_team_full": "Milwaukee Brewers",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/6yBWbrnBbLtzwBmVqN.Yrw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/12175.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/6yBWbrnBbLtzwBmVqN.Yrw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/12175.png",
           "eligible_positions": [
             "SP"
           ],
@@ -5318,7 +5093,7 @@
           ],
           "primary_position": "SP",
           "selected_position": "SP",
-          "status": "DTD"
+          "status": ""
         },
         {
           "player_key": "469.p.11235",
