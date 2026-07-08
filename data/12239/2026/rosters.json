@@ -22,7 +22,7 @@
           ],
           "primary_position": "C",
           "selected_position": "C",
-          "status": "DTD"
+          "status": ""
         },
         {
           "player_key": "469.p.10572",
@@ -831,7 +831,7 @@
           ],
           "primary_position": "OF",
           "selected_position": "BN",
-          "status": "DTD"
+          "status": "IL10"
         },
         {
           "player_key": "469.p.10642",
@@ -1400,7 +1400,7 @@
           ],
           "primary_position": "C",
           "selected_position": "C",
-          "status": ""
+          "status": "DTD"
         },
         {
           "player_key": "469.p.10166",
@@ -1872,7 +1872,7 @@
           ],
           "primary_position": "SS",
           "selected_position": "Util",
-          "status": ""
+          "status": "IL10"
         },
         {
           "player_key": "469.p.11731",
