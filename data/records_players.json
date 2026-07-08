@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T11:10:53Z",
+  "updated_at": "2026-07-08T10:51:14Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -534,11 +534,11 @@
               "week": 15
             },
             {
-              "value": 13,
-              "player_name": "Ranger Suarez",
-              "fantasy_team": "Back to One Duran",
+              "value": 14,
+              "player_name": "Zack Wheeler",
+              "fantasy_team": "The Voice of Reason",
               "season": 2026,
-              "week": 15
+              "week": 16
             }
           ]
         }
@@ -1282,6 +1282,13 @@
               "week": 15
             },
             {
+              "value": 10,
+              "player_name": "Ryan O'Hearn",
+              "fantasy_team": "Fall of the Empire",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 9,
               "player_name": "Ryan O'Hearn",
               "fantasy_team": "Fall of the Empire",
@@ -1315,13 +1322,6 @@
               "fantasy_team": "Kirby Super Star",
               "season": 2026,
               "week": 15
-            },
-            {
-              "value": 8,
-              "player_name": "Miguel Vargas",
-              "fantasy_team": "Fall of the Empire",
-              "season": 2026,
-              "week": 14
             }
           ]
         },
