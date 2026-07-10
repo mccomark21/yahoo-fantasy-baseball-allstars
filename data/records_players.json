@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T11:10:16Z",
+  "updated_at": "2026-07-10T11:10:40Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -128,6 +128,13 @@
               "week": 15
             },
             {
+              "value": 4,
+              "player_name": "Ben Rice",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 3,
               "player_name": "Brandon Marsh",
               "fantasy_team": "DiZ-Hajj-O",
@@ -145,13 +152,6 @@
               "value": 3,
               "player_name": "Mookie Betts",
               "fantasy_team": "1% Low Fat McChocolate Milk",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 3,
-              "player_name": "Ketel Marte",
-              "fantasy_team": "Salustro's Fantasy Dungeon",
               "season": 2026,
               "week": 14
             }
@@ -212,6 +212,13 @@
               "week": 15
             },
             {
+              "value": 9,
+              "player_name": "Ben Rice",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 8,
               "player_name": "Hunter Goodman",
               "fantasy_team": "DiZ-Hajj-O",
@@ -221,13 +228,6 @@
             {
               "value": 8,
               "player_name": "Miguel Vargas",
-              "fantasy_team": "1% Low Fat McChocolate Milk",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 8,
-              "player_name": "Mookie Betts",
               "fantasy_team": "1% Low Fat McChocolate Milk",
               "season": 2026,
               "week": 14
@@ -275,6 +275,13 @@
               "week": 15
             },
             {
+              "value": 3,
+              "player_name": "Josh Naylor",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 2,
               "player_name": "Otto Lopez",
               "fantasy_team": "DiZ-Hajj-O",
@@ -301,13 +308,6 @@
               "fantasy_team": "Acuña Matata",
               "season": 2026,
               "week": 9
-            },
-            {
-              "value": 2,
-              "player_name": "Julio Rodríguez",
-              "fantasy_team": "Cruz Missle",
-              "season": 2026,
-              "week": 11
             }
           ]
         },
@@ -1226,6 +1226,13 @@
               "week": 15
             },
             {
+              "value": 4,
+              "player_name": "Ben Rice",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 3,
               "player_name": "Miguel Vargas",
               "fantasy_team": "Fall of the Empire",
@@ -1235,13 +1242,6 @@
             {
               "value": 3,
               "player_name": "Kazuma Okamoto",
-              "fantasy_team": "El Jefe",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 3,
-              "player_name": "Brandon Marsh",
               "fantasy_team": "El Jefe",
               "season": 2026,
               "week": 14
@@ -1387,18 +1387,18 @@
               "week": 15
             },
             {
+              "value": 3,
+              "player_name": "Josh Naylor",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 2,
               "player_name": "Luis Robert Jr.",
               "fantasy_team": "Brown Bear 🐻",
               "season": 2026,
               "week": 2
-            },
-            {
-              "value": 2,
-              "player_name": "Jakob Marsee",
-              "fantasy_team": "Let’s go Knicks ✌️",
-              "season": 2026,
-              "week": 7
             }
           ]
         },
