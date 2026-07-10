@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-07-09T11:10:16Z",
+  "updated_at": "2026-07-10T11:10:40Z",
   "leagues": {
     "12239": {
       "lineup": {
@@ -13,11 +13,11 @@
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.PAw8jhnr.QU4.j_T111mw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/62137.1.png",
           "fantasy_team": "1% Low Fat McChocolate Milk",
           "stats": {
-            "R": 60,
-            "HR": 26,
-            "RBI": 60,
+            "R": 63,
+            "HR": 28,
+            "RBI": 65,
             "SB": 2,
-            "AVG": 0.272
+            "AVG": 0.275
           }
         },
         "1B": {
@@ -33,23 +33,23 @@
             "HR": 20,
             "RBI": 66,
             "SB": 7,
-            "AVG": 0.27
+            "AVG": 0.266
           }
         },
         "2B": {
-          "player_name": "Otto Lopez",
+          "player_name": "Brice Turang",
           "position": "2B",
-          "mlb_team": "MIA",
-          "mlb_team_id": 146,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/146.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/GpUl3hMmzhuuKpGxBQfMdw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/12100.png",
-          "fantasy_team": "DiZ-Hajj-O",
+          "mlb_team": "MIL",
+          "mlb_team_id": 158,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/158.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/vKAuFcOIxAGxD1XnftgjxA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11343.png",
+          "fantasy_team": "All Rise & Wittness",
           "stats": {
-            "R": 60,
-            "HR": 9,
-            "RBI": 43,
-            "SB": 17,
-            "AVG": 0.345
+            "R": 65,
+            "HR": 13,
+            "RBI": 56,
+            "SB": 15,
+            "AVG": 0.269
           }
         },
         "3B": {
@@ -61,11 +61,11 @@
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ke5bnQWnGRNFQtQ4j2SplQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60419.1.png",
           "fantasy_team": "The Voice of Reason",
           "stats": {
-            "R": 57,
-            "HR": 26,
-            "RBI": 56,
+            "R": 58,
+            "HR": 27,
+            "RBI": 57,
             "SB": 1,
-            "AVG": 0.278
+            "AVG": 0.277
           }
         },
         "SS": {
@@ -110,7 +110,7 @@
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/3c1wXfLQVc8OUuM2qUg58w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12157.1.png",
           "fantasy_team": "TheHotDogSafari",
           "stats": {
-            "R": 60,
+            "R": 61,
             "HR": 21,
             "RBI": 52,
             "SB": 23,
@@ -126,9 +126,9 @@
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Ca4w2kRhbtvvdcXaWmxdZA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/12024.png",
           "fantasy_team": "1% Low Fat McChocolate Milk",
           "stats": {
-            "R": 58,
-            "HR": 21,
-            "RBI": 70,
+            "R": 59,
+            "HR": 22,
+            "RBI": 73,
             "SB": 12,
             "AVG": 0.294
           }
@@ -152,6 +152,22 @@
       },
       "bench": [
         {
+          "player_name": "Otto Lopez",
+          "position": "BN",
+          "mlb_team": "MIA",
+          "mlb_team_id": 146,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/146.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/GpUl3hMmzhuuKpGxBQfMdw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/12100.png",
+          "fantasy_team": "DiZ-Hajj-O",
+          "stats": {
+            "R": 61,
+            "HR": 9,
+            "RBI": 45,
+            "SB": 17,
+            "AVG": 0.345
+          }
+        },
+        {
           "player_name": "Kyle Schwarber",
           "position": "BN",
           "mlb_team": "PHI",
@@ -168,6 +184,22 @@
           }
         },
         {
+          "player_name": "Matt Olson",
+          "position": "BN",
+          "mlb_team": "ATL",
+          "mlb_team_id": 144,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/144.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.ZHIY3jAc6N0oqQcaXHm7w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/9605.1.png",
+          "fantasy_team": "Salustro's Fantasy Dungeon",
+          "stats": {
+            "R": 64,
+            "HR": 25,
+            "RBI": 58,
+            "SB": 2,
+            "AVG": 0.27
+          }
+        },
+        {
           "player_name": "Shohei Ohtani (Batter)",
           "position": "BN",
           "mlb_team": "LAD",
@@ -180,55 +212,23 @@
             "HR": 20,
             "RBI": 56,
             "SB": 6,
-            "AVG": 0.294
+            "AVG": 0.29
           }
         },
         {
-          "player_name": "Miguel Vargas",
+          "player_name": "Foster Griffin",
           "position": "BN",
-          "mlb_team": "CWS",
-          "mlb_team_id": 145,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/145.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/JUz_nMkNzs9QhmEOZbTQSw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/11781.png",
-          "fantasy_team": "1% Low Fat McChocolate Milk",
+          "mlb_team": "WSH",
+          "mlb_team_id": 120,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/120.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/tViO4H5uv74oIGpKqObOVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10489.3.png",
+          "fantasy_team": "Cruz Missle",
           "stats": {
-            "R": 61,
-            "HR": 20,
-            "RBI": 56,
-            "SB": 11,
-            "AVG": 0.242
-          }
-        },
-        {
-          "player_name": "Sal Stewart",
-          "position": "BN",
-          "mlb_team": "CIN",
-          "mlb_team_id": 113,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/113.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/3fgkEOTpnBI5tIL5fRJvLw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04012026/60129.3.png",
-          "fantasy_team": "Spaceballs RiseofSAL",
-          "stats": {
-            "R": 50,
-            "HR": 19,
-            "RBI": 64,
-            "SB": 11,
-            "AVG": 0.256
-          }
-        },
-        {
-          "player_name": "Hunter Goodman",
-          "position": "BN",
-          "mlb_team": "COL",
-          "mlb_team_id": 115,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/115.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/SG6jRsPTHPBe5Ah8b_OsiA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12409.1.png",
-          "fantasy_team": "DiZ-Hajj-O",
-          "stats": {
-            "R": 58,
-            "HR": 27,
-            "RBI": 51,
-            "SB": 5,
-            "AVG": 0.25
+            "W": 10,
+            "SV": 0,
+            "K": 109,
+            "ERA": 2.77,
+            "WHIP": 1.02
           }
         }
       ],
@@ -299,19 +299,19 @@
           }
         },
         {
-          "player_name": "Foster Griffin",
+          "player_name": "Gavin Williams",
           "position": "SP",
-          "mlb_team": "WSH",
-          "mlb_team_id": 120,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/120.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/tViO4H5uv74oIGpKqObOVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10489.3.png",
-          "fantasy_team": "Cruz Missle",
+          "mlb_team": "CLE",
+          "mlb_team_id": 114,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/114.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/V3rnmG9fR2KRnCxYlXcprA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12401.2.png",
+          "fantasy_team": "TheHotDogSafari",
           "stats": {
             "W": 10,
             "SV": 0,
-            "K": 109,
-            "ERA": 2.77,
-            "WHIP": 1.02
+            "K": 134,
+            "ERA": 3.81,
+            "WHIP": 1.15
           }
         }
       ],
@@ -362,15 +362,15 @@
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.PAw8jhnr.QU4.j_T111mw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/62137.1.png",
           "fantasy_team": "Gardy Goes Yardy",
           "stats": {
-            "R": 60,
-            "H": 88,
-            "HR": 26,
-            "RBI": 60,
+            "R": 63,
+            "H": 90,
+            "HR": 28,
+            "RBI": 65,
             "SB": 2,
-            "K": 87,
-            "AVG": 0.272,
-            "OBP": 0.363,
-            "XBH": 43
+            "K": 88,
+            "AVG": 0.275,
+            "OBP": 0.366,
+            "XBH": 45
           }
         },
         "1B": {
@@ -387,9 +387,9 @@
             "HR": 20,
             "RBI": 66,
             "SB": 7,
-            "K": 128,
-            "AVG": 0.27,
-            "OBP": 0.409,
+            "K": 130,
+            "AVG": 0.266,
+            "OBP": 0.405,
             "XBH": 36
           }
         },
@@ -402,15 +402,15 @@
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/GpUl3hMmzhuuKpGxBQfMdw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/12100.png",
           "fantasy_team": "Kirby Super Star",
           "stats": {
-            "R": 60,
-            "H": 126,
+            "R": 61,
+            "H": 127,
             "HR": 9,
-            "RBI": 43,
+            "RBI": 45,
             "SB": 17,
             "K": 52,
             "AVG": 0.345,
-            "OBP": 0.375,
-            "XBH": 40
+            "OBP": 0.378,
+            "XBH": 41
           }
         },
         "3B": {
@@ -422,15 +422,15 @@
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/ke5bnQWnGRNFQtQ4j2SplQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/60419.1.png",
           "fantasy_team": "That’s Reddickulous (2x)",
           "stats": {
-            "R": 57,
-            "H": 95,
-            "HR": 26,
-            "RBI": 56,
+            "R": 58,
+            "H": 96,
+            "HR": 27,
+            "RBI": 57,
             "SB": 1,
             "K": 73,
-            "AVG": 0.278,
-            "OBP": 0.366,
-            "XBH": 38
+            "AVG": 0.277,
+            "OBP": 0.367,
+            "XBH": 39
           }
         },
         "SS": {
@@ -483,20 +483,40 @@
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/3c1wXfLQVc8OUuM2qUg58w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12157.1.png",
           "fantasy_team": "Gardy Goes Yardy",
           "stats": {
-            "R": 60,
-            "H": 102,
+            "R": 61,
+            "H": 103,
             "HR": 21,
             "RBI": 52,
             "SB": 23,
-            "K": 102,
+            "K": 103,
             "AVG": 0.296,
-            "OBP": 0.386,
-            "XBH": 39
+            "OBP": 0.387,
+            "XBH": 40
           }
         },
         "OF3": {
-          "player_name": "Yordan Alvarez",
+          "player_name": "Jordan Walker",
           "position": "OF3",
+          "mlb_team": "STL",
+          "mlb_team_id": 138,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/138.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Ca4w2kRhbtvvdcXaWmxdZA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/12024.png",
+          "fantasy_team": "Let’s go Knicks ✌️",
+          "stats": {
+            "R": 59,
+            "H": 102,
+            "HR": 22,
+            "RBI": 73,
+            "SB": 12,
+            "K": 97,
+            "AVG": 0.294,
+            "OBP": 0.354,
+            "XBH": 41
+          }
+        },
+        "UTIL": {
+          "player_name": "Yordan Alvarez",
+          "position": "UTIL",
           "mlb_team": "HOU",
           "mlb_team_id": 117,
           "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/117.svg",
@@ -513,26 +533,6 @@
             "OBP": 0.416,
             "XBH": 45
           }
-        },
-        "UTIL": {
-          "player_name": "Jordan Walker",
-          "position": "UTIL",
-          "mlb_team": "STL",
-          "mlb_team_id": 138,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/138.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Ca4w2kRhbtvvdcXaWmxdZA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03212026/12024.png",
-          "fantasy_team": "Let’s go Knicks ✌️",
-          "stats": {
-            "R": 58,
-            "H": 101,
-            "HR": 21,
-            "RBI": 70,
-            "SB": 12,
-            "K": 95,
-            "AVG": 0.294,
-            "OBP": 0.355,
-            "XBH": 40
-          }
         }
       },
       "bench": [
@@ -546,14 +546,34 @@
           "fantasy_team": "El Jefe",
           "stats": {
             "R": 57,
-            "H": 85,
+            "H": 86,
             "HR": 32,
             "RBI": 58,
             "SB": 2,
-            "K": 137,
+            "K": 140,
             "AVG": 0.254,
-            "OBP": 0.37,
+            "OBP": 0.369,
             "XBH": 42
+          }
+        },
+        {
+          "player_name": "Matt Olson",
+          "position": "BN",
+          "mlb_team": "ATL",
+          "mlb_team_id": 144,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/144.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.ZHIY3jAc6N0oqQcaXHm7w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/9605.1.png",
+          "fantasy_team": "Gardy Goes Yardy",
+          "stats": {
+            "R": 64,
+            "H": 97,
+            "HR": 25,
+            "RBI": 58,
+            "SB": 2,
+            "K": 94,
+            "AVG": 0.27,
+            "OBP": 0.342,
+            "XBH": 49
           }
         },
         {
@@ -570,30 +590,10 @@
             "HR": 20,
             "RBI": 56,
             "SB": 6,
-            "K": 88,
-            "AVG": 0.294,
-            "OBP": 0.409,
+            "K": 90,
+            "AVG": 0.29,
+            "OBP": 0.405,
             "XBH": 37
-          }
-        },
-        {
-          "player_name": "Matt Olson",
-          "position": "BN",
-          "mlb_team": "ATL",
-          "mlb_team_id": 144,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/144.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/.ZHIY3jAc6N0oqQcaXHm7w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/9605.1.png",
-          "fantasy_team": "Gardy Goes Yardy",
-          "stats": {
-            "R": 62,
-            "H": 96,
-            "HR": 24,
-            "RBI": 57,
-            "SB": 2,
-            "K": 94,
-            "AVG": 0.27,
-            "OBP": 0.339,
-            "XBH": 48
           }
         },
         {
@@ -605,35 +605,35 @@
           "headshot_url": "https://s.yimg.com/iu/api/res/1.2/vKAuFcOIxAGxD1XnftgjxA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/11343.png",
           "fantasy_team": "WestCoastTruth (1x Champ)",
           "stats": {
-            "R": 63,
-            "H": 91,
-            "HR": 12,
-            "RBI": 54,
-            "SB": 14,
-            "K": 101,
-            "AVG": 0.267,
-            "OBP": 0.36,
-            "XBH": 37
+            "R": 65,
+            "H": 93,
+            "HR": 13,
+            "RBI": 56,
+            "SB": 15,
+            "K": 102,
+            "AVG": 0.269,
+            "OBP": 0.361,
+            "XBH": 38
           }
         },
         {
-          "player_name": "Zach Neto",
+          "player_name": "Bryan Reynolds",
           "position": "BN",
-          "mlb_team": "LAA",
-          "mlb_team_id": 108,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/108.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/qdmEQNCoqj2Fl_oEucL4ag--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/60214.png",
-          "fantasy_team": "Gardy Goes Yardy",
+          "mlb_team": "PIT",
+          "mlb_team_id": 134,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/134.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/s7fvVXiKUPvoBl7ubG97Vw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/10577.1.png",
+          "fantasy_team": "Brown Bear 🐻",
           "stats": {
-            "R": 64,
-            "H": 83,
-            "HR": 19,
-            "RBI": 45,
-            "SB": 11,
-            "K": 130,
-            "AVG": 0.234,
-            "OBP": 0.326,
-            "XBH": 41
+            "R": 65,
+            "H": 96,
+            "HR": 14,
+            "RBI": 57,
+            "SB": 7,
+            "K": 91,
+            "AVG": 0.281,
+            "OBP": 0.395,
+            "XBH": 37
           }
         }
       ],
@@ -763,23 +763,23 @@
           "is_leader": true
         },
         {
-          "player_name": "Louis Varland",
+          "player_name": "Cade Smith",
           "position": "RP",
-          "mlb_team": "TOR",
-          "mlb_team_id": 141,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/141.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/RAzLCeWjvzAdeQwd20kOVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/12695.1.png",
-          "fantasy_team": "Will of the Manly",
+          "mlb_team": "CLE",
+          "mlb_team_id": 114,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/114.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/akHyT50r_pQKOPlZufb3Bg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/60016.2.png",
+          "fantasy_team": "El Jefe",
           "stats": {
-            "W": 3,
-            "L": 3,
-            "BB": 13,
-            "K": 66,
-            "ERA": 0.94,
-            "WHIP": 0.94,
-            "K/9": 12.38,
+            "W": 2,
+            "L": 1,
+            "BB": 11,
+            "K": 61,
+            "ERA": 2.76,
+            "WHIP": 1.11,
+            "K/9": 12.97,
             "QS": 0,
-            "SV+H": 23
+            "SV+H": 27
           }
         }
       ]
