@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T11:10:40Z",
+  "updated_at": "2026-07-11T10:35:04Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -14,6 +14,13 @@
               "fantasy_team": "Spaceballs RiseofSAL",
               "season": 2026,
               "week": 15
+            },
+            {
+              "value": 9,
+              "player_name": "James Wood",
+              "fantasy_team": "The Voice of Reason",
+              "season": 2026,
+              "week": 16
             },
             {
               "value": 8,
@@ -70,13 +77,6 @@
               "fantasy_team": "DiZ-Hajj-O",
               "season": 2026,
               "week": 15
-            },
-            {
-              "value": 7,
-              "player_name": "Jordan Walker",
-              "fantasy_team": "1% Low Fat McChocolate Milk",
-              "season": 2026,
-              "week": 15
             }
           ]
         },
@@ -91,6 +91,13 @@
               "fantasy_team": "The Voice of Reason",
               "season": 2026,
               "week": 14
+            },
+            {
+              "value": 5,
+              "player_name": "Ben Rice",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 16
             },
             {
               "value": 4,
@@ -126,13 +133,6 @@
               "fantasy_team": "TheHotDogSafari",
               "season": 2026,
               "week": 15
-            },
-            {
-              "value": 4,
-              "player_name": "Ben Rice",
-              "fantasy_team": "1% Low Fat McChocolate Milk",
-              "season": 2026,
-              "week": 16
             },
             {
               "value": 3,
@@ -191,6 +191,13 @@
               "week": 15
             },
             {
+              "value": 10,
+              "player_name": "Ben Rice",
+              "fantasy_team": "1% Low Fat McChocolate Milk",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 9,
               "player_name": "Luis García Jr.",
               "fantasy_team": "Acuña Matata",
@@ -210,13 +217,6 @@
               "fantasy_team": "1% Low Fat McChocolate Milk",
               "season": 2026,
               "week": 15
-            },
-            {
-              "value": 9,
-              "player_name": "Ben Rice",
-              "fantasy_team": "1% Low Fat McChocolate Milk",
-              "season": 2026,
-              "week": 16
             },
             {
               "value": 8,
@@ -245,6 +245,13 @@
               "fantasy_team": "1% Low Fat McChocolate Milk",
               "season": 2026,
               "week": 15
+            },
+            {
+              "value": 4,
+              "player_name": "Josh Naylor",
+              "fantasy_team": "Back to One Duran",
+              "season": 2026,
+              "week": 16
             },
             {
               "value": 3,
@@ -276,8 +283,8 @@
             },
             {
               "value": 3,
-              "player_name": "Josh Naylor",
-              "fantasy_team": "Back to One Duran",
+              "player_name": "Carson Benge",
+              "fantasy_team": "Acuña Matata",
               "season": 2026,
               "week": 16
             },
@@ -301,13 +308,6 @@
               "fantasy_team": "The Voice of Reason",
               "season": 2026,
               "week": 8
-            },
-            {
-              "value": 2,
-              "player_name": "Jackson Holliday",
-              "fantasy_team": "Acuña Matata",
-              "season": 2026,
-              "week": 9
             }
           ]
         },
@@ -1030,6 +1030,13 @@
               "week": 15
             },
             {
+              "value": 9,
+              "player_name": "James Wood",
+              "fantasy_team": "FatherOfTwoLoaded",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 8,
               "player_name": "Luis García Jr.",
               "fantasy_team": "House Omega",
@@ -1082,13 +1089,6 @@
               "value": 7,
               "player_name": "Jordan Walker",
               "fantasy_team": "Let’s go Knicks ✌️",
-              "season": 2026,
-              "week": 15
-            },
-            {
-              "value": 7,
-              "player_name": "Trea Turner",
-              "fantasy_team": "Brown Bear 🐻",
               "season": 2026,
               "week": 15
             }
@@ -1191,6 +1191,13 @@
               "week": 14
             },
             {
+              "value": 5,
+              "player_name": "Ben Rice",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 4,
               "player_name": "Hunter Goodman",
               "fantasy_team": "FatherOfTwoLoaded",
@@ -1224,13 +1231,6 @@
               "fantasy_team": "WestCoastTruth (1x Champ)",
               "season": 2026,
               "week": 15
-            },
-            {
-              "value": 4,
-              "player_name": "Ben Rice",
-              "fantasy_team": "Gardy Goes Yardy",
-              "season": 2026,
-              "week": 16
             },
             {
               "value": 3,
@@ -1289,6 +1289,13 @@
               "week": 16
             },
             {
+              "value": 10,
+              "player_name": "Ben Rice",
+              "fantasy_team": "Gardy Goes Yardy",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 9,
               "player_name": "Ryan O'Hearn",
               "fantasy_team": "Fall of the Empire",
@@ -1315,13 +1322,6 @@
               "fantasy_team": "House Omega",
               "season": 2026,
               "week": 15
-            },
-            {
-              "value": 9,
-              "player_name": "Willson Contreras",
-              "fantasy_team": "Kirby Super Star",
-              "season": 2026,
-              "week": 15
             }
           ]
         },
@@ -1343,6 +1343,13 @@
               "fantasy_team": "House Omega",
               "season": 2026,
               "week": 14
+            },
+            {
+              "value": 4,
+              "player_name": "Josh Naylor",
+              "fantasy_team": "El Jefe",
+              "season": 2026,
+              "week": 16
             },
             {
               "value": 3,
@@ -1388,17 +1395,10 @@
             },
             {
               "value": 3,
-              "player_name": "Josh Naylor",
-              "fantasy_team": "El Jefe",
+              "player_name": "Carson Benge",
+              "fantasy_team": "Kirby Super Star",
               "season": 2026,
               "week": 16
-            },
-            {
-              "value": 2,
-              "player_name": "Luis Robert Jr.",
-              "fantasy_team": "Brown Bear 🐻",
-              "season": 2026,
-              "week": 2
             }
           ]
         },
@@ -1765,6 +1765,13 @@
               "week": 15
             },
             {
+              "value": 3,
+              "player_name": "Garrett Whitlock",
+              "fantasy_team": "WestCoastTruth (1x Champ)",
+              "season": 2026,
+              "week": 16
+            },
+            {
               "value": 2,
               "player_name": "Aroldis Chapman",
               "fantasy_team": "Fall of the Empire",
@@ -1775,13 +1782,6 @@
               "value": 2,
               "player_name": "Alex Vesia",
               "fantasy_team": "Fall of the Empire",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 2,
-              "player_name": "Cade Smith",
-              "fantasy_team": "El Jefe",
               "season": 2026,
               "week": 14
             }
