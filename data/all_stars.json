@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-07-14T10:49:33Z",
+  "updated_at": "2026-07-15T10:47:00Z",
   "leagues": {
     "12239": {
       "lineup": {
@@ -700,26 +700,6 @@
           }
         },
         {
-          "player_name": "Cam Schlittler",
-          "position": "SP",
-          "mlb_team": "NYY",
-          "mlb_team_id": 147,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/147.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/8owWlnsJeqsjj_qqezuCLQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/64985.1.png",
-          "fantasy_team": "Gardy Goes Yardy",
-          "stats": {
-            "W": 9,
-            "L": 5,
-            "BB": 25,
-            "K": 137,
-            "ERA": 2.05,
-            "WHIP": 0.94,
-            "K/9": 10.39,
-            "QS": 12,
-            "SV+H": 0
-          }
-        },
-        {
           "player_name": "Zack Wheeler",
           "position": "SP",
           "mlb_team": "PHI",
@@ -736,6 +716,26 @@
             "WHIP": 0.89,
             "K/9": 10.45,
             "QS": 11,
+            "SV+H": 0
+          }
+        },
+        {
+          "player_name": "Cam Schlittler",
+          "position": "SP",
+          "mlb_team": "NYY",
+          "mlb_team_id": 147,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/147.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/8owWlnsJeqsjj_qqezuCLQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/64985.1.png",
+          "fantasy_team": "Gardy Goes Yardy",
+          "stats": {
+            "W": 9,
+            "L": 5,
+            "BB": 25,
+            "K": 137,
+            "ERA": 2.05,
+            "WHIP": 0.94,
+            "K/9": 10.39,
+            "QS": 12,
             "SV+H": 0
           }
         }

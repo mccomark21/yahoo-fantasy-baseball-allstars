@@ -1836,6 +1836,21 @@
           "primary_position": "SP",
           "selected_position": "IL",
           "status": "IL15"
+        },
+        {
+          "player_key": "469.p.63967",
+          "player_id": "63967",
+          "name": "Shane Smith",
+          "mlb_team": "CWS",
+          "mlb_team_full": "Chicago White Sox",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/bmhvePIiWCKhzUTgIOU0XQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/63967.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/bmhvePIiWCKhzUTgIOU0XQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/63967.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "NA",
+          "status": "NA"
         }
       ]
     },
@@ -3385,7 +3400,7 @@
           ],
           "primary_position": "3B",
           "selected_position": "3B",
-          "status": ""
+          "status": "DTD"
         },
         {
           "player_key": "469.p.62955",
