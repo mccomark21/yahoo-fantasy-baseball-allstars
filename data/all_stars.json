@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-07-16T10:51:57Z",
+  "updated_at": "2026-07-17T10:46:00Z",
   "leagues": {
     "12239": {
       "lineup": {
@@ -537,6 +537,26 @@
       },
       "bench": [
         {
+          "player_name": "Kyle Schwarber",
+          "position": "BN",
+          "mlb_team": "PHI",
+          "mlb_team_id": 143,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/143.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/LJRB6eK5q1Fmy4rBpWaq4Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9861.1.png",
+          "fantasy_team": "El Jefe",
+          "stats": {
+            "R": 57,
+            "H": 90,
+            "HR": 32,
+            "RBI": 59,
+            "SB": 2,
+            "K": 145,
+            "AVG": 0.254,
+            "OBP": 0.366,
+            "XBH": 43
+          }
+        },
+        {
           "player_name": "Shohei Ohtani (Batter)",
           "position": "BN",
           "mlb_team": "LAD",
@@ -554,26 +574,6 @@
             "AVG": 0.293,
             "OBP": 0.403,
             "XBH": 40
-          }
-        },
-        {
-          "player_name": "Kyle Schwarber",
-          "position": "BN",
-          "mlb_team": "PHI",
-          "mlb_team_id": 143,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/143.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/LJRB6eK5q1Fmy4rBpWaq4Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9861.1.png",
-          "fantasy_team": "El Jefe",
-          "stats": {
-            "R": 57,
-            "H": 89,
-            "HR": 32,
-            "RBI": 59,
-            "SB": 2,
-            "K": 144,
-            "AVG": 0.254,
-            "OBP": 0.367,
-            "XBH": 42
           }
         },
         {
@@ -700,26 +700,6 @@
           }
         },
         {
-          "player_name": "Zack Wheeler",
-          "position": "SP",
-          "mlb_team": "PHI",
-          "mlb_team_id": 143,
-          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/143.svg",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/nbTQCcC7bI7xPdklKnc7Pg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9124.1.png",
-          "fantasy_team": "Let’s go Knicks ✌️",
-          "stats": {
-            "W": 10,
-            "L": 1,
-            "BB": 22,
-            "K": 108,
-            "ERA": 2.13,
-            "WHIP": 0.89,
-            "K/9": 10.45,
-            "QS": 11,
-            "SV+H": 0
-          }
-        },
-        {
           "player_name": "Cam Schlittler",
           "position": "SP",
           "mlb_team": "NYY",
@@ -736,6 +716,26 @@
             "WHIP": 0.94,
             "K/9": 10.39,
             "QS": 12,
+            "SV+H": 0
+          }
+        },
+        {
+          "player_name": "Zack Wheeler",
+          "position": "SP",
+          "mlb_team": "PHI",
+          "mlb_team_id": 143,
+          "mlb_team_logo_url": "https://www.mlbstatic.com/team-logos/143.svg",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/nbTQCcC7bI7xPdklKnc7Pg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03202026/9124.1.png",
+          "fantasy_team": "Let’s go Knicks ✌️",
+          "stats": {
+            "W": 10,
+            "L": 1,
+            "BB": 22,
+            "K": 108,
+            "ERA": 2.13,
+            "WHIP": 0.89,
+            "K/9": 10.45,
+            "QS": 11,
             "SV+H": 0
           }
         }
