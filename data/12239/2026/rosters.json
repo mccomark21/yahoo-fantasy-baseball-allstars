@@ -422,21 +422,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.64329",
-          "player_id": "64329",
-          "name": "Carson Benge",
-          "mlb_team": "NYM",
-          "mlb_team_full": "New York Mets",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/9ACWS9hpW2afYstNaPrsWg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04082026/64329.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/9ACWS9hpW2afYstNaPrsWg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04082026/64329.1.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
-          "selected_position": "OF",
-          "status": ""
-        },
-        {
           "player_key": "469.p.10639",
           "player_id": "10639",
           "name": "Fernando Tatis Jr.",
@@ -467,6 +452,21 @@
           "status": ""
         },
         {
+          "player_key": "469.p.10646",
+          "player_id": "10646",
+          "name": "Ronald Acuña Jr.",
+          "mlb_team": "ATL",
+          "mlb_team_full": "Atlanta Braves",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/iEFDXUNcNwZmeOynbnnl0A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/10646.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/iEFDXUNcNwZmeOynbnnl0A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/10646.1.png",
+          "eligible_positions": [
+            "OF"
+          ],
+          "primary_position": "OF",
+          "selected_position": "OF",
+          "status": "IL10"
+        },
+        {
           "player_key": "469.p.1000001",
           "player_id": "1000001",
           "name": "Shohei Ohtani (Batter)",
@@ -479,6 +479,21 @@
           ],
           "primary_position": "Util",
           "selected_position": "Util",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.64329",
+          "player_id": "64329",
+          "name": "Carson Benge",
+          "mlb_team": "NYM",
+          "mlb_team_full": "New York Mets",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/9ACWS9hpW2afYstNaPrsWg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04082026/64329.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/9ACWS9hpW2afYstNaPrsWg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/04082026/64329.1.png",
+          "eligible_positions": [
+            "OF"
+          ],
+          "primary_position": "OF",
+          "selected_position": "BN",
           "status": ""
         },
         {
@@ -527,21 +542,6 @@
           "status": "NA"
         },
         {
-          "player_key": "469.p.10646",
-          "player_id": "10646",
-          "name": "Ronald Acuña Jr.",
-          "mlb_team": "ATL",
-          "mlb_team_full": "Atlanta Braves",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/iEFDXUNcNwZmeOynbnnl0A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/10646.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/iEFDXUNcNwZmeOynbnnl0A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/10646.1.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
-          "selected_position": "BN",
-          "status": "IL10"
-        },
-        {
           "player_key": "469.p.62972",
           "player_id": "62972",
           "name": "Paul Skenes",
@@ -569,7 +569,7 @@
           ],
           "primary_position": "SP",
           "selected_position": "SP",
-          "status": ""
+          "status": "IL15"
         },
         {
           "player_key": "469.p.11998",
@@ -600,21 +600,6 @@
           "primary_position": "RP",
           "selected_position": "RP",
           "status": ""
-        },
-        {
-          "player_key": "469.p.1000002",
-          "player_id": "1000002",
-          "name": "Shohei Ohtani (Pitcher)",
-          "mlb_team": "LAD",
-          "mlb_team_full": "Los Angeles Dodgers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/n8I0Pc77w7vGpGIWKP_5Cg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10835.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/n8I0Pc77w7vGpGIWKP_5Cg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10835.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "P",
-          "status": "IL"
         },
         {
           "player_key": "469.p.60042",
@@ -658,8 +643,23 @@
             "SP"
           ],
           "primary_position": "SP",
-          "selected_position": "BN",
+          "selected_position": "P",
           "status": ""
+        },
+        {
+          "player_key": "469.p.1000002",
+          "player_id": "1000002",
+          "name": "Shohei Ohtani (Pitcher)",
+          "mlb_team": "LAD",
+          "mlb_team_full": "Los Angeles Dodgers",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/n8I0Pc77w7vGpGIWKP_5Cg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10835.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/n8I0Pc77w7vGpGIWKP_5Cg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/10835.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "IL",
+          "status": "IL"
         },
         {
           "player_key": "469.p.12366",
@@ -744,13 +744,13 @@
           "status": ""
         },
         {
-          "player_key": "469.p.66491",
-          "player_id": "66491",
-          "name": "Kazuma Okamoto",
-          "mlb_team": "TOR",
-          "mlb_team_full": "Toronto Blue Jays",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Up8wweaZKAvp7J44eiUXXw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/66491.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/Up8wweaZKAvp7J44eiUXXw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/66491.1.png",
+          "player_key": "469.p.66369",
+          "player_id": "66369",
+          "name": "Munetaka Murakami",
+          "mlb_team": "CWS",
+          "mlb_team_full": "Chicago White Sox",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/59aFxRkxtnVVX1s8RDe2Pw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/66369.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/59aFxRkxtnVVX1s8RDe2Pw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/66369.png",
           "eligible_positions": [
             "1B"
           ],
@@ -804,6 +804,21 @@
           "status": ""
         },
         {
+          "player_key": "469.p.9590",
+          "player_id": "9590",
+          "name": "Byron Buxton",
+          "mlb_team": "MIN",
+          "mlb_team_full": "Minnesota Twins",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/VFJCi8JMR4W3YY2XZEU4fQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/9590.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/VFJCi8JMR4W3YY2XZEU4fQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/9590.png",
+          "eligible_positions": [
+            "OF"
+          ],
+          "primary_position": "OF",
+          "selected_position": "OF",
+          "status": ""
+        },
+        {
           "player_key": "469.p.64312",
           "player_id": "64312",
           "name": "Jac Caglianone",
@@ -815,22 +830,22 @@
             "1B"
           ],
           "primary_position": "1B",
-          "selected_position": "OF",
+          "selected_position": "Util",
           "status": ""
         },
         {
-          "player_key": "469.p.66369",
-          "player_id": "66369",
-          "name": "Munetaka Murakami",
-          "mlb_team": "CWS",
-          "mlb_team_full": "Chicago White Sox",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/59aFxRkxtnVVX1s8RDe2Pw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/66369.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/59aFxRkxtnVVX1s8RDe2Pw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/66369.png",
+          "player_key": "469.p.66491",
+          "player_id": "66491",
+          "name": "Kazuma Okamoto",
+          "mlb_team": "TOR",
+          "mlb_team_full": "Toronto Blue Jays",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Up8wweaZKAvp7J44eiUXXw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/66491.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/Up8wweaZKAvp7J44eiUXXw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/66491.1.png",
           "eligible_positions": [
             "1B"
           ],
           "primary_position": "1B",
-          "selected_position": "Util",
+          "selected_position": "BN",
           "status": ""
         },
         {
@@ -847,21 +862,6 @@
           "primary_position": "2B",
           "selected_position": "BN",
           "status": ""
-        },
-        {
-          "player_key": "469.p.9590",
-          "player_id": "9590",
-          "name": "Byron Buxton",
-          "mlb_team": "MIN",
-          "mlb_team_full": "Minnesota Twins",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/VFJCi8JMR4W3YY2XZEU4fQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/9590.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/VFJCi8JMR4W3YY2XZEU4fQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03192026/9590.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
-          "selected_position": "BN",
-          "status": "IL10"
         },
         {
           "player_key": "469.p.10642",
@@ -1168,20 +1168,20 @@
           ],
           "primary_position": "OF",
           "selected_position": "OF",
-          "status": ""
+          "status": "DTD"
         },
         {
-          "player_key": "469.p.11732",
-          "player_id": "11732",
-          "name": "Adley Rutschman",
-          "mlb_team": "BAL",
-          "mlb_team_full": "Baltimore Orioles",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/NK4rTduun8kRaDbQ41Zn0A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/11732.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/NK4rTduun8kRaDbQ41Zn0A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/11732.png",
+          "player_key": "469.p.12719",
+          "player_id": "12719",
+          "name": "Lawrence Butler",
+          "mlb_team": "ATH",
+          "mlb_team_full": " Athletics",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Rx6OTswPIAtxqlZR9AoPQA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/12719.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/Rx6OTswPIAtxqlZR9AoPQA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/12719.png",
           "eligible_positions": [
-            "C"
+            "OF"
           ],
-          "primary_position": "C",
+          "primary_position": "OF",
           "selected_position": "Util",
           "status": ""
         },
@@ -1197,21 +1197,6 @@
             "SS"
           ],
           "primary_position": "SS",
-          "selected_position": "BN",
-          "status": ""
-        },
-        {
-          "player_key": "469.p.12719",
-          "player_id": "12719",
-          "name": "Lawrence Butler",
-          "mlb_team": "ATH",
-          "mlb_team_full": " Athletics",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Rx6OTswPIAtxqlZR9AoPQA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/12719.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/Rx6OTswPIAtxqlZR9AoPQA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03132026/12719.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
           "selected_position": "BN",
           "status": ""
         },
@@ -1242,6 +1227,21 @@
             "SS"
           ],
           "primary_position": "SS",
+          "selected_position": "BN",
+          "status": "IL10"
+        },
+        {
+          "player_key": "469.p.11732",
+          "player_id": "11732",
+          "name": "Adley Rutschman",
+          "mlb_team": "BAL",
+          "mlb_team_full": "Baltimore Orioles",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/NK4rTduun8kRaDbQ41Zn0A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/11732.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/NK4rTduun8kRaDbQ41Zn0A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/11732.png",
+          "eligible_positions": [
+            "C"
+          ],
+          "primary_position": "C",
           "selected_position": "IL",
           "status": "IL10"
         },
@@ -1460,7 +1460,7 @@
           ],
           "primary_position": "3B",
           "selected_position": "3B",
-          "status": ""
+          "status": "DTD"
         },
         {
           "player_key": "469.p.10234",
@@ -1523,21 +1523,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.63002",
-          "player_id": "63002",
-          "name": "Cole Carrigg",
-          "mlb_team": "COL",
-          "mlb_team_full": "Colorado Rockies",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Gmd_JFB8FPJzozHDt.4lFQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/07102026/63002.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/Gmd_JFB8FPJzozHDt.4lFQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/07102026/63002.1.png",
-          "eligible_positions": [
-            "OF"
-          ],
-          "primary_position": "OF",
-          "selected_position": "Util",
-          "status": ""
-        },
-        {
           "player_key": "469.p.10166",
           "player_id": "10166",
           "name": "Willson Contreras",
@@ -1549,6 +1534,21 @@
             "1B"
           ],
           "primary_position": "1B",
+          "selected_position": "Util",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.63002",
+          "player_id": "63002",
+          "name": "Cole Carrigg",
+          "mlb_team": "COL",
+          "mlb_team_full": "Colorado Rockies",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Gmd_JFB8FPJzozHDt.4lFQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/07102026/63002.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/Gmd_JFB8FPJzozHDt.4lFQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/07102026/63002.1.png",
+          "eligible_positions": [
+            "OF"
+          ],
+          "primary_position": "OF",
           "selected_position": "BN",
           "status": ""
         },
@@ -1565,7 +1565,7 @@
           ],
           "primary_position": "SS",
           "selected_position": "BN",
-          "status": "DTD"
+          "status": ""
         },
         {
           "player_key": "469.p.10438",
@@ -1643,13 +1643,28 @@
           "status": ""
         },
         {
-          "player_key": "469.p.12141",
-          "player_id": "12141",
-          "name": "Hunter Brown",
-          "mlb_team": "HOU",
-          "mlb_team_full": "Houston Astros",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/HZ9lnMqAOminR9rWz61K3A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12141.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/HZ9lnMqAOminR9rWz61K3A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12141.1.png",
+          "player_key": "469.p.10867",
+          "player_id": "10867",
+          "name": "Shane Bieber",
+          "mlb_team": "TOR",
+          "mlb_team_full": "Toronto Blue Jays",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/UsquzO61G3vjs4B.dKX4hA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10867.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/UsquzO61G3vjs4B.dKX4hA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10867.1.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "P",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.9701",
+          "player_id": "9701",
+          "name": "Jacob deGrom",
+          "mlb_team": "TEX",
+          "mlb_team_full": "Texas Rangers",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Jn.93_00QhJb_EvpTAymkA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/9701.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/Jn.93_00QhJb_EvpTAymkA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/9701.1.png",
           "eligible_positions": [
             "SP"
           ],
@@ -1669,17 +1684,17 @@
             "RP"
           ],
           "primary_position": "RP",
-          "selected_position": "P",
+          "selected_position": "BN",
           "status": ""
         },
         {
-          "player_key": "469.p.9701",
-          "player_id": "9701",
-          "name": "Jacob deGrom",
-          "mlb_team": "TEX",
-          "mlb_team_full": "Texas Rangers",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/Jn.93_00QhJb_EvpTAymkA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/9701.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/Jn.93_00QhJb_EvpTAymkA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/9701.1.png",
+          "player_key": "469.p.12141",
+          "player_id": "12141",
+          "name": "Hunter Brown",
+          "mlb_team": "HOU",
+          "mlb_team_full": "Houston Astros",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/HZ9lnMqAOminR9rWz61K3A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12141.1.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/HZ9lnMqAOminR9rWz61K3A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12141.1.png",
           "eligible_positions": [
             "SP"
           ],
@@ -1701,21 +1716,6 @@
           "primary_position": "SP",
           "selected_position": "BN",
           "status": "IL15"
-        },
-        {
-          "player_key": "469.p.10867",
-          "player_id": "10867",
-          "name": "Shane Bieber",
-          "mlb_team": "TOR",
-          "mlb_team_full": "Toronto Blue Jays",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/UsquzO61G3vjs4B.dKX4hA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10867.1.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/UsquzO61G3vjs4B.dKX4hA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03242026/10867.1.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "BN",
-          "status": ""
         },
         {
           "player_key": "469.p.12175",
@@ -3433,21 +3433,6 @@
           "status": ""
         },
         {
-          "player_key": "469.p.12401",
-          "player_id": "12401",
-          "name": "Gavin Williams",
-          "mlb_team": "CLE",
-          "mlb_team_full": "Cleveland Guardians",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/V3rnmG9fR2KRnCxYlXcprA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12401.2.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/V3rnmG9fR2KRnCxYlXcprA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12401.2.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "P",
-          "status": ""
-        },
-        {
           "player_key": "469.p.11847",
           "player_id": "11847",
           "name": "Joe Ryan",
@@ -3460,6 +3445,36 @@
           ],
           "primary_position": "SP",
           "selected_position": "P",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.12418",
+          "player_id": "12418",
+          "name": "Sean Burke",
+          "mlb_team": "CWS",
+          "mlb_team_full": "Chicago White Sox",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/wCjk7ecNLMtqCw.4Ulg0Eg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/12418.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/wCjk7ecNLMtqCw.4Ulg0Eg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/12418.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "P",
+          "status": ""
+        },
+        {
+          "player_key": "469.p.12401",
+          "player_id": "12401",
+          "name": "Gavin Williams",
+          "mlb_team": "CLE",
+          "mlb_team_full": "Cleveland Guardians",
+          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/V3rnmG9fR2KRnCxYlXcprA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12401.2.png",
+          "image_url": "https://s.yimg.com/iu/api/res/1.2/V3rnmG9fR2KRnCxYlXcprA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03162026/12401.2.png",
+          "eligible_positions": [
+            "SP"
+          ],
+          "primary_position": "SP",
+          "selected_position": "BN",
           "status": ""
         },
         {
@@ -3476,21 +3491,6 @@
           "primary_position": "SP",
           "selected_position": "BN",
           "status": "DTD"
-        },
-        {
-          "player_key": "469.p.12418",
-          "player_id": "12418",
-          "name": "Sean Burke",
-          "mlb_team": "CWS",
-          "mlb_team_full": "Chicago White Sox",
-          "headshot_url": "https://s.yimg.com/iu/api/res/1.2/wCjk7ecNLMtqCw.4Ulg0Eg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/12418.png",
-          "image_url": "https://s.yimg.com/iu/api/res/1.2/wCjk7ecNLMtqCw.4Ulg0Eg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/mlb_cutout/players_l/03142026/12418.png",
-          "eligible_positions": [
-            "SP"
-          ],
-          "primary_position": "SP",
-          "selected_position": "BN",
-          "status": ""
         },
         {
           "player_key": "469.p.60907",
