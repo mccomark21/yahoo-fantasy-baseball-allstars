@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T11:13:41Z",
+  "updated_at": "2026-07-21T10:56:03Z",
   "leagues": {
     "12239": {
       "single_week": [
@@ -429,6 +429,13 @@
               "week": 16
             },
             {
+              "value": 3,
+              "player_name": "Aroldis Chapman",
+              "fantasy_team": "Cruz Missle",
+              "season": 2026,
+              "week": 17
+            },
+            {
               "value": 2,
               "player_name": "Riley O'Brien",
               "fantasy_team": "Back to One Duran",
@@ -453,13 +460,6 @@
               "value": 2,
               "player_name": "Aroldis Chapman",
               "fantasy_team": "Cruz Missle",
-              "season": 2026,
-              "week": 14
-            },
-            {
-              "value": 2,
-              "player_name": "Josh Hader",
-              "fantasy_team": "Salustro's Fantasy Dungeon",
               "season": 2026,
               "week": 14
             }
@@ -1471,11 +1471,11 @@
               "week": 16
             },
             {
-              "value": 5,
-              "player_name": "Miguel Vargas",
-              "fantasy_team": "Fall of the Empire",
+              "value": 6,
+              "player_name": "Trea Turner",
+              "fantasy_team": "Brown Bear 🐻",
               "season": 2026,
-              "week": 14
+              "week": 17
             }
           ]
         },
